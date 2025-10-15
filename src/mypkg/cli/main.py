@@ -209,23 +209,25 @@ def main():
         pipeline = _resolve_pipeline(docx_file)
         res = asyncio.run(pipeline.run(docx_file, base_dir))
         sanitized_path: Path = Path(res["sanitized_output"]).resolve()  # type: ignore[index]
-        if a.out and (raw_path.is_file() or a.one):
-            out_target = Path(a.out).resolve()
-        else:
-            out_target = docjson_output_path_from_sanitized(sanitized_path, base_name)
-        docjson = run_pipeline(
-            sanitized_path=sanitized_path,
-            out_docjson_path=out_target,
-            emit_components=(not a.no_emit),
-            use_components=(not a.no_use),
-            doc_version=version,
-            tenant_key=None,
-            docjson_config=None,
-        )
-        sections = len(docjson.sections)
-        blocks = len(docjson.blocks)
-        final_path = out_target if out_target.suffix else docjson_output_path_from_sanitized(resolve_sanitized_path(sanitized_path), base_name)
-        print(f"[ok] wrote: {final_path}  sections={sections} blocks={blocks}")
+        # if a.out and (raw_path.is_file() or a.one):
+        #     out_target = Path(a.out).resolve()
+        # else:
+        #     out_target = docjson_output_path_from_sanitized(sanitized_path, base_name)
+        # docjson = run_pipeline(
+        #     sanitized_path=sanitized_path,
+        #     out_docjson_path=out_target,
+        #     emit_components=(not a.no_emit),
+        #     use_components=(not a.no_use),
+        #     doc_version=version,
+        #     tenant_key=None,
+        #     docjson_config=None,
+        # )
+        # sections = len(docjson.sections)
+        # blocks = len(docjson.blocks)
+        # final_path = out_target if out_target.suffix else docjson_output_path_from_sanitized(resolve_sanitized_path(sanitized_path), base_name)
+        # print(f"[ok] wrote: {final_path}  sections={sections} blocks={blocks}")
+        print(f"[ok] Sanitizer-only mode: Processing stopped after sanitization.")
+        print(f"Sanitized output at: {sanitized_path}")
 
     if raw_path.is_dir():
         # 디렉터리 내 모든 .docx 수집(~$, 임시 파일 제외)

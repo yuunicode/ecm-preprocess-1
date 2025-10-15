@@ -108,13 +108,33 @@ class TableSanitizer:
                             image_matrix[rr][cc] = list(base_images)
                             color_matrix[rr][cc] = base_color
 
-            cleaned_rows = []
-            cleaned_images = []
-            cleaned_colors = []
+            cell_data_matrix = []
             for r in range(R):
-                cleaned_rows.append([str(x) if x is not None else self.blank for x in matrix[r]])
-                cleaned_images.append([list(imgs) for imgs in image_matrix[r]])
-                cleaned_colors.append([color_matrix[r][c] for c in range(C)])
+                row_data = []
+                for c in range(C):
+                    text = matrix[r][c]
+                    image_rids = image_matrix[r][c]
+                    bg_color = color_matrix[r][c]
+                    row_data.append(
+                        {
+                            "text": str(text) if text is not None else self.blank,
+                            "images": image_rids,
+                            "color": bg_color,
+                        }
+                    )
+                cell_data_matrix.append(row_data)
+
+            is_rowheader = False
+            if R > 0 and C > 0:
+                first_row_colors = color_matrix[0]
+                if first_row_colors[0] is not None and all(c == first_row_colors[0] for c in first_row_colors):
+                    is_rowheader = True
+
+            is_colheader = False
+            if R > 0 and C > 0:
+                first_col_colors = [color_matrix[r][0] for r in range(R)]
+                if first_col_colors[0] is not None and all(c == first_col_colors[0] for c in first_col_colors):
+                    is_colheader = True
 
             t_out = {
                 "tid": t.tid,
@@ -122,9 +142,9 @@ class TableSanitizer:
                 "preceding_text": preceding_text,
                 "rows": R,
                 "cols": C,
-                "data": cleaned_rows,
-                "cell_images": cleaned_images,
-                "cell_colors": cleaned_colors,
+                "data": cell_data_matrix,
+                "is_rowheader": is_rowheader,
+                "is_colheader": is_colheader,
             }
             out.append(t_out)
 
@@ -132,27 +152,4 @@ class TableSanitizer:
 
     def build_components(self, sanitized_tables: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
         """sanitized 테이블을 컴포넌트(dict) 목록으로 변환한다."""
-
-        components: List[Dict[str, Any]] = []
-        for table in sanitized_tables or []:
-            doc_index = table.get("doc_index", -1)
-            components.append(
-                {
-                    "id": f"table_{table.get('tid', doc_index)}",
-                    "type": "table",
-                    "doc_index": doc_index,
-                    "text": table.get("preceding_text"),
-                    "level": None,
-                    "page": None,
-                    "semantic": None,
-                    "table": {
-                        "doc_index": doc_index,
-                        "rows": table.get("rows"),
-                        "cols": table.get("cols"),
-                        "data": table.get("data"),
-                    },
-                    "list_data": None,
-                }
-            )
-
-        return {"tables": components}
+        return {"tables": sanitized_tables}

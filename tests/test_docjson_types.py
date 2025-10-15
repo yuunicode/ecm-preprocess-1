@@ -32,7 +32,6 @@ def test_section_to_dict_without_bbox_controls():
         id="s1",
         number="1",
         title="제목",
-        level=1,
         doc_index=0,
     )
     section.blocks = [
@@ -43,7 +42,6 @@ def test_section_to_dict_without_bbox_controls():
         id="s1_1",
         number="1.1",
         title="소제목",
-        level=2,
         doc_index=1,
     )
     child.span = [1, 2]

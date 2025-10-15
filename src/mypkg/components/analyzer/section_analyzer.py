@@ -166,16 +166,17 @@ def build_sections(
         if not style_whitelist:
             style_whitelist = set()
     roots: List[Section] = []
-    stack: List[Section] = []
+    stack: List[Tuple[Section, int]] = []
     style_counters: List[int] = []
 
     def close_until(level: int, next_idx: int):
         # 새 제목이 등장했을 때, 같은 레벨 이상(>= level)의 열린 섹션을
         # 모두 next_idx로 닫는다. 이렇게 하면 형제/상위 섹션의 end가
         # "다음 동레벨↑ 헤딩의 doc_index"가 되어 span 규칙을 만족한다.
-        while stack and stack[-1].level >= level:
-            if stack[-1].span[1] == 0:
-                stack[-1].span[1] = next_idx
+        while stack and stack[-1][1] >= level:
+            section_to_close, _ = stack[-1]
+            if section_to_close.span[1] == 0:
+                section_to_close.span[1] = next_idx
             stack.pop()
 
     for p in paras:
@@ -204,7 +205,6 @@ def build_sections(
             id=f"sec_{number}",
             number=number,
             title=title,
-            level=level,
             doc_index=di,
             span=[di, 0],
             # path는 루트부터의 누적 경로를 저장할 수 있도록 기본은 자기 자신만 설정
@@ -218,14 +218,16 @@ def build_sections(
         if not stack:
             roots.append(sec)
         else:
-            stack[-1].subsections.append(sec)
-        stack.append(sec)
+            parent_section, _ = stack[-1]
+            parent_section.subsections.append(sec)
+        stack.append((sec, level))
 
     # 문서 끝(+1)을 기준으로 스택에 남은 섹션을 모두 닫는다
     last = paras[-1]["doc_index"] if paras else 0
     while stack:
-        if stack[-1].span[1] == 0:
-            stack[-1].span[1] = last + 1
+        section_to_close, _ = stack[-1]
+        if section_to_close.span[1] == 0:
+            section_to_close.span[1] = last + 1
         stack.pop()
     return roots
 

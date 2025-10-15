@@ -38,6 +38,8 @@ from mypkg.core.io import (
     save_blocks_components_from_sanitized,
     save_json,
 )
+from mypkg.components.sanitizer.table_sanitizer import TableSanitizer
+from mypkg.core.parser import ParagraphRecord, TableRecord
 
 
 def _blocks_from_dicts(blocks: List[Dict[str, Any]]) -> List[ContentBlock]:
@@ -66,8 +68,8 @@ def run_pipeline(
     Path(out_docjson_path).parent.mkdir(parents=True, exist_ok=True)
 
     raw_ir = json.loads(sanitized_path.read_text(encoding="utf-8"))
-    paragraphs = raw_ir.get("paragraphs", [])
-    tables_ir = raw_ir.get("tables", [])
+    paragraphs = [ParagraphRecord(**p) for p in raw_ir.get("paragraphs", [])]
+    tables_ir = [TableRecord(**t) for t in raw_ir.get("tables", [])]
 
     config = docjson_config or DocJsonConfig()
     sections: List[Section] = config.build_sections(paragraphs)
@@ -99,10 +101,11 @@ def run_pipeline(
         list_block_dicts, consumed = analyze_lists(paragraphs)
         list_blocks = _blocks_from_dicts(list_block_dicts)
 
+    sanitizer = TableSanitizer()
     if "tables" in components:
         table_blocks = _blocks_from_dicts(components["tables"])
     else:
-        table_blocks = _blocks_from_dicts(analyze_tables(tables_ir))
+        table_blocks = _blocks_from_dicts(analyze_tables(tables_ir, sanitizer, paragraphs))
 
     inline_images_payload = components.get("inline_images")
     if isinstance(inline_images_payload, dict):

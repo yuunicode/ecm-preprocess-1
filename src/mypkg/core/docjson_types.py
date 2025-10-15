@@ -30,14 +30,55 @@ class SemanticInfo:
 
 
 @dataclass
+class TableCellData:
+    text: str
+    images: List[str] = field(default_factory=list)
+    color: Optional[str] = None
+
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
+
+    @staticmethod
+    def from_dict(data: Dict[str, Any]) -> "TableCellData":
+        return TableCellData(
+            text=data.get("text", ""),
+            images=data.get("images", []),
+            color=data.get("color"),
+        )
+
+
+@dataclass
 class TableData:
     doc_index: int
     rows: int
     cols: int
-    data: List[List[str]]
+    data: List[List[TableCellData]]
+    is_rowheader: bool = False
+    is_colheader: bool = False
 
     def to_dict(self) -> Dict[str, Any]:
-        return asdict(self)
+        return {
+            "doc_index": self.doc_index,
+            "rows": self.rows,
+            "cols": self.cols,
+            "data": [[cell.to_dict() for cell in row] for row in self.data],
+            "is_rowheader": self.is_rowheader,
+            "is_colheader": self.is_colheader,
+        }
+
+    @staticmethod
+    def from_dict(data: Dict[str, Any]) -> "TableData":
+        return TableData(
+            doc_index=data.get("doc_index"),
+            rows=data.get("rows"),
+            cols=data.get("cols"),
+            data=[
+                [TableCellData.from_dict(cell) for cell in row]
+                for row in data.get("data", [])
+            ],
+            is_rowheader=data.get("is_rowheader", False),
+            is_colheader=data.get("is_colheader", False),
+        )
 
 
 @dataclass
@@ -65,7 +106,6 @@ class InlineImageData:
 @dataclass
 class ListData:
     ordered: bool
-    level: int
     items: List[str]
 
     def to_dict(self) -> Dict[str, Any]:
@@ -78,10 +118,7 @@ class ContentBlock:
     type: ContentBlockType | str
     doc_index: Optional[int] = None
     text: Optional[str] = None
-    level: Optional[int] = None
-    page: Optional[int] = None
-    semantic: Optional[SemanticInfo] = None
-    table: Optional[TableData] = None
+    table_data: Optional[TableData] = None
     list_data: Optional[ListData] = None
     inline_image: Optional[InlineImageData] = None
 
@@ -99,15 +136,16 @@ class ContentBlock:
         inline_image = data.get("inline_image")
         if inline_image and not isinstance(inline_image, InlineImageData):
             inline_image = InlineImageData.from_dict(inline_image)
+        table_data = data.get("table_data")
+        if table_data and not isinstance(table_data, TableData):
+            table_data = TableData.from_dict(table_data)
+
         return ContentBlock(
             id=data.get("id"),
             type=block_type if block_type is not None else ContentBlockType.PARAGRAPH,
             doc_index=data.get("doc_index"),
             text=data.get("text"),
-            level=data.get("level"),
-            page=data.get("page"),
-            semantic=data.get("semantic"),
-            table=data.get("table"),
+            table_data=table_data,
             list_data=data.get("list_data"),
             inline_image=inline_image,
         )
@@ -129,7 +167,6 @@ class Section:
     id: str
     number: str
     title: str
-    level: int
     doc_index: int
     span: List[int] = field(default_factory=lambda: [0, 0])
     path: List[str] = field(default_factory=list)
@@ -154,7 +191,6 @@ class Section:
             "id": self.id,
             "number": self.number,
             "title": self.title,
-            "level": self.level,
             "doc_index": self.doc_index,
             "span": list(self.span),
             "path": list(self.path),
@@ -170,7 +206,6 @@ class Section:
             id=data.get("id"),
             number=data.get("number"),
             title=data.get("title"),
-            level=int(data.get("level")) if data.get("level") is not None else 1,
             doc_index=int(data.get("doc_index")) if data.get("doc_index") is not None else 0,
         )
         section.span = list(data.get("span") or [section.doc_index, section.doc_index + 1])

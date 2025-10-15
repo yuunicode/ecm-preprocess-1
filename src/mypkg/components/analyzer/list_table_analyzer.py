@@ -13,6 +13,8 @@ from mypkg.core.io import (
     save_list_components_from_sanitized,
     save_table_components_from_sanitized,
 )
+from mypkg.components.sanitizer.table_sanitizer import TableSanitizer
+from mypkg.core.parser import TableRecord, ParagraphRecord
 
 
 def format_list_component(title: str, items: List[str]) -> str:
@@ -99,13 +101,8 @@ def analyze_lists(
             "type": "list",
             "doc_index": first_doc_index,
             "text": formatted_text,
-            "level": 0,
-            "page": None,
-            "semantic": None,
-            "table": None,
             "list_data": {
                 "ordered": False,
-                "level": 0,
                 "items": items,
             },
         })
@@ -113,41 +110,34 @@ def analyze_lists(
     return components, consumed
 
 
-def analyze_tables(tables: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def analyze_tables(tables: List[TableRecord], sanitizer: TableSanitizer, paragraphs: List[ParagraphRecord] = []) -> List[Dict[str, Any]]:
     """테이블 정보를 ContentBlock(dict) 형태로 변환한다."""
-
+    sanitized_tables = sanitizer.apply(tables, paragraphs)
     blocks: List[Dict[str, Any]] = []
-    for table in tables or []:
+    for table in sanitized_tables:
         doc_index = table.get("doc_index", -1)
         blocks.append({
             "id": f"table_{table.get('tid', doc_index)}",
             "type": "table",
             "doc_index": doc_index,
-            "text": None,
-            "level": None,
-            "page": None,
-            "semantic": None,
-            "table": {
-                "doc_index": doc_index,
-                "rows": table.get("rows"),
-                "cols": table.get("cols"),
-                "data": table.get("data"),
-            },
+            "text": table.get("preceding_text"),
+            "table_data": table,
             "list_data": None,
         })
     return blocks
 
 
 def emit_list_table_components_from_sanitized(
-    paragraphs: List[Dict[str, Any]],
-    tables: List[Dict[str, Any]],
+    paragraphs: List[ParagraphRecord],
+    tables: List[TableRecord],
     sanitized_path: str | Path,
     basename: str,
 ) -> Dict[str, str]:
     """리스트/테이블 컴포넌트를 생성해 `_comp` 경로에 저장한다."""
 
+    sanitizer = TableSanitizer()
     lists, consumed = analyze_lists(paragraphs)
-    table_blocks = analyze_tables(tables)
+    table_blocks = analyze_tables(tables, sanitizer, paragraphs)
     list_path = save_list_components_from_sanitized(
         {"lists": lists, "consumed": sorted(consumed)}, sanitized_path, basename
     )
