@@ -8,6 +8,7 @@
 주요 기능:
 - **위치 분석**: 이미지가 테이블 또는 문단 내에 포함되어 있는지 여부를 확인합니다.
 - **OCR 수행**: `.png` 확장자를 가진 이미지에 대해 `pytesseract`를 사용하여 텍스트를 추출합니다.
+- **LLM 호출**: LLM(예: Ollama)을 호출하여 이미지에 대한 요약을 생성합니다. (젬마3:4B-양자화된 멀티모달 모델 사용.)
 - **이미지 요약**: Ollama API를 호출하여 이미지에 대한 설명을 생성합니다.
 - **캐싱(Caching)**: OCR 및 요약 결과를 `ocr_cache.json`에 캐싱하여 중복 API 호출을 방지합니다.
 """
@@ -54,6 +55,7 @@ class ImageSanitizer:
 
     def __init__(self, lang: str = 'kor+eng'):
         self.lang = lang
+        self._llm_call_count = 0
         if not PYTESSERACT_AVAILABLE:
             log.warning("pytesseract 또는 Pillow 라이브러리가 설치되지 않았습니다. OCR 기능이 비활성화됩니다.")
 
@@ -64,7 +66,31 @@ class ImageSanitizer:
         
         # Ollama는 mime_type 대신 base64 이미지 자체를 images 배열에 넣습니다.
 
-        prompt_text = "Describe the content of this image in one sentence"
+        prompt_text = """
+You are an expert in analyzing software documentation screenshots. Your task is to describe the provided image objectively, without making any interpretations or assumptions about its function. Follow these rules strictly:
+
+1.  **For user interface elements (e.g., dialog boxes, windows):**
+    *   **You must extract the main title of the window.** This is mandatory.
+    *   From the dialog's content, summarize or extract only the key text elements (e.g., selected options, important labels, or messages). You do not need to extract all text.
+    *   If an arrow or pointer is present, describe what it points to (e.g., "Arrow pointing to the 'OK' button").
+
+2.  **For text outside of dialogs (e.g., in reports):**
+    *   Extract all visible text verbatim, including statistical terms.
+
+3.  **For charts and graphs (e.g., line, bar, pie):**
+    *   Identify only the type of chart (e.g., "Line chart", "Bar chart", "Pie chart").
+    *   Do NOT analyze or interpret the data shown in the chart.
+
+4.  **For icons:**
+    *   Describe the visual appearance of the icon (e.g., "A shape resembling a floppy disk", "A blue circle with a white checkmark").
+    *   Do NOT infer the icon's function (e.g., do not name it "Save icon").
+
+5.  **For node images with text below:**
+    *   First, describe the visual appearance of the node/icon.
+    *   Second, provide the exact text written below it as its description.
+
+Output the final description as a concise series of phrases or a single, descriptive sentence.
+"""
         
         return {
             "model": model_name,
@@ -82,6 +108,8 @@ class ImageSanitizer:
 
         api_url = "http://localhost:11434/api/generate"
 
+        result = None
+
         try:
             time.sleep(1) # Rate limit 회피를 위한 지연 시간 추가
             with httpx.Client() as client:
@@ -90,9 +118,6 @@ class ImageSanitizer:
                 result = response.json()
             
                 return result.get("response", "").strip()
-        except (KeyError, IndexError) as e:
-            log.error(f"Sync image summary failed for {image_path}: {e} - Full response: {result}")
-            return None
         except Exception as e:
             log.error(f"Sync image summary failed for {image_path}: {e} - Full response: {result}")
             return None
@@ -124,22 +149,25 @@ class ImageSanitizer:
 
             if image_record.saved_path:
                 full_image_path = base_dir / image_record.saved_path
-                image_hash = _get_file_hash(full_image_path)
-                cache_key = str(full_image_path)
-                
-                cached_data = ocr_cache.get(cache_key, {}) if image_hash else {}
+                if full_image_path.suffix.lower() == '.png':
+                    image_hash = _get_file_hash(full_image_path)
+                    cache_key = str(full_image_path)
+                    cached_data = ocr_cache.get(cache_key, {}) if image_hash else {}
 
-                if cached_data.get('hash') == image_hash:
-                    ocr_text = cached_data.get('ocr_text')
-                    llm_text = cached_data.get('llm_text')
-                else:
-                    ocr_text = self._perform_ocr(full_image_path)
-                    summary = self._get_image_summary(full_image_path)
-                    if summary:
-                        llm_text = f"image description: {summary}"
-                    
-                    if image_hash:
-                        ocr_cache[cache_key] = {'hash': image_hash, 'ocr_text': ocr_text, 'llm_text': llm_text}
+                    if cached_data.get('hash') == image_hash:
+                        ocr_text = cached_data.get('ocr_text')
+                        llm_text = cached_data.get('llm_text')
+                    else:
+                        ocr_text = self._perform_ocr(full_image_path)
+                        summary = self._get_image_summary(full_image_path)
+                        self._llm_call_count += 1
+                        if self._llm_call_count % 50 == 0:
+                            log.info(f"Image summary generation completed for {self._llm_call_count} images.")
+                        if summary:
+                            llm_text = f"image description: {summary}"
+
+                        if image_hash:
+                            ocr_cache[cache_key] = {'hash': image_hash, 'ocr_text': ocr_text, 'llm_text': llm_text}
 
             component = ImageComponentData(
                 rId=image_record.rId,
