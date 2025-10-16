@@ -155,9 +155,7 @@ class DocxParsingPipeline:
 
         sanitized_tables = self.table_sanitizer.apply(tables_for_context, paragraphs_for_context)
 
-        sanitized_images = self.image_sanitizer.sanitize(inline_images, tables_for_context, sanitized_paragraphs, output_dir)
-
-        # 3. Assembling and saving sanitized result
+        # Assembling and saving sanitized result
         def _paragraph_to_payload(p):
             return {
                 "text": p.text,
@@ -171,6 +169,10 @@ class DocxParsingPipeline:
 
         paragraph_payloads = [_paragraph_to_payload(p) for p in sanitized_paragraphs]
 
+        sanitized_output_path = output_dir / f"{doc_name}_sanitized.json"
+
+        sanitized_images = self.image_sanitizer.sanitize(inline_images, tables_for_context, sanitized_paragraphs, output_dir, sanitized_output_path, doc_name)
+
         final_result = {
             "paragraphs": paragraph_payloads,
             "tables": sanitized_tables,
@@ -180,7 +182,6 @@ class DocxParsingPipeline:
             "inline_images": [img.to_dict() for img in sanitized_images],
         }
         
-        sanitized_output_path = output_dir / f"{doc_name}_sanitized.json"
         write_json_output(final_result, sanitized_output_path)
 
         # 컴포넌트 저장

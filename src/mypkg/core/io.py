@@ -139,7 +139,7 @@ def component_paths_from_sanitized(sanitized_path: str | Path, basename: str) ->
         basename: 출력 파일명의 접두에 사용할 베이스 이름.
 
     반환값:
-        `list`, `table`, `blocks`, `image`, `paragraph` 키를 가지는 경로 매핑.
+        `list`, `table`, `blocks`, `image`, `paragraph`, `ocr_cache` 키를 가지는 경로 매핑.
     """
     base = components_dir_from_sanitized(sanitized_path)
     return {
@@ -148,6 +148,7 @@ def component_paths_from_sanitized(sanitized_path: str | Path, basename: str) ->
         "paragraph": base / "parag_comp.json",
         "blocks":  base / f"{basename}_blocks.json",
         "image": base / "image_comp.json",
+        "ocr_cache": base / "ocr_cache.json",
     }
 
 
