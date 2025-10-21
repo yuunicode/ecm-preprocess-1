@@ -13,7 +13,7 @@ import copy
 import json
 import re
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Tuple, Set
 from mypkg.components.parser.xml_parser import build_table_context_rows
 
 
@@ -105,19 +105,27 @@ def heading_entry(
         return None
     style_stripped = style.strip()
     lower = style_stripped.lower()
-    if "heading" in lower or "title" in lower:
-        match = HEADING_PATTERN.search(lower)
-        level = int(match.group(1)) if match else 1
-        return level, False
-    if "타이틀" in style_stripped:
-        match = HEADING_PATTERN.search(style_stripped)
-        level = int(match.group(1)) if match else 1
-        return level, False
-    if "소제목" in style_stripped:
+    if "소제목" in style_stripped or "타이틀" in style_stripped or "title" in lower:
         base = last_non_sub_level(stack)
         level = max(base + 1, 1)
         return level, True
+    if "heading" in lower:
+        match = HEADING_PATTERN.search(lower)
+        level = int(match.group(1)) if match else 1
+        return level, False
     return None
+
+
+def classify_list_style(style: Optional[str]) -> str:
+    """리스트 스타일을 bullet/continue/none으로 분류한다."""
+    if not style:
+        return "none"
+    lowered = style.strip().lower()
+    if "list" not in lowered:
+        return "none"
+    if "continue" in lowered or "continued" in lowered:
+        return "continue"
+    return "start"
 
 
 def iter_events(
@@ -146,6 +154,7 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
     heading_stack: List[Dict[str, Any]] = []
     buffer: List[Dict[str, Any]] = []
     current_path: Optional[str] = None
+    list_group: Optional[Dict[str, Any]] = None
 
     def flush_buffer() -> None:
         """누적된 본문을 contexts 목록에 저장한다."""
@@ -178,6 +187,24 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
                 "bold_texts": bold_texts,
             }
         )
+
+    def flush_list_group() -> None:
+        """list bullet/continue 시퀀스를 contexts에 반영한다."""
+        nonlocal list_group
+        if not list_group:
+            return
+        text_parts = list_group.get("texts") or []
+        context_text = " ".join(part for part in text_parts if part).strip()
+        if context_text:
+            paragraph_contexts.append(
+                {
+                    "path": list_group.get("path") or "",
+                    "context": context_text,
+                    "doc_indices": sorted(list(list_group.get("doc_indices") or [])),
+                    "bold_texts": list_group.get("bold_texts") or [],
+                }
+            )
+        list_group = None
 
     def update_current_path() -> None:
         """현재 헤딩 스택으로 path 문자열을 갱신한다."""
@@ -400,6 +427,7 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
             if entry is not None:
                 level, is_subheading = entry
                 flush_buffer()
+                flush_list_group()
                 while heading_stack and heading_stack[-1]["level"] >= level:
                     heading_stack.pop()
                 if text:
@@ -412,20 +440,72 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
                     )
                 update_current_path()
             else:
-                if text:
-                    doc_idx = payload.get("doc_index")
-                    emphasized_raw = payload.get("emphasized") or []
-                    bold_norm = [normalize_text(e) for e in emphasized_raw if e]
-                    buffer.append(
-                        {
-                            "text": normalize_text(text),
-                            "doc_index": doc_idx,
-                            "bold_texts": bold_norm,
-                        }
-                    )
+                classification = classify_list_style(style)
+                normalized_text = normalize_text(text) if text else ""
+                doc_idx = payload.get("doc_index")
+                emphasized_raw = payload.get("emphasized") or []
+                bold_norm = [normalize_text(e) for e in emphasized_raw if e]
+
+                if classification == "none":
+                    flush_list_group()
+                    if normalized_text:
+                        flush_buffer()
+                        buffer.append(
+                            {
+                                "text": normalized_text,
+                                "doc_index": doc_idx,
+                                "bold_texts": bold_norm,
+                            }
+                        )
+                        flush_buffer()
+                else:
+                    flush_buffer()
+                    if normalized_text:
+                        if list_group is None or classification == "start":
+                            flush_list_group()
+                            doc_set: Set[int] = set()
+                            if doc_idx is not None:
+                                doc_set.add(doc_idx)
+                            bold_seen: Set[str] = set()
+                            bold_list: List[str] = []
+                            for norm in bold_norm:
+                                if not norm:
+                                    continue
+                                if norm in bold_seen:
+                                    continue
+                                bold_seen.add(norm)
+                                bold_list.append(norm)
+                            list_group = {
+                                "path": current_path or "",
+                                "texts": [normalized_text],
+                                "doc_indices": doc_set,
+                                "bold_texts": bold_list,
+                                "_bold_seen": bold_seen,
+                            }
+                        else:
+                            list_group["path"] = current_path or list_group.get("path") or ""
+                            list_group["texts"].append(normalized_text)
+                            doc_set = list_group.get("doc_indices")
+                            if isinstance(doc_set, set) and doc_idx is not None:
+                                doc_set.add(doc_idx)
+                            elif doc_idx is not None:
+                                doc_set = {doc_idx}
+                                list_group["doc_indices"] = doc_set
+                            bold_seen = list_group.get("_bold_seen")
+                            if bold_seen is None or not isinstance(bold_seen, set):
+                                bold_seen = set()
+                                list_group["_bold_seen"] = bold_seen
+                            for norm in bold_norm:
+                                if not norm:
+                                    continue
+                                if norm in bold_seen:
+                                    continue
+                                bold_seen.add(norm)
+                                list_group.setdefault("bold_texts", []).append(norm)
                 update_current_path()
         else:
             flush_buffer()
+            flush_list_group()
             update_current_path()
             processed_rows = preprocess_table_cells(payload)
             if not payload.get("has_borders", True):
@@ -489,6 +569,7 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
                         )
 
     flush_buffer()
+    flush_list_group()
 
     return paragraph_contexts, table_no_border_contexts, table_image_contexts, table_header_contexts, table_others_contexts
 

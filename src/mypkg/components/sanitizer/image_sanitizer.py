@@ -53,11 +53,17 @@ def _get_file_hash(path: Path) -> str | None:
 class ImageSanitizer:
     """인라인 이미지에 대해 OCR, 요약 및 위치 분석을 수행합니다."""
 
-    def __init__(self, lang: str = 'kor+eng'):
+    def __init__(self, lang: str = 'kor+eng', enable_llm: bool | None = None):
         self.lang = lang
         self._llm_call_count = 0
         if not PYTESSERACT_AVAILABLE:
             log.warning("pytesseract 또는 Pillow 라이브러리가 설치되지 않았습니다. OCR 기능이 비활성화됩니다.")
+        env_enable = os.getenv("ECM_ENABLE_IMAGE_LLM")
+        if enable_llm is None and env_enable is not None:
+            enable_llm = env_enable.lower() in {"1", "true", "yes", "on"}
+        self.enable_llm = bool(enable_llm)
+        if not self.enable_llm:
+            log.info("LLM 기반 이미지 요약이 비활성화되었습니다.")
 
     def _get_image_payload(self, image_path: Path, model_name: str) -> Dict[str, Any] | None:
         """Ollama API 요청을 위한 페이로드를 생성합니다."""
@@ -155,19 +161,24 @@ class ImageSanitizer:
 
                     if cached_data.get('hash') == image_hash:
                         ocr_text = cached_data.get('ocr_text')
-                        llm_text = cached_data.get('llm_text')
+                        if self.enable_llm:
+                            llm_text = cached_data.get('llm_text')
                     else:
                         ocr_text = self._perform_ocr(full_image_path)
-                        summary_raw = self._get_image_summary(full_image_path)
-                        summary = self._normalize_summary(summary_raw)
-                        self._llm_call_count += 1
-                        if self._llm_call_count % 50 == 0:
-                            log.info(f"Image summary generation completed for {self._llm_call_count} images.")
-                        if summary:
-                            llm_text = f"image description: {summary}"
+                        if self.enable_llm:
+                            summary_raw = self._get_image_summary(full_image_path)
+                            summary = self._normalize_summary(summary_raw)
+                            self._llm_call_count += 1
+                            if self._llm_call_count % 50 == 0:
+                                log.info(f"Image summary generation completed for {self._llm_call_count} images.")
+                            if summary:
+                                llm_text = f"image description: {summary}"
 
                         if image_hash:
-                            ocr_cache[cache_key] = {'hash': image_hash, 'ocr_text': ocr_text, 'llm_text': llm_text}
+                            cache_entry = {'hash': image_hash, 'ocr_text': ocr_text}
+                            if self.enable_llm:
+                                cache_entry['llm_text'] = llm_text
+                            ocr_cache[cache_key] = cache_entry
 
             component = ImageComponentData(
                 rId=image_record.rId,
