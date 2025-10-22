@@ -24,40 +24,46 @@ class TableSanitizer:
 
     def apply(self, tables: List[TableRecord], paragraphs: List[ParagraphRecord]) -> List[Dict[str, Any]]:
         """테이블 레코드 목록을 받아 정제 로직을 적용하고, 처리된 딕셔너리 목록을 반환합니다."""
-        out = []
+        out: List[Dict[str, Any]] = []
         all_paragraphs = {p.doc_index: p for p in paragraphs if p.doc_index is not None}
 
+        def combine_text_and_images(text: str, images: List[str]) -> str:
+            text = (text or "").strip()
+            image_tokens = " ".join(f"[image:{rid}]" for rid in images if rid)
+            if text and all(f"[image:{rid}]" in text for rid in images if rid):
+                return text
+            if text and image_tokens:
+                return f"{text} {image_tokens}".strip()
+            if image_tokens:
+                return image_tokens
+            return text
+
         for t in tables or []:
-            # --- 1. 초기 설정 및 테이블 이전 문단 텍스트 추출 ---
             preceding_text = None
             if t.doc_index is not None and t.doc_index > 0:
                 preceding_para = all_paragraphs.get(t.doc_index - 1)
                 if preceding_para:
                     preceding_text = preceding_para.text
 
-            rows = t.rows
+            rows = t.rows or []
             col_counts = [sum(max(1, c.gridSpan or 1) for c in row) for row in rows] or [0]
             C = max(col_counts) if col_counts else 0
             R = len(rows)
+            if R == 0 or C == 0:
+                continue
 
             matrix = [[self.blank for _ in range(C)] for _ in range(R)]
             image_matrix = [[[] for _ in range(C)] for _ in range(R)]
-            color_matrix = [[None for _ in range(C)] for _ in range(R)]
-            style_color_matrix = [[None for _ in range(C)] for _ in range(R)]
-            explicit_color_matrix = [[None for _ in range(C)] for _ in range(R)]
-            has_explicit_matrix = [[False for _ in range(C)] for _ in range(R)]
-            vflags = [[None for _ in range(C)] for _ in range(R)]  # 행 병합 상태 추적용 플래그
+            style_matrix = [[False for _ in range(C)] for _ in range(R)]
+            vflags = [[None for _ in range(C)] for _ in range(R)]
+            anchors: List[Dict[str, Any]] = []
 
-            anchors = []
-
-            # --- 2. 원본 테이블 순회하며 기본 정보 채우기 ---
             for r_idx, row in enumerate(rows):
                 c_idx = 0
-                # 행 병합으로 건너뛸 셀 인덱스 이동
                 while c_idx < C and vflags[r_idx][c_idx] == "continue":
                     c_idx += 1
 
-                for cell in row:  # 이 'cell' 변수는 TableCellRecord 타입의 객체입니다.
+                for cell in row or []:
                     colspan = max(1, cell.gridSpan or 1)
                     vmerge = cell.vMerge
                     txt = (cell.text or "").strip()
@@ -68,49 +74,39 @@ class TableSanitizer:
                     if c_idx >= C:
                         break
 
-                    # 매트릭스에 텍스트, 이미지, 색상 정보 채우기
-                    matrix[r_idx][c_idx] = txt
-                    image_matrix[r_idx][c_idx] = list(getattr(cell, "inline_images", []) or [])
-                    cell_explicit = getattr(cell, "explicit_bg_color", None)
-                    cell_style = getattr(cell, "style_bg_color", None)
-                    cell_has_explicit = bool(getattr(cell, "has_explicit_bg", False))
-                    final_color = cell_explicit if cell_has_explicit else cell_style
-                    color_matrix[r_idx][c_idx] = final_color
-                    style_color_matrix[r_idx][c_idx] = cell_style
-                    explicit_color_matrix[r_idx][c_idx] = cell_explicit
-                    has_explicit_matrix[r_idx][c_idx] = cell_has_explicit
+                    inline_imgs = list(getattr(cell, "inline_images", []) or [])
+                    combined_text = combine_text_and_images(txt, inline_imgs)
+                    matrix[r_idx][c_idx] = combined_text
+                    image_matrix[r_idx][c_idx] = list(inline_imgs)
+                    style_matrix[r_idx][c_idx] = bool(getattr(cell, "has_style", False))
 
-                    # 열 병합(colspan) 및 행 병합(vmerge) 플래그 처리
                     for off in range(colspan):
                         cc = c_idx + off
                         if cc >= C:
                             break
-                        if off > 0: # 병합된 추가 셀은 빈 값으로 채움
-                            matrix[r_idx][cc] = self.blank
-                            image_matrix[r_idx][cc] = list(getattr(cell, "inline_images", []) or [])
-                            color_matrix[r_idx][cc] = final_color
-                            style_color_matrix[r_idx][cc] = cell_style
-                            explicit_color_matrix[r_idx][cc] = cell_explicit
-                            has_explicit_matrix[r_idx][cc] = cell_has_explicit
+                        if off > 0:
+                            matrix[r_idx][cc] = combined_text if combined_text else self.blank
+                            image_matrix[r_idx][cc] = list(inline_imgs)
+                            style_matrix[r_idx][cc] = bool(getattr(cell, "has_style", False))
                         if vmerge:
                             vflags[r_idx][cc] = vmerge
 
                     anchors.append({
                         "r": r_idx,
                         "c": c_idx,
-                        "text": txt,
+                        "text": combined_text,
                         "colspan": max(1, colspan),
                         "vmerge": vmerge,
                         "rowspan": 1,
                     })
                     c_idx += colspan
 
-            # --- 3. 병합된 셀(앵커 기준)의 내용 채우기 ---
-            for a in anchors:
-                r0, c0 = a["r"], a["c"]
-                text, colspan, vmerge = a["text"], max(1, a["colspan"] or 1), a["vmerge"]
+            for anchor in anchors:
+                r0, c0 = anchor["r"], anchor["c"]
+                text = anchor["text"]
+                colspan = max(1, anchor.get("colspan") or 1)
+                vmerge = anchor.get("vmerge")
 
-                # 행 병합(rowspan) 계산
                 rowspan = 1
                 if vmerge == "restart":
                     rr = r0 + 1
@@ -120,56 +116,48 @@ class TableSanitizer:
                             break
                         rowspan += 1
                         rr += 1
-                a["rowspan"] = max(1, rowspan)
-                
-                # 계산된 rowspan, colspan에 따라 모든 병합된 셀에 데이터 복사
+                anchor["rowspan"] = max(1, rowspan)
+
                 base_images = list(image_matrix[r0][c0])
-                base_color = color_matrix[r0][c0]
-                base_style_color = style_color_matrix[r0][c0]
-                base_explicit_color = explicit_color_matrix[r0][c0]
-                base_has_explicit = has_explicit_matrix[r0][c0]
+                base_style = style_matrix[r0][c0]
                 for rr in range(r0, min(R, r0 + rowspan)):
                     for off in range(colspan):
                         cc = c0 + off
                         if cc < C:
                             matrix[rr][cc] = text
                             image_matrix[rr][cc] = list(base_images)
-                            color_matrix[rr][cc] = base_color
-                            style_color_matrix[rr][cc] = base_style_color
-                            explicit_color_matrix[rr][cc] = base_explicit_color
-                            has_explicit_matrix[rr][cc] = base_has_explicit
+                            style_matrix[rr][cc] = base_style
 
-            # --- 4. 최종 데이터 구조 생성 ---
-            cell_data_matrix = []
+            cell_data_matrix: List[List[Dict[str, Any]]] = []
             for r in range(R):
-                row_data = []
+                row_payload: List[Dict[str, Any]] = []
                 for c in range(C):
-                    row_data.append({
+                    row_payload.append({
                         "text": str(matrix[r][c]) if matrix[r][c] is not None else self.blank,
                         "images": image_matrix[r][c],
-                        "color": color_matrix[r][c],
-                        "style_color": style_color_matrix[r][c],
-                        "explicit_color": explicit_color_matrix[r][c],
-                        "has_explicit_color": has_explicit_matrix[r][c],
+                        "styled": style_matrix[r][c],
                     })
-                cell_data_matrix.append(row_data)
+                cell_data_matrix.append(row_payload)
 
-            # --- 5. 헤더 분석 ---
             is_rowheader = False
             if R > 0 and C > 0:
-                first_row_colors = color_matrix[0]
-                if first_row_colors[0] is not None and all(c == first_row_colors[0] for c in first_row_colors):
-                    is_rowheader = True
+                first_row_texts = [matrix[0][c] for c in range(C)]
+            row_style_flags = [style_matrix[0][c] for c in range(C)]
+            style_uniform = all(row_style_flags) and any(row_style_flags)
+            long_text = any(len(text.split()) >= 3 for text in first_row_texts if text)
+            is_rowheader = style_uniform and not long_text
 
             is_colheader = False
             if R > 0 and C > 0:
-                first_col_colors = [color_matrix[r][0] for r in range(R)]
-                if first_col_colors[0] is not None and all(c == first_col_colors[0] for c in first_col_colors):
-                    is_colheader = True
+                first_col_texts = [matrix[r][0] for r in range(R)]
+                col_style_flags = [style_matrix[r][0] for r in range(R)]
+                style_uniform = all(col_style_flags) and any(col_style_flags)
+                long_text = any(len(text.split()) >= 3 for text in first_col_texts if text)
+                is_colheader = style_uniform and not long_text
 
             table_html = render_table_html(cell_data_matrix, anchors, is_rowheader, is_colheader)
 
-            t_out = {
+            out.append({
                 "tid": t.tid,
                 "doc_index": t.doc_index,
                 "preceding_text": preceding_text,
@@ -181,8 +169,7 @@ class TableSanitizer:
                 "has_borders": t.has_borders,
                 "table_html": table_html,
                 "anchors": anchors,
-            }
-            out.append(t_out)
+            })
 
         return out
 

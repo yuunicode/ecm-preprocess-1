@@ -545,6 +545,7 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
                             "context": concatenated_text,
                             "doc_index": payload.get("doc_index"),
                             "table_tid": payload.get("tid"),
+                            "preceding_text": preceding_norm,
                         }
                     )
             if payload.get("is_rowheader") or payload.get("is_colheader"):

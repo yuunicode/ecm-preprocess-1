@@ -22,6 +22,8 @@ NS = {
     "pic":"http://schemas.openxmlformats.org/drawingml/2006/picture",
     "wps":"http://schemas.microsoft.com/office/word/2010/wordprocessingShape",
     "wpg":"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup",
+    "v": "urn:schemas-microsoft-com:vml",
+    "o": "urn:schemas-microsoft-com:office:office",
     "r": "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
     "m": "http://schemas.openxmlformats.org/officeDocument/2006/math",
 }
@@ -247,7 +249,7 @@ class DocxXmlParser(BaseParser):
         inline_images: Dict[str, InlineImageRecord] = {}
         for rid, rel in relationships.items():
             rel_type = (rel.type or "").lower()
-            if "image" not in rel_type:
+            if "image" not in rel_type and "oleobject" not in rel_type:
                 continue
             target = rel.target or ""
             if not target:
@@ -284,8 +286,29 @@ class DocxXmlParser(BaseParser):
                 rid = blip.get(f'{{{NS["r"]}}}embed')
                 if rid:
                     image_rids.append(rid)
+            for imagedata in r.findall(".//v:imagedata", NS):
+                rid = imagedata.get(f'{{{NS["r"]}}}id')
+                if rid:
+                    image_rids.append(rid)
+            for ole in r.findall(".//o:OLEObject", NS):
+                rid = ole.get(f'{{{NS["r"]}}}id')
+                if rid:
+                    image_rids.append(rid)
+            if image_rids:
+                unique_rids: List[str] = []
+                seen: set[str] = set()
+                for rid in image_rids:
+                    if rid in seen:
+                        continue
+                    seen.add(rid)
+                    unique_rids.append(rid)
+                image_rids = unique_rids
             for rid in image_rids:
-                run_text += f"[image:{rid}]"
+                token = f"[image:{rid}]"
+                if run_text:
+                    run_text = _concat_tokens(run_text, token)
+                else:
+                    run_text = token
                 record = inline_images_map.get(rid)
                 if record:
                     if doc_index not in record.doc_indices:
@@ -321,6 +344,15 @@ class DocxXmlParser(BaseParser):
                     if color_val:
                         color_val = color_val.upper()
 
+            # Append OMML math expressions, if any
+            for math_elem in r.findall(".//m:oMath", NS) + r.findall(".//m:oMathPara", NS):
+                expr = self._serialize_math(math_elem)
+                if expr:
+                    if run_text:
+                        run_text = _concat_tokens(run_text, expr)
+                    else:
+                        run_text = expr
+
             run_record = RunRecord(
                 text=run_text,
                 b=b,
@@ -335,6 +367,25 @@ class DocxXmlParser(BaseParser):
 
             if b and run_text.strip():
                 emphasized.append(run_text.strip())
+
+        # Math elements that are direct children of the paragraph (not wrapped in w:r)
+        direct_math_nodes = list(paragraph.findall("m:oMath", NS)) + list(paragraph.findall("m:oMathPara", NS))
+        for math_elem in direct_math_nodes:
+            expr = self._serialize_math(math_elem)
+            if not expr:
+                continue
+            runs.append(
+                RunRecord(
+                    text=expr,
+                    b=False,
+                    i=False,
+                    u=False,
+                    rStyle=None,
+                    sz=None,
+                    color=None,
+                    image_rids=[],
+                )
+            )
 
         return runs, emphasized
 
@@ -409,10 +460,8 @@ class DocxXmlParser(BaseParser):
                 tcPr = tc.find("w:tcPr", NS)
                 gridSpan = 1
                 vMerge = None
-                bg_color: Optional[str] = None
-                explicit_bg_color: Optional[str] = None
-                style_bg_color: Optional[str] = None
-                has_explicit_bg = False
+                cell_has_bold = False
+                cell_has_style = False
                 if tcPr is not None:
                     gs = tcPr.find("w:gridSpan", NS)
                     if gs is not None:
@@ -432,15 +481,11 @@ class DocxXmlParser(BaseParser):
                                 break
                     shd = tcPr.find("w:shd", NS)
                     if shd is not None:
-                        has_explicit_bg = True
                         fill = shd.attrib.get(f'{{{NS["w"]}}}fill')
                         if fill:
                             fill = fill.strip()
                             if fill and fill.lower() != "auto":
-                                fill_norm = fill.upper()
-                                if not fill_norm.startswith('#') and len(fill_norm) == 6:
-                                    fill_norm = f"#{fill_norm}"
-                                explicit_bg_color = fill_norm
+                                cell_has_style = True
 
                 texts: List[str] = []
                 cell_inline_images: List[str] = []
@@ -449,6 +494,8 @@ class DocxXmlParser(BaseParser):
                         runs, _ = self._build_run_records(child_elem, inline_images_map, doc_index)
                         if runs:
                             texts.append("".join(run.text for run in runs).strip())
+                            if any(run.b for run in runs):
+                                cell_has_bold = True
                             for run in runs:
                                 cell_inline_images.extend(run.image_rids)
                     elif child_elem.tag == f'{{{NS["w"]}}}tbl':
@@ -473,12 +520,10 @@ class DocxXmlParser(BaseParser):
                                 texts.append(nested_table_text)
 
                 cell_text = " ".join(t for t in texts if t).strip()
-                if not has_explicit_bg and style_id:
-                    style_bg_color = self._resolve_table_style_color(table_styles, style_id, row_idx, col_idx)
-                if has_explicit_bg:
-                    bg_color = explicit_bg_color
-                else:
-                    bg_color = style_bg_color
+                if not cell_has_style and style_id:
+                    style_color = self._resolve_table_style_color(table_styles, style_id, row_idx, col_idx)
+                    if style_color:
+                        cell_has_style = True
 
                 row_data.append(
                     TableCellRecord(
@@ -486,10 +531,7 @@ class DocxXmlParser(BaseParser):
                         gridSpan=gridSpan,
                         vMerge=vMerge,
                         inline_images=sorted(set(cell_inline_images)),
-                        bg_color=bg_color,
-                        has_explicit_bg=has_explicit_bg,
-                        explicit_bg_color=explicit_bg_color,
-                        style_bg_color=style_bg_color,
+                        has_style=cell_has_style,
                     )
                 )
                 col_idx += 1
@@ -915,10 +957,10 @@ def render_table_html(
 
             cell = matrix[r][c]
             text = ""
-            color = None
+            styled = False
             if isinstance(cell, dict):
                 text = cell.get("text") or ""
-                color = cell.get("color")
+                styled = bool(cell.get("styled"))
             else:
                 text = str(cell or "")
 
@@ -933,8 +975,8 @@ def render_table_html(
                 attrs.append(f'rowspan="{rowspan}"')
             if colspan and colspan > 1:
                 attrs.append(f'colspan="{colspan}"')
-            if color:
-                attrs.append(f'style="background-color: {html.escape(color)};"')
+            if styled:
+                attrs.append('style="background-color: #f2f2f2;"')
 
             attr_str = (" " + " ".join(attrs)) if attrs else ""
             lines.append(f'    <{tag}{attr_str}>{html.escape(text)}</{tag}>')
