@@ -410,6 +410,9 @@ class DocxXmlParser(BaseParser):
                 gridSpan = 1
                 vMerge = None
                 bg_color: Optional[str] = None
+                explicit_bg_color: Optional[str] = None
+                style_bg_color: Optional[str] = None
+                has_explicit_bg = False
                 if tcPr is not None:
                     gs = tcPr.find("w:gridSpan", NS)
                     if gs is not None:
@@ -429,6 +432,7 @@ class DocxXmlParser(BaseParser):
                                 break
                     shd = tcPr.find("w:shd", NS)
                     if shd is not None:
+                        has_explicit_bg = True
                         fill = shd.attrib.get(f'{{{NS["w"]}}}fill')
                         if fill:
                             fill = fill.strip()
@@ -436,7 +440,7 @@ class DocxXmlParser(BaseParser):
                                 fill_norm = fill.upper()
                                 if not fill_norm.startswith('#') and len(fill_norm) == 6:
                                     fill_norm = f"#{fill_norm}"
-                                bg_color = fill_norm
+                                explicit_bg_color = fill_norm
 
                 texts: List[str] = []
                 cell_inline_images: List[str] = []
@@ -469,8 +473,12 @@ class DocxXmlParser(BaseParser):
                                 texts.append(nested_table_text)
 
                 cell_text = " ".join(t for t in texts if t).strip()
-                if bg_color is None and style_id:
-                    bg_color = self._resolve_table_style_color(table_styles, style_id, row_idx, col_idx)
+                if not has_explicit_bg and style_id:
+                    style_bg_color = self._resolve_table_style_color(table_styles, style_id, row_idx, col_idx)
+                if has_explicit_bg:
+                    bg_color = explicit_bg_color
+                else:
+                    bg_color = style_bg_color
 
                 row_data.append(
                     TableCellRecord(
@@ -479,6 +487,9 @@ class DocxXmlParser(BaseParser):
                         vMerge=vMerge,
                         inline_images=sorted(set(cell_inline_images)),
                         bg_color=bg_color,
+                        has_explicit_bg=has_explicit_bg,
+                        explicit_bg_color=explicit_bg_color,
+                        style_bg_color=style_bg_color,
                     )
                 )
                 col_idx += 1

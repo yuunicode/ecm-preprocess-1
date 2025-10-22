@@ -146,10 +146,8 @@ class DocxParsingPipeline:
 
         sanitized_lists, consumed_para_indices = self.list_sanitizer.sanitize(sanitized_paragraphs)
         
-        consumed_indices_set = set(consumed_para_indices)
-        final_sanitized_paragraphs = [
-            p for p in sanitized_paragraphs if p.doc_index not in consumed_indices_set
-        ]
+        # 리스트 문단도 이후 후처리에서 활용할 수 있도록 제거하지 않는다.
+        final_sanitized_paragraphs = list(sanitized_paragraphs)
 
         sanitized_tables = self.table_sanitizer.apply(tables_from_parser, sanitized_paragraphs)
 

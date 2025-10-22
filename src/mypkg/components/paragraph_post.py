@@ -264,6 +264,7 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
         table: Dict[str, Any],
         path: str,
         processed_rows: Optional[List[List[Dict[str, Any]]]] = None,
+        preceding_text: str = "",
     ) -> List[Dict[str, Any]]:
         results: List[Dict[str, Any]] = []
         if processed_rows is None:
@@ -318,6 +319,7 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
                 "bold_texts": [],
                 "table_tid": tid,
                 "images": unique_images,
+                "preceding_text": preceding_text,
             }
 
         allow_pairing = not (table.get("is_rowheader") and table.get("is_colheader"))
@@ -508,22 +510,22 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
             flush_list_group()
             update_current_path()
             processed_rows = preprocess_table_cells(payload)
+            preceding_norm = normalize_text(payload.get("preceding_text") or "")
             if not payload.get("has_borders", True):
-                preceding = normalize_text(payload.get("preceding_text") or "")
                 table_text = table_cells_to_text(payload)
-                if table_text or preceding:
+                if table_text or preceding_norm:
                     doc_idx = payload.get("doc_index")
                     table_no_border_contexts.append(
                         {
                             "path": current_path or "",
                             "context": table_text,
-                            "preceding_text": preceding,
+                            "preceding_text": preceding_norm,
                             "doc_index": doc_idx,
                             "bold_texts": [],
                             "table_tid": payload.get("tid"),
                         }
                     )
-            image_contexts = extract_table_image_contexts(payload, current_path or "", processed_rows)
+            image_contexts = extract_table_image_contexts(payload, current_path or "", processed_rows, preceding_norm)
             if image_contexts:
                 table_image_contexts.extend(image_contexts)
             
@@ -565,6 +567,7 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
                                 "context": line,
                                 "table_html": payload.get("table_html"),
                                 "row_index": idx,
+                                "preceding_text": preceding_norm,
                             }
                         )
 

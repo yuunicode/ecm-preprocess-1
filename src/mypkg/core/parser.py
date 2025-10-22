@@ -49,6 +49,9 @@ class TableCellRecord:
     vMerge: Optional[str] = None  # 행 병합(vMerge) 상태 ('restart' 또는 None)
     inline_images: List[str] = field(default_factory=list)  # 셀에 포함된 이미지 rId 목록
     bg_color: Optional[str] = None  # 셀 배경색(hex) - 예: '#D9D9D9'
+    has_explicit_bg: bool = False  # 문서에서 직접 지정된 배경색이 있는지 여부
+    explicit_bg_color: Optional[str] = None  # 직접 지정된 배경색 (없으면 None)
+    style_bg_color: Optional[str] = None  # 테이블 스타일로부터 내려온 배경색
 
 @dataclass
 class TableRecord:

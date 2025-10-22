@@ -43,6 +43,9 @@ class TableSanitizer:
             matrix = [[self.blank for _ in range(C)] for _ in range(R)]
             image_matrix = [[[] for _ in range(C)] for _ in range(R)]
             color_matrix = [[None for _ in range(C)] for _ in range(R)]
+            style_color_matrix = [[None for _ in range(C)] for _ in range(R)]
+            explicit_color_matrix = [[None for _ in range(C)] for _ in range(R)]
+            has_explicit_matrix = [[False for _ in range(C)] for _ in range(R)]
             vflags = [[None for _ in range(C)] for _ in range(R)]  # 행 병합 상태 추적용 플래그
 
             anchors = []
@@ -68,7 +71,14 @@ class TableSanitizer:
                     # 매트릭스에 텍스트, 이미지, 색상 정보 채우기
                     matrix[r_idx][c_idx] = txt
                     image_matrix[r_idx][c_idx] = list(getattr(cell, "inline_images", []) or [])
-                    color_matrix[r_idx][c_idx] = getattr(cell, "bg_color", None)
+                    cell_explicit = getattr(cell, "explicit_bg_color", None)
+                    cell_style = getattr(cell, "style_bg_color", None)
+                    cell_has_explicit = bool(getattr(cell, "has_explicit_bg", False))
+                    final_color = cell_explicit if cell_has_explicit else cell_style
+                    color_matrix[r_idx][c_idx] = final_color
+                    style_color_matrix[r_idx][c_idx] = cell_style
+                    explicit_color_matrix[r_idx][c_idx] = cell_explicit
+                    has_explicit_matrix[r_idx][c_idx] = cell_has_explicit
 
                     # 열 병합(colspan) 및 행 병합(vmerge) 플래그 처리
                     for off in range(colspan):
@@ -78,7 +88,10 @@ class TableSanitizer:
                         if off > 0: # 병합된 추가 셀은 빈 값으로 채움
                             matrix[r_idx][cc] = self.blank
                             image_matrix[r_idx][cc] = list(getattr(cell, "inline_images", []) or [])
-                            color_matrix[r_idx][cc] = getattr(cell, "bg_color", None)
+                            color_matrix[r_idx][cc] = final_color
+                            style_color_matrix[r_idx][cc] = cell_style
+                            explicit_color_matrix[r_idx][cc] = cell_explicit
+                            has_explicit_matrix[r_idx][cc] = cell_has_explicit
                         if vmerge:
                             vflags[r_idx][cc] = vmerge
 
@@ -112,6 +125,9 @@ class TableSanitizer:
                 # 계산된 rowspan, colspan에 따라 모든 병합된 셀에 데이터 복사
                 base_images = list(image_matrix[r0][c0])
                 base_color = color_matrix[r0][c0]
+                base_style_color = style_color_matrix[r0][c0]
+                base_explicit_color = explicit_color_matrix[r0][c0]
+                base_has_explicit = has_explicit_matrix[r0][c0]
                 for rr in range(r0, min(R, r0 + rowspan)):
                     for off in range(colspan):
                         cc = c0 + off
@@ -119,6 +135,9 @@ class TableSanitizer:
                             matrix[rr][cc] = text
                             image_matrix[rr][cc] = list(base_images)
                             color_matrix[rr][cc] = base_color
+                            style_color_matrix[rr][cc] = base_style_color
+                            explicit_color_matrix[rr][cc] = base_explicit_color
+                            has_explicit_matrix[rr][cc] = base_has_explicit
 
             # --- 4. 최종 데이터 구조 생성 ---
             cell_data_matrix = []
@@ -129,6 +148,9 @@ class TableSanitizer:
                         "text": str(matrix[r][c]) if matrix[r][c] is not None else self.blank,
                         "images": image_matrix[r][c],
                         "color": color_matrix[r][c],
+                        "style_color": style_color_matrix[r][c],
+                        "explicit_color": explicit_color_matrix[r][c],
+                        "has_explicit_color": has_explicit_matrix[r][c],
                     })
                 cell_data_matrix.append(row_data)
 
