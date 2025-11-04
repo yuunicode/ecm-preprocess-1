@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from pathlib import Path
-from typing import Dict, Any
 import json
+from pathlib import Path
+from typing import Any, Dict
 
 
 # General FS helpers
@@ -32,6 +32,31 @@ def write_json_output(data: Dict[str, Any], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def project_root() -> Path:
+    """`mypkg` 모듈 위치를 기준으로 프로젝트 루트를 반환한다."""
+    return _project_root_from_mypkg()
+
+
+def datasets_root() -> Path:
+    """프로젝트 루트의 형제 디렉터리 `_datasets` 경로를 반환한다."""
+    return (project_root().parent / "_datasets").resolve()
+
+
+def ecminer_docx_root() -> Path:
+    """`_datasets/ecminer` DOCX 소스 디렉터리 경로를 반환한다."""
+    return datasets_root() / "ecminer"
+
+
+def default_output_root_path() -> Path:
+    """프로젝트 루트 하위 기본 출력 루트(`output/`) 경로를 반환한다."""
+    return project_root() / "output"
+
+
+def default_processed_root_path() -> Path:
+    """기본 processed 출력 루트(`output/processed`) 경로를 반환한다."""
+    return default_output_root_path() / "processed"
 
 
 def _project_root_from_mypkg() -> Path:

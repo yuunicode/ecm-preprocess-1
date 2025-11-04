@@ -10,16 +10,22 @@ from mypkg.core.io import (
     load_available_components_from_sanitized,
     meta_path_from_sanitized,
     load_json,
+    ensure_dir,
+    default_processed_root_path,
+    ecminer_docx_root,
 )
 from mypkg.pipelines.docx_parsing_pipeline import DocxParsingPipeline
+
+DATASET_DOCX_ROOT = ecminer_docx_root()
+DEFAULT_PROCESSED_ROOT = default_processed_root_path()
 
 def parse_args():
     ap = argparse.ArgumentParser(description="Raw DOCX → Sanitized → Components → DocJSON | 또는 중간 산출물(inspect) 확인")
     
     # 실행 모드 공용 옵션 (run/inspect에서 일부만 사용)
-    ap.add_argument("raw", help="원시 DOCX 파일 경로 또는 디렉터리 경로")
+    ap.add_argument("raw", help=f"원시 DOCX 파일 또는 디렉터리 경로 (기본 소스: {DATASET_DOCX_ROOT})")
     ap.add_argument("--version", default="v0", help="출력 버전 태그 (기본: v0)")
-    ap.add_argument("--processed-root", default="./data_store/processed", help="processed 루트 디렉터리 (기본: ./data_store/processed)")
+    ap.add_argument("--processed-root", default=str(DEFAULT_PROCESSED_ROOT), help=f"processed 루트 디렉터리 (기본: {DEFAULT_PROCESSED_ROOT})")
     
     # 디렉터리 처리 모드: 전체 또는 하나 선택(비대화식)
     grp = ap.add_mutually_exclusive_group()
@@ -70,6 +76,22 @@ def _find_sanitized_from_base_dir(base_dir: Path) -> Path | None:
     # 최신 수정 시각 우선
     cands.sort(key=lambda p: p.stat().st_mtime, reverse=True)
     return cands[0].resolve()
+
+
+def _resolve_raw_input(raw_value: str) -> Path | None:
+    """사용자 입력 경로를 실제 DOCX/디렉터리 경로로 해석한다."""
+    raw_path = Path(raw_value)
+    if raw_path.exists():
+        return raw_path.resolve()
+
+    if DATASET_DOCX_ROOT.is_dir():
+        candidate = DATASET_DOCX_ROOT / raw_path
+        if candidate.exists():
+            return candidate.resolve()
+        picked = _resolve_one_from_dir(DATASET_DOCX_ROOT, raw_value)
+        if picked:
+            return picked
+    return None
 
 def _print_path_exists(label: str, p: Path):
     print(f"{label}: {'exists' if p.exists() else 'missing'}  {p}")
@@ -174,7 +196,14 @@ def main():
         return 2
 
     processed_root = Path(a.processed_root).resolve()
-    raw_path = Path(a.raw).resolve()
+    ensure_dir(processed_root)
+
+    raw_path = _resolve_raw_input(a.raw)
+    if raw_path is None:
+        dataset_hint = DATASET_DOCX_ROOT if DATASET_DOCX_ROOT.exists() else "지정한 DOCX 디렉터리"
+        print(f"error: 입력 경로가 존재하지 않습니다: {a.raw}", file=sys.stderr)
+        print(f"hint: `_datasets/ecminer` 내의 파일 또는 디렉터리를 지정해 보세요 ({dataset_hint})", file=sys.stderr)
+        return 2
     if not raw_path.exists():
         print(f"error: 입력 경로가 존재하지 않습니다: {raw_path}", file=sys.stderr)
         return 2
