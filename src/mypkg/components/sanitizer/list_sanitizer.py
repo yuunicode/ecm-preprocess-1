@@ -50,11 +50,15 @@ def default_list_formatter(title: str, items: List[str]) -> str:
 
 class ListSanitizer:
     """
-    "List Bullet" 스타일의 문단들을 그룹화하여 단일 리스트 컴포넌트로 변환하는 정제기입니다.
+    대표적인 리스트 스타일(예: "List Bullet", "List Number", "List Paragraph", "List Continue")의 문단을
+    그룹화하여 단일 리스트 컴포넌트로 변환하는 정제기입니다.
     """
 
-    _LIST_STYLE_CANDIDATES = {"List Bullet", "List Number"}
+    _LIST_STYLE_PREFIXES = tuple(
+        s.lower() for s in ("List Bullet", "List Number", "List Paragraph", "List Continue")
+    )
     _TITLE_STYLE_CANDIDATE = "소제목2"
+    _PRECEDING_LOOKBACK = 3
 
     def __init__(self, formatter: FormatFunc | None = None) -> None:
         """
@@ -95,8 +99,8 @@ class ListSanitizer:
             if first_doc_index is None:
                 continue
 
-            # 리스트의 제목이 될 수 있는 이전 문단 탐색
-            title_text = self._find_title_for_group(first_doc_index, by_doc_index)
+            # 리스트의 제목 및 주변 컨텍스트 추출
+            title_text, preceding_texts = self._collect_preceding_context(first_doc_index, by_doc_index)
 
             items = [p.text.strip() for p in group if p.text]
             formatted_text = self.formatter(title_text, items)
@@ -104,11 +108,14 @@ class ListSanitizer:
             # 그룹 내 모든 문단의 메타데이터를 병합
             source_indices, merged_attrs = self._merge_group_attributes(group)
 
+            component_style = self._normalize_style(first_para.style) or "List"
+
             components.append(
                 {
                     "text": formatted_text,
                     "doc_index": first_doc_index,
-                    "style": "List Bullet",
+                    "style": component_style,
+                    "preceding_texts": preceding_texts,
                     "source_doc_indices": sorted(source_indices),
                     **merged_attrs,
                 }
@@ -135,7 +142,11 @@ class ListSanitizer:
 
     def _is_list_style(self, style: str | None) -> bool:
         """주어진 스타일이 리스트 스타일인지 확인합니다."""
-        return self._normalize_style(style) in self._LIST_STYLE_CANDIDATES
+        normalized = self._normalize_style(style)
+        if not normalized:
+            return False
+        lowered = normalized.lower()
+        return any(lowered.startswith(prefix) for prefix in self._LIST_STYLE_PREFIXES)
 
     def _collect_bullet_groups(
         self,
@@ -181,31 +192,45 @@ class ListSanitizer:
                 i += 1
         return groups
 
-    def _find_title_for_group(
+    def _collect_preceding_context(
         self,
         first_doc_index: int,
         by_doc_index: Dict[int, ParagraphRecord],
-    ) -> str:
-        """리스트 그룹의 시작 인덱스를 기준으로 이전 문단에서 제목을 탐색합니다."""
-        # 리스트 바로 앞 1~2개 문단을 제목 후보로 간주
-        for offset in (1, 2):
+    ) -> Tuple[str, List[str]]:
+        """
+        리스트 그룹의 시작 인덱스를 기준으로 제목 후보와 주변 컨텍스트(직전 문단들)를 수집합니다.
+        """
+        collected: List[Tuple[int, str]] = []
+        title_text = ""
+
+        for offset in range(1, self._PRECEDING_LOOKBACK + 1):
             prev_para = by_doc_index.get(first_doc_index - offset)
             if not prev_para:
                 continue
 
-            # 이미지가 포함되거나 텍스트가 없는 문단은 제목에서 제외
             text = (prev_para.text or "").strip()
-            if not text or prev_para.image_included or text.startswith("[image:"):
+            if (
+                not text
+                or prev_para.image_included
+                or text.startswith("[image:")
+                or self._is_list_style(prev_para.style)
+            ):
                 continue
 
-            # '소제목2' 스타일을 가진 문단을 우선적으로 제목으로 선택
-            if self._normalize_style(prev_para.style) == self._TITLE_STYLE_CANDIDATE:
-                return text
+            doc_index = prev_para.doc_index
+            if doc_index is None:
+                continue
 
-        # '소제목2'가 없을 경우, 가장 가까운 유효한 텍스트 문단을 제목으로 고려 (단, 여기서는 더 간단하게 처리)
-        # 현재 로직에서는 '소제목2'만 명시적으로 찾고, 없으면 빈 제목을 반환.
-        # 필요 시, 더 복잡한 제목 추론 로직 추가 가능.
-        return ""
+            collected.append((doc_index, text))
+
+            normalized_style = self._normalize_style(prev_para.style)
+            if not title_text and normalized_style == self._TITLE_STYLE_CANDIDATE:
+                title_text = text
+
+        collected.sort(key=lambda item: item[0])
+        preceding_texts = [text for _, text in collected]
+
+        return title_text, preceding_texts
 
     def _merge_group_attributes(
         self,
