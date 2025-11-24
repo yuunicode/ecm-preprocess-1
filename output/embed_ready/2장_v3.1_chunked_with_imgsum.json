@@ -1,0 +1,237 @@
+[
+  {
+    "Context": "This content is about the section Stream.\n\nECMiner™ allows for easy and convenient analytical model by connecting Nodes into a Stream.\nStream is the series of connected nodes, from data loading to the output node. This stream represents a workflow map for data analytics, allowing for easy modifications during execution.\nA brief example for Principal component analysis (ex. PCA):\n\n1. Load data (Input data: production data)\n\n2. Data preprocessing (Missing Value, Type Change, etc.)\n\n3. Principal component analysis (PCA)\n\n4. Control Charts for the principal component\n\n[image:rId7]\n\n[Image:rId7] The image represents a data flow diagram for an ECMiner data mining process, where production deviation data is loaded, missing values are handled, type changes occur, PCA is applied, and the results are displayed in a control chart.",
+    "Context_id": "2장_v3.1_sanitized::chunk_0001",
+    "Is_image": true,
+    "Image_ids": [
+      "rId7"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream"
+    ],
+    "Section_length": 1,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration.\n\nA stream is set up to connect nodes which you choose in each step of data analysis.\n\n1. Pull down nodes (Input data, Preprocessing, Chart, Modeling, Output)\n\n2. Edit node properties\n\n3. Connect node (right-click the mouse and choose 'Connect' to link to the next node)",
+    "Context_id": "2장_v3.1_sanitized::chunk_0002",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Create nodes.\n\nPull down nodes in the working project window.\n[image:rId8]\n[image:rId9]\nUser can add or drop a node in the current project.\n\n[Image:rId8] The image shows an ECMiner data mining workflow with nodes for loading, preprocessing, modeling, and evaluating data. The workflow includes steps like ranking rows, standardizing columns, handling missing values, type changes, PCA, and control charts to analyze production deviation data.\n\n[Image:rId9] The image shows an ECMiner data mining workflow with nodes for loading, standardizing, handling missing values, changing data types, performing PCA, and displaying results. The main purpose is to preprocess and analyze production deviation data using statistical techniques.",
+    "Context_id": "2장_v3.1_sanitized::chunk_0003",
+    "Is_image": true,
+    "Image_ids": [
+      "rId8",
+      "rId9"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Create nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Connect nodes.\n\nRight-click the mouse, choose 'Connect' and drag the arrow to the next node. [image:rId10]\nIn Project window, you can manage node connections. [image:rId11]\nAlternatively, select the node and press the middle mouse button (wheel).\n[image:rId12]\nHolding the middle button, move the mouse pointer to the node you want to connect to, and then release the button.\n\n[Image:rId10] The image shows a screenshot of the ECMiner data mining software, specifically within a project named \"Project1.\" The user is interacting with a context menu that includes options like \"Load,\" \"Connect,\" \"Add Node,\" and various file operations such as \"Cut,\" \"Copy,\" \"Paste,\" and \"Delete.\"\n\n[Image:rId11] The image shows a data flow diagram in ECMiner, a data mining software, where data is processed through various steps: standardization, handling missing values, type change, PCA (Principal Component Analysis), and finally displaying results.\n\n[Image:rId12] The image shows an ECMiner project workflow for analyzing production deviation data, including loading, standardizing, handling missing values, type changing, PCA, and controlling charts, with instructions to connect nodes using the middle mouse button.",
+    "Context_id": "2장_v3.1_sanitized::chunk_0004",
+    "Is_image": true,
+    "Image_ids": [
+      "rId10",
+      "rId11",
+      "rId12"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connect nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Disconnect nodes.\n\nTo disconnect nodes, right-click the mouse and select \"Disconnect\".\n[image:rId13]\n\n[Image:rId13] The image shows an interface from ECMiner, a data mining software, where a user is interacting with a project named \"Project1.\" The main purpose appears to be managing data connections and transformations. The user is disconnecting a node labeled \"production_deviation,\" which likely refers to a dataset or variable in their analysis",
+    "Context_id": "2장_v3.1_sanitized::chunk_0005",
+    "Is_image": true,
+    "Image_ids": [
+      "rId13"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Disconnect nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Remove nodes.\n\nTo remove a node, click \"Delete\".\n[image:rId14]\n\n[Image:rId14] The image shows a data mining project in ECMiner, where a \"production_deviation\" file is being processed through a series of steps: loading data, handling missing values, and changing data types. The user interface allows for adding, connecting, executing, cutting, copying, pasting, deleting, and saving model",
+    "Context_id": "2장_v3.1_sanitized::chunk_0006",
+    "Is_image": true,
+    "Image_ids": [
+      "rId14"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Remove nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Edit node properties.\n\nDouble-click the node that you want to revise or modify, and change the option of the node property.\n[image:rId15]\n\n[Image:rId15] The image shows an ECMiner project with nodes for loading data, handling missing values, standardizing variables, changing variable types, performing PCA, and displaying results. The focus is on preparing and analyzing production deviation data to identify patterns and trends using statistical techniques.",
+    "Context_id": "2장_v3.1_sanitized::chunk_0007",
+    "Is_image": true,
+    "Image_ids": [
+      "rId15"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Edit node properties"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Connectivity of nodes.\n\nConsider the following guidelines when configuring your stream:\n\n1) Nodes generally have one input and can have multiple outputs.2) However, Merge, Add, and Column Combiner nodes are exceptions, as they can accept multiple inputs.3) Chart and Output nodes are output-only nodes that generate results, so they cannot serve as inputs to other nodes.\n\nECMiner™ provides visual indicators to show how it works\n\n[Table:t52]\n\n[Image:rId18] The image shows the ECMiner software interface, specifically the \"Data Mining\" tab. It displays various options for data analysis, including \"Load Data,\" \"Run Analysis,\" and \"Save Results.\" The highlighted section indicates that the user is currently viewing or selecting data files to analyze. This screen is used for managing and\n\n[Image:rId26] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays a dataset with two columns labeled \"X\" and \"Y,\" indicating that the user can perform various mining operations on this data to extract patterns and insights.\n\n[Image:rId39]\n\n[Image:rId21]\n\n[Image:rId34] The image shows the ECMiner software interface, specifically the \"Mining\" tab. It displays a list of mined datasets with their respective file sizes and download links. The red flag icon indicates an error or warning related to the dataset.\n\n[Image:rId42] The image shows the ECMiner software interface, specifically the \"Data Mining\" tab. It displays a dataset with columns labeled \"ID,\" \"Feature1,\" \"Feature2,\" and \"Label.\" The goal is to analyze and mine patterns within the dataset for predictive modeling purposes.\n\n[Image:rId47]\n\n[Image:rId50] The image shows the ECMiner software interface, specifically the \"Data Mining\" tab. It displays a dataset with columns for \"ID,\" \"Feature1,\" \"Feature2,\" and \"Label.\" The goal is to analyze and mine patterns within the dataset using machine learning algorithms.\n\n[Image:rId17]\n\n[Image:rId25]\n\n[Image:rId33]\n\n[Image:rId38] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays a dataset with various columns and rows, likely representing different variables or attributes in a dataset. The interface includes options for filtering, sorting, and visualizing data, allowing users to explore patterns and relationships within the data efficiently\n\n[Image:rId46] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays a dataset with various columns and rows, indicating that the user is working on extracting patterns or relationships within the data. The red highlighted areas suggest specific data points or features that might be of interest for further analysis or visualization\n\n[Image:rId16] The image shows the \"Load\" button in ECMiner, a data mining software tool, indicating that it is used to import or load data into the software for analysis.\n\n[Image:rId20] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The goal is to extract valuable insights and patterns from large datasets efficiently.\n\n[Image:rId29]\n\n[Image:rId41]\n\n[Image:rId24] The image shows the main interface of ECMiner, a data mining software used for analyzing large datasets. It displays options for selecting data sources, setting parameters, and viewing results, with a focus on statistical analysis tools. The interface is designed to help users efficiently mine and analyze data for insights and patterns.\n\n[Image:rId32] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring mining parameters, such as selecting datasets, choosing algorithms, and adjusting parameters like batch size and number of threads. The goal is to extract valuable insights from large datasets by applying machine learning techniques\n\n[Image:rId37]\n\n[Image:rId40] The image shows the \"Load\" button in ECMiner, a data mining software, indicating that it allows users to import data files for analysis. The pixelated design suggests an older version of the software.\n\n[Image:rId45]\n\n[Image:rId23]\n\n[Image:rId28] The image shows the \"Load\" button in ECMiner, a data mining software, indicating that it allows users to import data files for analysis. The floppy disk icon suggests loading external datasets into the software for further processing and exploration.\n\n[Image:rId36] The image shows the main interface of ECMiner, a data mining software, with options to select datasets, choose algorithms, and view results. It's used for analyzing large datasets to find patterns and insights.\n\n[Image:rId49]\n\n[Image:rId19]\n\n[Image:rId31]\n\n[Image:rId44] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays a grid with colored circles representing data points, likely for visualizing patterns or clusters in the dataset. The software aims to help users identify meaningful relationships and insights within large datasets efficiently.\n\n[Image:rId22] The image shows the ECMiner software interface, specifically the \"Data Mining\" tab. It displays a dataset with various columns, including \"ID,\" \"Name,\" \"Age,\" and \"Gender.\" The goal is to analyze and mine patterns within this dataset for insights or predictions.\n\n[Image:rId27]\n\n[Image:rId30] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The goal is to extract valuable insights from large datasets by identifying patterns and correlations.\n\n[Image:rId35]\n\n[Image:rId43]\n\n[Image:rId48] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like algorithm selection, data source, and output format. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.\n\n[Image:rId51]",
+    "Context_id": "2장_v3.1_sanitized::chunk_0008",
+    "Is_image": true,
+    "Image_ids": [
+      "rId18",
+      "rId26",
+      "rId39",
+      "rId21",
+      "rId34",
+      "rId42",
+      "rId47",
+      "rId50",
+      "rId17",
+      "rId25",
+      "rId33",
+      "rId38",
+      "rId46",
+      "rId16",
+      "rId20",
+      "rId29",
+      "rId41",
+      "rId24",
+      "rId32",
+      "rId37",
+      "rId40",
+      "rId45",
+      "rId23",
+      "rId28",
+      "rId36",
+      "rId49",
+      "rId19",
+      "rId31",
+      "rId44",
+      "rId22",
+      "rId27",
+      "rId30",
+      "rId35",
+      "rId43",
+      "rId48",
+      "rId51"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t52"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration Rules.\n\nThe stream set-up rules:\n\nA stream includes input, preprocessing, modeling, and output node. Each node is connected to the next, constructing a stream. You may add or remove a node.\n\nImport data from a file, make some modifications, and then save the file. You may modify configuration stream in \"File Reader -> Derived Column -> File Writer”\n\nIf there are multiple streams in the Project window, ECMiner™ determines the order of their execution. Streams are executed sequentially, beginning with the first one in order.\n\nIf node property is not correctly specified, it will not execute. If you have error message, then correct the node property.\n\nIn a stream, nodes can have one-to-many connections. This means a node can receive data from a single source but can send data to multiple nodes.",
+    "Context_id": "2장_v3.1_sanitized::chunk_0009",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.2 Stream Configuration Rules"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Execution.\n\nTo run a stream, select \"Stream > Execute\" or \"Stream > Part Execute\" from the main menu.\n[image:rId52]\n\n[Image:rId52] The image illustrates the workflow of an ECMiner data mining software, showing how data is loaded, transformed, split, analyzed using various models like QDA, MLR, RandomForests, and CART, and finally displayed for analysis. The process aims to detect production deviations and segment customers.\n\nSelect [Stream (S)] > [Execute] from the main menu or press F5 to execute all streams (1) through (4).\n\nSelect [Stream (S)] > [Execute] if you want to run a part of the stream, for example, node 1 (Split node). To continue running another part, such as node 2 (RandomForests node), select 'Part Execute' again.",
+    "Context_id": "2장_v3.1_sanitized::chunk_0010",
+    "Is_image": true,
+    "Image_ids": [
+      "rId52"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Execution, focusing on Folder Execute.\n\nThis feature allows you to repeatedly execute the same project on multiple files of the same format within a specific folder. You can run it as follows:\n\n(1) Create the project you want to execute in the workspace.\n\n[image:rId53] (2) Select [Menu] > [Stream (S)] > [Folder Execute].\n\n[Image:rId53] The image represents a data processing workflow in ECMiner, showing steps for loading data, filtering columns, changing data types, and saving processed data.\n\n[image:rId54]\n\n[Image:rId54] The image shows the \"Folder Execute\" option in the ECMiner x64 software, which is used to execute operations on multiple files or folders within a project.\n\n(3) Folder Execute Window will appear as shown below.\n\n[image:rId55]\n\n[Image:rId55] The image shows the \"Folder Execute\" window in ECMiner, where users can specify input folder paths, filter options for file extensions and names, and set input/output settings for node operations. The interface allows for importing and exporting data, with options to delete output nodes during execution.\n\n(4) Follow the following steps to set the options for the Folder Execute.\n\n[Table:t79]\n\nNote. Folder Execution Option\n\n[image:rId56]\n\n[Image:rId56] The image shows the \"Folder Execution Option\" window in ECMiner, where users can configure log settings for data mining operations, including file path, rotation, archiving method, logging level, time zone, and format. The temporary folder is set to a specific location, and various log properties are configured with default values\n\n[Table:t83]",
+    "Context_id": "2장_v3.1_sanitized::chunk_0011",
+    "Is_image": true,
+    "Image_ids": [
+      "rId53",
+      "rId54",
+      "rId55",
+      "rId56"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t79",
+      "t83"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution",
+      "Folder Execute"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  }
+]

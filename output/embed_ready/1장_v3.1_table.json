@@ -1,0 +1,644 @@
+[
+  {
+    "Context": "This table is about the section 1.1 System Requirements > Recommended System Requirements. \nTitle: Recommended System Requirements \nRows: row 1, column 1 = CPU; row 1, column 2 = Intel® Core i5 or higher; row 2, column 1 = Memory; row 2, column 2 = 16 Gbytes or more; row 3, column 1 = Operating System; row 3, column 2 = Windows 10 or higher; row 4, column 1 = Hard Disk space; row 4, column 2 = 3.5 Gbytes + Free space at least 2x the amount of data to be analyzed",
+    "Context_id": "1장_v3.1_table::t21::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t21"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.1 System Requirements",
+      "Recommended System Requirements"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">CPU</td>\n    <td style=\"background-color: #f2f2f2;\">Intel® Core i5 or higher</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Memory</td>\n    <td>16 Gbytes or more</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Operating System</td>\n    <td>Windows 10 or higher</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Hard Disk space</td>\n    <td>3.5 Gbytes + Free space at least 2x the amount of data to be analyzed</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t21"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.1 System Requirements > System Minimum Requirements. \nTitle: System Minimum Requirements \nRows: row 1, column 1 = CPU; row 1, column 2 = Intel® Core 2 Duo 2.4 GHz; row 2, column 1 = Memory; row 2, column 2 = 4 Gbytes; row 3, column 1 = Operating System; row 3, column 2 = Windows 8 or higher; row 4, column 1 = Hard Disk space; row 4, column 2 = 3.5 Gbytes + Free space at least 2x the amount of data to be analyzed",
+    "Context_id": "1장_v3.1_table::t24::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t24"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.1 System Requirements",
+      "System Minimum Requirements"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">CPU</td>\n    <td style=\"background-color: #f2f2f2;\">Intel® Core 2 Duo 2.4 GHz</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Memory</td>\n    <td>4 Gbytes</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Operating System</td>\n    <td>Windows 8 or higher</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Hard Disk space</td>\n    <td>3.5 Gbytes + Free space at least 2x the amount of data to be analyzed</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t24"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > Main Window. \nRows: row 1, column 1 = Num.; row 1, column 2 = Window name; row 1, column 3 = Window name; row 1, column 4 = Description; row 2, column 1 = (1); row 2, column 2 = Menu; row 2, column 3 = Menu; row 2, column 4 = Creating/editing/saving project and files; row 3, column 1 = (2); row 3, column 2 = Node; row 3, column 3 = Node; row 3, column 4 = Node for ‘Data’, ‘Chart’, “Modeling’, ‘Output’ and ‘Model Evaluation’. Data loading (data input), data manipulation to filter, derive variables and define indep. & dep. variables.; row 4, column 1 = (3); row 4, column 2 = ResourceWindow; row 4, column 3 = Resource Menu; row 4, column 4 = The resource window displays with Local, Model, and Output. Local displays the list of the current working folder. Model stores the current data analytical node. Output stores the results of executing the current project.; row 5, column 1 = (4); row 5, column 2 = ; row 5, column 3 = ResourceList; row 5, column 4 = The window displays the contents of the selected menu (Local, Model, Output) in the Resource menu.",
+    "Context_id": "1장_v3.1_table::t59::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t59"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "Main Window"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Num.</th>\n    <th colspan=\"2\" style=\"background-color: #f2f2f2;\">Window name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(1)</th>\n    <td colspan=\"2\">Menu</td>\n    <td>Creating/editing/saving project and files</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(2)</th>\n    <td colspan=\"2\">Node</td>\n    <td>Node for ‘Data’, ‘Chart’, “Modeling’, ‘Output’ and ‘Model Evaluation’. Data loading (data input), data manipulation to filter, derive variables and define indep. &amp; dep. variables.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(3)</th>\n    <td>ResourceWindow</td>\n    <td>Resource Menu</td>\n    <td>The resource window displays with Local, Model, and Output. Local displays the list of the current working folder. Model stores the current data analytical node. Output stores the results of executing the current project.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(4)</th>\n    <td></td>\n    <td>ResourceList</td>\n    <td>The window displays the contents of the selected menu (Local, Model, Output) in the Resource menu.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(5)</th>\n    <td colspan=\"2\">Workspace</td>\n    <td>Working space for data handling and model configuration</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(6)</th>\n    <td colspan=\"2\">Node Property</td>\n    <td>Information for data and model specification and output at each node</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(7)</th>\n    <td colspan=\"2\">Message</td>\n    <td>Log messages about errors and process information</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(8)</th>\n    <td colspan=\"2\">Dynamic Help</td>\n    <td>The help for the node properties</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t59"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > Main Window. \nHeader candidates: row 1, column 1 = Num.; row 1, column 2 = Window name; row 1, column 3 = Window name; row 1, column 4 = Description \nRows: row 6, column 1 = (5); row 6, column 2 = Workspace; row 6, column 3 = Workspace; row 6, column 4 = Working space for data handling and model configuration; row 7, column 1 = (6); row 7, column 2 = Node Property; row 7, column 3 = Node Property; row 7, column 4 = Information for data and model specification and output at each node; row 8, column 1 = (7); row 8, column 2 = Message; row 8, column 3 = Message; row 8, column 4 = Log messages about errors and process information; row 9, column 1 = (8); row 9, column 2 = Dynamic Help; row 9, column 3 = Dynamic Help; row 9, column 4 = The help for the node properties",
+    "Context_id": "1장_v3.1_table::t59::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t59"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "Main Window"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Num.</th>\n    <th colspan=\"2\" style=\"background-color: #f2f2f2;\">Window name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(1)</th>\n    <td colspan=\"2\">Menu</td>\n    <td>Creating/editing/saving project and files</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(2)</th>\n    <td colspan=\"2\">Node</td>\n    <td>Node for ‘Data’, ‘Chart’, “Modeling’, ‘Output’ and ‘Model Evaluation’. Data loading (data input), data manipulation to filter, derive variables and define indep. &amp; dep. variables.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(3)</th>\n    <td>ResourceWindow</td>\n    <td>Resource Menu</td>\n    <td>The resource window displays with Local, Model, and Output. Local displays the list of the current working folder. Model stores the current data analytical node. Output stores the results of executing the current project.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(4)</th>\n    <td></td>\n    <td>ResourceList</td>\n    <td>The window displays the contents of the selected menu (Local, Model, Output) in the Resource menu.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(5)</th>\n    <td colspan=\"2\">Workspace</td>\n    <td>Working space for data handling and model configuration</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(6)</th>\n    <td colspan=\"2\">Node Property</td>\n    <td>Information for data and model specification and output at each node</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(7)</th>\n    <td colspan=\"2\">Message</td>\n    <td>Log messages about errors and process information</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(8)</th>\n    <td colspan=\"2\">Dynamic Help</td>\n    <td>The help for the node properties</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t59"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.1 Menu. \nRows: row 1, column 1 = Project(P); row 1, column 2 = Edit(E); row 2, column 1 = [image:rId21]; row 2, column 2 = [image:rId22]; row 3, column 1 = View(V); row 3, column 2 = Stream(S); row 4, column 1 = Determines the visibility of the Toolbar, various windows, and the Status bar. [image:rId23]; row 4, column 2 = [image:rId24]; row 5, column 1 = Extension(A); row 5, column 2 = Window(W)",
+    "Context_id": "1장_v3.1_table::t65::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t65"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Project(P)</th>\n    <th style=\"background-color: #f2f2f2;\">Edit(E)</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">[image:rId21]</td>\n    <td>[image:rId22]</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">View(V)</td>\n    <td style=\"background-color: #f2f2f2;\">Stream(S)</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Determines the visibility of the Toolbar, various windows, and the Status bar. [image:rId23]</td>\n    <td>[image:rId24]</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Extension(A)</td>\n    <td style=\"background-color: #f2f2f2;\">Window(W)</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">You can perform Design of Experiments (DOE) and Probability Distribution analysis, etc. [image:rId25]</td>\n    <td>[image:rId26]</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Help(H)</td>\n    <td style=\"background-color: #f2f2f2;\">Tool(T)</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">[image:rId27]</td>\n    <td>[image:rId28]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t65"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.1 Menu. \nHeader candidates: row 1, column 1 = Project(P); row 1, column 2 = Edit(E) \nRows: row 6, column 1 = You can perform Design of Experiments (DOE) and Probability Distribution analysis, etc. [image:rId25]; row 6, column 2 = [image:rId26]; row 7, column 1 = Help(H); row 7, column 2 = Tool(T); row 8, column 1 = [image:rId27]; row 8, column 2 = [image:rId28]",
+    "Context_id": "1장_v3.1_table::t65::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t65"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Project(P)</th>\n    <th style=\"background-color: #f2f2f2;\">Edit(E)</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">[image:rId21]</td>\n    <td>[image:rId22]</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">View(V)</td>\n    <td style=\"background-color: #f2f2f2;\">Stream(S)</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Determines the visibility of the Toolbar, various windows, and the Status bar. [image:rId23]</td>\n    <td>[image:rId24]</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Extension(A)</td>\n    <td style=\"background-color: #f2f2f2;\">Window(W)</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">You can perform Design of Experiments (DOE) and Probability Distribution analysis, etc. [image:rId25]</td>\n    <td>[image:rId26]</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Help(H)</td>\n    <td style=\"background-color: #f2f2f2;\">Tool(T)</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">[image:rId27]</td>\n    <td>[image:rId28]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t65"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.1 Menu. \nRows: row 1, column 1 = [image:rId29] [image:rId30]; row 1, column 2 = Program Settings; row 1, column 3 = Setting for Date/Time Format, Reading Data, Designate File Extensions to Display on Resource Window; row 2, column 1 = [image:rId31] [image:rId32]; row 2, column 2 = Default Database Setting; row 2, column 3 = Set the default driver and login information for ODBC or OLE DB.; row 3, column 1 = [image:rId33] [image:rId34]; row 3, column 2 = Edit Frequently Used Nodes; row 3, column 3 = Add or delete the most used nodes.",
+    "Context_id": "1장_v3.1_table::t68::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t68"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId29] [image:rId30]</td>\n    <td>Program Settings</td>\n    <td>Setting for Date/Time Format, Reading Data, Designate File Extensions to Display on Resource Window</td>\n  </tr>\n  <tr>\n    <td>[image:rId31] [image:rId32]</td>\n    <td>Default Database Setting</td>\n    <td>Set the default driver and login information for ODBC or OLE DB.</td>\n  </tr>\n  <tr>\n    <td>[image:rId33] [image:rId34]</td>\n    <td>Edit Frequently Used Nodes</td>\n    <td>Add or delete the most used nodes.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t68"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.1 Menu > Tool Bar. \nTitle: Tool Bar \nRows: row 1, column 1 = [image:rId35] [image:rId36]; row 1, column 2 = New (Ctrl + N); row 1, column 3 = [image:rId37] [image:rId38]; row 1, column 4 = Open (Ctrl + O); row 2, column 1 = [image:rId39] [image:rId40]; row 2, column 2 = Save (Ctrl + S); row 2, column 3 = [image:rId41] [image:rId42]; row 2, column 4 = Cut; row 3, column 1 = [image:rId43] [image:rId44]; row 3, column 2 = Copy; row 3, column 3 = [image:rId45] [image:rId46]; row 3, column 4 = Paste; row 4, column 1 = [image:rId47] [image:rId48]; row 4, column 2 = Delete; row 4, column 3 = [image:rId49] [image:rId50]; row 4, column 4 = Print (Ctrl + P); row 5, column 1 = [image:rId51] [image:rId52]; row 5, column 2 = Execute (F5); row 5, column 3 = [image:rId53] [image:rId54]; row 5, column 4 = Stop Execution (Shift + F5)",
+    "Context_id": "1장_v3.1_table::t72::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t72"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId35] [image:rId36]</th>\n    <td style=\"background-color: #f2f2f2;\">New (Ctrl + N)</td>\n    <td style=\"background-color: #f2f2f2;\">[image:rId37] [image:rId38]</td>\n    <td style=\"background-color: #f2f2f2;\">Open (Ctrl + O)</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId39] [image:rId40]</th>\n    <td>Save (Ctrl + S)</td>\n    <td>[image:rId41] [image:rId42]</td>\n    <td>Cut</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId43] [image:rId44]</th>\n    <td>Copy</td>\n    <td>[image:rId45] [image:rId46]</td>\n    <td>Paste</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId47] [image:rId48]</th>\n    <td>Delete</td>\n    <td>[image:rId49] [image:rId50]</td>\n    <td>Print (Ctrl + P)</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId51] [image:rId52]</th>\n    <td>Execute (F5)</td>\n    <td>[image:rId53] [image:rId54]</td>\n    <td>Stop Execution (Shift + F5)</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId55] [image:rId56]</th>\n    <td>Part Execute (Ctrl + F5)</td>\n    <td>[image:rId57] [image:rId58]</td>\n    <td>Data Browser</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId59] [image:rId60]</th>\n    <td>About</td>\n    <td></td>\n    <td>User Help</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t72"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.1 Menu > Tool Bar. \nTitle: Tool Bar \nHeader candidates: row 1, column 1 = [image:rId35] [image:rId36]; row 1, column 2 = New (Ctrl + N); row 1, column 3 = [image:rId37] [image:rId38]; row 1, column 4 = Open (Ctrl + O) \nRows: row 6, column 1 = [image:rId55] [image:rId56]; row 6, column 2 = Part Execute (Ctrl + F5); row 6, column 3 = [image:rId57] [image:rId58]; row 6, column 4 = Data Browser; row 7, column 1 = [image:rId59] [image:rId60]; row 7, column 2 = About; row 7, column 3 = ; row 7, column 4 = User Help",
+    "Context_id": "1장_v3.1_table::t72::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t72"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId35] [image:rId36]</th>\n    <td style=\"background-color: #f2f2f2;\">New (Ctrl + N)</td>\n    <td style=\"background-color: #f2f2f2;\">[image:rId37] [image:rId38]</td>\n    <td style=\"background-color: #f2f2f2;\">Open (Ctrl + O)</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId39] [image:rId40]</th>\n    <td>Save (Ctrl + S)</td>\n    <td>[image:rId41] [image:rId42]</td>\n    <td>Cut</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId43] [image:rId44]</th>\n    <td>Copy</td>\n    <td>[image:rId45] [image:rId46]</td>\n    <td>Paste</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId47] [image:rId48]</th>\n    <td>Delete</td>\n    <td>[image:rId49] [image:rId50]</td>\n    <td>Print (Ctrl + P)</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId51] [image:rId52]</th>\n    <td>Execute (F5)</td>\n    <td>[image:rId53] [image:rId54]</td>\n    <td>Stop Execution (Shift + F5)</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId55] [image:rId56]</th>\n    <td>Part Execute (Ctrl + F5)</td>\n    <td>[image:rId57] [image:rId58]</td>\n    <td>Data Browser</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId59] [image:rId60]</th>\n    <td>About</td>\n    <td></td>\n    <td>User Help</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t72"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.2 Node. \nRows: row 1, column 1 = Classification; row 1, column 2 = Description; row 2, column 1 = Most used nodes; row 2, column 2 = Frequently used nodes. Add or exclude in ‘Most used nodes’ in Tool’s options; row 3, column 1 = Input Node; row 3, column 2 = Load data; row 4, column 1 = Preprocessing Node; row 4, column 2 = Data manipulation nodes for filtering, sorting, and splitting.; row 5, column 1 = Chart Node; row 5, column 2 = Graphics for data visualization",
+    "Context_id": "1장_v3.1_table::t80::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t80"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.2 Node"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Classification</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Most used nodes</td>\n    <td>Frequently used nodes. Add or exclude in ‘Most used nodes’ in Tool’s options</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Input Node</td>\n    <td>Load data</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Preprocessing Node</td>\n    <td>Data manipulation nodes for filtering, sorting, and splitting.</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Chart Node</td>\n    <td>Graphics for data visualization</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Modeling Node</td>\n    <td>Analytical techniques for prediction, classification, clustering, and AI algorithms</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Output Node</td>\n    <td>Save a DB or file</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Model Evaluation Node</td>\n    <td>Model evaluation, ROC chart</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t80"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.2 Node. \nHeader candidates: row 1, column 1 = Classification; row 1, column 2 = Description \nRows: row 6, column 1 = Modeling Node; row 6, column 2 = Analytical techniques for prediction, classification, clustering, and AI algorithms; row 7, column 1 = Output Node; row 7, column 2 = Save a DB or file; row 8, column 1 = Model Evaluation Node; row 8, column 2 = Model evaluation, ROC chart",
+    "Context_id": "1장_v3.1_table::t80::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t80"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.2 Node"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Classification</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Most used nodes</td>\n    <td>Frequently used nodes. Add or exclude in ‘Most used nodes’ in Tool’s options</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Input Node</td>\n    <td>Load data</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Preprocessing Node</td>\n    <td>Data manipulation nodes for filtering, sorting, and splitting.</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Chart Node</td>\n    <td>Graphics for data visualization</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Modeling Node</td>\n    <td>Analytical techniques for prediction, classification, clustering, and AI algorithms</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Output Node</td>\n    <td>Save a DB or file</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Model Evaluation Node</td>\n    <td>Model evaluation, ROC chart</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t80"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.3 Project Window > Nodes. \nTitle: Various types of icons for different tasks. \nRows: row 1, column 1 = ICON; row 1, column 2 = Type; row 1, column 3 = Underline; row 2, column 1 = [image:rId66] [image:rId67]; row 2, column 2 = Input Node; row 2, column 3 = Circle; row 3, column 1 = [image:rId68] [image:rId69]; row 3, column 2 = Preprocessing Node; row 3, column 3 = Hexagon; row 4, column 1 = [image:rId70] [image:rId71]; row 4, column 2 = Chart Node; row 4, column 3 = Rhombus; row 5, column 1 = [image:rId72] [image:rId73]; row 5, column 2 = Modeling Node; row 5, column 3 = Trapezoid",
+    "Context_id": "1장_v3.1_table::t95::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t95"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">ICON</th>\n    <th style=\"background-color: #f2f2f2;\">Type</th>\n    <th style=\"background-color: #f2f2f2;\">Underline</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId66] [image:rId67]</th>\n    <td>Input Node</td>\n    <td>Circle</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId68] [image:rId69]</th>\n    <td>Preprocessing Node</td>\n    <td>Hexagon</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId70] [image:rId71]</th>\n    <td>Chart Node</td>\n    <td>Rhombus</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId72] [image:rId73]</th>\n    <td>Modeling Node</td>\n    <td>Trapezoid</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId74] [image:rId75]</th>\n    <td>Output Node, Model Evaluation Node</td>\n    <td>Rectangle</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId76] [image:rId77]</th>\n    <td>Model Node</td>\n    <td>Diamond</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t95"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.3 Project Window > Nodes. \nTitle: Various types of icons for different tasks. \nHeader candidates: row 1, column 1 = ICON; row 1, column 2 = Type; row 1, column 3 = Underline \nRows: row 6, column 1 = [image:rId74] [image:rId75]; row 6, column 2 = Output Node, Model Evaluation Node; row 6, column 3 = Rectangle; row 7, column 1 = [image:rId76] [image:rId77]; row 7, column 2 = Model Node; row 7, column 3 = Diamond",
+    "Context_id": "1장_v3.1_table::t95::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t95"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">ICON</th>\n    <th style=\"background-color: #f2f2f2;\">Type</th>\n    <th style=\"background-color: #f2f2f2;\">Underline</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId66] [image:rId67]</th>\n    <td>Input Node</td>\n    <td>Circle</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId68] [image:rId69]</th>\n    <td>Preprocessing Node</td>\n    <td>Hexagon</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId70] [image:rId71]</th>\n    <td>Chart Node</td>\n    <td>Rhombus</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId72] [image:rId73]</th>\n    <td>Modeling Node</td>\n    <td>Trapezoid</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId74] [image:rId75]</th>\n    <td>Output Node, Model Evaluation Node</td>\n    <td>Rectangle</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId76] [image:rId77]</th>\n    <td>Model Node</td>\n    <td>Diamond</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t95"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.6 Resource Window -Local > Resource List. \nRows: row 1, column 1 = ICON; row 1, column 2 = Description; row 2, column 1 = [image:rId93] [image:rId94]; row 2, column 2 = Displays all types of files specified in the ECMiner™ options.; row 3, column 1 = [image:rId95] [image:rId96]; row 3, column 2 = Data files, which are *.ecl files.; row 4, column 1 = [image:rId97] [image:rId98]; row 4, column 2 = Model files (*.gms) created in ECMiner™.; row 5, column 1 = [image:rId99] [image:rId100]; row 5, column 2 = ECMiner™ project files (*.ecm).",
+    "Context_id": "1장_v3.1_table::t160::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t160"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">ICON</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId93] [image:rId94]</th>\n    <td>Displays all types of files specified in the ECMiner™ options.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId95] [image:rId96]</th>\n    <td>Data files, which are *.ecl files.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId97] [image:rId98]</th>\n    <td>Model files (*.gms) created in ECMiner™.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId99] [image:rId100]</th>\n    <td>ECMiner™ project files (*.ecm).</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t160"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.8 Resource Window -Output > Output toolbar. \nRows: row 1, column 1 = NOTE Since the output of the Display Node is generated as data, it should be saved as a data file(*.ecl) rather than as an output file (*.ept). Therefore, you must use the save button within the Display Node screen to save the output. [image:rId121]",
+    "Context_id": "1장_v3.1_table::t209::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t209"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">NOTE Since the output of the Display Node is generated as data, it should be saved as a data file(*.ecl) rather than as an output file (*.ept). Therefore, you must use the save button within the Display Node screen to save the output. [image:rId121]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t209"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.9 Message Window > Type of Messages. \nTitle: The types of messages can be categorized into five categories, differentiated by color as follows: \nRows: row 1, column 1 = Num.; row 1, column 2 = color; row 1, column 3 = content; row 2, column 1 = 1; row 2, column 2 = ; row 2, column 3 = General Message; row 3, column 1 = 2; row 3, column 2 = ; row 3, column 3 = Emphasized message.; row 4, column 1 = 3; row 4, column 2 = ; row 4, column 3 = General Error Message; row 5, column 1 = 4; row 5, column 2 = ; row 5, column 3 = Critical Error Message",
+    "Context_id": "1장_v3.1_table::t217::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t217"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.9 Message Window",
+      "Type of Messages"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Num.</th>\n    <th style=\"background-color: #f2f2f2;\">color</th>\n    <th style=\"background-color: #f2f2f2;\">content</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">1</th>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>General Message</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">2</th>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Emphasized message.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">3</th>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>General Error Message</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">4</th>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Critical Error Message</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">5</th>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Note Message</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t217"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.9 Message Window > Type of Messages. \nTitle: The types of messages can be categorized into five categories, differentiated by color as follows: \nHeader candidates: row 1, column 1 = Num.; row 1, column 2 = color; row 1, column 3 = content \nRows: row 6, column 1 = 5; row 6, column 2 = ; row 6, column 3 = Note Message",
+    "Context_id": "1장_v3.1_table::t217::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t217"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.9 Message Window",
+      "Type of Messages"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Num.</th>\n    <th style=\"background-color: #f2f2f2;\">color</th>\n    <th style=\"background-color: #f2f2f2;\">content</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">1</th>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>General Message</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">2</th>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Emphasized message.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">3</th>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>General Error Message</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">4</th>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Critical Error Message</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">5</th>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Note Message</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t217"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.3 User Interface > 1.3.11 Window Control > Reposition. \nRows: row 1, column 1 = NOTE If the mouse is released outside of the direction icon, the control window will open independently. The position of the workspace cannot be changed.",
+    "Context_id": "1장_v3.1_table::t245::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t245"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Reposition"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">NOTE If the mouse is released outside of the direction icon, the control window will open independently. The position of the workspace cannot be changed.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t245"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.5 Shortcut key. \nTitle: The shortcut key is shown in the table. F5 is for ‘execute’ and Ctrl & S is for ‘save’ and so on. \nRows: row 1, column 1 = Shortcut; row 1, column 2 = function; row 1, column 3 = Shortcut; row 1, column 4 = function; row 2, column 1 = Ctrl + N; row 2, column 2 = New; row 2, column 3 = Alt + V, T; row 2, column 4 = Toolbar; row 3, column 1 = Ctrl + O; row 3, column 2 = Open; row 3, column 3 = Alt + V, T, S; row 3, column 4 = Standard Toolbar; row 4, column 1 = Ctrl + S; row 4, column 2 = Save; row 4, column 3 = Alt + V, T, N; row 4, column 4 = Node; row 5, column 1 = Ctrl + P; row 5, column 2 = Print; row 5, column 3 = Alt + V, T, P; row 5, column 4 = Node Properties",
+    "Context_id": "1장_v3.1_table::t273::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t273"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.5 Shortcut key"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Shortcut</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n    <th style=\"background-color: #f2f2f2;\">Shortcut</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + N</td>\n    <td>New</td>\n    <td>Alt + V, T</td>\n    <td>Toolbar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + O</td>\n    <td>Open</td>\n    <td>Alt + V, T, S</td>\n    <td>Standard Toolbar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + S</td>\n    <td>Save</td>\n    <td>Alt + V, T, N</td>\n    <td>Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + P</td>\n    <td>Print</td>\n    <td>Alt + V, T, P</td>\n    <td>Node Properties</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">F5</td>\n    <td>Execute</td>\n    <td>Alt + V, T, E</td>\n    <td>Resource Window</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Shift + F5</td>\n    <td>Stop Execution</td>\n    <td>Alt + V, T, H</td>\n    <td>Dynamic Help</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + F5</td>\n    <td>Part Execute</td>\n    <td>Alt + V, S</td>\n    <td>Status Bar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P</td>\n    <td>Project</td>\n    <td>Alt + V, E</td>\n    <td>Data Browser</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, N</td>\n    <td>New</td>\n    <td>Alt + S</td>\n    <td>Stream</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, O</td>\n    <td>Open</td>\n    <td>Alt + S, A</td>\n    <td>Add Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, C</td>\n    <td>Close</td>\n    <td>Alt + S, C</td>\n    <td>Connect Upon Creating Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, S</td>\n    <td>Save</td>\n    <td>Alt + S, N</td>\n    <td>Connect</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, A</td>\n    <td>Save As</td>\n    <td>Alt + S, L</td>\n    <td>Disconnect</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, P</td>\n    <td>Print</td>\n    <td>Alt + S, R</td>\n    <td>Execute</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, V</td>\n    <td>Print Preview</td>\n    <td>Alt + S, S</td>\n    <td>Stop Execution</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, R</td>\n    <td>Print Setting</td>\n    <td>Alt + S, N</td>\n    <td>Part Execute</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, X</td>\n    <td>Exit</td>\n    <td>Alt + T</td>\n    <td>Tool</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E</td>\n    <td>Edit</td>\n    <td>Alt + T, O</td>\n    <td>Option</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, T</td>\n    <td>Cut</td>\n    <td>Alt + T, I</td>\n    <td>Initialize Program Environment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, C</td>\n    <td>Copy</td>\n    <td>Alt + W</td>\n    <td>Window</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, P</td>\n    <td>Paste</td>\n    <td>Alt + W, C</td>\n    <td>Cascade Alignment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, D</td>\n    <td>Delete</td>\n    <td>Alt + W, T</td>\n    <td>Grid Alignment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + V</td>\n    <td>View</td>\n    <td>Alt + H</td>\n    <td>Help</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + V, T, M</td>\n    <td>Message</td>\n    <td>Alt + H, A</td>\n    <td>ECMiner™ Info</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t273"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.5 Shortcut key. \nTitle: The shortcut key is shown in the table. F5 is for ‘execute’ and Ctrl & S is for ‘save’ and so on. \nHeader candidates: row 1, column 1 = Shortcut; row 1, column 2 = function; row 1, column 3 = Shortcut; row 1, column 4 = function \nRows: row 6, column 1 = F5; row 6, column 2 = Execute; row 6, column 3 = Alt + V, T, E; row 6, column 4 = Resource Window; row 7, column 1 = Shift + F5; row 7, column 2 = Stop Execution; row 7, column 3 = Alt + V, T, H; row 7, column 4 = Dynamic Help; row 8, column 1 = Ctrl + F5; row 8, column 2 = Part Execute; row 8, column 3 = Alt + V, S; row 8, column 4 = Status Bar; row 9, column 1 = Alt + P; row 9, column 2 = Project; row 9, column 3 = Alt + V, E; row 9, column 4 = Data Browser; row 10, column 1 = Alt + P, N; row 10, column 2 = New; row 10, column 3 = Alt + S; row 10, column 4 = Stream",
+    "Context_id": "1장_v3.1_table::t273::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t273"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.5 Shortcut key"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Shortcut</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n    <th style=\"background-color: #f2f2f2;\">Shortcut</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + N</td>\n    <td>New</td>\n    <td>Alt + V, T</td>\n    <td>Toolbar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + O</td>\n    <td>Open</td>\n    <td>Alt + V, T, S</td>\n    <td>Standard Toolbar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + S</td>\n    <td>Save</td>\n    <td>Alt + V, T, N</td>\n    <td>Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + P</td>\n    <td>Print</td>\n    <td>Alt + V, T, P</td>\n    <td>Node Properties</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">F5</td>\n    <td>Execute</td>\n    <td>Alt + V, T, E</td>\n    <td>Resource Window</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Shift + F5</td>\n    <td>Stop Execution</td>\n    <td>Alt + V, T, H</td>\n    <td>Dynamic Help</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + F5</td>\n    <td>Part Execute</td>\n    <td>Alt + V, S</td>\n    <td>Status Bar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P</td>\n    <td>Project</td>\n    <td>Alt + V, E</td>\n    <td>Data Browser</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, N</td>\n    <td>New</td>\n    <td>Alt + S</td>\n    <td>Stream</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, O</td>\n    <td>Open</td>\n    <td>Alt + S, A</td>\n    <td>Add Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, C</td>\n    <td>Close</td>\n    <td>Alt + S, C</td>\n    <td>Connect Upon Creating Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, S</td>\n    <td>Save</td>\n    <td>Alt + S, N</td>\n    <td>Connect</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, A</td>\n    <td>Save As</td>\n    <td>Alt + S, L</td>\n    <td>Disconnect</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, P</td>\n    <td>Print</td>\n    <td>Alt + S, R</td>\n    <td>Execute</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, V</td>\n    <td>Print Preview</td>\n    <td>Alt + S, S</td>\n    <td>Stop Execution</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, R</td>\n    <td>Print Setting</td>\n    <td>Alt + S, N</td>\n    <td>Part Execute</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, X</td>\n    <td>Exit</td>\n    <td>Alt + T</td>\n    <td>Tool</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E</td>\n    <td>Edit</td>\n    <td>Alt + T, O</td>\n    <td>Option</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, T</td>\n    <td>Cut</td>\n    <td>Alt + T, I</td>\n    <td>Initialize Program Environment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, C</td>\n    <td>Copy</td>\n    <td>Alt + W</td>\n    <td>Window</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, P</td>\n    <td>Paste</td>\n    <td>Alt + W, C</td>\n    <td>Cascade Alignment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, D</td>\n    <td>Delete</td>\n    <td>Alt + W, T</td>\n    <td>Grid Alignment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + V</td>\n    <td>View</td>\n    <td>Alt + H</td>\n    <td>Help</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + V, T, M</td>\n    <td>Message</td>\n    <td>Alt + H, A</td>\n    <td>ECMiner™ Info</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t273"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.5 Shortcut key. \nTitle: The shortcut key is shown in the table. F5 is for ‘execute’ and Ctrl & S is for ‘save’ and so on. \nHeader candidates: row 1, column 1 = Shortcut; row 1, column 2 = function; row 1, column 3 = Shortcut; row 1, column 4 = function \nRows: row 11, column 1 = Alt + P, O; row 11, column 2 = Open; row 11, column 3 = Alt + S, A; row 11, column 4 = Add Node; row 12, column 1 = Alt + P, C; row 12, column 2 = Close; row 12, column 3 = Alt + S, C; row 12, column 4 = Connect Upon Creating Node; row 13, column 1 = Alt + P, S; row 13, column 2 = Save; row 13, column 3 = Alt + S, N; row 13, column 4 = Connect; row 14, column 1 = Alt + P, A; row 14, column 2 = Save As; row 14, column 3 = Alt + S, L; row 14, column 4 = Disconnect; row 15, column 1 = Alt + P, P; row 15, column 2 = Print; row 15, column 3 = Alt + S, R; row 15, column 4 = Execute",
+    "Context_id": "1장_v3.1_table::t273::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t273"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.5 Shortcut key"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Shortcut</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n    <th style=\"background-color: #f2f2f2;\">Shortcut</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + N</td>\n    <td>New</td>\n    <td>Alt + V, T</td>\n    <td>Toolbar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + O</td>\n    <td>Open</td>\n    <td>Alt + V, T, S</td>\n    <td>Standard Toolbar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + S</td>\n    <td>Save</td>\n    <td>Alt + V, T, N</td>\n    <td>Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + P</td>\n    <td>Print</td>\n    <td>Alt + V, T, P</td>\n    <td>Node Properties</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">F5</td>\n    <td>Execute</td>\n    <td>Alt + V, T, E</td>\n    <td>Resource Window</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Shift + F5</td>\n    <td>Stop Execution</td>\n    <td>Alt + V, T, H</td>\n    <td>Dynamic Help</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + F5</td>\n    <td>Part Execute</td>\n    <td>Alt + V, S</td>\n    <td>Status Bar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P</td>\n    <td>Project</td>\n    <td>Alt + V, E</td>\n    <td>Data Browser</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, N</td>\n    <td>New</td>\n    <td>Alt + S</td>\n    <td>Stream</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, O</td>\n    <td>Open</td>\n    <td>Alt + S, A</td>\n    <td>Add Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, C</td>\n    <td>Close</td>\n    <td>Alt + S, C</td>\n    <td>Connect Upon Creating Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, S</td>\n    <td>Save</td>\n    <td>Alt + S, N</td>\n    <td>Connect</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, A</td>\n    <td>Save As</td>\n    <td>Alt + S, L</td>\n    <td>Disconnect</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, P</td>\n    <td>Print</td>\n    <td>Alt + S, R</td>\n    <td>Execute</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, V</td>\n    <td>Print Preview</td>\n    <td>Alt + S, S</td>\n    <td>Stop Execution</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, R</td>\n    <td>Print Setting</td>\n    <td>Alt + S, N</td>\n    <td>Part Execute</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, X</td>\n    <td>Exit</td>\n    <td>Alt + T</td>\n    <td>Tool</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E</td>\n    <td>Edit</td>\n    <td>Alt + T, O</td>\n    <td>Option</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, T</td>\n    <td>Cut</td>\n    <td>Alt + T, I</td>\n    <td>Initialize Program Environment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, C</td>\n    <td>Copy</td>\n    <td>Alt + W</td>\n    <td>Window</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, P</td>\n    <td>Paste</td>\n    <td>Alt + W, C</td>\n    <td>Cascade Alignment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, D</td>\n    <td>Delete</td>\n    <td>Alt + W, T</td>\n    <td>Grid Alignment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + V</td>\n    <td>View</td>\n    <td>Alt + H</td>\n    <td>Help</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + V, T, M</td>\n    <td>Message</td>\n    <td>Alt + H, A</td>\n    <td>ECMiner™ Info</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t273"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.5 Shortcut key. \nTitle: The shortcut key is shown in the table. F5 is for ‘execute’ and Ctrl & S is for ‘save’ and so on. \nHeader candidates: row 1, column 1 = Shortcut; row 1, column 2 = function; row 1, column 3 = Shortcut; row 1, column 4 = function \nRows: row 16, column 1 = Alt + P, V; row 16, column 2 = Print Preview; row 16, column 3 = Alt + S, S; row 16, column 4 = Stop Execution; row 17, column 1 = Alt + P, R; row 17, column 2 = Print Setting; row 17, column 3 = Alt + S, N; row 17, column 4 = Part Execute; row 18, column 1 = Alt + P, X; row 18, column 2 = Exit; row 18, column 3 = Alt + T; row 18, column 4 = Tool; row 19, column 1 = Alt + E; row 19, column 2 = Edit; row 19, column 3 = Alt + T, O; row 19, column 4 = Option; row 20, column 1 = Alt + E, T; row 20, column 2 = Cut; row 20, column 3 = Alt + T, I; row 20, column 4 = Initialize Program Environment",
+    "Context_id": "1장_v3.1_table::t273::chunk_4",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t273"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.5 Shortcut key"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Shortcut</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n    <th style=\"background-color: #f2f2f2;\">Shortcut</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + N</td>\n    <td>New</td>\n    <td>Alt + V, T</td>\n    <td>Toolbar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + O</td>\n    <td>Open</td>\n    <td>Alt + V, T, S</td>\n    <td>Standard Toolbar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + S</td>\n    <td>Save</td>\n    <td>Alt + V, T, N</td>\n    <td>Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + P</td>\n    <td>Print</td>\n    <td>Alt + V, T, P</td>\n    <td>Node Properties</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">F5</td>\n    <td>Execute</td>\n    <td>Alt + V, T, E</td>\n    <td>Resource Window</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Shift + F5</td>\n    <td>Stop Execution</td>\n    <td>Alt + V, T, H</td>\n    <td>Dynamic Help</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + F5</td>\n    <td>Part Execute</td>\n    <td>Alt + V, S</td>\n    <td>Status Bar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P</td>\n    <td>Project</td>\n    <td>Alt + V, E</td>\n    <td>Data Browser</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, N</td>\n    <td>New</td>\n    <td>Alt + S</td>\n    <td>Stream</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, O</td>\n    <td>Open</td>\n    <td>Alt + S, A</td>\n    <td>Add Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, C</td>\n    <td>Close</td>\n    <td>Alt + S, C</td>\n    <td>Connect Upon Creating Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, S</td>\n    <td>Save</td>\n    <td>Alt + S, N</td>\n    <td>Connect</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, A</td>\n    <td>Save As</td>\n    <td>Alt + S, L</td>\n    <td>Disconnect</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, P</td>\n    <td>Print</td>\n    <td>Alt + S, R</td>\n    <td>Execute</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, V</td>\n    <td>Print Preview</td>\n    <td>Alt + S, S</td>\n    <td>Stop Execution</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, R</td>\n    <td>Print Setting</td>\n    <td>Alt + S, N</td>\n    <td>Part Execute</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, X</td>\n    <td>Exit</td>\n    <td>Alt + T</td>\n    <td>Tool</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E</td>\n    <td>Edit</td>\n    <td>Alt + T, O</td>\n    <td>Option</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, T</td>\n    <td>Cut</td>\n    <td>Alt + T, I</td>\n    <td>Initialize Program Environment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, C</td>\n    <td>Copy</td>\n    <td>Alt + W</td>\n    <td>Window</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, P</td>\n    <td>Paste</td>\n    <td>Alt + W, C</td>\n    <td>Cascade Alignment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, D</td>\n    <td>Delete</td>\n    <td>Alt + W, T</td>\n    <td>Grid Alignment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + V</td>\n    <td>View</td>\n    <td>Alt + H</td>\n    <td>Help</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + V, T, M</td>\n    <td>Message</td>\n    <td>Alt + H, A</td>\n    <td>ECMiner™ Info</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t273"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.5 Shortcut key. \nTitle: The shortcut key is shown in the table. F5 is for ‘execute’ and Ctrl & S is for ‘save’ and so on. \nHeader candidates: row 1, column 1 = Shortcut; row 1, column 2 = function; row 1, column 3 = Shortcut; row 1, column 4 = function \nRows: row 21, column 1 = Alt + E, C; row 21, column 2 = Copy; row 21, column 3 = Alt + W; row 21, column 4 = Window; row 22, column 1 = Alt + E, P; row 22, column 2 = Paste; row 22, column 3 = Alt + W, C; row 22, column 4 = Cascade Alignment; row 23, column 1 = Alt + E, D; row 23, column 2 = Delete; row 23, column 3 = Alt + W, T; row 23, column 4 = Grid Alignment; row 24, column 1 = Alt + V; row 24, column 2 = View; row 24, column 3 = Alt + H; row 24, column 4 = Help; row 25, column 1 = Alt + V, T, M; row 25, column 2 = Message; row 25, column 3 = Alt + H, A; row 25, column 4 = ECMiner™ Info",
+    "Context_id": "1장_v3.1_table::t273::chunk_5",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t273"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.5 Shortcut key"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Shortcut</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n    <th style=\"background-color: #f2f2f2;\">Shortcut</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + N</td>\n    <td>New</td>\n    <td>Alt + V, T</td>\n    <td>Toolbar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + O</td>\n    <td>Open</td>\n    <td>Alt + V, T, S</td>\n    <td>Standard Toolbar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + S</td>\n    <td>Save</td>\n    <td>Alt + V, T, N</td>\n    <td>Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + P</td>\n    <td>Print</td>\n    <td>Alt + V, T, P</td>\n    <td>Node Properties</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">F5</td>\n    <td>Execute</td>\n    <td>Alt + V, T, E</td>\n    <td>Resource Window</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Shift + F5</td>\n    <td>Stop Execution</td>\n    <td>Alt + V, T, H</td>\n    <td>Dynamic Help</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Ctrl + F5</td>\n    <td>Part Execute</td>\n    <td>Alt + V, S</td>\n    <td>Status Bar</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P</td>\n    <td>Project</td>\n    <td>Alt + V, E</td>\n    <td>Data Browser</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, N</td>\n    <td>New</td>\n    <td>Alt + S</td>\n    <td>Stream</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, O</td>\n    <td>Open</td>\n    <td>Alt + S, A</td>\n    <td>Add Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, C</td>\n    <td>Close</td>\n    <td>Alt + S, C</td>\n    <td>Connect Upon Creating Node</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, S</td>\n    <td>Save</td>\n    <td>Alt + S, N</td>\n    <td>Connect</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, A</td>\n    <td>Save As</td>\n    <td>Alt + S, L</td>\n    <td>Disconnect</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, P</td>\n    <td>Print</td>\n    <td>Alt + S, R</td>\n    <td>Execute</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, V</td>\n    <td>Print Preview</td>\n    <td>Alt + S, S</td>\n    <td>Stop Execution</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, R</td>\n    <td>Print Setting</td>\n    <td>Alt + S, N</td>\n    <td>Part Execute</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + P, X</td>\n    <td>Exit</td>\n    <td>Alt + T</td>\n    <td>Tool</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E</td>\n    <td>Edit</td>\n    <td>Alt + T, O</td>\n    <td>Option</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, T</td>\n    <td>Cut</td>\n    <td>Alt + T, I</td>\n    <td>Initialize Program Environment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, C</td>\n    <td>Copy</td>\n    <td>Alt + W</td>\n    <td>Window</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, P</td>\n    <td>Paste</td>\n    <td>Alt + W, C</td>\n    <td>Cascade Alignment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + E, D</td>\n    <td>Delete</td>\n    <td>Alt + W, T</td>\n    <td>Grid Alignment</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + V</td>\n    <td>View</td>\n    <td>Alt + H</td>\n    <td>Help</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Alt + V, T, M</td>\n    <td>Message</td>\n    <td>Alt + H, A</td>\n    <td>ECMiner™ Info</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t273"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.6 Program Settings. \nRows: row 1, column 1 = [image:rId134] [image:rId135]; row 1, column 2 = Program Settings; row 1, column 3 = Set the program defaults for Date/Time Format, Reading Data, Designate File Extensions to Display on Resource Window, Program Look, etc.; row 2, column 1 = [image:rId136] [image:rId137]; row 2, column 2 = Default Database Setting; row 2, column 3 = Set the default driver and login information for ODBC or OLE DB.; row 3, column 1 = [image:rId138] [image:rId139]; row 3, column 2 = Edit Frequently Used Nodes; row 3, column 3 = You can add or delete the most used nodes.",
+    "Context_id": "1장_v3.1_table::t283::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t283"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId134] [image:rId135]</td>\n    <td>Program Settings</td>\n    <td>Set the program defaults for Date/Time Format, Reading Data, Designate File Extensions to Display on Resource Window, Program Look, etc.</td>\n  </tr>\n  <tr>\n    <td>[image:rId136] [image:rId137]</td>\n    <td>Default Database Setting</td>\n    <td>Set the default driver and login information for ODBC or OLE DB.</td>\n  </tr>\n  <tr>\n    <td>[image:rId138] [image:rId139]</td>\n    <td>Edit Frequently Used Nodes</td>\n    <td>You can add or delete the most used nodes.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t283"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.6 Program Settings > 1.6.1 Program Settings. \nRows: row 1, column 1 = Num.; row 1, column 2 = description; row 2, column 1 = (1); row 2, column 2 = You select the date/time display format based on the language.; row 3, column 1 = (2); row 3, column 2 = Choose this option if you want to treat all numerical data as floating-point numbers when reading data.; row 4, column 1 = (3); row 4, column 2 = Specify the types of files to be displayed in the Resource window. Enter the file extensions you want to display, separated by \";\". Extensions like ecm, ecl, ept, gms, etc., are selected by default even if not specified.; row 5, column 1 = (4); row 5, column 2 = Specify the overall look of the program. Set it to a form that is visually pleasing to the user.",
+    "Context_id": "1장_v3.1_table::t289::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t289"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.1 Program Settings"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Num.</th>\n    <th style=\"background-color: #f2f2f2;\">description</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(1)</th>\n    <td>You select the date/time display format based on the language.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(2)</th>\n    <td>Choose this option if you want to treat all numerical data as floating-point numbers when reading data.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(3)</th>\n    <td>Specify the types of files to be displayed in the Resource window. Enter the file extensions you want to display, separated by &quot;;&quot;. Extensions like ecm, ecl, ept, gms, etc., are selected by default even if not specified.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(4)</th>\n    <td>Specify the overall look of the program. Set it to a form that is visually pleasing to the user.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(5)</th>\n    <td>Specify the display format for floating-point numbers when presenting data on screen or in reports.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t289"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.6 Program Settings > 1.6.1 Program Settings. \nHeader candidates: row 1, column 1 = Num.; row 1, column 2 = description \nRows: row 6, column 1 = (5); row 6, column 2 = Specify the display format for floating-point numbers when presenting data on screen or in reports.",
+    "Context_id": "1장_v3.1_table::t289::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t289"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.1 Program Settings"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Num.</th>\n    <th style=\"background-color: #f2f2f2;\">description</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(1)</th>\n    <td>You select the date/time display format based on the language.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(2)</th>\n    <td>Choose this option if you want to treat all numerical data as floating-point numbers when reading data.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(3)</th>\n    <td>Specify the types of files to be displayed in the Resource window. Enter the file extensions you want to display, separated by &quot;;&quot;. Extensions like ecm, ecl, ept, gms, etc., are selected by default even if not specified.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(4)</th>\n    <td>Specify the overall look of the program. Set it to a form that is visually pleasing to the user.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(5)</th>\n    <td>Specify the display format for floating-point numbers when presenting data on screen or in reports.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t289"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.6 Program Settings > 1.6.2 Default Database Setting. \nRows: row 1, column 1 = Num.; row 1, column 2 = description; row 2, column 1 = (1); row 2, column 2 = Enter the database connection information for nodes related to OLE DB.; row 3, column 1 = (2); row 3, column 2 = Enter the database connection information for nodes related to ODBC.; row 4, column 1 = (3); row 4, column 2 = Selecting this option will automatically fill in the database connection information when adding nodes related to the database.",
+    "Context_id": "1장_v3.1_table::t295::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t295"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.2 Default Database Setting"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Num.</th>\n    <th style=\"background-color: #f2f2f2;\">description</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(1)</th>\n    <td>Enter the database connection information for nodes related to OLE DB.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(2)</th>\n    <td>Enter the database connection information for nodes related to ODBC.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(3)</th>\n    <td>Selecting this option will automatically fill in the database connection information when adding nodes related to the database.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t295"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.6 Program Settings > 1.6.3 Edit Frequently Used Nodes. \nRows: row 1, column 1 = Num.; row 1, column 2 = description; row 2, column 1 = (1); row 2, column 2 = All nodes supported by ECMiner™ are listed.; row 3, column 1 = (2); row 3, column 2 = (1) is used to add the selected node to \"Most used nodes\".; row 4, column 1 = (3); row 4, column 2 = To remove a node from \"Most used nodes,\" select the node to be removed at (4) and press this button.; row 5, column 1 = (4); row 5, column 2 = This is the current list of nodes added to \"Most used nodes.\"",
+    "Context_id": "1장_v3.1_table::t301::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t301"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.3 Edit Frequently Used Nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Num.</th>\n    <th style=\"background-color: #f2f2f2;\">description</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(1)</th>\n    <td>All nodes supported by ECMiner™ are listed.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(2)</th>\n    <td>(1) is used to add the selected node to &quot;Most used nodes&quot;.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(3)</th>\n    <td>To remove a node from &quot;Most used nodes,&quot; select the node to be removed at (4) and press this button.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(4)</th>\n    <td>This is the current list of nodes added to &quot;Most used nodes.&quot;</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t301"
+    }
+  },
+  {
+    "Context": "This table is about the section 1.6 Program Settings > 1.6.3 Edit Frequently Used Nodes > Function button. \nTitle: Function button \nRows: row 1, column 1 = icon; row 1, column 2 = function; row 2, column 1 = [image:rId143]; row 2, column 2 = Adds the selected node to the Most Used Nodes list.; row 3, column 1 = [image:rId144]; row 3, column 2 = Deletes the selected node from the Most Used Nodes list.",
+    "Context_id": "1장_v3.1_table::t304::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t304"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.3 Edit Frequently Used Nodes",
+      "Function button"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">icon</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId143]</th>\n    <td>Adds the selected node to the Most Used Nodes list.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId144]</th>\n    <td>Deletes the selected node from the Most Used Nodes list.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t304"
+    }
+  }
+]

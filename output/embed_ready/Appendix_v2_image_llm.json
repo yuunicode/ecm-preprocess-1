@@ -1,0 +1,257 @@
+[
+  {
+    "Context": "The image shows the Expression Editor in ECMiner, a data mining tool, where users can create and edit expressions using functions, variables, and operators to analyze data.\n\n[Table:t11]",
+    "Context_id": "Appendix_v2_image::rId8",
+    "Is_image": true,
+    "Image_ids": [
+      "rId8"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "User Interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image1.png"
+  },
+  {
+    "Context": "[Table:t16]",
+    "Context_id": "Appendix_v2_image::rId9",
+    "Is_image": true,
+    "Image_ids": [
+      "rId9"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image2.jpg"
+  },
+  {
+    "Context": "[Image:rId18]",
+    "Context_id": "Appendix_v2_image::rId13",
+    "Is_image": true,
+    "Image_ids": [
+      "rId13"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image6.jpeg"
+  },
+  {
+    "Context": "[Image:rId21]",
+    "Context_id": "Appendix_v2_image::rId26",
+    "Is_image": true,
+    "Image_ids": [
+      "rId26"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image19.jpg"
+  },
+  {
+    "Context": "[Image:rId17]",
+    "Context_id": "Appendix_v2_image::rId12",
+    "Is_image": true,
+    "Image_ids": [
+      "rId12"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image5.jpeg"
+  },
+  {
+    "Context": "[Image:rId16]",
+    "Context_id": "Appendix_v2_image::rId25",
+    "Is_image": true,
+    "Image_ids": [
+      "rId25"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image18.jpg"
+  },
+  {
+    "Context": "The image shows an expression editor in ECMiner, where a user is writing an IF-THEN-ELSE statement to conditionally replace text based on a value in cell A1. The goal is to replace values greater than 100 with 'A' and less than or equal to 100 with",
+    "Context_id": "Appendix_v2_image::rId20",
+    "Is_image": true,
+    "Image_ids": [
+      "rId20"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image13.png"
+  },
+  {
+    "Context": "[Image:rId24] The image shows a conditional statement in ECMiner, specifically an IF-THEN-ELSE block where A1 is compared to 100. If true, it assigns 'A', otherwise 'B'. The dialog box suggests moving lines, likely for editing purposes within the software.",
+    "Context_id": "Appendix_v2_image::rId11",
+    "Is_image": true,
+    "Image_ids": [
+      "rId11"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image4.jpeg"
+  },
+  {
+    "Context": "[Image:rId23]",
+    "Context_id": "Appendix_v2_image::rId15",
+    "Is_image": true,
+    "Image_ids": [
+      "rId15"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image8.jpeg"
+  },
+  {
+    "Context": "[Image:rId19]",
+    "Context_id": "Appendix_v2_image::rId10",
+    "Is_image": true,
+    "Image_ids": [
+      "rId10"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image3.jpg"
+  },
+  {
+    "Context": "[Image:rId22]",
+    "Context_id": "Appendix_v2_image::rId14",
+    "Is_image": true,
+    "Image_ids": [
+      "rId14"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image7.jpeg"
+  },
+  {
+    "Context": "Macros When you type the first character “@”, a list of available macros used in expression editing appears. [image:rId28]",
+    "Context_id": "Appendix_v2_image::rId27",
+    "Is_image": true,
+    "Image_ids": [
+      "rId27"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Useful Features"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image20.jpg"
+  },
+  {
+    "Context": "Data Field When you type the first character “{”, a list of available data fields is displayed. [image:rId29]",
+    "Context_id": "Appendix_v2_image::rId28",
+    "Is_image": true,
+    "Image_ids": [
+      "rId28"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Useful Features"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image21.jpg"
+  },
+  {
+    "Context": "Column Editing\nYou can switch to column mode by holding Alt and dragging the mouse, or by pressing Alt + Shift + Arrow keys.\n[image:rId30]\nLine Comments Add the line comment symbol (//) at the beginning of a line to comment out that line.\n[image:rId31]\nColor Coding\nString \"123\" or ‘123’ - Dark Red\nDate Type #2004-01-01# -Dark Red\nNumeric Type 123 – Black\nFunctions / IF Statements ABS() – Blue\nVariables {DATE} – Green\nOperators +, -, *, /– Dark Green\nMacros @ROWNUM – Dark Green\nComments // Extra Comments – Green\nIf there is an error in an expression or function, the part containing the error is highlighted in red in the Expression Editor window.",
+    "Context_id": "Appendix_v2_image::rId29",
+    "Is_image": true,
+    "Image_ids": [
+      "rId29"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Useful Features"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image22.jpg"
+  },
+  {
+    "Context": "[Image:rId31] The image shows a script in ECMiner's code editor, specifically checking for null values in column A4. If the value is null, it assigns 1; otherwise, it assigns 0. This script is used to handle missing data by assigning default values during data processing.",
+    "Context_id": "Appendix_v2_image::rId30",
+    "Is_image": true,
+    "Image_ids": [
+      "rId30"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Useful Features"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json",
+    "image_path": "output/processed/Appendix_v2/v0/_sanitized/_assets/image23.jpg"
+  }
+]

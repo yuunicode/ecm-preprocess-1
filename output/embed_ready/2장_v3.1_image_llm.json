@@ -1,0 +1,662 @@
+[
+  {
+    "Context": "The image represents a data flow diagram for an ECMiner data mining process, where production deviation data is loaded, missing values are handled, type changes occur, PCA is applied, and the results are displayed in a control chart.",
+    "Context_id": "2장_v3.1_image::rId7",
+    "Is_image": true,
+    "Image_ids": [
+      "rId7"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream"
+    ],
+    "Section_length": 1,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image1.png"
+  },
+  {
+    "Context": "The image shows an ECMiner data mining workflow with nodes for loading, preprocessing, modeling, and evaluating data. The workflow includes steps like ranking rows, standardizing columns, handling missing values, type changes, PCA, and control charts to analyze production deviation data.",
+    "Context_id": "2장_v3.1_image::rId8",
+    "Is_image": true,
+    "Image_ids": [
+      "rId8"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Create nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image2.png"
+  },
+  {
+    "Context": "The image shows an ECMiner data mining workflow with nodes for loading, standardizing, handling missing values, changing data types, performing PCA, and displaying results. The main purpose is to preprocess and analyze production deviation data using statistical techniques.",
+    "Context_id": "2장_v3.1_image::rId9",
+    "Is_image": true,
+    "Image_ids": [
+      "rId9"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Create nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image3.png"
+  },
+  {
+    "Context": "The image shows a screenshot of the ECMiner data mining software, specifically within a project named \"Project1.\" The user is interacting with a context menu that includes options like \"Load,\" \"Connect,\" \"Add Node,\" and various file operations such as \"Cut,\" \"Copy,\" \"Paste,\" and \"Delete.\"",
+    "Context_id": "2장_v3.1_image::rId10",
+    "Is_image": true,
+    "Image_ids": [
+      "rId10"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connect nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image4.png"
+  },
+  {
+    "Context": "The image shows a data flow diagram in ECMiner, a data mining software, where data is processed through various steps: standardization, handling missing values, type change, PCA (Principal Component Analysis), and finally displaying results.",
+    "Context_id": "2장_v3.1_image::rId11",
+    "Is_image": true,
+    "Image_ids": [
+      "rId11"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connect nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image5.png"
+  },
+  {
+    "Context": "The image shows an ECMiner project workflow for analyzing production deviation data, including loading, standardizing, handling missing values, type changing, PCA, and controlling charts, with instructions to connect nodes using the middle mouse button.",
+    "Context_id": "2장_v3.1_image::rId12",
+    "Is_image": true,
+    "Image_ids": [
+      "rId12"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connect nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image6.png"
+  },
+  {
+    "Context": "The image shows an interface from ECMiner, a data mining software, where a user is interacting with a project named \"Project1.\" The main purpose appears to be managing data connections and transformations. The user is disconnecting a node labeled \"production_deviation,\" which likely refers to a dataset or variable in their analysis",
+    "Context_id": "2장_v3.1_image::rId13",
+    "Is_image": true,
+    "Image_ids": [
+      "rId13"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Disconnect nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image7.png"
+  },
+  {
+    "Context": "The image shows a data mining project in ECMiner, where a \"production_deviation\" file is being processed through a series of steps: loading data, handling missing values, and changing data types. The user interface allows for adding, connecting, executing, cutting, copying, pasting, deleting, and saving model",
+    "Context_id": "2장_v3.1_image::rId14",
+    "Is_image": true,
+    "Image_ids": [
+      "rId14"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Remove nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image8.png"
+  },
+  {
+    "Context": "The image shows an ECMiner project with nodes for loading data, handling missing values, standardizing variables, changing variable types, performing PCA, and displaying results. The focus is on preparing and analyzing production deviation data to identify patterns and trends using statistical techniques.",
+    "Context_id": "2장_v3.1_image::rId15",
+    "Is_image": true,
+    "Image_ids": [
+      "rId15"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Edit node properties"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image9.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, specifically the \"Data Mining\" tab. It displays various options for data analysis, including \"Load Data,\" \"Run Analysis,\" and \"Save Results.\" The highlighted section indicates that the user is currently viewing or selecting data files to analyze. This screen is used for managing and",
+    "Context_id": "2장_v3.1_image::rId18",
+    "Is_image": true,
+    "Image_ids": [
+      "rId18"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image11.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays a dataset with two columns labeled \"X\" and \"Y,\" indicating that the user can perform various mining operations on this data to extract patterns and insights.",
+    "Context_id": "2장_v3.1_image::rId26",
+    "Is_image": true,
+    "Image_ids": [
+      "rId26"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image15.png"
+  },
+  {
+    "Context": "[Image:rId21]",
+    "Context_id": "2장_v3.1_image::rId39",
+    "Is_image": true,
+    "Image_ids": [
+      "rId39"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject12.bin"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, specifically the \"Mining\" tab. It displays a list of mined datasets with their respective file sizes and download links. The red flag icon indicates an error or warning related to the dataset.",
+    "Context_id": "2장_v3.1_image::rId34",
+    "Is_image": true,
+    "Image_ids": [
+      "rId34"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image19.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, specifically the \"Data Mining\" tab. It displays a dataset with columns labeled \"ID,\" \"Feature1,\" \"Feature2,\" and \"Label.\" The goal is to analyze and mine patterns within the dataset for predictive modeling purposes.",
+    "Context_id": "2장_v3.1_image::rId42",
+    "Is_image": true,
+    "Image_ids": [
+      "rId42"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image23.png"
+  },
+  {
+    "Context": "[Image:rId50] The image shows the ECMiner software interface, specifically the \"Data Mining\" tab. It displays a dataset with columns for \"ID,\" \"Feature1,\" \"Feature2,\" and \"Label.\" The goal is to analyze and mine patterns within the dataset using machine learning algorithms.",
+    "Context_id": "2장_v3.1_image::rId47",
+    "Is_image": true,
+    "Image_ids": [
+      "rId47"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject16.bin"
+  },
+  {
+    "Context": "[Image:rId25]",
+    "Context_id": "2장_v3.1_image::rId17",
+    "Is_image": true,
+    "Image_ids": [
+      "rId17"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject1.bin"
+  },
+  {
+    "Context": "[Image:rId38] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays a dataset with various columns and rows, likely representing different variables or attributes in a dataset. The interface includes options for filtering, sorting, and visualizing data, allowing users to explore patterns and relationships within the data efficiently",
+    "Context_id": "2장_v3.1_image::rId33",
+    "Is_image": true,
+    "Image_ids": [
+      "rId33"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject9.bin"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays a dataset with various columns and rows, indicating that the user is working on extracting patterns or relationships within the data. The red highlighted areas suggest specific data points or features that might be of interest for further analysis or visualization",
+    "Context_id": "2장_v3.1_image::rId46",
+    "Is_image": true,
+    "Image_ids": [
+      "rId46"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image25.png"
+  },
+  {
+    "Context": "The image shows the \"Load\" button in ECMiner, a data mining software tool, indicating that it is used to import or load data into the software for analysis.",
+    "Context_id": "2장_v3.1_image::rId16",
+    "Is_image": true,
+    "Image_ids": [
+      "rId16"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image10.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The goal is to extract valuable insights and patterns from large datasets efficiently.",
+    "Context_id": "2장_v3.1_image::rId20",
+    "Is_image": true,
+    "Image_ids": [
+      "rId20"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image12.png"
+  },
+  {
+    "Context": "[Image:rId41]",
+    "Context_id": "2장_v3.1_image::rId29",
+    "Is_image": true,
+    "Image_ids": [
+      "rId29"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject7.bin"
+  },
+  {
+    "Context": "The image shows the main interface of ECMiner, a data mining software used for analyzing large datasets. It displays options for selecting data sources, setting parameters, and viewing results, with a focus on statistical analysis tools. The interface is designed to help users efficiently mine and analyze data for insights and patterns.",
+    "Context_id": "2장_v3.1_image::rId24",
+    "Is_image": true,
+    "Image_ids": [
+      "rId24"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image14.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring mining parameters, such as selecting datasets, choosing algorithms, and adjusting parameters like batch size and number of threads. The goal is to extract valuable insights from large datasets by applying machine learning techniques",
+    "Context_id": "2장_v3.1_image::rId32",
+    "Is_image": true,
+    "Image_ids": [
+      "rId32"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image18.png"
+  },
+  {
+    "Context": "[Image:rId40] The image shows the \"Load\" button in ECMiner, a data mining software, indicating that it allows users to import data files for analysis. The pixelated design suggests an older version of the software.",
+    "Context_id": "2장_v3.1_image::rId37",
+    "Is_image": true,
+    "Image_ids": [
+      "rId37"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject11.bin"
+  },
+  {
+    "Context": "[Image:rId23]",
+    "Context_id": "2장_v3.1_image::rId45",
+    "Is_image": true,
+    "Image_ids": [
+      "rId45"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject15.bin"
+  },
+  {
+    "Context": "The image shows the \"Load\" button in ECMiner, a data mining software, indicating that it allows users to import data files for analysis. The floppy disk icon suggests loading external datasets into the software for further processing and exploration.",
+    "Context_id": "2장_v3.1_image::rId28",
+    "Is_image": true,
+    "Image_ids": [
+      "rId28"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image16.png"
+  },
+  {
+    "Context": "The image shows the main interface of ECMiner, a data mining software, with options to select datasets, choose algorithms, and view results. It's used for analyzing large datasets to find patterns and insights.",
+    "Context_id": "2장_v3.1_image::rId36",
+    "Is_image": true,
+    "Image_ids": [
+      "rId36"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image20.png"
+  },
+  {
+    "Context": "[Image:rId19]",
+    "Context_id": "2장_v3.1_image::rId49",
+    "Is_image": true,
+    "Image_ids": [
+      "rId49"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject17.bin"
+  },
+  {
+    "Context": "[Image:rId44] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays a grid with colored circles representing data points, likely for visualizing patterns or clusters in the dataset. The software aims to help users identify meaningful relationships and insights within large datasets efficiently.",
+    "Context_id": "2장_v3.1_image::rId31",
+    "Is_image": true,
+    "Image_ids": [
+      "rId31"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject8.bin"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, specifically the \"Data Mining\" tab. It displays a dataset with various columns, including \"ID,\" \"Name,\" \"Age,\" and \"Gender.\" The goal is to analyze and mine patterns within this dataset for insights or predictions.",
+    "Context_id": "2장_v3.1_image::rId22",
+    "Is_image": true,
+    "Image_ids": [
+      "rId22"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image13.png"
+  },
+  {
+    "Context": "[Image:rId30] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The goal is to extract valuable insights from large datasets by identifying patterns and correlations.",
+    "Context_id": "2장_v3.1_image::rId27",
+    "Is_image": true,
+    "Image_ids": [
+      "rId27"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject6.bin"
+  },
+  {
+    "Context": "[Image:rId43]",
+    "Context_id": "2장_v3.1_image::rId35",
+    "Is_image": true,
+    "Image_ids": [
+      "rId35"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject10.bin"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like algorithm selection, data source, and output format. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "2장_v3.1_image::rId48",
+    "Is_image": true,
+    "Image_ids": [
+      "rId48"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image26.png"
+  },
+  {
+    "Context": "",
+    "Context_id": "2장_v3.1_image::rId51",
+    "Is_image": true,
+    "Image_ids": [
+      "rId51"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject18.bin"
+  },
+  {
+    "Context": "The image illustrates the workflow of an ECMiner data mining software, showing how data is loaded, transformed, split, analyzed using various models like QDA, MLR, RandomForests, and CART, and finally displayed for analysis. The process aims to detect production deviations and segment customers.\n\nSelect [Stream (S)] > [Execute] from the main menu or press F5 to execute all streams (1) through (4).\n\nSelect [Stream (S)] > [Execute] if you want to run a part of the stream, for example, node 1 (Split node). To continue running another part, such as node 2 (RandomForests node), select 'Part Execute' again.",
+    "Context_id": "2장_v3.1_image::rId52",
+    "Is_image": true,
+    "Image_ids": [
+      "rId52"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image28.png"
+  },
+  {
+    "Context": "The image represents a data processing workflow in ECMiner, showing steps for loading data, filtering columns, changing data types, and saving processed data.\n\n[image:rId54]",
+    "Context_id": "2장_v3.1_image::rId53",
+    "Is_image": true,
+    "Image_ids": [
+      "rId53"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution",
+      "Folder Execute"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image29.png"
+  },
+  {
+    "Context": "The image shows the \"Folder Execute\" option in the ECMiner x64 software, which is used to execute operations on multiple files or folders within a project.\n\n(3) Folder Execute Window will appear as shown below.\n\n[image:rId55]",
+    "Context_id": "2장_v3.1_image::rId54",
+    "Is_image": true,
+    "Image_ids": [
+      "rId54"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution",
+      "Folder Execute"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image30.png"
+  },
+  {
+    "Context": "The image shows the \"Folder Execute\" window in ECMiner, where users can specify input folder paths, filter options for file extensions and names, and set input/output settings for node operations. The interface allows for importing and exporting data, with options to delete output nodes during execution.\n\n(4) Follow the following steps to set the options for the Folder Execute.\n\n[Table:t79]\n\nNote. Folder Execution Option\n\n[image:rId56]",
+    "Context_id": "2장_v3.1_image::rId55",
+    "Is_image": true,
+    "Image_ids": [
+      "rId55"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution",
+      "Folder Execute"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image31.png"
+  },
+  {
+    "Context": "The image shows the \"Folder Execution Option\" window in ECMiner, where users can configure log settings for data mining operations, including file path, rotation, archiving method, logging level, time zone, and format. The temporary folder is set to a specific location, and various log properties are configured with default values\n\n[Table:t83]",
+    "Context_id": "2장_v3.1_image::rId56",
+    "Is_image": true,
+    "Image_ids": [
+      "rId56"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution",
+      "Folder Execute"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "image_path": "output/processed/2장_v3.1/v0/_sanitized/_assets/image32.png"
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "Context": "The image shows the workflow for using ECMiner, starting with model definition, followed by data input, option settings, and finally results.\n\nStep 1. Model Definition\n\nSelect the neural network model to train. T here are four available models.\n\n[Table:t25]\n\nStep 2. Data Input\n\nS pecify the data type, variable type, and whether each column should be used.\n[image:rId8]",
+    "Context_id": "5장_v3_image::rId7",
+    "Is_image": true,
+    "Image_ids": [
+      "rId7"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard",
+      "5.1.1 User interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "image_path": "output/processed/5장_v3/v0/_sanitized/_assets/image1.png"
+  },
+  {
+    "Context": "The image shows the \"Data Input\" page in the AI Wizard of ECMiner, where user-defined variables are being loaded for customer churn analysis. The table lists independent variables with their types (integer, string) and usage values, indicating how these variables will be utilized in the model.\n\n[Table:t31]\n\nStep 3. Option Settings\n\nDefine the structure of the neural network. Options vary according to the chosen model. The following options are general settings for all models.\n\n[Table:t36]\n\nStep 4. Definition Results\n\nReview of the options set by the user is available, along with the neural network python code and a diagram of the neural network structure.\n\n[Table:t41]",
+    "Context_id": "5장_v3_image::rId8",
+    "Is_image": true,
+    "Image_ids": [
+      "rId8"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard",
+      "5.1.1 User interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "image_path": "output/processed/5장_v3/v0/_sanitized/_assets/image2.png"
+  },
+  {
+    "Context": "The image shows a neural network architecture in ECMiner, with an input tensor of size (1, 53) passing through linear layers, a sigmoid layer, another linear layer, and finally a ReLU layer, resulting in an output tensor of size (1, 10). This setup is used for",
+    "Context_id": "5장_v3_image::rId10",
+    "Is_image": true,
+    "Image_ids": [
+      "rId10"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard",
+      "5.1.1 User interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "image_path": "output/processed/5장_v3/v0/_sanitized/_assets/image4.png"
+  },
+  {
+    "Context": "The image shows a Python script for implementing an ECMiner model using PyTorch, which includes defining a neural network architecture with two hidden layers and early stopping criteria. The script is used for data mining tasks, likely involving machine learning algorithms to analyze and predict patterns in datasets.",
+    "Context_id": "5장_v3_image::rId9",
+    "Is_image": true,
+    "Image_ids": [
+      "rId9"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard",
+      "5.1.1 User interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "image_path": "output/processed/5장_v3/v0/_sanitized/_assets/image3.png"
+  },
+  {
+    "Context": "The image shows a data input screen in ECMiner, an AI data mining software, where users can upload images for classification training. The screen displays a list of image files categorized as 'fall' and 'normal', indicating the dataset being used for machine learning tasks to distinguish between these two categories.",
+    "Context_id": "5장_v3_image::rId12",
+    "Is_image": true,
+    "Image_ids": [
+      "rId12"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "Data Input Format"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "image_path": "output/processed/5장_v3/v0/_sanitized/_assets/image6.png"
+  },
+  {
+    "Context": "The image shows the setup screen for training a dataset in ECMiner, where users must specify the folder path containing labeled images of animals (Cat, Dog, Pig, Cow, Sheep) for training purposes.",
+    "Context_id": "5장_v3_image::rId11",
+    "Is_image": true,
+    "Image_ids": [
+      "rId11"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "Data Input Format"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "image_path": "output/processed/5장_v3/v0/_sanitized/_assets/image5.png"
+  },
+  {
+    "Context": "The image shows a screenshot of an email conversation in Korean between two individuals discussing market reactions to a new product, sales performance, and upcoming meetings. They also mention ordering additional items and planning to meet later.",
+    "Context_id": "5장_v3_image::rId13",
+    "Is_image": true,
+    "Image_ids": [
+      "rId13"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "Data Input Format"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "image_path": "output/processed/5장_v3/v0/_sanitized/_assets/image7.png"
+  }
+]

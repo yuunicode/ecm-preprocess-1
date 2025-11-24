@@ -1,0 +1,1369 @@
+[
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE.",
+    "Context_id": "6장_v3_sanitized::chunk_0001",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, focusing on Getting Started with DOE.",
+    "Context_id": "6장_v3_sanitized::chunk_0002",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.1 Getting Started with DOE"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection Getting Started with DOE, with a detailed reference to Design of Experiment (DOE).\n\nDesign of Experiment (DOE) refers to the design methods for experiments. Experimental design is the process of planning an experiment including how to collect data, selecting appropriate statistical methods for analysis, and controlling bias and variability.\nDOE is as the following procedures.\n[image:rId8]\nFirst, choose the response variable and factors, then select suitable DOE method with defined factors and levels. Experiments are conducted following the experiment plan table, and analyze data by the methods such as analysis of variance, regression analysis, residual analysis, and response optimizer methods.\n\n[Image:rId8] This screenshot shows the process flow for using ECMiner, a data mining software, to perform experimental design and analysis. It includes setting up the experimental purpose, selecting response values, choosing DOE methods, setting factors and levels, placing experiments, randomizing orders, analyzing data, executing experiments, and improving designs.",
+    "Context_id": "6장_v3_sanitized::chunk_0003",
+    "Is_image": true,
+    "Image_ids": [
+      "rId8"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.1 Getting Started with DOE",
+      "6.1.1.1 Design of Experiment (DOE)"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection Getting Started with DOE, with a detailed reference to ECMiner™ DOE.\n\nECMiner™ DOE includes Factorial Design, Response Surface Design, Mixture Design, and Taguchi Design methods.\n\nFactorial Design\n\n[image:rId9]\n\n[Image:rId9] The image shows different factorial design methods in ECMiner, including 2-Level Factorial Design with default generators, specified generators, Plackett-Burman Design for main effect detection without interactions, and General Full Factorial Design for all interaction detection.\n\nResponse Surface Design\n\n[image:rId10]\n\n[Image:rId10] The image explains Response Surface Design, which includes Central Composite Design and Box-Behnken Design. Central Composite Design adds an axis point and center point to a factorial design, while Box-Behnken Design generates a 3-level design for quadratic polynomials.\n\nMixture Design\n\n[image:rId11]\n\n[Image:rId11] The image describes different design methods in ECMiner for fitting polynomial models, including Simplex Center Design, Simplex Lattice Design, and Vertex Design, each tailored to specific scenarios with varying numbers of components and constraints.\n\nTaguchi Design\n\n[image:rId12]\n\n[Image:rId12] The image shows different types of experimental designs in ECMiner, including 2-Level, 3-Level, 4-Level, and 5-Level designs, as well as Mixture Design and Mix-Level Design. It also mentions Taguchi Designs for factors with multiple levels. The main purpose is to help users choose appropriate",
+    "Context_id": "6장_v3_sanitized::chunk_0004",
+    "Is_image": true,
+    "Image_ids": [
+      "rId9",
+      "rId10",
+      "rId11",
+      "rId12"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.1 Getting Started with DOE",
+      "6.1.1.2 ECMiner™ DOE"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, focusing on Structure of ECMiner™ DOE.",
+    "Context_id": "6장_v3_sanitized::chunk_0005",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.2 Structure of ECMiner™ DOE"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection Structure of ECMiner™ DOE, with a detailed reference to Structure of DOE.\n\nECMiner™ DOE include Factorial Design, Response Surface Design, Mixture Design, and Taguchi Design.\n[image:rId13]\n\n[Image:rId13] The image illustrates the Design of Experiments (DOE) process using ECMiner, a data mining software. It outlines five steps: DOE Start, Factorial Design, Response Surface Design, Analysis Result, and Response Optimizer, with each step detailing specific actions like defining factors, designing experiments, analyzing results, and",
+    "Context_id": "6장_v3_sanitized::chunk_0006",
+    "Is_image": true,
+    "Image_ids": [
+      "rId13"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.2 Structure of ECMiner™ DOE",
+      "6.1.2.1 Structure of DOE"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection Structure of ECMiner™ DOE, with a detailed reference to DOE configuration.\n\nECMiner™ DOE is divided into 5 steps by design methods.\n[image:rId14]\n\n[Image:rId14] This screenshot shows the process flow for using ECMiner, a data mining tool, to design experiments, analyze results, and optimize responses. It outlines five steps: entering factors and levels, designing the experiment, creating a design table with response values, setting up analysis options, and visualizing and optimizing responses.",
+    "Context_id": "6장_v3_sanitized::chunk_0007",
+    "Is_image": true,
+    "Image_ids": [
+      "rId14"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.2 Structure of ECMiner™ DOE",
+      "6.1.2.2 DOE configuration"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, focusing on DOE Method s.",
+    "Context_id": "6장_v3_sanitized::chunk_0008",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to Factorial Design.\n\nThere are two main types of factorial design. The one is 2-Level Factorial Design and the other is the General Full Factorial Design. 2-Level Factorial Design refers to an experiment with 2-level factors. However, even if each factor has two level values, if the experiment is performed at all grid points, (n is the number of factors) experiments must be performed. Therefore, 2-Level Factorial Design provides a way to reduce the number of such experiments to suit your purposes. There are three types of 2-Level Factorial Design provided by ECMiner™ as follows.2 n\n\n2-Level Factorial Design (Default Generators)\n\n2-Level Factorial Design (Specified Generators)\n\nPlackett-Burman Design\n\nECMiner™ provides the General Full Factorial Design, which is convenient when the number of levels for each factor is different. In this experiment, because the experiment is performed at all grid points, the significance level of all interactions can be determined.\n\n6.1.3.1.1. 2-Level Factorial Design (Default Generators)\n\n2-level fractional design (default generators) are used for full factorial and fractional factorial design.\nSelect 2-Level Factorial Design (Default Generators) as follows.\n[image:rId15]\n\n[Table:t63]\n\n[Image:rId15] The image is a screenshot of the \"Select Experimental Design Method\" window in ECMiner, a data mining software tool. It allows users to choose between four experimental planning methods: Factorial Design, Response Surface Design, Mixture Design, and Taguchi Design. The current selection is \"2-Level Factorial Design (\n\nStep 1: Factors and Levels\n\nDefine factor name and enter values for the low and high levels. Set the number of responses and the name of each response value.\n\n[image:rId16]\n\n[Image:rId16] The image is a screenshot of the \"Factors and Levels\" tab in ECMiner, a data mining software used for designing experiments. It specifies three factors: Reaction Time (4-5), Reaction Temperature (250-300), and Amount of Ingredients (3-3.5). The user selects\n\nBy clicking the Available Design Chart(s) button, you can see the following screen.\n\n[image:rId17]\n\n[Image:rId17] The image is a design chart from ECMiner, showing the number of full factorial runs required for different factor levels across various factor turns. The chart helps in determining the optimal number of experiments needed to explore all possible combinations of factors at different levels.\n\nStep 2: Design\n\nSelect fractional factorial design or full factorial design. Set the number of center points, the number of setup repetitions, and number of blocks.\n\nNumber of Center Points: Assume a linear relationship between factors and the response in a 2-level factorial design. Add center points to test for non-linear (curved) relationships. Set the center points to the midpoint of each factor in a 2-level factorial design.\n\nFor example:\n\n-Factor A: Low = 50, High = 100 Center = 75. →\n\n-Factor B: Low = 10, High = 20 Center = 15. →\n\n-Number of Replicates: Calculate the amount of pure error by repeating the same experiment.\n\n-Number of blocks: Set blocks in factorial design. Use blocking to reduce the impact of nuisance factors (uncontrolled variables) on the experimental results.\n\n[image:rId18]\n\n[Image:rId18] The image shows the \"Design\" tab in ECMiner DOE software, where users specify design options for conducting experiments with factors and levels. The current setup includes a full factorial design with 8 runs, resolution III, and 2 blocks, suitable for analyzing interactions between factors.\n\nStep 3: Design Table\n\nDesign table is generated from design settings. Set the appropriate Response values.\n\n[image:rId19]\n\n[Image:rId19] The image is a screenshot of the Design Table in ECMiner DOE, which is used to input response values for a design experiment. The table shows factors, levels, standard order of design, point type, block, response, tinting temperature, and ingredient. Users can edit added response variables and run the design order\n\nStep 4: Analysis Result\n\nThis step provides the settings necessary for regression analysis, residual analysis, and analysis of variance. First, click the Graph, Predict, and Misc Info buttons to complete the settings. Set the desired number of prediction value quantity and the appropriate values in the Predict option as below.\n\n[image:rId20]\n\n[Image:rId20] The image is a screenshot of the \"Predict\" window in ECMiner, a data mining software. It shows a table with eight blocks, each containing response time, reaction temperature, and ingredient amount data. The user has set the prediction value quantity to 3 and selected y1 as the response value. The significance\n\nIn the main screen of Step 4, select the maximum degree of the terms to be included. You can select the maximum degree as many as the number of selected factors (3), but since the block is currently created using the block generator called I = ABC, the term ABC cannot be selected. Click the Start Analysis button to view the analysis results.\n\n[image:rId21]\n\n[Image:rId21] The image shows the Analysis Result tab in ECMiner DOE, where users configure settings for statistical analysis. It selects y1 as the response variable, lists AC and BC as available factors, and sets the highest-order interaction to 3. The user can choose between Graph, Predict, and Misc Info options and start the\n\nGeneral Info: Basic information, design information, and alias for each factor.\n\n[image:rId22]\n\n[Image:rId22] The image shows the output results of an Experimental Design using a 2-Level Factorial Design in ECMiner, detailing three factors: Response Time, Reaction Temperature, and Amount of Ingredients, each with two levels. The design is used to analyze how these factors affect the response variable.\n\nModel Info: View results of regression analysis, analysis of variance, and abnormal observations (extreme leverage, standardized residuals).\n\nResidual Plots: Display Residual Histogram Plot, Normal Probability Plot, Residual vs. Fitted Values, Residual vs. Order.\n\n[Table:t101]\n\n[Image:rId23] The image shows an output results window from ECMiner, displaying a histogram plot of residuals for model y1. The histogram indicates the distribution of residuals, with most values clustered around zero, suggesting good model fit.\n\n[Image:rId24] The image shows an output results window from ECMiner, displaying a residual vs. fitted values plot with red dots representing residuals and a linear trend line. The plot is used to assess model fit by comparing observed residuals against their expected values based on the fitted model.\n\n[Image:rId25] The image shows an output results screen from ECMiner, displaying a residual vs. fitted values plot for model y1. The plot includes a guide line, UCL, LCL, and residual lines to evaluate model accuracy and residuals.\n\n[Image:rId26] The image shows an output results screen from ECMiner, displaying residual plots for model evaluation. It includes a guide line, UCL (Upper Control Limit), LCL (Lower Control Limit), and Residual vs. Fitted Values plots, indicating the residuals' distribution and model fit quality.\n\nPrediction: Obtain the predicted value based on the input you specified for prediction.\n\n[image:rId27]\n\n[Image:rId27] The image shows the output results of an Experimental Design using a 2-Level Factorial Design in ECMiner, predicting response values y1 for different combinations of block, response time, reaction temperature, and amount of ingredients. The table provides fitted values, standard errors, confidence intervals, and prediction intervals for each combination.\n\nOther Information: residual and several other statistics.\n\n[image:rId28]\n\n[Image:rId28] The image shows the output results of an Experimental Design using a 2-Level Factorial Design in ECMiner, focusing on fitted values, residuals, and other statistical measures for response value y1. The table provides detailed information about each order's fitted values, residuals, standardized residuals, external standardized residuals, leverage, distance\n\nFor detailed explanation, see 6.1.4. See Settings and Analysis.\n\nStep 5: Plot and Response Optimizer\n\n[image:rId29]\n\n[Image:rId29] The image is a screenshot of the \"Plot and Response Optimizer\" tab in ECMiner, a data mining software tool. It allows users to visualize factor effects, interactions, and response surfaces using plots like contour and surface plots. The main purpose is to optimize responses by analyzing how different factors affect outcomes through various graphical\n\nIn Step 5, there are various types of charts. In response optimizer, an optimization algorithm is performed to obtain the response value desired by the user. The following are the plots by 2-Level Factorial Design (Default Generators).\n\nMain Effect Plot\n\nInteraction Plot\n\nSurface Plot\n\nContour Plot\n\nFor the main effect plot and interaction plot, first select whether to use the data average or the fitted average. And through the Setting button, you can select which factors to plot for.\n\nFor a surface plot and contour plot, you must enter a fixed value for one or more factors when there are three or more factors. Here's an example screen you'll get after making these settings.\n\n[Table:t124]\n\n[Image:rId32] The image shows an output results window from ECMiner, displaying a surface plot with three tabs: Main Effect Plot_y1, Interaction Plot_y1, and Surface Plot_y1. The plot visualizes the relationship between variables y1 and x1, highlighting interactions and main effects in a 3D space.\n\n[Image:rId33] The image shows an output results window from ECMiner, displaying a Contour Plot for a response surface analysis. It visualizes the relationship between Reaction Temperature and Response Time, with different colors representing various levels of the response variable. The plot helps identify optimal conditions for maximizing the response value.\n\n[Image:rId30] The image shows an output results window from ECMiner, displaying a graph with three lines representing different variables: response time, temperature, and amount of ingredients. The graph illustrates how these variables affect a specific metric, likely in a data mining context, with each line showing a trend or relationship between the variables.\n\n[Image:rId31] The image shows an output results screen from ECMiner, displaying graphs for response time under different reaction temperatures and ingredient levels. The graphs illustrate how response time varies with changes in reaction temperature and ingredients, highlighting interactions between these factors.\n\nResponse Optimizer helps identify the combination of factor settings that optimize the response. First, select the response variable to optimize and enter objective, lower limit, target value, upper limit, weight, and importance in the following settings window.\n\n[image:rId34]\n\n[Image:rId34] The Response Optimizer settings in ECMiner allow users to define response variables, set target values, limits, weights, and importance for optimization objectives. The screen shows how different objective functions influence the shape of the desirability function, with options to minimize, achieve, or maximize fitness within specified ranges.\n\nIn the option window of the Response Optimizer, enter the initial value setting method and various settings used for optimization, and then click the View Results button on the main screen in Step 5 to obtain the following screen.\n\n[image:rId35]\n\n[Image:rId35] The image shows the output results of an Experimental Design using a 2-Level Factorial Design in ECMiner, focusing on optimizing response time with factors like reaction temperature and ingredient amount. The table lists various combinations and their corresponding overall desirability scores, indicating that all combinations yield the same optimal response.\n\nFrom the above process, you can find out how to determine the level of each factor (Response Time, Response Temperature, Amount) in order to maximize the response value (yield). (At this time, the level of each factor is displayed in coded units.)\n\n6.1.3.1.2. 2-Level Factorial Design (Specified Generators)\n\n2-Level Factorial Design (Specified Generators) allows to manually define and create a custom factorial design by specifying its factors, levels, and interactions.\nThis design works when the default designs (e.g., full factorial or fractional factorial) are not appropriate for a specific experimental with specific factor combinations or constraints.\nSelect 2-Level Factorial Design (Specified Generators).\n[image:rId36]\nStep 1, enter the number of factors before increasing the design using the design generators. In the above setting, the number of factors is set to 2. Step 2 screen is as follows.\n[image:rId37]\nClick the Constructor Design to increase number of factors and complete the part corresponding to the design generators. You can enter block generators depending on your experiment. For example, if you want to increase the number of factors using the generator C=AB, enter C as the left term and AB as the right term as shown above and click the next button.\n[image:rId38]\n[image:rId39]\nYou can see that one more column corresponding to factor C has been created, and the value of this column is the same as the product of the value in Column A and the value in Column B. In this way, you can create design tables using different generators depending on your needs. The analysis process after this is the same as that of 2-Level Factorial Design (Default Generators).\n\n[Image:rId36] The image is a screenshot of the \"Select Experimental Design Method\" window in ECMiner, a data mining software tool. It allows users to choose between various experimental planning methods such as 2-Level Factorial Design, Response Surface Design, Mixture Design, and Taguchi Design. The primary purpose is to facilitate the\n\n[Image:rId37] The image shows the \"Design\" tab in ECMiner DOE software, where users specify options for completing a design table. It displays a full factorial design with 4 factors, 1 center point, and 1 replicate, suitable for analyzing interactions between factors.\n\n[Image:rId38] The image shows the \"Design\" tab in ECMiner DOE software, where users specify options for completing a design table. It displays a full factorial design with 4 factors at two levels each, complete resolution, k(2) p(0), and one replicate. The interface allows for specifying center points and block\n\n[Image:rId39] The image is a screenshot of the Design Table in ECMiner DOE, which is used to input experimental design data for analysis. The table shows factors, levels, standard order of points, block numbers, and response values for each point type. This setup helps in planning experiments and analyzing outcomes efficiently.\n\n6.1.3.1.3. Plackett-Burman Design\n\nThis design is used when the number of factors is large. This design can be used when the user has prior knowledge that the only one factor the response value is the main effect. This prior knowledge helps to dramatically reduce the number of experiments.\nPlackett-Burman design has similar post-analysis steps to 2-Level Factorial Design. Therefore, we will mainly explain the differences compared to 2-Level Factorial Design.\nThe characteristic of Plackett-Burman is that it dramatically reduces the number of experiments when the experimenter knows in advance that there is only a linear relationship between factors and response values. For example, the main effect can be detected with just 48 experiments for 47 factors. The reason we use the Plackett-Burman design is that it can dramatically reduce the need for experimentation.\nSelect Plackett-Burman design and select 20 factors on the Step 1 screen. Step 2 Afterwards, if you move to the Step 2 screen, you can select the following number of experiments.\n[image:rId40]\nIf the experimenter aims to minimize the number of experiments, a design with 24 runs can be selected. The maximum number of runs can be selected up to 48, but 48 experiments for 20 is not particularly burdensome. Set the number of runs and the number of center points and repetition according to your purpose. Center point is used to check curvature, and by increasing repetition, pure error can be checked how much the difference in response value occurs at the same experimental point.\nIn Step 3, the design table is completed, and in Step 4, the following screen appears.\n[image:rId41]\nIn the Plackett-Burman design, interactions other than the main effect cannot be detected. If you select a factor and proceed with analysis, the subsequent process is the same as 2-Level Factorial Design (Default Generators).\n\n[Image:rId40] The image shows the \"Design\" tab in ECMinerDOE, where users specify options for completing a design table, including the number of runs (24) and repetitions (28, 36, 40). The checkbox allows designation of a block for repetition.\n\n[Image:rId41] The image shows the Analysis Result tab in ECMinerDOE, where users can configure settings for statistical analysis. It allows selecting a response variable (y1) and available factors, with options to start the analysis.\n\n6.1.3.1.4. General Full Factorial Design\n\nGeneral Full Factorial Design overcomes the limitation that the previous three designs (2-Level Factorial Design (Default Generators), 2-Level Factorial Design (Specified Generators), and Plackett-Burman Design) can only conduct 2-level experiments. DOE is capable of. The level of each factor can have any value. For example, when the number of factors is 3, the number of levels can be 2, 3, and 4, respectively. In General, Full Factorial Design, all possible combinations are tested, so if the number of levels is 2, 3, or 4, you will get the following design table.\nThe following is a Full Factorial Design\n\n[Table:t172]\n\nStep 1: Factors and Levels\n\n[image:rId42]\n\n[Image:rId42] The image is a screenshot of the \"Factors and Levels\" tab in ECMiner, a data mining software tool. It allows users to specify factors, their levels, and response values for analysis. The current setup includes three factors (A, B, C) with two, three, and four levels respectively, and\n\nIf there are three factors (A, B, C) that can have values of 2-Level, 3-Level, and 4-Level, respectively, enter the setting values as above.\n\nStep 2: Design\n\n[image:rId43]\n\n[Image:rId43] The image is a screenshot of the \"Design\" tab in ECMiner DOE software, where users specify options to complete the design table for factorial experiments. The user has set the number of repetitions to 1 and selected to designate a block for repetition. This setup is crucial for conducting statistical analysis and optimizing experimental designs efficiently\n\nIn Design Selection window you determine the number of repetitions and whether you want to assign blocks to repetitions.\n\nStep 3: Design Table\n\n[image:rId44]\n\n[Image:rId44] The image shows an ECMiner DOE (Design of Experiment) window where users can complete a design table, enter response values, and analyze results for optimizing experimental outcomes. The table displays experiment orders, point types, blocks, factor levels, and corresponding response values for various factors A, B, C, and y1\n\nAfter the table is created, enter the response value y1 and click the Next button to proceed to Step 4.\n\nStep 4: Analysis Result\n\n[image:rId45]\n\n[Image:rId45] The image shows the Analysis Result page in ECMiner DOE software, where users configure settings for statistical analysis. It allows selecting a response variable (y1), choosing available factors, setting the highest-order interaction to 3, and starting the analysis.\n\nSet the Highest-order interaction to 3 and start the analysis. When you start analysis after completing settings, the following results screen will appear.\n\n[image:rId46]\n\n[Image:rId46] The image shows an ANOVA table for response value y1 in ECMiner, analyzing variability in terms A, B, C, AB, AC, BC, and ABC. The table provides statistical measures like df, Mean Sum of Square, F, and p-values to assess model fit and significance.\n\nGeneral Info, residual analysis and interpretation of other information are the same as 2-Level Factorial Design (Default Generators). The ANOVA table shows that the variance increases significantly when the degree of interaction is high. In this case, it is difficult to explain the response value with only the individual effects of A, B, and C, and the response value y1 is determined by complex effects.\n\nStep 5: Plot and Response Optimizer\n\nMain effect plot and interaction plot. (Surface plot, contour plot, and response optimizer functions are not provided.) Main effect plot and interaction plot, shows how the value y1 reacts according to each level of the factor.\n\n[image:rId47]\n\n[Image:rId47] The image shows an output results screen from ECMiner, displaying a graph with three lines representing different variables (A, B, C) over a range of values. The graph illustrates the main effect plot for variable y1, showing how each variable affects the outcome.\n\n[image:rId48]\n\n[Image:rId48] The image shows output results from ECMiner, displaying two plots: Main Effect Plot_y1 and Interaction Plot_y1. The Main Effect Plot_y1 illustrates how different levels of factor A affect variable A, while the Interaction Plot_y1 shows the interaction between factors A and B on variable B.",
+    "Context_id": "6장_v3_sanitized::chunk_0009",
+    "Is_image": true,
+    "Image_ids": [
+      "rId15",
+      "rId16",
+      "rId17",
+      "rId18",
+      "rId19",
+      "rId20",
+      "rId21",
+      "rId22",
+      "rId23",
+      "rId24",
+      "rId25",
+      "rId26",
+      "rId27",
+      "rId28",
+      "rId29",
+      "rId32",
+      "rId33",
+      "rId30",
+      "rId31",
+      "rId34",
+      "rId35",
+      "rId36",
+      "rId37",
+      "rId38",
+      "rId39",
+      "rId40",
+      "rId41",
+      "rId42",
+      "rId43",
+      "rId44",
+      "rId45",
+      "rId46",
+      "rId47",
+      "rId48"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t63",
+      "t101",
+      "t124",
+      "t172"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.1 Factorial Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to Response Surface Design.\n\nResponse Surface Design is a statistical analysis method that identifies the relationship between explanatory variables and response values when multiple explanatory variables (factors) interact in a complex manner to influence a certain response value.\nFor example, in a certain chemical reaction, the amount of reaction is said to change with temperature and time. At this time, if the temperature and time are and the reaction amount is y, will have a relationship of x1, x2\n\ny=f x1, x2\n\nResponse Surface Design allows the experimenter to identify the relationship between factors and responses with a small number of experiments when the experimenter has some prior knowledge about the factors and responses. ECMiner™ DOE's Response Surface Design offers two methods.\n\nCentral Composite Design\n\nBox-Behnken Design",
+    "Context_id": "6장_v3_sanitized::chunk_0010",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.2 Response Surface Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to Central Composite Design.\n\nFor a quadratic regression model with k number of independent variables,\n\ny= β0 + i=1 k β i x i + i≤j k β ij x i x j +ϵ ϵ~N(0, σ2)\n\nthe regression coefficient cannot be estimated using the 2-Level factor placement method. Because in a 2-level factorial experiment, the experiment is conducted only at two levels of each variable, it is not possible to detect the curved change in the response amount that occurs according to the change in the level of the variable, and it is impossible to estimate the coefficient of the square term in the quadratic regression model. In order to compensate for these shortcomings and estimate the curved surface with a small number of experiments, the DOE in which the center point and axis point are added to the 2-Level factor experiment as follows is called Central Composite Design.\nIn Central Composite Design, the number of center points is not limited and can be at least one, and the number of axis points is 2k. Here, the value of k can be a positive number. For example, if the factor is 3 and there are two central points, the central composite design in Full factorial design is as follows.\n[image:rId49]\nLines 1 to 8 are experiments on grid points. And lines 9 to 14 are the axis points. And the last two rows are the center points. This will result in a design that can sufficiently estimate the regression equation for the quadratic curve. This type of experimental design has the advantage of being able to find the regression equation for the quadratic curve with a much smaller number of experiments than 3-Level Factorial Design.\nThe number of experiments in this experiment is\n\n[Image:rId49] The image shows a matrix in ECMiner, a data mining tool, with a focus on its structure and potential applications in pattern recognition or feature selection. The matrix is symmetric and contains alternating positive and negative values, which could represent weights or coefficients in a machine learning model.\n\nn= 2 k +2 k+ n0, n0 is a number of center points.\n\nAn advantage of Central Composite Design is its flexibility for sequential experiments. For instance, if a 2-Level Factorial Design with a first-order regression model proves inadequate, additional design points can be added to the center and axes to convert it into a Central Composite Design, without having to start a new DOE.\nSelect Central Composite Design from Response Surface Design.\n[image:rId50]\n\n[Table:t226]\n\n[Image:rId50] The image is a screenshot of the \"Select Experimental Design Method\" window in ECMiner data mining software, where users can choose between Factorial Design, Central Composite Design, Box-Behnken Design, and Taguchi Design for experimental planning. The highlighted option is \"Central Composite Design,\" indicating that it is currently\n\nStep 1: Factors and Levels\n\nFirst, name the factors as ‘G300 Amount’ and ‘V130 Amount,’ keeping their low and high units as initially defined. Next, set the Number of Responses to 3 and rename the responses to ‘adhesion,’ ‘modulus,’ and ‘elongation,’ as shown below.\n\n[image:rId51]\n\n[Image:rId51] The image is a screenshot of the \"Factors and Levels\" tab in ECMiner DOE software, where users specify factors and their levels for an experiment. It shows two factors, A and B, with specific low and high values for each, along with three response variables: adhesion, modulus, and elongation.\n\nStep 2: Design\n\nIn the following screen, specify Select Design, Center Point Count, Repetition Count, and Alpha value.\n\n-Select Design: Choose one of the available design types. In a usable design, ‘complete’ means that the grid points contain all the points in the 2-Level Full factorial design, and ‘partial’ means that the grid points contain the points in the 2-Level Fractional factorial design.\n\n-Center Point Count: Enter default or custom values.\n\n-Repetition Count: The default repetition count is 1, but the user can enter the repetition count arbitrarily. Blocks can also be assigned to repetition as needed.\n\n-Alpha value: Use the default value, Face Centered (Alpha value = 1), or enter a custom value.\n\nSince we want to conduct the experiment three times at each factor point, axis point, and center point, set the center point count to 1, alpha value to 1 (Face Centered), and repetition count to 3, as shown in the following screen, and click the next button.\n\n[image:rId52]\n\n[Image:rId52] The image shows the \"Design\" tab in ECMiner DOE software, where users specify design options for completing a design table. It displays two completed designs with different run counts, block counts, total runs, cube values, axes, and alpha default values. The user can choose to set center points and repetition counts,\n\nStep 3: Design Table\n\nAt this stage, the design table is completed from the settings of Step 1 and Step 2. Through experiment, enter response values corresponding to adhesion, modulus, and elongation in the completed design table. At this time, in the case of the D Optimal Design option, it is a method to modify the created design table, and please refer to 6.1.3.2.3 Response Surface Design D Optimal Design.\n\n[image:rId53]\n\n[Image:rId53] The image is a screenshot of the Design Table in ECMiner DOE, a software used for designing experiments to optimize response variables. It displays a table with factors, levels, design points, block numbers, and analysis results for a specific experiment. The table shows various combinations of factor levels and their corresponding responses, such as\n\nStep 4: Analysis Result\n\nThis step is for analyzing results of the experiment. If we analyze all three response values, select all three response values in “Select Response Variable” and make the necessary settings in Graph, Predict, and Misc Info. If we currently want to do a full quadratic regression analysis, make the selection as follows and click the Start Analysis button.\n\n[image:rId54]\n\n[Image:rId54] The image shows the Analysis Result page in ECMiner DOE software, where users can configure settings for statistical analysis. It includes options to select response variables (adhesion, modulus, elongation), available factors (A, B, AA, BB, AB), and highest-order interactions (Complete 2-Level). Users can\n\nGeneral Info: Shows general information about the design.\n\n[image:rId55]\n\n[Image:rId55] The image shows the output results of an Experimental Design using Response Surface Design with Central Composite Design in ECMiner. It details two factors, Factor A (G300 Amount) and Factor B (V130 Amount), each at two levels (-1 and 1). The design includes three repetitions and one\n\nModel Info: Shows results of regression analysis, ANOVA, unusual observations (extreme leverage, standardized residual).\n\nRegression Analysis Result\n\n[image:rId56]\n\n[Image:rId56] The image shows the output results of an Experimental Design using Response Surface Design with Central Composite Design in ECMiner. It presents estimated coefficients for response values related to adhesion and modulus, along with their standard errors, t-values, and p-values. The analysis indicates significant factors affecting adhesion and modulus, with specific coefficients\n\nANOVA Results\n\n[image:rId57]\n\n[Image:rId57] The image shows the output results of ANOVA tables for response value adhesion and modulus in ECMiner, analyzing variability, degrees of freedom, mean sum of squares, F-values, and p-values to assess model fit and significance.\n\nUnusual Observations\n\n[image:rId58]\n\n[Image:rId58] The image is an output results page from ECMiner, a data mining software tool. It displays various types of unusual observations for response values, including extreme leverage and standardized residuals, with no abnormal observations found according to the specified criteria. The table shows specific instances where these observations were identified, such as order 16\n\nResidual-related Plot\n\nSee residual histogram, residual normal probability plot, residuals versus ordinal, residuals vs. the fitted values.\n\nResidual-related plot for response value “Adhesion”\n\n[Table:t279]\n\n[Image:rId59] The image shows an output results screen from ECMiner, displaying a residual histogram for adhesion data. It compares different ranges of residual values, with each color representing a specific range: red (-1.09 ~ -0.774), blue (-0.774 ~ -0.46\n\n[Image:rId60] The image shows an output results screen from ECMiner, displaying a residual vs. z value plot with red squares representing residuals and a linear trend line. This plot is used to assess the normality of residuals in regression analysis, ensuring that the model's assumptions are met for accurate predictions.\n\n[Image:rId61] The image shows an output results screen from ECMiner, displaying a residual vs. fitted values plot for adhesion, modulus, elongation, and order adjustments. The plot visualizes residuals against predicted values, with UCL and LCL lines indicating upper and lower control limits, respectively. This helps in assessing model fit\n\n[Image:rId62] The image shows an output results screen from ECMiner, displaying residuals plotted against run number for various parameters like elongation, adhesion, modulus, and elongation. The plot helps in assessing model fit by comparing predicted values with actual data points.\n\nResidual-related plot for response value “Modulus”\n\n[Table:t282]\n\n[Image:rId63] The image shows the output results of ECMiner, specifically focusing on residual histograms for adhesion, modulus, and elongation. It displays the distribution of residuals across different ranges, indicating how well the model fits the data in terms of these properties.\n\n[Image:rId64] The image shows an output from ECMiner, specifically a residual vs. z-value plot for a statistical analysis. It plots residuals on the x-axis against their corresponding z-values on the y-axis, with a trend line indicating the relationship between them. The red dots represent the residuals, while the green line represents the fitted\n\n[Image:rId65] The image shows an output results screen from ECMiner, displaying a residual plot with various lines representing different confidence intervals and a guide line. The x-axis represents predicted values, while the y-axis represents residuals. The plot helps assess model fit by visualizing how well the model predicts the data points.\n\n[Image:rId66] The image shows an output results screen from ECMiner, displaying residuals plotted against run number for various parameters like elongation, adhesion, and modulus. The plot helps in assessing model fit and identifying outliers.\n\nResidual-related plot for response value “Elongation”\n\n[Table:t285]\n\n[Image:rId69] The image shows an output results screen from ECMiner, displaying a residual vs. fitted values plot for a data mining analysis. The plot includes residuals, UCL, LCL, and a guide line, indicating the model's performance and potential outliers in the dataset.\n\n[Image:rId70] The image shows an output results screen from ECMiner, displaying a residual plot with yellow squares representing residuals against run number. The plot includes UCL, LCL, and guide lines to analyze model residuals and identify potential issues in the data mining process.\n\n[Image:rId67] The image shows the output results of ECMiner, displaying residual histograms for adhesion, modulus, and elongation. It visualizes the distribution of residuals across different ranges, helping to assess model fit and identify potential outliers.\n\n[Image:rId68] The image shows an output from ECMiner, displaying a residual vs. z-value plot for model diagnostics. The red squares represent residuals, while the green line indicates the fitted values. This plot helps assess the normality of residuals and model fit, ensuring that the model's assumptions are met.\n\nOther Information\n\nShows residual related statistics.\n\n[image:rId71]\n\n[Image:rId71] The image shows the output results of an Experimental Design using Response Surface Design with a Central Composite Design in ECMiner. It displays fitted values, residuals, standardized residuals, external standardized residuals, leverage, distance of Cook, and DFITS for response value adhesion across different orders. The data helps analyze the relationship between experimental\n\nFor detailed explanation, see 6.1.4. Settings and Analysis.\n\nStep 5: Plot and Response Optimizer\n\nIn this step, you can draw a surface plot and contour plot with the Regression Model created in Step 4 and optimize the response according to the user's purpose. Since there are currently two factors, there is no need to enter a separate fixed value. The surface plot and contour plot according to each response value are as follows.\n\nSurface plot, contour plot for response value “Adhesion”\n\n[Table:t297]\n\n[Image:rId72] The image shows an output results screen from ECMiner, displaying a 3D surface plot with three axes representing adhesion, modulus, and elongation values. The plot visualizes how these parameters interact to influence a specific outcome, likely in material science or engineering applications.\n\n[Image:rId73] The image shows an output results screen from ECMiner, displaying contour plots for surface adhesion, modulus, and elongation metrics across different V1.30 and G300 amounts. The plots highlight areas with high correlation between these variables, aiding in data analysis and model validation.\n\nSurface plot, contour plot for response value “Modulus”\n\n[Table:t300]\n\n[Image:rId74] The image shows an output results screen from ECMiner, displaying a surface plot with three dimensions: adhesion, modulus, and elongation. The plot illustrates how these parameters vary across different values of -1 to 1 on each axis, providing insights into their relationships and interactions.\n\n[Image:rId75] The image is an output from ECMiner, showing a contour plot with two axes labeled G300 Amount and V130 Amount. The plot displays different regions colored in various shades representing different values, likely related to adhesion, modulus, and elongation. The numbers within the plot indicate specific values for\n\nSurface plot, contour plot for response value \"Elongation”\n\n[Table:t303]\n\n[Image:rId76] The image shows an output results screen from ECMiner, displaying a 3D surface plot with three axes labeled \"Surface Plot_adhesion,\" \"Surface Plot_modulus,\" and \"Surface Plot_elongation.\" The plot illustrates how these parameters vary across different values on the x-axis, likely representing experimental conditions or variables\n\n[Image:rId77] The image shows an output results screen from ECMiner, displaying contour plots for surface adhesion, modulus, and elongation. The plots illustrate how different amounts of V130 and G300 affect these properties, with color-coded regions indicating varying levels of adhesion, modulus, and elongation.\n\nIn this experiment, the experimenter's goal is to maximize the modulus value over 145, the elongation value over 388, and the adhesion value. To do this, set the following settings.\n\n[image:rId78]\n\n[Image:rId78] The Response Optimizer settings in ECMiner allow users to define response variables, their objectives (minimize, maximize, or achieve), target values, limits, weights, and importance for each variable. The screen shows three graphs illustrating how different weightings affect the desirability function for each objective.\n\nIn the window above, the target values of modulus and elongation are set to 145 and 388, it means that there is no need to increase the values any more, once these values are reached. And the reason why the target value of adhesion was set as large as possible is because in the case of adhesion, the larger the better. (In fact, it seems reasonable to set the lower limit of modulus and elongation to 145 and 388. However, in this case, if the modulus value is less than 145 or the elongation value is less than 388, the desirability function becomes 0. In fact, this area is so large that it is often difficult to find the optimal value when performing optimization. For this purpose, the performance of optimization was improved by setting the lower limit a little smaller.)\n\nAfter configuring this and performing optimization, you can get the following results.\n\n[image:rId79]\n\n[Image:rId79] The image shows the output results of an Experimental Design using Response Surface Design with Central Composite Design in ECMiner. It displays coded units for response optimization, including G300 Amount, V130 Amount, adhesion, modulus, elongation, and Overall Desirability. The results indicate that the optimized\n\nFrom this, we can see that if the G300 content is -1.414 and the V130 content is 0.211, the adhesion can be maximized to 73.652 while satisfying the conditions of modulus and elongation.\n\n6.1.3.2.2. Box-Behnken Design\n\nBox Behnken's design was created to complement the shortcomings of 2-Level design and 3-Level design. In general, p-level designs are suitable for polynomial fits of order p-1. Therefore, it is difficult to fit a second order polynomial with a 2-level design, and although it is possible with a 3-level design, it has the disadvantage of requiring a large number of experiments. Box Behnken's design is an experiment that selects a part of the 3-level design and allows for more efficient second order polynomial fit.\nBox Behnken design is also a design created for the same purpose as central composite design. Therefore, rather than explaining this in detail with an example, we will explain the differences in central composite design. (For basic methods of Response Surface Design, please refer to 6.1.3.2.2. Central composite design.)\nSelect Box Behnken Design from Response Surface Design. In the Step 1 screen, enter the number of factors, factor name, and upper and lower limits, and enter the number of response values and names according to the response value.\nThe screen for Step 2 is as follows.\n[image:rId80]\nAs shown, simply select the options, and the subsequent process will be the same as central composite design.\n\n[Image:rId80] The image is a screenshot of the \"Design\" tab in ECMinerDOE, a data mining software tool. It allows users to specify design parameters such as center point count, repetition count, and block count for conducting experiments or analyses. The default settings are shown, with options to either use predefined values or user\n\n6.1.3.2.3. Response Surface Design D Optimal Design\n\nD-Optimal Design is a method that adjusts the experimental design to best suit future statistical analysis, allowing customization based on the user's needs. There are the following indicators to judge the excellence of design.",
+    "Context_id": "6장_v3_sanitized::chunk_0011",
+    "Is_image": true,
+    "Image_ids": [
+      "rId49",
+      "rId50",
+      "rId51",
+      "rId52",
+      "rId53",
+      "rId54",
+      "rId55",
+      "rId56",
+      "rId57",
+      "rId58",
+      "rId59",
+      "rId60",
+      "rId61",
+      "rId62",
+      "rId63",
+      "rId64",
+      "rId65",
+      "rId66",
+      "rId69",
+      "rId70",
+      "rId67",
+      "rId68",
+      "rId71",
+      "rId72",
+      "rId73",
+      "rId74",
+      "rId75",
+      "rId76",
+      "rId77",
+      "rId78",
+      "rId79",
+      "rId80"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t226",
+      "t279",
+      "t282",
+      "t285",
+      "t297",
+      "t300",
+      "t303"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.2.1 Central Composite Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to D Optimality (Determinant).\n\nD Optimality is the most commonly used criterion and is used to find a design that maximizes the Determinant of the inverse matrix. When obtaining a Design Matrix, create it by selecting the necessary candidate points from a set of several potential points. The design table that makes the Determinant of the inverse matrix the largest is called D-Optimal Design. X T X X T X",
+    "Context_id": "6장_v3_sanitized::chunk_0012",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "D Optimality (Determinant)"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to A Optimality (Trace).\n\nWhen obtaining Design Matrix create by gathering the necessary candidate points from a set of several candidate points, the design table that creates the largest TRACE of the inverse matrix is called A-Optimal Design. X T X\nHowever, in the case of A-Optimality, it is not often used due to computational difficulties.",
+    "Context_id": "6장_v3_sanitized::chunk_0013",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "A Optimality (Trace)"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to G Optimality (Average Leverage / Maximum Leverage).\n\nG Optimality means average leverage divided by maximum leverage. Here, leverage refers to the Generalized Linear Model Matrix as X, when H Matrix is\nH=X X T X -1 X T\nIt refers to their diagonal components. Dividing the average of these leverages by the maximum value is G-Optimality.",
+    "Context_id": "6장_v3_sanitized::chunk_0014",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "G Optimality (Average Leverage / Maximum Leverage)"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to V Optimality.\n\nThe average of leverage is V Optimality.\nAmong these indicators, D Optimal Design is used to maximize D Optimality. The D Optimal Design screen of Response Surface Design is composed as follows.\n[image:rId81]\n\n[Image:rId81] The image is a screenshot of the D Optimal Design window in ECMiner, a data mining software tool. It allows users to select a model type, specify design point quantity, choose an optimization algorithm, and manage available variables for optimal experimental design. The user can also set options like maximum repetition count and random initial\n\nModel Selection\n\nFirst, select a model. Depending on the selected model, the selection items in the selection window below will change, and you can use only some of them.\n\nNumber of design points for D Optimal Design\n\nThere is the modified design table to determine how many designs points\n\nInitial Design\n\nTo perform Optimal Design, you must select initial design. Set how to select the initial design with the same number of design points as the number of design points in D Optimal Design.\n\nD Optimal Design Algorithm\n\nDecide which algorithm will be used to improve the initial design to obtain D-Optimal Design. ECMiner™ DOE provides Fedorov Algorithm, Modified Fedorov Algorithm, and K Exchange Algorithm. Among these, Modified Fedorov Algorithm and K Exchange Algorithm are known to have good performance.\n\nOptions\n\nMaximum number of repetitions means the maximum number of repetitions to be performed in D Optimal Design Algorithm. Number of creations in random initial design means how many random designs will be created when designing the initial design randomly. Among the various random designs created at this time, the algorithm with the highest D Optimality is used as the initial design to perform the algorithm.",
+    "Context_id": "6장_v3_sanitized::chunk_0015",
+    "Is_image": true,
+    "Image_ids": [
+      "rId81"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "V Optimality"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to Mixture Design.\n\nThe main aim of experimental designs to discover whether one or two or more factors like have a significant effect on the response value y of interest, or furthermore, to find optimal conditions for that maximize or minimize y. These include factorial design and response surface design, and these experimental design methods have no constraints on the ratios or sums that factors can take to each other. However, the Mixture Design method provides an experimental design where the sum of the factors (factors are called components in Mixture Design) is constant. (x1, x2,..., x k) (x1, x2,…, x k) x i\n\ni=1 k x i = constant x1 ≥0, x2 ≥0,… x k ≥0\n\nThere are three Mixture Design methods provided by ECMiner™ DOE as follows.\n\nSimplex Center Design\n\nSimplex Lattice Design\n\nVertex Design\n\nIn addition, Mixture Design is divided into three categories depending on the type of experiment.\n\nExperimental design using only mixture components\n\nExperimental design adding process variables\n\nMixture volume experimental design\n\nIn the end, there are three types of experiments like the above in Simplex Center Design, three types of experiments like the above in Simplex Lattice Design, and three types of experiments like the above in Vertex Design, ultimately providing a total of nine methods. To explain this, the experimental design using only the mixture components can be explained using Simplex Center Design, the mixture amount design can be explained using Simplex Lattice Design, and the experiment adding process variables can be explained using Vertex Design. Through this, you can gain a general understanding of Mixture Design.\n\n6.1.3.3.1. Simplex Center Design\n\nSimplex Center Design, which consists of q components, consists of d ifferent experimental points. These points correspond to all possible permutations. This design can be said to be suitable for the following polynomial.2 q -1\n\nη= 1 q β i x i + i<j q β ij x i x j + i<j<k q β ijk x i x j x k +…+ β12…q x1 x2 … x q\n\nFrom this, we can see that as the number of components increases, the degree of the appropriate polynomial also increases.\nTo perform Simplex Center Design, select Mixture Design -> Simplex Center Design on the following screen.\n[image:rId82]\n\n[Table:t382]\n\n[Image:rId82] The image is a screenshot of the \"Select Experimental Design Method\" window in ECMiner, a data mining software. It allows users to choose between various experimental planning methods such as Factorial Design, Response Surface Design, Mixture Design, and Taguchi Design. The highlighted option is \"Simplex Center Design,\" indicating\n\nStep 1: Factors and Levels\n\n[image:rId83]\n\n[Image:rId83] The image is a screenshot of the \"Factors and Levels\" tab in ECMiner, a data mining software tool. It shows settings for feature selection with three components A, B, and C, each having a lower limit of 0 and an upper limit of 1. The response variable Y1 is selected,\n\nIn this screen, the number of components is 3, the number of response values is 1, and the name of the response value is firmness. The options that appear on this screen are explained as follows.\n\n-Single Total: Specifies the sum of each component. The default value is 1.\n\n-Multiple Total: Enter the values for the mixture amount design. All values must be positive numbers and should be separated by spaces.\n\n-Add Process Variable: Use when adding a Process Variable to Mixture Design.\n\nStep 2: Design\n\n[image:rId84]\n\n[Image:rId84] The image is a screenshot of the Design tab in ECMinerDOE, which is used to specify options for completing a design table. It allows users to expand designs by adding axis points and set repetition settings for different point types such as Axis Points, Center Point, Vertex, and 2-mixed. The iteration\n\nOn this screen, set several options to confirm the design.\n\nExpand Design by Adding Axis Points\n\nAdds axis points between the center point and the points corresponding to each vertex.\n\nRepetition Setting\n\n-Specify Iteration Count for Entire Design: Specify how many times to repeat the design table created through this option.\n\n-Specify Iteration Count for Selected Design Point: This option allows the user to set the number of repetitions depending on the point type.\n\nStep 3: Design Table\n\n[image:rId85]\n\n[Image:rId85] The image is a screenshot of the Design Table in ECMiner DOE, which is used to complete a design table for a factorial experiment. The table includes factors, levels, standard order of points, block numbers, and response values for each point. The goal is to analyze the impact of different factors on the response variable\n\nAt this stage, the design table is completed, and the experimenter conducts the experiment according to the created table and inputs the resulting response values. This completes everything you need for analysis. Click the Next button to proceed to Step 4.\n\nStep 4: Analysis Result\n\n[image:rId86]\n\n[Image:rId86] The image shows a simplex chart in ECMiner, a data mining tool, displaying three vertices labeled A, B, and C. The chart represents a simplex optimization problem where points within the triangle represent different combinations of variables A, B, and C. The goal is to find the optimal combination that maximizes or minim\n\nBefore making analysis-related settings, you can use the Simplex Design plot to see how the design points created in the design table are arranged. The simplex design plot above shows that the points are evenly spaced\n\n[image:rId87]\n\n[Image:rId87] The image shows the Analysis Result page in ECMiner DOE software, where users configure settings for statistical analysis. It allows selecting a response variable 'y1', choosing available factors like A, B, C, and their interactions, setting the highest-order interaction to 'Special 3rd Order', and specifying model type as\n\nSet the model in the main screen of Step 4 and start the analysis. This allows regression analysis, analysis of variance, and residual analysis. If you made a prediction on the main screen in Step 4, you can also see the predicted value.\n\nGeneral Info: Shows general information about the design.\n\nModel Info: View results of regression analysis, ANOVA, and unusual observations (extreme leverage, standardized residuals).\n\n[image:rId88]\n\n[Image:rId88] The image shows the output results of an Experimental Design using Mixture Design with Simplex Center Design in ECMiner. It presents estimated coefficients for response value y1, including terms like A, B, C, and their interactions, along with standard errors, t-values, and p-values to assess statistical significance. The\n\nRegression analysis and analysis of variance shows that the model has high suitability, and residual analysis below shows that the normality assumption is reasonable.\n\nResidual-related plots: View residual histograms, residual normal probability plots, residuals versus ordinal, and residuals versus fitted values.\n\n[Table:t423]\n\n[Image:rId90] The image shows an output results screen from ECMiner, displaying a residual vs. z-value plot with red dots representing residuals and a linear trend line. The plot is used to evaluate model fit by comparing observed residuals against expected values, ensuring that the model's assumptions about the relationship between variables are met.\n\n[Image:rId91] The image shows an output results screen from ECMiner, displaying a residual vs. fitted values plot for model y1. It visualizes residuals on the y-axis against predicted values on the x-axis, with red residuals, UCL and LCL lines, and a guide line. The plot helps assess model fit and\n\n[Image:rId92] The image shows an output results screen from ECMiner, displaying a residual plot with various lines indicating control limits and a guide line. The plot compares residuals against run numbers, helping to assess model fit and identify potential outliers.\n\n[Image:rId89] The image shows an output results window from ECMiner, displaying a residual histogram for model y1. It visualizes residuals across different ranges, indicating the distribution and variability in the model's predictions compared to actual values.\n\nOther Information\n\nShows residual related statistics.\n\n[image:rId93]\n\n[Image:rId93] The image shows the output results for an Experimental Design using a Mixture Design with a Simplex Center Design, specifically focusing on fitted values and residuals for response value y1. It provides detailed statistical information about each order's fitted value, residual, standardized residual, external standardized residual, leverage, distance of Cook, and DF\n\nFor detailed explanation, see 6.1.4. See Settings and Analysis.\n\nStep 5: Plot and Response Optimizer\n\nThrough Step 5 of Mixture Design, you can view surface plots and contour plots, and perform response optimizer tailored to the user's purpose. Below are the surface plot and contour plot for the Regression Model created in Step 4.\n\n[Table:t432]\n\n[Image:rId95] The image shows an output results window from ECMiner, displaying a contour plot with three variables A, B, and C. The plot visualizes the relationship between these variables, likely for optimization purposes, with different colors representing varying values of a dependent variable y1.\n\n[Image:rId94] The image shows an output results window from ECMiner, displaying a surface plot with three variables A, B, and C, and a dependent variable y1. The plot illustrates how y1 changes across different combinations of A and B, with C fixed at 1.00. The data points form a smooth\n\nIf the purpose of this experiment is to know which combination of ingredients maximizes the response value (firmness), enter the following in the setting window. Setting the lower limit at -1 means that any response value below -1 is considered equally 'not good.' The target value is set at a very large value, such as 1000, to indicate that we want to maximize the response value as much as possible.\n\n[image:rId96]\n\n[Image:rId96] The Response Optimizer settings in ECMiner allow users to specify the target value, lower limit, upper limit, weight, and importance for a response variable. The screen also displays graphs illustrating how different objective functions (minimize, achieve, maximize) influence the shape of the desirability function.\n\nAfter making the settings as above and completing the simple option settings, click View Results and you will get the following results.\n\n[image:rId97]\n\n[Image:rId97] The image shows the output results of an Experimental Design using a Simplex Center Design in ECMiner, focusing on Response Optimizer for mixture design. It presents three runs with varying values of A, B, and C, along with their corresponding y1 values and overall desirability scores.\n\nIn other words, through response optimizer, it can be seen that the firmness value increases to 6.52244 when component A is 0.00044, component B is 0.00104, and component C is 0.99853. The experimenter checks whether the firmness value increases to a satisfactory level in this combination of components. You can end the experiment or resume the experiment.\n\n6.1.3.3.2. Simplex Lattice Design\n\nIf the goal is to conduct an experiment in a simplex region and create a regression model based on the experiment results, it would be desirable for the experiment points to be evenly distributed throughout the simplex region. The design that meets this purpose is Simplex Lattice Design. Simplex Lattice Design is a useful design for fitting m-order polynomials when there are n components.\nThrough Simplex Lattice Design, we will explain mixture volume design. First, select Simplex Lattice Design.\n[image:rId98]\n\n[Table:t445]\n\n[Image:rId98] The image is a screenshot of the \"Select Experimental Design Method\" window in ECMiner, a data mining software. It allows users to choose between different experimental planning methods such as Factorial Design, Response Surface Design, Mixture Design, and Taguchi Design. The highlighted option is \"Simplex Lattice Design,\"\n\nStep 1: Factors and Levels\n\n[image:rId99]\n\n[Image:rId99] The image is a screenshot of the \"Factors and Levels\" tab in ECMiner, a data mining software tool. It shows settings for feature selection with three components (A, B, C) each having lower and upper limits set to 0 and 1 respectively. The response variable is selected as Y1,\n\nIn this step, we set up the basic settings for the ingredients used in the experiment. Since this experiment is a mixture amount design, multiple total amounts are selected rather than a single total. If you think the quantity will have a quadratic or greater impact on the response value, experiment with three or more positive values. If you are sure that the quantity will have a linear effect on the response value, two quantity values are sufficient. This requires careful consideration because the smaller the number of positive values, the fewer the number of experiments.\n\nHowever, as a result of the analysis of the first experiment conducted in this way, if it is confirmed that the effect of the amount of mixture is quadratic or higher, there is no need to perform the experiment perfectly from the beginning, as you only need to do a few additional experiments. After completing the settings, click the Next button to proceed to the next screen.\n\nStep 2: Design\n\n[image:rId100]\n\n[Image:rId100] The image is a screenshot of the Design tab in ECMinerDOE, which is used to specify options for completing a design table. It allows users to expand designs by adding center points and axis points, with repetition settings for iteration counts. The table shows different point types: Axis Points, Center Point, Vertex,\n\nIn this step, several detailed options are set to complete the design.\n\nGrid: It is very important how you select this grid because the degree of model that can be suitable is determined depending on the grid. If you want to do the first fit, you need to set the grid to 1 or higher, and if you want to do the second fit, you need to set the grid to 2 or more. Since the current composition is expected to have a secondary effect on the strength of the metal, the grid is set to 3 to allow some margin. (As the number of Grids increases, the number of experiments increases, so be sure to keep this in mind when choosing options.)\n\nFor repeat settings, it is the same as Simplex Center Design.\n\nStep 3: Design Table\n\n[image:rId101]\n\n[Image:rId101] The image is a screenshot of the Design Table in ECMiner DOE, which is used to complete a design table for data mining purposes. The table includes factors, levels, standard order of points, block numbers, and response values for analysis. The user can edit added response variables and choose between Standard Order of Design or\n\nThrough Step 3, the Design Table is completed, and the experimenter performs the experiment according to the given Design Table and then inputs the response value (strength). After completing your input, click the Next button to proceed to the analysis step.\n\nStep 4: Analysis Result\n\n[image:rId102] In Step 4, you can select Mixture Quantity Experiment in Model Type. If mixture components are selected, even if the amounts are different, if the proportions are the same, they are considered the same and analyzed. However, since it is clear that the actual experiment given here is one that requires consideration of the amount of mixture, we choose the experiment of amount of mixture. The maximum order of the term to be included and the maximum order of both terms of the mixture to be included are set to quadratic and linear, respectively, and terms that are known in advance to have no effect are removed as above. (Alternatively, it is a good idea to analyze by including all possible terms and then look at the analysis results and remove terms that are deemed meaningless.) The analysis details are 6.1.3.3.1. Please refer to Simplex Center Design.\n\n[Image:rId102] The image shows the Analysis Result page in ECMiner DOE software, where users configure settings for statistical analysis. It selects 'y1' as the response variable, lists available factors like A*B*Amount, A*C*Amount, B*C*Amount, and selected factors such as A, B, C, A\n\nHowever, the Regression Model created above has the following form.\n\ny= b1 x1 + b2 x2 + b3 x3 + b12 x1 x2 + b13 x1 x3 + b23 x2 x3 + b1,Amount x1 Amount-A + b2, Amount Amount-A + b3, Amount Amount-A\n\nStep 5: Plot and Response Optimizer\n\nIn this step, the regression model created in Step 4 is expressed as a surface plot and contour plot, and a response optimizer function is provided to meet the experimenter's purpose. When the amount of mixture is 2, the plot looks like this.\n\n[Table:t475]\n\n[Image:rId103] The image shows an output result from ECMiner, displaying a surface plot with three variables A, B, and C, where the y-axis represents the output value. The plot illustrates how the output changes as the values of A and B vary within their respective ranges.\n\n[Image:rId104] The image shows a Contour Plot generated by ECMiner, displaying the relationship between variables A, B, and C on a surface plot. The plot illustrates how different combinations of these variables affect a dependent variable y, with color gradients indicating varying values.\n\nThe experimenter's goal is to maximize the response value (strength), so the goal is maximization and the lower limit and target values are entered as appropriate values. Again, for the same reason as in most examples, we set the lower limit to -1 and the upper limit to 1000.\n\n[image:rId105]\n\n[Image:rId105] The image shows the output results of an Experimental Design using a Simplex Lattice Design in ECMiner, focusing on Response Optimizer analysis. It presents three runs with varying values for A, B, C, and their corresponding y1 and overall desirability scores.\n\nFrom the above results, we can see that the maximum strength of the metal can be obtained at (A, B, C) = 3*(0, 0, 1).\n\n6.1.3.3.3. Vertex Design\n\nVertex Design refers to finding the vertices of the Convex Set that satisfy the upper and lower limit conditions and linear constraints when these conditions are added, augmenting the experiment with these vertices, and then performing experiments on these points. Intuitively, we can see that when there are only upper and lower limit conditions and linear constraints in an n-dimensional space, it is not an easy process to find the vertices of the space created by these conditions. Therefore, this cannot be obtained through a simple process, but Piepel (1988) presented an algorithm to obtain these vertices.\nWe will explain how to add process variables to Mixture Design through Vertex Design.\nFirst, select Vertex Design.\n[image:rId106]\n\n[Table:t486]\n\n[Image:rId106] The image is a screenshot of the \"Select Experimental Design Method\" window in ECMiner, a data mining software tool. It allows users to choose between different experimental planning methods such as Factorial Design, Response Surface Design, Mixture Design, and Taguchi Design. The highlighted option is \"Vertex Design,\" indicating that\n\nStep 1: Factors and Levels\n\nFirst, add a process variable by selecting the Add Process Variable checkbox. Then click Setting button to view the pop-up window as shown below.\n\n[image:rId107]\n\n[Image:rId107] The image shows the \"Process Variables\" window in ECMiner, where users can select one process variable (X1) with a range from 100 to 200. The design type is set to \"Full Factorial,\" indicating a full factorial experiment with one section number. This setup is likely\n\nThen, enter the constraints for the ingredients in the main screen of Step 1 and click the Next button.\n\n[image:rId108]\n\n[Image:rId108] The image is a screenshot of the \"Factors and Levels\" tab in ECMiner, a data mining software tool. It shows settings for feature selection with three components A, B, and C, each having specified lower and upper limits. The user has set a single total value of 1.0 and plans to\n\nStep 2: Design\n\n[image:rId109]\n\n[Image:rId109] The image is a screenshot of the Design tab in ECMinerDOE, which is used to specify options for completing a design table. It allows users to expand designs by adding center points and axis points, with a repetition setting that specifies one iteration count for the entire design. The table lists different point types: Axis\n\nSeveral options can be specified in the Design selection step.\n\nDesign order: Take the current vertex and decide to what degree the point should be augmented.\n\nExpand Design by Adding Center Point: Determine whether to add a center point\n\nExpand Design by Adding Axis Points: Determine whether to add an axis point, which is the midpoint between the center point and each vertex\n\nRepetition Setting\n\n-Specify iteration Count for Entire Design: Specifies how many times to repeat the same entire experiment\n\n-Specify iteration Count for Selected Design Point: Depending on the type of point, the number of repetitions varies.\n\nStep 3: Design Table\n\n[image:rId110]\n\n[Image:rId110] The image shows an ECMiner DOE (Design of Experiment) window where users can complete a design table, enter response values, and analyze results for optimization purposes. The table includes factors A, B, C, X1, and Y1 with various point types, blocks, and levels. Users can edit added response\n\nAt the Design Table stage, a Design Table is created, the experimenter conducts an experiment according to the created design, and then inputs the response values. After completing the input, click the Next button to proceed to Step 4.\n\nStep 4: Analysis Result\n\nBefore starting Analysis Result, check how the design points created through the current algorithm are distributed in space through a Simplex Design plot.\n\n[image:rId111]\n\n[Image:rId111] The image is a simplex chart generated by ECMiner, displaying a set of data points in a triangular coordinate system. The chart shows how different combinations of variables A, B, and C affect the outcome, with each point representing a unique combination of values. The chart helps visualize relationships between these variables and identify patterns or\n\nAlthough the arrangement of the design points is not triangular due to the limiting conditions, they are arranged evenly in the limited space.\n\n[image:rId112]\n\n[Image:rId112] The image shows the Analysis Result page in ECMiner DOE software, where users configure settings for statistical analysis. It allows selecting response variables, available factors, and interaction levels, with options to add process variables and start the analysis.\n\nFor Model Type, select Add process variable and enter the maximum order of terms to include and the maximum order of the process variable terms to be included as required. Then you can get the following result:\n\nGeneral Info: Provides basic information about design.\n\nModel Info: Provides information on regression, analysis of variance, and unusual observations (extreme leverage, standardized residuals).\n\n[image:rId113]\n\n[Image:rId113] The image shows the output results of an experimental design using a vertex design in ECMiner, focusing on the analysis of response values y1. It presents estimated coefficients for various terms, including A, B, C, and their interactions with other factors, along with standard errors, t-values, and p-values to assess\n\nResidual related (residual histogram, residual normal probability plot, residual vs. ordered, residual vs. fitted Value)\n\n[Table:t528]\n\n[Image:rId117] The image shows the output results of ECMiner, specifically a residual plot for model evaluation. It plots residuals against run number, with red dots representing residuals, black lines indicating guide lines, and pink lines showing control limits (UCL and LCL). The plot helps assess model fit and identify potential outliers or patterns in\n\n[Image:rId114] The image shows the output results of ECMiner, specifically focusing on the residual histogram for model y1. It displays residuals grouped into intervals, with each interval represented by a colored bar. The histogram helps assess the goodness of fit for the model, indicating how well the predicted values match the actual data points.\n\n[Image:rId115] The image shows an output results screen from ECMiner, displaying a residual vs. fitted values plot with a linear trend line. The red points represent residuals, indicating the difference between observed and predicted values, while the green line represents the fitted model. This plot helps assess the goodness of fit and identify any patterns or outliers\n\n[Image:rId116] The image shows an output results screen from ECMiner, displaying a residual vs. fitted values plot with various lines indicating different confidence intervals and residual categories. The plot visualizes residuals against predicted values, helping to assess model accuracy and identify potential issues in the data.\n\nOther Information\n\norganize and displays other residual-related information.\n\n[image:rId118]\n\n[Image:rId118] The image shows the output results for an Experimental Design using a Mixture Design with a Vertex Design, specifically focusing on fitted values, residuals, and other statistical measures for response value y1. The table provides detailed information about each order's fitted value, residual, standardized residual, external standardized residual, leverage, distance of Cook\n\nFor more information, see 6.4. See Settings and Analysis.\n\nStep 5: Plot and Response Optimizer\n\nIn the Step 5, it shows what the Regression Model created in Step 4 looks like through surface plots and contour plots.\n\n[Table:t537]\n\n[Image:rId119] The image shows an output results window from ECMiner, displaying a surface plot with three variables A, B, and C, where the y-axis represents the output value. The plot illustrates how the output changes based on variations in A and B, with point A indicating the highest output value.\n\n[Image:rId120] The image shows an output results window from ECMiner, displaying a Surface Plot with three variables A, B, and C. The plot visualizes the relationship between these variables, with values ranging from 0 to 1. The highlighted area indicates the optimal region for maximizing the response variable y1.\n\nResponse optimizer is performed according to the experimenter's objectives. The goal of the current experiment is to maximize quality, so if the goal is maximized and the optimization is performed with the lower limit and target value as -1 and 1000, respectively, the following results can be obtained.\n\n[image:rId121]\n\n[Image:rId121] The image shows the output results of an Experimental Design using Mixture Design and Vertex Design in ECMiner, focusing on Response Optimizer. It presents three sets of parameters (A, B, C) for different experimental runs, along with their corresponding X1 values, y1 values, and overall desirability scores\n\nIn other words, you can see that the maximum quality of 36.05873 can be obtained when Components (A, B, C) = (0.5, 0, 0.5) and Process Variable = 1 (working temperature = 100 degrees).\n\n6.1.3.3.4. Mixture Design and D Optimal Design\n\nMixture Design and D Optimal Design is a method that optimizes the design for the best process (e.g., food ingredients, chemical blends, or formulations). D-Optimal Mixture Design combines the principles of mixture designs and D-optimality to create an efficient experimental plan for mixture experiments.",
+    "Context_id": "6장_v3_sanitized::chunk_0016",
+    "Is_image": true,
+    "Image_ids": [
+      "rId82",
+      "rId83",
+      "rId84",
+      "rId85",
+      "rId86",
+      "rId87",
+      "rId88",
+      "rId90",
+      "rId91",
+      "rId92",
+      "rId89",
+      "rId93",
+      "rId95",
+      "rId94",
+      "rId96",
+      "rId97",
+      "rId98",
+      "rId99",
+      "rId100",
+      "rId101",
+      "rId102",
+      "rId103",
+      "rId104",
+      "rId105",
+      "rId106",
+      "rId107",
+      "rId108",
+      "rId109",
+      "rId110",
+      "rId111",
+      "rId112",
+      "rId113",
+      "rId117",
+      "rId114",
+      "rId115",
+      "rId116",
+      "rId118",
+      "rId119",
+      "rId120",
+      "rId121"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t382",
+      "t423",
+      "t432",
+      "t445",
+      "t475",
+      "t486",
+      "t528",
+      "t537"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.3 Mixture Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to D Optimality (Determinant).\n\nD Optimality is the most commonly used criterion and is used to find a design that maximizes the Determinant of the inverse matrix. When we look for the Design Matrix X created by gathering the necessary candidate points from a set of several candidate points, the design table that makes the Determinant of the inverse matrix the largest is called D-Optimal Design. X T X X T X",
+    "Context_id": "6장_v3_sanitized::chunk_0017",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "D Optimality (Determinant)"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to A Optimality (Trace).\n\nWhen we look for the Design Matrix X created by gathering the necessary candidate points from a set of several candidate points, the design table that creates the largest TRACE of the inverse matrix is called A-Optimal Design. X T X\nA-Optimality is not widely used due to computational difficulties.",
+    "Context_id": "6장_v3_sanitized::chunk_0018",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "A Optimality (Trace)"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to G Optimality (Average Leverage / Maximum Leverage).\n\nG Optimality means average leverage divided by maximum leverage. Leverage refers to the Generalized Linear Model Matrix as X, and the H Matrix as\nH=X (X T X) -1 X T\nthis refers to their diagonal components. Dividing the average of these leverages by the maximum value is G-Optimality.",
+    "Context_id": "6장_v3_sanitized::chunk_0019",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "G Optimality (Average Leverage / Maximum Leverage)"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to V Optimality.\n\nThe average of leverage is V Optimality.\nD Optimal Design is used to maximize D Optimality. The D Optimal Design of response surface design is composed as follows.\n[image:rId122]\n\n[Image:rId122] The image is a screenshot of the D Optimal Design window in ECMiner, a data mining software tool. It shows options for selecting a linear model with one design point and maximum variable order, using the Fedorov algorithm for optimization. The user can choose between sequential optimization and random design methods, select available variables\n\nSelect Model\n\nFirst select a model. Depending on the model selected, the selection terms in the selection window below will change, and only some of them may be used.\n\nDesign Point Quantity at D Optimal Design\n\nDetermine how many design points there will be in the modified design table.\n\nMaximum Degree of Process Variable Terms Included\n\nUse the option to experiment with adding a Process Variable in Mixture Design Select up to the 2nd order if there are 2 or more Process Variables, or select the 1st order if there is only 1 Process Variable.\n\nInitial Design\n\nSelect an initial design to perform Optimal Design. Set how to choose an initial design with the same number of design points as in Optimal Design.\n\nD Optimal Design Algorithm\n\nDecide which algorithm will be used to improve the initial design to obtain D Optimal Design. ECMiner TM DOE provides Fedorov Algorithm, Modified Fedorov Algorithm, and K Exchange Algorithm. Among these, Modified Fedorov Algorithm and K Exchange Algorithm are known to have good performance.\n\nOption\n\nMax Repetition Count refers to the maximum number of repetitions to be performed in D Optimal Design Algorithm. Random Initial Design Generation Count refers to how many random designs are created when randomly designing the initial design. At this time, the algorithm is performed using the one with the largest D Optimality as the initial design among the various random designs created.\n\nCaution\n\nUnlike D Optimal Design of response surface design, in D Optimal Design of Mixture Design, the following message often appears during algorithm execution. This means that the Determinant is near 0 when the inverse matrix of the dispersion matrix is obtained during the algorithm execution process. In situations like this, if you select a design model by lowering the order of the model, this error will not appear.\n\n[image:rId123]\n\n[Image:rId123] The ECMiner software encountered an error during its algorithm execution, specifically when it failed to calculate the inverse matrix of the Dispersion Matrix. This issue likely indicates a problem with the data or the parameters used in the analysis process.",
+    "Context_id": "6장_v3_sanitized::chunk_0020",
+    "Is_image": true,
+    "Image_ids": [
+      "rId122",
+      "rId123"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "V Optimality"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Extension, and more specifically it belongs to DOE, under the subsection DOE Method s, with a detailed reference to Taguchi Design.\n\nThe Taguchi design of experiment has several roles, especially as an expanded one compared to the conventional design of experiment.\nPreviously, it was difficult to evaluate the degree of influence on data by causes such as uncontrollable environmental conditions, difficult-to-control production conditions, and process conditions (these are collectively referred to as noise factors), but it is gradually becoming possible to evaluate this objectively and quantitatively. In Taguchi's experimental design, this is evaluated using the SNR. In other words, the Taguchi experiment plan finds the optimal experiment combination that can reach the operator's desired conditions in an experiment environment that includes noise. Additionally, the number of experiments is dramatically reduced through the use of orthogonal array tables.\nIn addition to the above features, the Taguchi design has many advantages. The Taguchi method provided by ECMiner TM DOE is as follows:\n\n2- Level Design\n\n3- Level Design\n\n4- Level Design\n\n5- Level Design\n\nMix-Level Design\n\n6.1.3.4.1. 2- Level Design\n\n2-Level Design is a design used when there are two levels per factor. It is said that there is an experiment as follows.\nSelect Taguchi 2-Level Design.\n[image:rId124]\n\n[Table:t604]\n\n[Image:rId124] The image is a screenshot of the \"Select Experimental Design Method\" window in ECMiner, a data mining software tool. It allows users to choose an experimental planning method for designing experiments, including options like Factorial Design, Box-Behnken Design, Mixture Design, and Taguchi Design. The highlighted option\n\nStep 1: Factors and Levels\n\n[image:rId125]\n\n[Image:rId125] The image is a screenshot of the \"Factors and Levels\" tab in ECMiner, a data mining software tool. It allows users to specify factors with their levels and response values for analysis. The interface shows seven factors labeled A through E, each with two levels (1 and 2). Users can also select three\n\nSelect 7 factors and select 3 as the number of response values. In this case, the number of response values 3 means three types of roads.\n\nStep 2: Design\n\n[image:rId126]\n\n[Image:rId126] The image is from the ECMiner DOE (Design of Experiments) module, showing design selection options for specifying experiment counts in factorial designs with 2-level factors. The screen lists four different factorial designs: L8(2^7), L12(2^11), L16(2^\n\nThere are many designs to choose from, of which we choose the L8 design, which has the fewest number of experiments.\n\nStep 3: Design Table\n\n[image:rId127]\n\n[Image:rId127] The image shows an ECMiner DOE (Design of Experiments) window where users can complete a design table by entering response values for different factor levels. The table includes columns for standard order, factors A to G, and three response variables y1, y2, and y3. Users can edit added response variables\n\nEnter the amount of CO from the three types of roads in the completed Design Table. The values entered in this way will be used for later statistical analysis.\n\nStep 4: Analysis Result\n\n[image:rId128]\n\n[Image:rId128] The image shows the output results of an Experimental Design using Taguchi's method in ECMiner, detailing three factors (A, B, C) with two levels each for analysis.\n\nSince a smaller the current CO value is better, select the Mesh characteristic and start the analysis. As a result of the analysis, you can obtain a variance analysis table along with the SN ratio Factors with a negligible small SS can be excluded from the initial experiment. Since the SS of E is substantially large, this factor is considered a decisive factor in the SN ratio of CO.\n\nFor a detailed explanation, see 6.1.4. See Settings and Analysis.\n\nStep 5: Plot and Response Optimizer\n\n[image:rId129] At this stage, the optimal conditions can be found through the main effects plot for the SN ratio. Since a larger SN ratio is better, the optimal conditions are A2, B2, C1, D2, E2, F1, and G2.\n\n[Image:rId129] The image shows an output results graph from ECMiner, displaying the main effect plot for average values across different categories. The plot compares various factors' impact on a metric, with each color representing a different category, illustrating how these factors affect the outcome.\n\nHowever, if the levels of only a few factors can be determined, B and E should first be set to levels 1 for both factors. And for the remaining factors, the level is determined by considering economic and cost effectiveness.\n\nThe experimental plan is terminated after determining reproducibility at the optimally determined level through re-experimentation.\n\n6.1.3.4.2. 3- Level Design\n\n3-Level Design is a design used when there are three levels per factor. Suppose we have the following experiment.\nSelect Taguchi Design 3-Level Design.\n[image:rId130]\n\n[Table:t635]\n\n[Image:rId130] The image is a screenshot of the \"Select Experimental Design Method\" window in ECMiner, a data mining software tool. It allows users to choose between various experimental planning methods such as Factorial Design, Response Surface Design, Mixture Design, and Taguchi Design. The highlighted option is \"3-Level Design,\" indicating\n\nStep 1: Factors and Levels\n\n[image:rId131]\n\n[Image:rId131] The image is a screenshot of the \"Factors and Levels\" tab in ECMiner, a data mining software used for designing experiments. It specifies four factors: bond mixing ratio, bonding method, surface treatment method, and heat treatment method, each with three levels. The user can select response values for analysis, indicating different\n\nName the factors as above, select 4 response values, and give them names appropriate for the level of each noise factor.\n\nStep 2: Design\n\n[image:rId132]\n\n[Image:rId132] The image is from the ECMiner DOE software, showing design selection options for completing a design table. It lists two experiment designs: L9(3^4) with 9 runs and L27(3^13) with 27 runs, both involving three-level factors. The user can specify\n\nThere are currently two designs to choose from, of which I choose the L9.\n\nStep 3: Design Table\n\n[image:rId133]\n\n[Image:rId133] The image is a screenshot of the Design Table in ECMiner DOE, which is used to complete a design table for data mining analysis. The table includes factors, levels, and response values for various treatments. Users can enter these values to analyze the impact of different variables on the response variable. The goal is to optimize\n\nOnce the design table is completed, enter the experimental characteristic values at each level of the non-controlling factors.\n\nStep 4: Analysis Result\n\n[image:rId134]\n\n[Image:rId134] The image shows the output results of an Experimental Design using Taguchi's method in ECMiner, detailing three factors: Bonding ratio, Bonding method, and Surface treatment method, each with three levels. This setup is used to optimize experimental conditions for a specific process.\n\nSince the current characteristic value represents the content of impurities, a smaller value indicates better performance. So, select the mesh feature and start the analysis. The analysis of variance table based on the SN ratio shows that B's SS (Sum of Square) is extremely small. From this, we can see that factors A, C, and D all well explain the variance in SN ratio.\n\nFor detailed explanation, see 6.1.4. See Settings and Analysis.\n\nStep 5: Plot and Response Optimizer\n\n[image:rId135]\n\n[Image:rId135] The image shows an output results graph from ECMiner, displaying the main effect plot for average values across different treatment methods. The graph compares various treatments on a scale from 1 to 3, with each method represented by a different colored line. The x-axis indicates the treatment method, while the y-axis represents the\n\nIn this step, the optimal experimental conditions can be found through the main effects plot for the SN ratio. Currently, the SN ratio is the highest for A at level 2, B at level 3, C at level 3, and D at level 3, so A1, B2, C1, and D1 are the best conditions, assuming there is no interaction between A, B, and C. We conduct a confirmation experiment to confirm reproducibility and complete the experiment.\n\n6.1.3.4.3. 4 - Level Design, 5- Level Design, Mix-Level Design\n\nThe analysis method of all Taguchi Designs is the same as 2 and 3-Level Design. Therefore, we will only mention the characteristics of 4-Level Design, 5-Level Design, and Mix-Level Design.\n\nA 4-Level Design is a design in which the number of factor levels is 4.\n\n5- Level Design\n\nA 5-Level Design is a design in which the number of factor levels is 5.\n\nMix-Level Design\n\nMix - Level Design is a design where the number of levels of a factor varies depending on the factor. ECMiner TM DOE offers a design.21 × 37\n\nFor detailed analysis methods, see 6.1.3.4.1. 2-Level Design, 6.1.3.4.2. 3-Level Design, 6.1.4. See Settings and Analysis.",
+    "Context_id": "6장_v3_sanitized::chunk_0021",
+    "Is_image": true,
+    "Image_ids": [
+      "rId124",
+      "rId125",
+      "rId126",
+      "rId127",
+      "rId128",
+      "rId129",
+      "rId130",
+      "rId131",
+      "rId132",
+      "rId133",
+      "rId134",
+      "rId135"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t604",
+      "t635"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.4 Taguchi Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis.",
+    "Context_id": "6장_v3_sanitized::chunk_0022",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Settings.\n\n6.1.4.1.1. Predict Settings\n\nPredict is used when you want to predict the response value at a specific factor (component) level using the Regression Model created in Step 4. The input values that must be set in Predict are as follows.\n\nPrediction Value Quantity\n\nEnter how many points you want to predict.\n\nSelect Response Value\n\nS elect the desired value to predict for multiple response values.\n\nConfidence Level\n\nUse when calculating the confidence interval of the response value.\n\nConsideration of blocks\n\nDecide whether to take the block into consideration.\n\n[image:rId136]\n\n[Image:rId136] The image shows the \"Predict\" window in ECMiner, a data mining software tool. It is used to predict a single response value based on one prediction variable, with a significance level set at 0.05. The table displays block information for A, B, and X1, all with values of\n\n6.1.4.1.2. Graph Settings\n\nThrough Graph Settings, settings are made for the graph related to various statistics obtained through the Regression Model in Step 4.\n\nResidual Histogram\n\nCheck whether to draw a residual histogram and how many sections to divide it into.\n\nResidual Plot\n\nChoose which residual plot to draw.\n\nUsed Residual\n\nSelect which residuals to use when drawing residual-related plots.\n\n[image:rId137]\n\n[Image:rId137] The image is a screenshot of the Graph tab in ECMiner, showing options for residual analysis including histogram, normal probability plot, residual vs. fitted values, and residual vs. order plots. The user can choose between residual, standardized residual, and studentized residual types.\n\n6.1.4.1.3. Other Information\n\nThrough Other Information, you can select which statistics to show in the analysis results. Selectable statistics include fitted values, residuals, standardized residuals, externally Studentized residuals, leverage, distance of Cook, and DFITS.\n[image:rId138]\n\n[Image:rId138] The image is a screenshot of the \"Misc Info\" window in ECMiner, showing options for fitting values, residuals, standardized residuals, externally studentized residuals, leverage, distance of Cook, and DFITS. This window allows users to analyze and visualize model diagnostics, helping to identify influential observations and assess the overall fit",
+    "Context_id": "6장_v3_sanitized::chunk_0023",
+    "Is_image": true,
+    "Image_ids": [
+      "rId136",
+      "rId137",
+      "rId138"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "6.1.4.1 Settings"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Analysis.\n\n6.1.4.2.1. Regression Analysis\n\nOnce the design table is created and response values are obtained according to the created design, full-scale analysis can be started. ECMiner TM DOE provides functions such as regression analysis, analysis of variance, residual analysis, prediction, graph analysis, and response optimizer. The most basic of these is regression analysis. The regression analysis model can be expressed mathematically as follows.\n\ny= β0 + β1 x1 + β2 x2 +…+ β k x k +ϵ ϵ~N(0, σ2)\n\n, I is the identity matrix. y=Xβ+ϵ ϵ~N(0, σ2 I)\n\nwhere y= y1 y2 … y N, X= x11 … x1 k x21 … x2 k … … … x N1 … x Nk, ϵ= ϵ1 ϵ2 … ϵ N\n\nIn this case, the estimator of β using the least squares method is calculated as follows.\n\nβ = X T X -1 X T y Var β = σ2 X T X -1\n\nUsing these facts, we can estimate the fitted model that best explains the data as follows.\n\ny =X β\n\nNote: Mixture Design excludes constant terms from the Regression Model above. Due to the constraint that the sum of the mixture components must always be constant, the constant term disappears.",
+    "Context_id": "6장_v3_sanitized::chunk_0024",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "6.1.4.2 Analysis"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Factorial Design regression analysis results.\n\n[image:rId139]\n[image:rId140]\n\n[Image:rId139] The image shows the results of a statistical analysis using ECMiner, specifically focusing on estimated effects and coefficients for response value y1. The table includes terms like Const, Block1, A, B, and C with their respective effects, coefficients, standard errors, t-values, and p-values. The analysis aims to\n\n[Image:rId140] The image displays statistical metrics for a response variable y1 in an analysis, including R Square (0.10221), Adjusted R Square (0), and RMSE (29.54395). These values indicate the model's explanatory power and error estimation, respectively.",
+    "Context_id": "6장_v3_sanitized::chunk_0025",
+    "Is_image": true,
+    "Image_ids": [
+      "rId139",
+      "rId140"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Factorial Design regression analysis results"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Response Surface Design regression analysis results.\n\n[image:rId141]\n[image:rId142]\n\n[Image:rId141] The image shows the results of a statistical analysis using ECMiner, specifically focusing on estimated coefficients for two response variables, y1 and y2. The table provides details about the coefficients, standard errors, t-values, and p-values for various terms in a model, indicating how different factors influence these responses.\n\n[Image:rId142] The image shows statistical results from an analysis using ECMiner, specifically focusing on the response variable y1. It displays R Square as 0.10371, Adjusted R Square at 0, and Root Mean Squared Error (RMSE) of 0.74466.",
+    "Context_id": "6장_v3_sanitized::chunk_0026",
+    "Is_image": true,
+    "Image_ids": [
+      "rId141",
+      "rId142"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Response Surface Design regression analysis results"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Mixture Design regression analysis results.\n\n[image:rId143]\n[image:rId144]\n\n[Image:rId143] The image shows the results of a statistical analysis using ECMiner, specifically focusing on estimated coefficients for response value y1. It includes terms A, B, C, and their interactions with each other, along with their respective coefficients, standard errors, t-values, and p-values. The analysis aims to understand how different\n\n[Image:rId144] The image shows statistical results from ECMiner, including R Square, Adjusted R Square, and RMSE for response value y1, indicating model performance metrics.\n\n6.1.4.2.2. Dispersion Analysis (Analysis of Variance, ANOVA)\n\nAnalysis of Variance allows you to determine whether each term affects the response value by determining the degree of variance caused by each term in the total variance. Distributed Analysis can be easily performed through the Regressor Matrix used in regression analysis.\nFirst, if there is a block, we need to find the variance for the block.\nIf we call the Submatrix consist of Regressor Matrix X's first to ith Column as, and w hen the total number of blocks is bn (>=2) it is X i\n\nSum of squares of block= y T X bn X bn T X bn -1 X bn T -X1 X1 T X1 -1 X1 T y\n\nIf the number of blocks is 1, the above process is not executed. And the degree of freedom at this time is bn-1.\nNow we need to find the Sum of Squares for each term. One term corresponds to one column of X. If a term corresponds to the jth column, the sum of square of that term is\n\ny T X i X i T X i -1 X i -X i-1 X i-1 T X i-1 -1 X i-1 y\n\nAt this time, the degree of freedom of this term is 1. However, ECMiner™ DOE does not calculate the Sum of Square for each term, but instead calculates the Sum of Square by grouping it by the main effect, two-way interaction, three-way interaction, or other characteristics. First, if the columns due to the main effect are from i to j, use the\n\ny T X j X j T X j -1 X j -X i-1 X i-1 T X i-1 -1 X i-1 y\n\nformula to find the Sum of Square. This is ultimately equal to the sum of the Sum of Squares for each column that makes up the main effect. Its degrees of freedom are i -j. In the same way, k-way interactions are also grouped to obtain the Sum of Square.\nIf there is a center point in the design, the last column corresponds to it. The variation about the center point is called Curvature. When the number of columns of X is Ncols, it is\n\nSum of Squares of Curvature= y T X Ncols X Ncols T X Ncols -1 X Ncols T -X Ncols-1 X Ncols-1 T X Ncols-1 -1 X Ncols-1 y\n\nand the degree of freedom is 1.\nIn the case of SSE and SST, they are obtained as follows.\n\nSSE=SST- Sum of Squares of all items.\n\nSST= i=1 n y i -y2\n\nThe degree of freedom at this time is ‘total number of data – 1’. Blocks, Curvature, main effects, two-way interaction. The F value and P value of are obtained through\n\nF-value= SS/df SST/(n-1) p-value=P F>Fvalue where F~F(df,n-1)\n\nAnother thing to consider is Lack of Fit. When we calculate SSE, it can be said that SSE consists of Pure Error and Lack of Fit. Pure Error can be obtained when experiments are conducted on the same point with multiple times (twice or more).\n(However, the same point here does not mean the actual same point. Here, the same point is said if the rows of the Regressor Matrix are the same. Even if the actual experimental points are different, the rows of the Regressor Matrix may be the same depending on how the selection term is selected.)\nIf ak (1<=k<=m) experiment point (when Nk experiments are performed) Pure Error is\n\nPure Error= k=1 m SST at a k\n\nwhere SST at a k = i∈A y i2 -N a k * i∈A y i N a k2 The set A consists of the rows of a k\n\nAnd the degrees of freedom of Pure Error are:\n\nDF of Pure Error= k=1 m (N a k -1)\n\nIf the Pure Error and its degrees of freedom are obtained in this way, the SS and degrees of freedom of the Lack of Fit can also be obtained as follows.\n\nSum of Squares of Lack of Fit'=SSE-Pure Error\n\nDF of Lack of Fit=DF of SSE-DF of Pure Error\n\nAt this time, the F value and P value of Lack of Fit obtained are\n\nFvalue= SS of Lack of Fit DF of Lack of Fit Pure Error DF of Pure Error and\n\np-value=P F>Fvalue where F~F(DF of Lack of Fit, DF of Pure Error)\n\nThrough this, you can statistically check whether there is a lack of suitability of this model.",
+    "Context_id": "6장_v3_sanitized::chunk_0027",
+    "Is_image": true,
+    "Image_ids": [
+      "rId143",
+      "rId144"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Mixture Design regression analysis results"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Results of Factorial Design.\n\n[image:rId145]\n\n[Image:rId145] The ANOVA table for response value y1 shows that the block effect has no significant impact on the variability, while the main effect is significant with an F-value of 0.58049 and P-value of 0.66697. The residual error accounts for most of the variability",
+    "Context_id": "6장_v3_sanitized::chunk_0028",
+    "Is_image": true,
+    "Image_ids": [
+      "rId145"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Results of Factorial Design"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Results of Response Surface.\n\n[image:rId146]\n\n[Image:rId146] The ANOVA table for response value y1 in ECMiner shows that the linear term has the highest variability, followed by the square term. The interaction term is zero, indicating no significant interaction effect. The residual error accounts for most of the variability, with lack of fit and pure error terms contributing less.",
+    "Context_id": "6장_v3_sanitized::chunk_0029",
+    "Is_image": true,
+    "Image_ids": [
+      "rId146"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Results of Response Surface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Results of Mixture Design.\n\n[image:rId147]\n\n[Image:rId147] The ANOVA table for response value y1 in ECMiner shows that the linear term has the highest variability, followed by A*B, A*C, and B*C terms. The residual error is also significant, indicating that there is still some variability not explained by the model.\n\n6.1.4.2.3. Residual Analysis\n\nFor Residual Analysis, several statistics are used. (This refers not only to the residual but also to all statistics related to the residual. ECMiner™ DOE provides the following statistics.\n\nResidual\n\nStandardized Residual\n\nExternal Standardized Residual\n\nLeverage\n\nCook’s Distance\n\nDFITTS\n\nAnd as graphs related to residual, we provide Residual Histogram, Normal Probability Plot, Residual vs. Order, and Residual vs. Fitted Value Graph.\n\n[Table:t806]\n\n6.1.4.2.4. Statistical Analysis on Taguchi\n\n6.1.4.2.4.1. Loss function and SN ratio",
+    "Context_id": "6장_v3_sanitized::chunk_0030",
+    "Is_image": true,
+    "Image_ids": [
+      "rId147"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t806"
+    ],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Results of Mixture Design"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Loss function.\n\nQuality characteristics are classified into three categories as follows and loss functions for each are defined separately.\n\nNominal the best characteristics\n\nThis is a case where a specific target value is given, such as length, weight, thickness, etc. If the measured value is y and the target value is m, the loss function is defined as\n\nL y =k y-m2\n\nIf the consumer's loss at the consumer tolerance threshold [image:rId148] [image:rId149] of the characteristic value is A won, this is determined by the following equation.\n\n[Image:rId149]\n\n[Image:rId148]\n\nA=k Δ2\n\nIn other words, in the case of network characteristics, the loss function becomes\n\nL y = A Δ2 y-m2\n\nThe smaller the better characteristics\n\nThe smaller the characteristic value, the better, such as wear, vibration, and defect rate. In this case, the network characteristic can be considered as m=0, so the loss function is as follows.\n\nL y = ky2 = A Δ2 y2\n\nLarge the better characteristics\n\nThe larger the characteristic value, the better—for example, strength, lifespan, and fuel efficiency. The loss function at this time is as follows.\n\nL y = A Δ21 y2",
+    "Context_id": "6장_v3_sanitized::chunk_0031",
+    "Is_image": true,
+    "Image_ids": [
+      "rId148",
+      "rId149"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Loss function"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on SN ratio.",
+    "Context_id": "6장_v3_sanitized::chunk_0032",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "SN ratio"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on It is expressed as.\n\nSN ratio= power of signal power of noise\n\nwhich is defined differently for each type.\n\nnominal the best characteristics case\n\npower of signal power of noise = Estimated value of population mean μ squared μ2 Estimated of variance σ2\n\nAt this time, the estimated value of variance is\n\nσ2 =V= i=1 n y i -y2 n-1\n\nS m = (y1 + y2 +…+ y n) n\n\nIn this case,\n\nE S m = σ2 + n2\n\nis established, so it becomes\n\nS m = σ2 =n μ2\n\nμ2 = 1 n (S m -V)\n\nFor common logs in\n\nSN ratio= 1 n (S m -V) V\n\nyou can get the following values.\n\nSN ratio=10 log1 n S m -V V\n\nThe larger this value, the greater the power of the signal and the smaller the power of noise, and the condition that makes this SN value the largest becomes the optimal condition. However, since it is [image:rId150] [image:rId151], the SN ratio becomes\n\n[Image:rId150]\n\n[Image:rId151]\n\nSN=10 log y2 -V n V\n\nWhen n is large enough, [image:rId152] [image:rId153] becomes small enough to be ignored, so when [image:rId154] [image:rId155] is true it becom e s\n\n[Image:rId155]\n\n[Image:rId152]\n\n[Image:rId153]\n\n[Image:rId154]\n\nSN=10 log y2 V =10 log y2 s2 =20 log y s\n\nThe smaller the better characteristics case\n\nIn the case of network properties, the SN ratio that minimizes the expected value of the loss function is considered. f repeated measurement data [image:rId156] [image:rId157] obtained, the estimated value of E(y) can be viewed as y1, y2,…, y n\n\n[Image:rId156]\n\n[Image:rId157]\n\nMSD= 1 n i=1 n y i -02 = 1 n i=1 n y i2\n\nUsing this, the SN ratio is calculated as follows.\n\nSN=-10 log1 n i=1 n y i2\n\nLarge the better characteristics case\n\nIn order to make the expected loss L smaller, as in the case of the smaller the better characteristics case, the estimated value of E(1/y) is used as\n\nMSD= 1 n i=1 n1 y i -02 = 1 n i=1 n1 y i2\n\nand the SN ratio is set as\n\nSN ratio= -10 log1 n i=1 n1 y i2\n\nTo summarize, it is as follows.\n\n[Table:t882]\n\n6.1.4.2.4.2. Parametric design of quantitative values\n\nParametric design is the core of Taguchi's experimental design method, which is useful in product design and process design. Parameters refer to controllable factors that affect the characteristics of product performance, and parameter design refers to determining the optimal levels of these factors. These parameters are also called design variables, and in parametric design, the optimal conditions for design variables are obtained so that the product can achieve target quality while being insensitive to noise.",
+    "Context_id": "6장_v3_sanitized::chunk_0033",
+    "Is_image": true,
+    "Image_ids": [
+      "rId150",
+      "rId151",
+      "rId152",
+      "rId153",
+      "rId154",
+      "rId155",
+      "rId156",
+      "rId157"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t882"
+    ],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "It is expressed as"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Parametric designs typically have several important characteristics:.\n\nIt is mainly designed using an orthogonal array table, and two or more characteristic values are obtained under one experimental condition of control factors. The reason for obtaining multiple characteristic values under one experimental condition of control factors is to understand the influence of variable factors that are difficult to control, and there are two ways to repeatedly obtain characteristic values.\n\nRepeatedly measuring characteristic values while leaving noise factors are unchanged\n\nPlacing noise factors using an orthogonal array as an outer array\n\nDuring distributed analysis, the performance characteristics are not analyzed, but the SN ratio is analyzed.\nInclude all control factors that are expected to affect the characteristics of the system that is the subject of product design or process design, and place noise factors, block factors, etc. as non-control factors, but do not place too many of them.",
+    "Context_id": "6장_v3_sanitized::chunk_0034",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Parametric designs typically have several important characteristics:"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Parameter design method for smaller the better / larger the better characteristics.\n\nSet up an experiment with control factors. (using the intersection table)\nThe SN ratio is calculated from repeated measurements for each experimental condition.\nThrough distributed analysis of the SN ratio, we find control factors that affect the SN ratio.\nThe level combination that maximizes the SN ratio is the optimal level combination. For control factors that do not have a significant effect on the SN ratio, an appropriate level is selected considering economic feasibility, workability, etc.\nWe estimate the population average of characteristic values at the optimal level combination and conduct a confirmation experiment to check whether there is reproducibility.",
+    "Context_id": "6장_v3_sanitized::chunk_0035",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Parameter design method for smaller the better / larger the better characteristics"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Parameter design method for nominal the best characteristics.\n\nSet up an experiment with control factors. (using orthogonal array table)\nSN ratio and Sn are calculated from repeated measurements for each experimental condition. Here, Sn is a quantity that represents sensitivity and is a statistic defined to find a significant factor in the average of y.\nThrough analysis of variance of the SN ratio, we find control factors that have a significant impact on the SN ratio.\nFind control factors that affect the average of y through variance analysis of Sn. Through analysis of variance of the SN ratio and Sn, control factors can be classified into three categories as follows.\ndispersion control factor: Factors that have a significant impact on SN ratio\nmean adjustment factor: Factors that have a significant effect only on the mean of y\nOther control factors: Factors that do not simultaneously affect the SN ratio or the average of y\nIf one control factor simultaneously affects the SN ratio and the average of y, it is classified as a dispersion control factor.\nThe dispersion control factor is set at a level that maximizes the SN ratio, and the level of the average adjustment factor is adjusted so that the average of y approaches the target value. For other control factors, select appropriate levels considering economic feasibility, workability, etc.\nThe population average of the characteristic values in the optimal level combination obtained above is estimated and a confirmation experiment is performed to determine whether the reproducibility is sufficient.",
+    "Context_id": "6장_v3_sanitized::chunk_0036",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Parameter design method for nominal the best characteristics"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Plot.\n\n6.1.4.3.1. Main Effects Plot\n\nThe main effects plot is a plot that appears when we create a design with Process Variable added in factorial design (2-Level Factorial Design, Plackett-Burman Design, General Full Factorial Design) and Mixture Design. Using the main effects plot, you can intuitively understand what the response value or the fitted value in a regression model is at a specific level. In factorial design, you can select the data mean (using the response value directly) or the fitted mean (using the fitted value from the Regression Model), and in the design with Process Variable added in Mixture Design, only the data mean can be used.\n[image:rId129]\n\n6.1.4.3.2. Interaction Plot\n\nThis is a plot to display the interaction of two factors, such as AB and BC. For example, if factor A can have -1,1 and factor B can have -1,1 the average of the response values (or fitted values) of all experiments when factor A is -1 and B is -1, and the average of the response values (or fitted values) of all experiments when factor A is -1 and factor B is 1. Then draw one line. When factor A is 1 and factor B is -1 another line is drawn by connecting the average of the response values of all experiments and the average of the response values (or fitted values) of all experiments when factor A is 1 and factor B is 1. If we draw this on one screen, we can see the interaction of the ABs. If there are three factors, a plot can be drawn for AB, AC, and BC, and if the number of factors increases, an additional plot must be drawn accordingly.\n[image:rId48]\n\n6.1.4.3.3. Contour Plot\n\nIt is said that the following regression model was estimated through the regression.\n\n(t) y=f(x1, x2,…, x n)\n\nIn order to express the shape of such a model on a two-dimensional plane, n-2 factors (n-3 components in Mixture Design) are fixed and then the area of values that the remaining 2 factors (3 components in Mixture Design) can have. The y value is obtained from and the larger the y value, the darker the color, and the smaller the area, the lighter the color. This provides an intuitive understanding of the shape of the response surface.\n[image:rId158] [image:rId159]\n\n[Image:rId159] The image shows an output results screen from ECMiner, displaying a contour plot for variable y1 with values ranging from -1 to 1 on both axes. The plot visualizes the relationship between variables A and y1, highlighting different regions with varying values of y1.\n\n[Image:rId158] The image shows an output results window from ECMiner, displaying a contour plot for variable A and B with values ranging from -1 to 1. The plot illustrates the relationship between these variables on a surface, with color intensity representing different levels of a dependent variable y1.\n\n6.1.4.3.4. Surface Plot\n\nIt is said that the following regression model was estimated through the regression.\n\ny=f(x1, x2,…, x n)\n\nIn order to express this model in three dimensions, n-2 factors (n-3 components in Mixture Design) are fixed, and then the y-values are calculated from the range of values that the remaining 2 factors (3 components in Mixture Design) can have. Find and draw a plane by considering it as the height of the 3D graph. This can be said to be the easiest tool to understand the response surface obtained through Regression along with the contour plot.\n[image:rId160] [image:rId161]\n\n[Image:rId160] The image shows an output results window from ECMiner, displaying a surface plot with two variables on the x-axis and y-axis, and a third variable represented by color intensity. The plot illustrates how the third variable changes across different combinations of the first two variables, providing insights into the relationship between them.\n\n[Image:rId161] The image shows an output results window from ECMiner, displaying a surface plot with two variables on the x-axis and y-axis, and a z-axis representing the output variable. The plot illustrates how the output variable changes with respect to the input variables, providing insights into the relationship between them.\n\n6.1.4.3.5. Simplex Design Plot\n\nWhile the main effects plot, interaction plot, surface plot, and contour plot are all plots that are interested in response values, the simplex design plot provided only by Mixture Design is a plot that shows how the experimental points are arranged. DOE's Mixture Design method presents a method of placing experimental points with components where the sum of the components is constant. Mixture Design includes Simplex Center Design, Simplex Lattice Design, and Vertex Design. In each of these designs, you can check whether the experimental points are appropriately placed in space by showing how the experimental points are determined and arranged in space.\n[image:rId162] [image:rId163]\n\n[Image:rId162] The image shows a simplex chart in ECMiner, displaying three vertices labeled A, B, and C, with corresponding coordinates in columns A, B, and C. The chart likely represents a mathematical optimization problem where vertices represent different solutions or states, and the simplex method is used to find the optimal solution within the feasible\n\n[Image:rId163] The image is a simplex chart from ECMiner, displaying a set of points representing different combinations of three variables (A, B, C) with their respective values. The chart helps visualize relationships between these variables in a triangular space.",
+    "Context_id": "6장_v3_sanitized::chunk_0037",
+    "Is_image": true,
+    "Image_ids": [
+      "rId129",
+      "rId48",
+      "rId158",
+      "rId159",
+      "rId160",
+      "rId161",
+      "rId162",
+      "rId163"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "6.1.4.3 Plot"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Response Optimizer.\n\nBasically, DOE's primary goal is to design an experiment and create a regression model using the results of the experiment. This is because meaningful results can be obtained with just this regression model. To add a little more, residual analysis, analysis fo r variance, etc. are performed to determine the significance of the regression model. This somewhat concludes the DOE's process.\nHowever, for user convenience and ease of interpretation, a plot can be drawn to express the results more visually and intuitively. For this purpose, in case of factorial design, main effects plot, interaction plot, surface plot, and contour plot are provided, and in case of response surface design, surface plot and contour plot are provided. In the case of Mixture Design, surface plots and contour plots are provided, and when Process Variable is added, main effect plots and interaction plots for process variables are provided.\nHowever, the final step of DOE can be said to be the response optimizer. Response optimizer is not simply aimed at maximizing or maximizing the response value of a regression model. Of course, this partial purpose can be fully achieved by adjusting various input values. Response optimizer, as DOE calls it, is a useful tool for meeting more general purposes. For example, if there are two or more response values in an experiment and you want to make one response value larger and one response value smaller, this can be solved by creating a new function and addressing the problem of increasing this function. Of course, this function will grow when the first response value is large, and it will grow when the second response value is small. After this, we will explain how to mathematically formalize this to reach the goal.\n\n6.1.4.4.1. Desirability Function\n\nThere is one desirability function for one reaction column. If there is only one reaction column, you need to find a combination of the levels of factors that optimize this one desirability function. If there are multiple reaction heats and you want to find the optimal factor level combination considering all multiple reaction heats, you can create a single overall desirability function that considers multiple desirability functions and optimize it. If there are m reaction heats and the desirability functions for them are respectively, and the importance of each reaction heat is respectively, then the comprehensive desirability function that takes all of them into consideration. Is d1, d2,…, d m r1, r2, …, r m\n\nD= d1 r1 d2 r2 … d m r m1 i=1 m r i\n\nHowever, since each is a function of factor’s (), D can also be called a function of () d i x1, x2,… QUOTE x1, x2,…, x k's x1, x2,… QUOTE x1, x2,…, x k's\nThe final goal is to find the combination of to maximize D. x1, x2,…",
+    "Context_id": "6장_v3_sanitized::chunk_0038",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "6.1.4.4 Response Optimizer"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Minimization.\n\nAs explained above, one reaction value corresponds to one desirability function. The goal is to maximize this desirability function, whether you want to minimize the response, maximize it, or hit the target value. Therefore, the desirability function will depend on the kind of optimization you want. When you select Minimize, you can set the upper limit and target value. When the upper limit is U and the target value is T, the desirability function in minimization is\n\nd=1 if y<T\n\nd= U-y U-T λ if T≤y≤U\n\nd=0 y>U\n\nλ means the weight",
+    "Context_id": "6장_v3_sanitized::chunk_0039",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Minimization"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Maximization.\n\nWhen you select Maximize, you can select a lower limit and target value. When the lower limit is L and the target value is T, the desirability function in maximization is\n\nd=0 if y<L\n\nd= y-L T-L λ L≤y≤T\n\nd=1 y>T\n\nλ means the weight",
+    "Context_id": "6장_v3_sanitized::chunk_0040",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Maximization"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Hit target value.\n\nWhen hit the target value is selected, you can select the upper and lower limits and the target value. when lower limit is L, upper value is U and the target value is T,\n\nd=0 y<L\n\nd= y-L T-L λ L≤y≤T\n\nd= U-y U-T λ T≤y≤U\n\nd=0 y>U\n\nλ means the weight\nThe y that commonly appears above is a regression equation created through a Regression Model. Therefore, the following equation is established\n\ny=f(x1, x2,…, x k)\n\nand is also a function of Through this, each d can be obtained, and by calculating it considering the weight, the overall desirability function can be obtained. Summarizing this process, it is as follows. x1, x2,… QUOTE x1, x2,…, x k's\n\n[image:rId164]\n\n[Image:rId164] The image illustrates the process of data mining using ECMiner, where input data x is transformed through regression and mapping to output data y, which is then mapped again to composite data D.\n\nNow we need to introduce an optimization algorithm to maximize this overall desirability function. This overall desirability function has a different shape from the functions you commonly encounter. Differentiation is impossible in many respects, so the Derivative Based Optimization Algorithm cannot be used. in ECMiner TM DOE, Box. M.J's Constrained Simplex Algorithm is used. Through this algorithm, the overall desirability function can be maximized.\n\n6.1.4.4.2. ECMiner TM DOE Response Optimizer",
+    "Context_id": "6장_v3_sanitized::chunk_0041",
+    "Is_image": true,
+    "Image_ids": [
+      "rId164"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Hit target value"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Response Variation Selection.\n\nECMiner™ DOE response optimizer begins with selecting the response variables to be optimized. For multivariate response optimizer, select two response variables.\n[image:rId165]\n\n[Image:rId165] The Response Optimizer window in ECMiner allows users to select up to five response variables for optimization, with \"y1\" already selected. The goal is to optimize these variables to achieve the best possible outcome.",
+    "Context_id": "6장_v3_sanitized::chunk_0042",
+    "Is_image": true,
+    "Image_ids": [
+      "rId165"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Response Variation Selection"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Responsive Optimization Settings.\n\nWhen you press the Setting button, the following screen appears. If you want to maximize yield 1 and minimize yield 2, enter the following things. At this time, the weight determines the curvature of the curve as shown in the desirability function figure, and importance is an indicator of the degree of importance of each response variable.\n[image:rId166]\n\n[Image:rId166] The image is from the Response Optimizer settings in ECMiner, a data mining tool. It shows options for setting up an optimization process with a response variable 'y1', specifying lower and upper limits, target value, weight, and importance. The graphs illustrate how different objective functions (minimize, achieve, maximize",
+    "Context_id": "6장_v3_sanitized::chunk_0043",
+    "Is_image": true,
+    "Image_ids": [
+      "rId166"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Responsive Optimization Settings"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Responsive Optimization Option.\n\n[image:rId167]\nSelect the options required by the optimization algorithm.\n\n[Image:rId167] The Response Optimizer Option window in ECMiner software is used to set initial values for optimization parameters, including Beta, Initial Value Quantity, Delta, and Max Repetition Count, with options to start from random points.\n\nMethod for Selecting Initial Value\n\nInitial values play a crucial role in all optimization algorithms. This is because the initial values can determine whether the algorithm finds a local optimum or a global optimum. ECMinerTM DOE provides the selection methods of factorial design, response surface design, starting from a grid point, starting from a random point, and starting from a user-defined point, and Mixture Design provides a method that starts with a random point selection.\n\nBeta\n\nDue to the nature of the algorithm, Overall Desirability obtained from multiple points is stored, and the convergence condition is that the maximum difference between Overall Desirability obtained from multiple points must be smaller than Beta. Therefore, for users who want a more accurate value, the desired goal can be achieved by making this Beta value minimal.\n\nDelta\n\nDelta is a measure that determines how far a point should be brought back into the restricted area when it goes out of the restricted area. However, empirically, the measure does not have a decisive effect on the performance of the algorithm.\n\nInitial Value Quantity: It is a decision to perform the algorithm on a number of different initial values.\n\nMax Repetition Count\n\nIt determines the maximum number of times to repeat the algorithm. The more iterations you have, the more likely you are to find a better solution.",
+    "Context_id": "6장_v3_sanitized::chunk_0044",
+    "Is_image": true,
+    "Image_ids": [
+      "rId167"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Responsive Optimization Option"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Settings and Analysis, focusing on Output Results.\n\n[image:rId97]\nECMiner TM DOE shows the optimization results as above. The user can achieve the goal by showing at what value of each factor (or component) the Overall Desirability is maximized.",
+    "Context_id": "6장_v3_sanitized::chunk_0045",
+    "Is_image": true,
+    "Image_ids": [
+      "rId97"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Output Results"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution.\n\nBeta\n\nBinominal\n\nChi-squared\n\nExponential\n\nF\n\nNormal\n\nPoisson\n\nT\n\nDiscrete Uniform\n\nContinuous Uniform\n\nWeibull",
+    "Context_id": "6장_v3_sanitized::chunk_0046",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on Beta distribution.\n\nThe Beta distribution is a continuous probability distribution on (0,1) defined with two parameters α and β. It is used to model proportions and the distribution of probabilities. As the parameters α and β vary, the Beta distribution takes on many shapes.\nPDF of Beta distribution\n\nf(x|α,β)= 1 B α,β x α-1 (1-x) β-1\n\n0≤x≤1, α>0,β>0\n\nCDF of Beta distribution\n\nF x a,b = 1 B α,β0 x t α-1 (1-t) β-1 dt\n\nMean and variance of Beta distribution\n\nE X = α α+β\n\nVar(X)= αβ (α+β+1)(α+β) 2\n\nInverse of cumulative distribution function of Beta distribution\n\nx= F -1 (p|α,β)={x:F(x|α,β)=p}",
+    "Context_id": "6장_v3_sanitized::chunk_0047",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.1 Beta distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, under the subsection Beta distribution, with a detailed reference to Example.\n\nPDF and CDF graph when and α=2 β=2\n[image:rId168] [image:rId169] [image:rId170]\nMean and variance when and α=2 β=2\n[image:rId171]\n\n[Image:rId170] The image shows an ECMiner graph displaying a Beta Distribution CDF (Cumulative Distribution Function) with a blue line, indicating the cumulative probability of values up to each point on the x-axis. The graph ranges from 0 to 1 on the x-axis and from 0 to 1 on the y-axis\n\n[Image:rId168] The image shows an ECMiner software window displaying a Beta Distribution graph, with the type set to PDF, indicating it's plotting the probability density function of the distribution. The graph illustrates how probabilities vary between 0 and 1, with the highest probability at around 0.5.\n\n[Image:rId169] The image shows an ECMiner graph displaying a Beta Distribution, illustrating probability density function values across a range from 0 to 1. The graph is used for statistical analysis in data mining, providing insights into data distribution characteristics.\n\n[Image:rId171] The image shows the output of an analysis in ECMiner, displaying the mean and variance values as 0.500000000 and 0.050000000 respectively. This indicates statistical measures calculated from the dataset being analyzed.",
+    "Context_id": "6장_v3_sanitized::chunk_0048",
+    "Is_image": true,
+    "Image_ids": [
+      "rId168",
+      "rId169",
+      "rId170",
+      "rId171"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.1 Beta distribution",
+      "Example"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on Binomial distribution.\n\nBinomial distribution is derived from Bernoulli distribution. Bernoulli random variables have the following properties:\n\nX k = &1 with probability p &0 with probability 1-p\n\nThe binomial distribution represents the total number of successes in n independent Bernoulli trials, each with the same probability of success p. The total number of successes X in n trials can be expressed as:\n\nX= X1 + X2 +...+ X n\n\nThe binomial distribution represents the probability of achieving exactly k successes and n−k failures in n independent trials, where the probability of success, 1 in each trial is p, and the probability of failure, 0 is 1−p.\nPMF (Probability Mass Function) of Binomial distribution\n\nf(x|n,p)= n x p x (1-p) n-x\n\nCDF (Probability Density Function) of Binomial distribution\n\nF(x|n,p)= i=1 x n i p i (1-p) n-i\n\nMean and variance of Binomial distribution\n\nE(X)=np\n\nVar(X)=np(1-p)\n\nInverse of cumulative distribution function of Binomial distribution\n\nx= F -1 (p|n,p)",
+    "Context_id": "6장_v3_sanitized::chunk_0049",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.2 Binomial distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, under the subsection Binomial distribution, with a detailed reference to Example.\n\nPMF, CDF graph when,, and n=10 p=0.5 x=0.5\n[image:rId172]\n[image:rId173]\nMean, variance, PMF, and CDF when,, and n=10 p=0.5 x=0.5\n[image:rId174]\n\n[Image:rId172] The image shows a Binomial Distribution graph in the ECMiner software, displaying probabilities for various outcomes ranging from 0 to 10. The graph is labeled as PDF, indicating it represents the probability density function.\n\n[Image:rId173] The image shows a Binomial Distribution graph in ECMiner, displaying the cumulative distribution function (CDF) for various values ranging from 0 to 10. The graph illustrates how probabilities accumulate as the number of trials increases, with each bar representing the probability of achieving a certain number of successes.\n\n[Image:rId174] The image shows the output of an analysis using ECMiner, displaying statistical parameters: mean = 5.0, variance = 2.5, pmf = 0.2469375, and cdf = 0.623046875. These values",
+    "Context_id": "6장_v3_sanitized::chunk_0050",
+    "Is_image": true,
+    "Image_ids": [
+      "rId172",
+      "rId173",
+      "rId174"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.2 Binomial distribution",
+      "Example"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on Chi-squared distribution.\n\nThe chi-squared distribution is the distribution of the sum of the squares of n independent random variables, each following a standard normal distribution Chi-squared distribution defined as: Z1, Z2, Z3, …, Z n N0,1.\n\nχ2 = i=1 n Z i2\n\nThe degree of freedom of the chi-square distribution is typically denoted as (called ‘nu’). The chi-square distribution is used in statistical testing and an a lysis, including the Goodness of Fit Test and Likelihood Ratio Test. υ\nPDF of Chi-squared distribution\n\nf(x|ν)= x ν-22 e -x22 ν2 Γ(ν2)\n\nCDF of Chi-squared distribution\n\nF x|v = 0 x t v-22 e -t22 v2 (v2) dt\n\nMean and variance of Chi-squared distribution\n\nE X = 0 ∞ t∙ t v-22 e -t22 v2 (v2) dt=v\n\nVar X = E X2 - (E X) 2 = 0 ∞ t2 ∙ t v-22 e -t22 v2 (v2) dt-v2 =2 v\n\nInverse of cumulative distribution function of Chi-squared distribution\n\nx= F -1 (p|ν)\n\nExample\n\nPDF, CDF graph when and ν=10 x=5\n[image:rId175] [image:rId176]\nMean, variance, PDF, and CDF when and ν=10 x=5\n[image:rId177]\nInverse of cumulative distribution function when and v=10 p=0.5\n[image:rId178]\n\n[Image:rId176] The image shows a Chi-Square Distribution graph in ECMiner, displaying the cumulative distribution function (CDF) for various values ranging from 2 to 25. This visualization helps in understanding how probabilities accumulate as values increase, useful for statistical analysis and hypothesis testing.\n\n[Image:rId175] The image displays a Chi-Square Distribution graph in the ECMiner data mining software, showing the probability density function (PDF) for various values ranging from 2 to 25. This distribution is used to analyze statistical significance in hypothesis testing.\n\n[Image:rId177] The image shows the output of an analysis in ECMiner, displaying statistical parameters such as mean, variance, probability density function (pdf), and cumulative distribution function (cdf) for a dataset.\n\n[Image:rId178] The image shows the output of an analysis using ECMiner, displaying statistical measures: mean (10.000000000), variance (20.000000000), and inverse (9.341817766). These values",
+    "Context_id": "6장_v3_sanitized::chunk_0051",
+    "Is_image": true,
+    "Image_ids": [
+      "rId175",
+      "rId176",
+      "rId177",
+      "rId178"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.3 Chi-squared distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on Exponential distribution.\n\nThe exponential distribution is a type of continuous probability distribution defined by a single parameter,, which represents the rate at which events occur. The exponential distribution is used to model the time intervals between occurrences of a specific event. It models the time intervals between independently occurring events in a Poisson process and has the characteristic that the probability of an event occurring remains constant over time. λ\nA higher indicates events occur more frequently, while a lower indicates they are less frequent. λ λ\nPDF of exponential distribution\n\nf(x|μ)= 1 μ e -x μ\n\nf(x|μ)=λ e -λx\n\nx>0,μ>0\n\nCDF of exponential distribution\n\nF(x|μ)= 0 x1 μ e -x μ dt=1-e -x μ\n\nF x μ = 0 x λ e -λx dt=1-e -λx\n\nx>0,μ>0\n\nMean and variance of exponential distribution\n\nE(X)= 0 ∞ xf(x|μ)dx=μ\n\nE X = 0 ∞ xf x μ dx=μ = 1 λ\n\nVar(X)=E(X2)-(E(X)) 2 = μ2\n\nVar(X)=E(X2)-(E(X)) 2 = μ2 = 1 λ2\n\nInverse of cumulative distribution function of exponential distribution\n\nx= F -1 (p|μ)=-μ ln (1-p)",
+    "Context_id": "6장_v3_sanitized::chunk_0052",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.4 Exponential distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, under the subsection Exponential distribution, with a detailed reference to Example.\n\nPDF, CDF graph when and μ=10 x=5\n[image:rId179] [image:rId180]\nMean, variance, PDF, and CDF when and μ=10 x=5\n[image:rId181]\nInverse of cumulative distribution function when and μ=10 p=0.5\n[image:rId182]\n\n[Image:rId179] The image shows an exponential distribution graph in the ECMiner data mining software, displaying a decreasing curve on a log-log scale with a PDF type selected. The graph represents the probability density function of an exponential distribution, illustrating how probabilities decrease exponentially as values increase.\n\n[Image:rId180] The image shows an Exponential Distribution CDF plot in ECMiner, displaying the cumulative distribution function for a dataset, with values ranging from 0 to 50. The graph illustrates how the probability density increases as the value increases, demonstrating the exponential decay characteristic of the distribution.\n\n[Image:rId181] The image shows the output of an analysis using ECMiner, displaying statistical parameters such as mean, variance, probability density function (pdf), and cumulative distribution function (cdf) for a dataset.\n\n[Image:rId182] The image shows the output of an analysis using ECMiner, displaying statistical measures: mean = 10.000000000, variance = 100.000000000, and inverse = 6.93147180",
+    "Context_id": "6장_v3_sanitized::chunk_0053",
+    "Is_image": true,
+    "Image_ids": [
+      "rId179",
+      "rId180",
+      "rId181",
+      "rId182"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.4 Exponential distribution",
+      "Example"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on F-distribution.\n\nThe F-distribution is a type of continuous probability distribution defined as the ratio of two independent chi-squared distributions with degrees of freedom and. The F-distribution is used in statistical hypothesis testing, in analysis of variance (ANOVA) and regression analysis, and is particularly useful for testing whether the variances between two groups are significantly different. v1 v2\nPDF of F-distribution\n\nf(x| ν1, ν2)= Γ[(ν1 + ν2)/2] Γ(ν1 /2)Γ(ν2 /2) (ν1 /ν2) ν1 /2 x (ν1 -2)/2 [1+(ν1 /ν2)x] (ν1 + ν2)/2\n\nν1, ν2 >0,x>0\n\nCDF of F-distribution\n\nF(x| ν1, ν2)= 0 x Γ[(ν1 + ν2)/2] Γ(ν1 /2)Γ(ν2 /2) (ν1 /ν2) ν1 /2 t (ν1 -2)/2 [1+(ν1 /ν2)t] (ν1 + ν2)/2 dt\n\nν1, ν2 >0,x>0\n\nMean and variance of F-distribution\n\nE(X)= ν2 ν2 -2 ν2 >2\n\nVar(X)=2 (v2 v2 -2) 2 (ν1 + ν2 -2) ν1 (ν2 -4) ν2 >4\n\nInverse of cumulative distribution function of F-distribution\n\nx= F -1 (p| ν1, ν2)",
+    "Context_id": "6장_v3_sanitized::chunk_0054",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.5 F-distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, under the subsection F-distribution, with a detailed reference to Example.\n\nPDF and CDF graph when,, and ν1 =4 ν2 =5 x=3\n[image:rId183] [image:rId184]\nMean, variance, PDF, and CDF when, and. ν1 =4, ν2 =5 x=3\n[image:rId185]\nInverse of cumulative distribution function when,, and ν1 =4 ν2 =5 p=0.5\n[image:rId186]\n\n[Image:rId183] The image shows an F-Distribution graph generated by ECMiner, displaying the probability density function (PDF) of the F-distribution with a specified type. The graph illustrates how the probability varies across different values on the x-axis, with the y-axis representing the corresponding probabilities. This visualization helps in understanding the distribution's\n\n[Image:rId184] The image shows an F-Distribution graph in ECMiner, displaying the Cumulative Distribution Function (CDF) for various values on the x-axis ranging from 0 to 15. The y-axis represents the probability density. This graph is used to analyze statistical distributions, particularly in hypothesis testing and regression analysis.\n\n[Image:rId185] The image shows the output of an analysis using ECMiner, displaying statistical parameters: mean = 1.6667, variance = 9.7222, pdf = 0.0682, and cdf = 0.8703. These values represent the central\n\n[Image:rId186] The image shows the output of an analysis using ECMiner, displaying statistical measures: mean = 1.66666667, variance = 9.72222222, and inverse = 0.964562297. These values likely",
+    "Context_id": "6장_v3_sanitized::chunk_0055",
+    "Is_image": true,
+    "Image_ids": [
+      "rId183",
+      "rId184",
+      "rId185",
+      "rId186"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.5 F-distribution",
+      "Example"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on Normal distribution.\n\nNormal distribution is a type of continuous probability distribution with a bell-shaped, symmetric curve. It shows how data is distributed around the mean and variance. According to the Central Limit Theorem, when the sample size is sufficiently large, the average of multiple distributions approaches a normal distribution. μ σ2\nPDF of normal distribution\n\nf(x|μ,σ)= 12 π σ e - (x-μ) 2 σ2\n\nσ>0\n\nCDF of normal distribution\n\nF(x|μ,σ)= -∞ x12 π σ e - (t-μ) 2 σ2 dt= 121+erf x-μ2 σ2\n\nσ>0\n\nis error function erf()\n\nMean and variance of normal distribution\n\nE(X)=μ\n\nVar(X)= σ2\n\nInverse of cumulative distribution function of normal distribution\n\nx= F -1 (p|μ,σ)",
+    "Context_id": "6장_v3_sanitized::chunk_0056",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.6 Normal distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, under the subsection Normal distribution, with a detailed reference to Example.\n\nPDF, CDF graph when,, and. μ=0 σ=1 x=0.5\n[image:rId187] [image:rId188]\nMean, variance, PDF, and CDF when, and. μ=0, σ=1 x=0.5\n[image:rId189]\nInverse of cumulative distribution function when and μ=0,σ=1, p=0.5\n[image:rId190]\n\n[Image:rId187] The image shows a normal distribution graph in ECMiner, displaying a bell-shaped curve with a mean at zero and standard deviation on both sides, indicating a symmetrical probability density function.\n\n[Image:rId188] The image shows a CDF (Cumulative Distribution Function) plot for a normal distribution, indicating the probability density function of a dataset. The graph illustrates how the cumulative probability increases as values move along the x-axis, with the y-axis representing the cumulative probability.\n\n[Image:rId189] The image shows the output of an analysis using ECMiner, displaying statistical parameters: mean, variance, probability density function (pdf), and cumulative distribution function (cdf) values.\n\n[Image:rId190] The image shows the output of an analysis in ECMiner, displaying statistical measures: Mean, Variance, and Inv, all set to zero. This suggests that the dataset being analyzed is either empty or contains no variability.",
+    "Context_id": "6장_v3_sanitized::chunk_0057",
+    "Is_image": true,
+    "Image_ids": [
+      "rId187",
+      "rId188",
+      "rId189",
+      "rId190"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.6 Normal distribution",
+      "Example"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on Poisson distribution.\n\nThe Poisson distribution is a discrete probability distribution defined by a single parameter,, which represents the average rate at which events occur. The Poisson distribution is used to model the number of occurrences of a specific event within a given time period. It is suitable for situations where events occur independently and at a constant average rate, making it ideal for modeling the number of events in a Poisson process. λ\nPMF of Poisson distribution\n\nf(x|λ)= λ x x! e -λ\n\nx=0,1,2,... λ>0\n\nCDF of Poisson distribution\n\nF(x|λ)= e -λ i=0 x λ i i!\n\nx=0,1,2,... λ>0\n\nMGF of Poisson distribution\n\nE(e tX)= e λ(e t -1)\n\nMean and variance of Poisson distribution\n\nE(X)=λ\n\nVar(X)=λ\n\nInverse of cumulative distribution function of Poisson distribution\n\nx= F -1 (p|λ)",
+    "Context_id": "6장_v3_sanitized::chunk_0058",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.7 Poisson distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, under the subsection Poisson distribution, with a detailed reference to Example.\n\nPMF, CDF graph when and. λ=2 x=1\n[image:rId191] [image:rId192]\nMean, variance, PMF, and CDF when and. λ=2 x=1\n[image:rId193]\nInverse of cumulative distribution function when and λ=2 p=0.5\n[image:rId194]\n\n[Image:rId191] The image shows a Poisson distribution graph in the ECMiner data mining software, displaying the probability density function for various values of the random variable. The x-axis represents the number of occurrences, while the y-axis shows the corresponding probabilities.\n\n[Image:rId192] The image shows a Poisson distribution chart in ECMiner, displaying the cumulative distribution function (CDF) of event counts ranging from 0 to 5. The bars represent the probability of observing each count, with the CDF curve showing the cumulative probability up to each count.\n\n[Image:rId193] The image shows the output of an analysis using ECMiner, displaying statistical parameters such as mean, variance, pmf (probability mass function), and cdf (cumulative distribution function) for a dataset. The values indicate that the dataset has a mean of 2.000000000\n\n[Image:rId194] The image shows the output of an analysis in ECMiner, displaying statistical measures: mean, variance, and inverse values both equal to 2.000000000. This suggests that the dataset being analyzed has uniform distribution with no significant variation.",
+    "Context_id": "6장_v3_sanitized::chunk_0059",
+    "Is_image": true,
+    "Image_ids": [
+      "rId191",
+      "rId192",
+      "rId193",
+      "rId194"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.7 Poisson distribution",
+      "Example"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on T-distribution.\n\nThe t-distribution is a continuous probability distribution defined by degrees of freedom. It is used for estimating confidence intervals for sample means and hypothesis testing. v\nPDF of T-distribution\n\nf(x|ν)= Γ ν+12 νπ Γ ν21 (1+ t2 ν) (ν+1)/2\n\nCDF of T-distribution\n\nF(x|ν)= -∞ x f(t|ν) dt= I x ν2, ν2 = B x; ν2, ν2 B ν2, ν2\n\nis incomplete beta function B(x; v2, v2)\n\nMean and variance of T-distribution\n\nE X =0 if v>1\n\nVar X = v v-2 if v>2\n\nInverse of cumulative distribution function of T-distribution\n\nx= F -1 (p|ν)",
+    "Context_id": "6장_v3_sanitized::chunk_0060",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.8 T-distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, under the subsection T-distribution, with a detailed reference to Example.\n\nPDF, CDF graph when and. ν=4 x=2\n[image:rId195] [image:rId196]\nMean, variance, PDF, and CDF when and. ν=4 x=2\n[image:rId197]\nInverse of cumulative distribution function when ν=4,p=0.5\n[image:rId198]\n\n[Image:rId195] The image shows an ECMiner window displaying a t-distribution graph with a PDF type selected, illustrating the probability density function of a t-distribution, which is commonly used in statistical analysis for small sample sizes.\n\n[Image:rId196] The image shows a CDF (Cumulative Distribution Function) plot for a t-distribution, illustrating how probabilities accumulate as values increase along the x-axis. The graph displays the cumulative probability up to each value on the x-axis, with the y-axis representing the cumulative probability. This visualization helps in understanding the distribution's tail\n\n[Image:rId197] The image shows the output of an analysis using ECMiner, displaying statistical parameters such as mean, variance, probability density function (pdf), and cumulative distribution function (cdf) values.\n\n[Image:rId198] The image shows the output of an analysis in ECMiner, displaying statistical measures: Mean, Variance, and Inv, all set to zero. This indicates that no data was processed or analyzed, resulting in null values for these metrics.",
+    "Context_id": "6장_v3_sanitized::chunk_0061",
+    "Is_image": true,
+    "Image_ids": [
+      "rId195",
+      "rId196",
+      "rId197",
+      "rId198"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.8 T-distribution",
+      "Example"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on Discrete uniform distribution.\n\nDiscrete uniform distribution is a discrete probability distribution where all possible values of the random variable have the same probability.\nPMF of discrete uniform distribution\n\nf(x|N)= 1 N\n\nCDF of discrete uniform distribution\n\nF(x|N)= x N\n\nx=0,1,2,….\n\nMean and variance of discrete uniform distribution\n\nE(X)= N+12\n\nVar(X)= N2 -112\n\nInverse of cumulative distribution function of discrete uniform distribution\n\nx= F -1 (p|N)",
+    "Context_id": "6장_v3_sanitized::chunk_0062",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.9 Discrete uniform distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, under the subsection Discrete uniform distribution, with a detailed reference to Example.\n\nPMF, CDF graph when n=10\n[image:rId199] [image:rId200]\nMean, variance, PMF, and CDF when and. n=10 x=1\n[image:rId201]\nInverse of cumulative distribution function when and n=10 p=0.5\n[image:rId202]\n\n[Image:rId199] The image shows a Discrete Uniform Distribution graph in ECMiner, displaying equal probability bars for integers from 1 to 10, with each bar representing a uniform distribution of probabilities.\n\n[Image:rId200] The image shows a Discrete Uniform Distribution graph in ECMiner, displaying the cumulative distribution function (CDF) for values ranging from 1 to 10. The bars represent the probability mass function (PMF) of each discrete value, with the CDF line showing the cumulative probability up to each value.\n\n[Image:rId201] The image displays statistical output from ECMiner, showing mean, variance, pmf (probability mass function), and cdf (cumulative distribution function) values for a dataset. The mean is 5.5, variance is 8.25, pmf is 0.1, and cdf is\n\n[Image:rId202] The image shows the output of an analysis using ECMiner, displaying statistical measures: mean = 5.5, variance = 8.25, and inverse = 5. These values likely represent the results of a data mining process, possibly related to financial or market analysis, where the mean, variance,",
+    "Context_id": "6장_v3_sanitized::chunk_0063",
+    "Is_image": true,
+    "Image_ids": [
+      "rId199",
+      "rId200",
+      "rId201",
+      "rId202"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.9 Discrete uniform distribution",
+      "Example"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on Continuous uniform distribution.\n\nContinuous uniform distribution is a type of continuous probability distribution where all values within a given interval have an equal probability of occurring. This distribution is used when any value within the interval is equally likely to be chosen at random.\nPDF of continuous uniform distribution\n\nf x a,b = 1 b-a\n\na≤x≤b\n\nCDF of continuous uniform distribution\n\nF(x|a,b)= &0 if x ≤a & x-a b-a if a <x<b &1 if x ≥b\n\nMean and variance of continuous uniform distribution\n\nE(X)= a+b2\n\nVar(X)= (b-a) 212\n\nInverse of cumulative distribution function of continuous uniform distribution\n\nx= F -1 (p|a,b)=a+p(b-a)",
+    "Context_id": "6장_v3_sanitized::chunk_0064",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.10 Continuous uniform distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, under the subsection Continuous uniform distribution, with a detailed reference to Example.\n\nPDF, CDF graph when, and. a=10 b=20 x=15\n[image:rId203] [image:rId204]\nMean, variance, PDF, and CDF when, and. a=10, b=20 x=15\n[image:rId205]\nInverse of cumulative distribution function when,, and a=10 b=20 p=0.5\n[image:rId206]\n\n[Image:rId203] The image shows a screenshot of the ECMiner software's \"Dialog\" window, specifically displaying a Continuous Uniform Distribution graph with a PDF type selected. The x-axis represents values ranging from 10 to 20, while the y-axis is not labeled but likely indicates probability density. The graph shows a horizontal line\n\n[Image:rId204] The image shows a Continuous Uniform Distribution graph in ECMiner, displaying a cumulative distribution function (CDF) for values ranging from 10 to 20. The CDF line indicates how likely each value is within the range, with probabilities increasing linearly as values increase.\n\n[Image:rId205] The image shows the output of an analysis using ECMiner, displaying statistical parameters: mean = 15.00, variance = 8.33, pdf = 0.10, and cdf = 0.50. These values represent the central tendency, spread, probability density,\n\n[Image:rId206] The image shows the output of an analysis in ECMiner, displaying statistical measures: mean, variance, and inverse values, all set to 15.000000000. This suggests the software is calculating and presenting summary statistics for a dataset.",
+    "Context_id": "6장_v3_sanitized::chunk_0065",
+    "Is_image": true,
+    "Image_ids": [
+      "rId203",
+      "rId204",
+      "rId205",
+      "rId206"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.10 Continuous uniform distribution",
+      "Example"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, focusing on Weibull distribution.\n\nThe Weibull distribution is a continuous probability distribution defined by two parameters: shape, and scale,. It is primarily used in survival analysis, reliability engineering, and extreme value analysis. α β\nPDF of Weibull distribution\n\nf(x|α ,β)= β α x α β -1 e -x α β\n\nx≥0,α>0,β>0\n\nCDF of Weibull distribution\n\nF(x|α ,β)=1-e -x α β\n\nx≥0,α>0,β>0\nMean and variance of Weibull distribution\n\nE(X)= β1 α Γ1+ 1 α\n\nVar(X)= β2 α [Γ1+ 2 β -Γ21+ 1 α]\n\nInverse of cumulative distribution function of Weibull distribution\n\nx= F -1 (p|α,β)= &∞ if p=1 &α(-ln (1-p)) 1/β otherwise",
+    "Context_id": "6장_v3_sanitized::chunk_0066",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.11 Weibull distribution"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section - Level Design, and more specifically it belongs to Probability Distribution, under the subsection Weibull distribution, with a detailed reference to Example.\n\nPDF, CDF graph when, and. α=2 β=0.5, x=1\n[image:rId207] [image:rId208]\nMean, variance, PDF, and CDF when,, and. α=2 β =0.5 x=1\n[image:rId209]\nInverse of cumulative distribution function when,, and α=2 β=0.5,p=0.5\n[image:rId210]\nECMiner™ allows for easy and convenient analytical model by connecting Nodes into a Stream. The stream consists of nodes with data input, preprocessing, modeling, and data output. ECMiner™ project file can be saved as an . ecm in the ECMiner™ Project window.\n\n[Image:rId207] The image shows an ECMiner graph displaying a Weibull distribution, which is used to model the time-to-failure of components in reliability analysis. The graph plots the probability density function (PDF) of the Weibull distribution against different values of the scale parameter.\n\n[Image:rId208] The image shows a Weibull Distribution graph in ECMiner, displaying the Cumulative Distribution Function (CDF) of a dataset. The graph illustrates how the probability of an event occurring increases as the value on the x-axis increases.\n\n[Image:rId209] The image shows the output of an analysis using ECMiner, displaying statistical parameters such as mean, variance, probability density function (pdf), and cumulative distribution function (cdf) for a dataset.\n\n[Image:rId210] The image shows the output of an analysis in ECMiner, displaying statistical measures: mean value of 4.0, variance of 80.0, and inverse value of 0.960906028. These metrics likely represent the central tendency and spread of data points analyzed by",
+    "Context_id": "6장_v3_sanitized::chunk_0067",
+    "Is_image": true,
+    "Image_ids": [
+      "rId207",
+      "rId208",
+      "rId209",
+      "rId210"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "4 - Level Design",
+      "6.2 Probability Distribution",
+      "6.2.11 Weibull distribution",
+      "Example"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json"
+  }
+]

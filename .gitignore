@@ -12,4 +12,4 @@ tests/
 # 내 개발용 
 dist/
 wheels/
-
+output/processed

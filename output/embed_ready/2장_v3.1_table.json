@@ -1,0 +1,112 @@
+[
+  {
+    "Context": "This table is about the section 2.1 Stream Configuration > Connectivity of nodes. \nTitle: ECMiner™ provides visual indicators to show how it works \nRows: row 1, column 1 = ; row 1, column 2 = Input Node; row 1, column 3 = Preprocessing Node; row 1, column 4 = Chart Node; row 1, column 5 = Modeling Node; row 1, column 6 = Output Node; row 1, column 7 = ModelNode; row 2, column 1 = Origin; row 2, column 2 = [image:rId16] [image:rId17]; row 2, column 3 = [image:rId18] [image:rId19]; row 2, column 4 = [image:rId20] [image:rId21]; row 2, column 5 = [image:rId22] [image:rId23]; row 2, column 6 = [image:rId24] [image:rId25]; row 2, column 7 = [image:rId26] [image:rId27]; row 3, column 1 = Connectable; row 3, column 2 = [image:rId28] [image:rId29]; row 3, column 3 = [image:rId30] [image:rId31]; row 3, column 4 = [image:rId32] [image:rId33]; row 3, column 5 = [image:rId34] [image:rId35]; row 3, column 6 = [image:rId36] [image:rId37]; row 3, column 7 = [image:rId38] [image:rId39]; row 4, column 1 = Unconnectable; row 4, column 2 = [image:rId40] [image:rId41]; row 4, column 3 = [image:rId42] [image:rId43]; row 4, column 4 = [image:rId44] [image:rId45]; row 4, column 5 = [image:rId46] [image:rId47]; row 4, column 6 = [image:rId48] [image:rId49]; row 4, column 7 = [image:rId50] [image:rId51]",
+    "Context_id": "2장_v3.1_table::t52::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t52"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <th style=\"background-color: #f2f2f2;\">Input Node</th>\n    <th style=\"background-color: #f2f2f2;\">Preprocessing Node</th>\n    <th style=\"background-color: #f2f2f2;\">Chart Node</th>\n    <th style=\"background-color: #f2f2f2;\">Modeling Node</th>\n    <th style=\"background-color: #f2f2f2;\">Output Node</th>\n    <th style=\"background-color: #f2f2f2;\">ModelNode</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Origin</th>\n    <td>[image:rId16] [image:rId17]</td>\n    <td>[image:rId18] [image:rId19]</td>\n    <td>[image:rId20] [image:rId21]</td>\n    <td>[image:rId22] [image:rId23]</td>\n    <td>[image:rId24] [image:rId25]</td>\n    <td>[image:rId26] [image:rId27]</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Connectable</th>\n    <td>[image:rId28] [image:rId29]</td>\n    <td>[image:rId30] [image:rId31]</td>\n    <td>[image:rId32] [image:rId33]</td>\n    <td>[image:rId34] [image:rId35]</td>\n    <td>[image:rId36] [image:rId37]</td>\n    <td>[image:rId38] [image:rId39]</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Unconnectable</th>\n    <td>[image:rId40] [image:rId41]</td>\n    <td>[image:rId42] [image:rId43]</td>\n    <td>[image:rId44] [image:rId45]</td>\n    <td>[image:rId46] [image:rId47]</td>\n    <td>[image:rId48] [image:rId49]</td>\n    <td>[image:rId50] [image:rId51]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t52"
+    }
+  },
+  {
+    "Context": "This table is about the section 2.3 Stream Execution > Folder Execute. \nTitle: (4) Follow the following steps to set the options for the Folder Execute. \nRows: row 1, column 1 = Steps; row 1, column 2 = Setting name; row 1, column 3 = Setting name; row 1, column 4 = Description; row 2, column 1 = (1); row 2, column 2 = Input Folder; row 2, column 3 = Input Folder; row 2, column 4 = Type in the folder directory or click the right search button to find.; row 3, column 1 = (2); row 3, column 2 = Filter Option; row 3, column 3 = File Extension; row 3, column 4 = Type in the file extension of the files within the executing folder.; row 4, column 1 = (3); row 4, column 2 = ; row 4, column 3 = File Name; row 4, column 4 = Type in the common file name within the executing folder.; row 5, column 1 = (4); row 5, column 2 = Input/Output Settings; row 5, column 3 = Input/Output Settings; row 5, column 4 = Set the Input and Output node within the executing project file by clicking the Input Node Setting and Output Node Setting. Click the Output Node Delete to delete the inserted output node settings.",
+    "Context_id": "2장_v3.1_table::t79::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t79"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution",
+      "Folder Execute"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Steps</th>\n    <th colspan=\"2\" style=\"background-color: #f2f2f2;\">Setting name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(1)</th>\n    <td colspan=\"2\">Input Folder</td>\n    <td>Type in the folder directory or click the right search button to find.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(2)</th>\n    <td>Filter Option</td>\n    <td>File Extension</td>\n    <td>Type in the file extension of the files within the executing folder.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(3)</th>\n    <td></td>\n    <td>File Name</td>\n    <td>Type in the common file name within the executing folder.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(4)</th>\n    <td colspan=\"2\">Input/Output Settings</td>\n    <td>Set the Input and Output node within the executing project file by clicking the Input Node Setting and Output Node Setting. Click the Output Node Delete to delete the inserted output node settings.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(5)</th>\n    <td colspan=\"2\">Folder Execution Option</td>\n    <td>Log file of the folder execution process can be saved by setting the Folder Execution Options. (Not required)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t79"
+    }
+  },
+  {
+    "Context": "This table is about the section 2.3 Stream Execution > Folder Execute. \nTitle: (4) Follow the following steps to set the options for the Folder Execute. \nHeader candidates: row 1, column 1 = Steps; row 1, column 2 = Setting name; row 1, column 3 = Setting name; row 1, column 4 = Description \nRows: row 6, column 1 = (5); row 6, column 2 = Folder Execution Option; row 6, column 3 = Folder Execution Option; row 6, column 4 = Log file of the folder execution process can be saved by setting the Folder Execution Options. (Not required)",
+    "Context_id": "2장_v3.1_table::t79::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t79"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution",
+      "Folder Execute"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Steps</th>\n    <th colspan=\"2\" style=\"background-color: #f2f2f2;\">Setting name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(1)</th>\n    <td colspan=\"2\">Input Folder</td>\n    <td>Type in the folder directory or click the right search button to find.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(2)</th>\n    <td>Filter Option</td>\n    <td>File Extension</td>\n    <td>Type in the file extension of the files within the executing folder.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(3)</th>\n    <td></td>\n    <td>File Name</td>\n    <td>Type in the common file name within the executing folder.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(4)</th>\n    <td colspan=\"2\">Input/Output Settings</td>\n    <td>Set the Input and Output node within the executing project file by clicking the Input Node Setting and Output Node Setting. Click the Output Node Delete to delete the inserted output node settings.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(5)</th>\n    <td colspan=\"2\">Folder Execution Option</td>\n    <td>Log file of the folder execution process can be saved by setting the Folder Execution Options. (Not required)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t79"
+    }
+  },
+  {
+    "Context": "This table is about the section 2.3 Stream Execution > Folder Execute. \nTitle: [image:rId56] \nRows: row 1, column 1 = File; row 1, column 2 = The default log file storage path is the ECMiner™ installation location.; row 2, column 1 = Rotation; row 2, column 2 = Logs can be rotated daily, weekly, or monthly, with the default set to never.; row 3, column 1 = Archive; row 3, column 2 = Log file names can be based on numbers or timestamps, with timestamps as the default.; row 4, column 1 = Level; row 4, column 2 = Only logs at or above the specified level are recorded, with trace capturing the most details.; row 5, column 1 = Times; row 5, column 2 = The reference time for log rotation defaults to local time.",
+    "Context_id": "2장_v3.1_table::t83::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t83"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution",
+      "Folder Execute"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">File</th>\n    <td style=\"background-color: #f2f2f2;\">The default log file storage path is the ECMiner™ installation location.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Rotation</th>\n    <td>Logs can be rotated daily, weekly, or monthly, with the default set to never.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Archive</th>\n    <td>Log file names can be based on numbers or timestamps, with timestamps as the default.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Level</th>\n    <td>Only logs at or above the specified level are recorded, with trace capturing the most details.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Times</th>\n    <td>The reference time for log rotation defaults to local time.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Format</th>\n    <td>Logs are stored in the format &quot;[%Y-%m-%d %H:%M:%S.%i][%q][%s] %t&quot; by default. * %s : Log record source %t: Log record</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t83"
+    }
+  },
+  {
+    "Context": "This table is about the section 2.3 Stream Execution > Folder Execute. \nTitle: [image:rId56] \nHeader candidates: row 1, column 1 = File; row 1, column 2 = The default log file storage path is the ECMiner™ installation location. \nRows: row 6, column 1 = Format; row 6, column 2 = Logs are stored in the format \"[%Y-%m-%d %H:%M:%S.%i][%q][%s] %t\" by default. * %s : Log record source %t: Log record",
+    "Context_id": "2장_v3.1_table::t83::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t83"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution",
+      "Folder Execute"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">File</th>\n    <td style=\"background-color: #f2f2f2;\">The default log file storage path is the ECMiner™ installation location.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Rotation</th>\n    <td>Logs can be rotated daily, weekly, or monthly, with the default set to never.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Archive</th>\n    <td>Log file names can be based on numbers or timestamps, with timestamps as the default.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Level</th>\n    <td>Only logs at or above the specified level are recorded, with trace capturing the most details.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Times</th>\n    <td>The reference time for log rotation defaults to local time.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Format</th>\n    <td>Logs are stored in the format &quot;[%Y-%m-%d %H:%M:%S.%i][%q][%s] %t&quot; by default. * %s : Log record source %t: Log record</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t83"
+    }
+  }
+]

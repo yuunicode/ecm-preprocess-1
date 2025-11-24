@@ -1,0 +1,2044 @@
+[
+  {
+    "Context": "The image shows an installation setup language selection dialog for ECMiner, allowing users to choose their preferred language during the software installation process.",
+    "Context_id": "1장_v3.1_image::rId9",
+    "Is_image": true,
+    "Image_ids": [
+      "rId9"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image1.png"
+  },
+  {
+    "Context": "The image shows the license agreement screen for ECMiner version 1.0, a software used for data mining. Users must accept the terms of the agreement to proceed with the installation. The screen includes a brief copyright notice and two options: accepting or not accepting the agreement.",
+    "Context_id": "1장_v3.1_image::rId10",
+    "Is_image": true,
+    "Image_ids": [
+      "rId10"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image2.png"
+  },
+  {
+    "Context": "The image is a setup screen for ECMiner64 version 1.0, where users select the installation folder for the software. The current selected path is C:\\Program Files\\WECMiner\\WECMiner5-x64. It requires at least 1.95 GB of free disk",
+    "Context_id": "1장_v3.1_image::rId11",
+    "Is_image": true,
+    "Image_ids": [
+      "rId11"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image3.png"
+  },
+  {
+    "Context": "The image is a setup screen for ECMiner64 version 1.0, asking to select additional tasks during installation. The user can choose to create a desktop shortcut but not a quick launch shortcut. This screen allows users to customize their installation experience by adding shortcuts for easy access to ECMiner64.",
+    "Context_id": "1장_v3.1_image::rId12",
+    "Is_image": true,
+    "Image_ids": [
+      "rId12"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image4.png"
+  },
+  {
+    "Context": "The image shows the installation setup for ECMiner64 version 1.0, indicating that the software is ready to be installed on the computer. The destination folder is set to C:\\Program Files\\WECMiner\\WECMiner5-x64, and additional tasks include creating a desktop shortcut.",
+    "Context_id": "1장_v3.1_image::rId13",
+    "Is_image": true,
+    "Image_ids": [
+      "rId13"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image5.png"
+  },
+  {
+    "Context": "The image shows the installation process of ECMiner64 version 1.0, a software for data mining, with a progress bar indicating that files are being extracted to C:\\W...ECMiner\\WECMiner5-x64\\WOpenCV_videoio_ffmpeg460_6",
+    "Context_id": "1장_v3.1_image::rId14",
+    "Is_image": true,
+    "Image_ids": [
+      "rId14"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image6.png"
+  },
+  {
+    "Context": "The image shows an error message from Microsoft .NET 2015 indicating that the installation cannot proceed because .NET Framework 4.6 or a later update is already installed on the computer. The user can choose to continue or close the dialog box.",
+    "Context_id": "1장_v3.1_image::rId15",
+    "Is_image": true,
+    "Image_ids": [
+      "rId15"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image7.png"
+  },
+  {
+    "Context": "The image shows the final screen of the ECMiner64 setup wizard, indicating that the installation process has been completed successfully. The user can launch the application by selecting the installed shortcuts, and there is an option to exit the setup by clicking \"Finish.\"",
+    "Context_id": "1장_v3.1_image::rId16",
+    "Is_image": true,
+    "Image_ids": [
+      "rId16"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image8.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for processing and analyzing data, including features like clustering, classification, and association rule learning. The main purpose is to help users extract meaningful insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId17",
+    "Is_image": true,
+    "Image_ids": [
+      "rId17"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image9.png"
+  },
+  {
+    "Context": "The image shows the ECMiner data mining software initializing a user session, indicating that it is preparing to load and start processing data for analysis.",
+    "Context_id": "1장_v3.1_image::rId18",
+    "Is_image": true,
+    "Image_ids": [
+      "rId18"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image10.png"
+  },
+  {
+    "Context": "The image shows the \"Installed apps\" section in the Windows Settings app, displaying various installed applications such as DTS:X Ultra, ECMiner64 version 1.0, ECMinerIMS Server, Microsoft Local Experience Pack, Google Chrome, and iniLINE CrossEX Service. The main purpose is to manage and",
+    "Context_id": "1장_v3.1_image::rId19",
+    "Is_image": true,
+    "Image_ids": [
+      "rId19"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Uninstall"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image11.png"
+  },
+  {
+    "Context": "The image shows an ECMiner data mining project named \"MSPC.ecm,\" which involves loading, preprocessing, and modeling data using various statistical and machine learning techniques such as PCA, K-Means, and PLS. The goal is to analyze and visualize data trends and cluster patterns.\n\n[Table:t59]",
+    "Context_id": "1장_v3.1_image::rId20",
+    "Is_image": true,
+    "Image_ids": [
+      "rId20"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "Main Window"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image12.png"
+  },
+  {
+    "Context": "The image shows the main menu of ECMiner, a data mining software, with options for \"Cascade Array\" and \"Tile Array,\" indicating its functionality in array-based data processing. The highlighted \"1 Project1\" suggests that the user is currently working on a single project named \"Project1.\"",
+    "Context_id": "1장_v3.1_image::rId26",
+    "Is_image": true,
+    "Image_ids": [
+      "rId26"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image18.png"
+  },
+  {
+    "Context": "The image shows the main menu of ECMiner, a data mining software, with options for project management, editing, viewing, and stream operations. It includes commands like New, Open, Save, Save As, Print, Print Preview, and Print Settings, along with four german_credit_scorecard files. The main purpose",
+    "Context_id": "1장_v3.1_image::rId21",
+    "Is_image": true,
+    "Image_ids": [
+      "rId21"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image13.png"
+  },
+  {
+    "Context": "The image shows a context menu in ECMiner, a data mining software, with options for editing, viewing, cutting, copying, pasting, and deleting data. The context menu is typically used to perform actions on selected items within the software interface.",
+    "Context_id": "1장_v3.1_image::rId22",
+    "Is_image": true,
+    "Image_ids": [
+      "rId22"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image14.png"
+  },
+  {
+    "Context": "The image shows the \"ECMiner Info\" section in the ECMiner data mining software, providing user help options for assistance with the software's features and functionality.",
+    "Context_id": "1장_v3.1_image::rId27",
+    "Is_image": true,
+    "Image_ids": [
+      "rId27"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image19.png"
+  },
+  {
+    "Context": "The image shows the main menu of ECMiner, a data mining software, with options for DOE (Design of Experiments), Probability Distribution, Reinforcement Learning, and Video Analysis. The menu is used to navigate through different functionalities within the software.",
+    "Context_id": "1장_v3.1_image::rId25",
+    "Is_image": true,
+    "Image_ids": [
+      "rId25"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image17.png"
+  },
+  {
+    "Context": "The image shows the main interface of ECMiner, a data mining software, with options for viewing different aspects of the data stream, such as the toolbar, status bar, stream map, and data browser. The main purpose is to analyze and visualize data streams for mining patterns and insights.",
+    "Context_id": "1장_v3.1_image::rId23",
+    "Is_image": true,
+    "Image_ids": [
+      "rId23"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image15.png"
+  },
+  {
+    "Context": "The image shows the main menu of ECMiner, a data mining software tool, with options to initialize the program environment. The menu is designed for users to navigate through different functionalities such as tools, windows, help, and options.",
+    "Context_id": "1장_v3.1_image::rId28",
+    "Is_image": true,
+    "Image_ids": [
+      "rId28"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image20.png"
+  },
+  {
+    "Context": "The image shows the main menu of ECMiner, a data mining software, with options for adding nodes, connecting/disconnecting them, executing tasks, stopping execution, and more. The menu is designed to facilitate various operations within the software.\n\n[Table:t68]",
+    "Context_id": "1장_v3.1_image::rId24",
+    "Is_image": true,
+    "Image_ids": [
+      "rId24"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image16.png"
+  },
+  {
+    "Context": "[Image:rId33] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The user can select different algorithms and features to extract valuable insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId32",
+    "Is_image": true,
+    "Image_ids": [
+      "rId32"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject2.bin"
+  },
+  {
+    "Context": "The image shows the settings menu in ECMiner, a data mining software, where users can adjust various parameters to customize their analysis process.",
+    "Context_id": "1장_v3.1_image::rId31",
+    "Is_image": true,
+    "Image_ids": [
+      "rId31"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image22.png"
+  },
+  {
+    "Context": "[Image:rId29] The image shows the settings page of ECMiner, a data mining software tool. It allows users to configure various parameters such as algorithm selection, input file paths, output directory, and other preferences for data analysis tasks. The gear icon represents the settings menu, while the document icon indicates that the user can manage files related",
+    "Context_id": "1장_v3.1_image::rId34",
+    "Is_image": true,
+    "Image_ids": [
+      "rId34"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject3.bin"
+  },
+  {
+    "Context": "",
+    "Context_id": "1장_v3.1_image::rId30",
+    "Is_image": true,
+    "Image_ids": [
+      "rId30"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject1.bin"
+  },
+  {
+    "Context": "[Image:rId47] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId42",
+    "Is_image": true,
+    "Image_ids": [
+      "rId42"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject7.bin"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining tasks. It displays a folder icon with a blue background, indicating that it's likely a directory or workspace where data files are stored for analysis. The main purpose is to organize and manage datasets for mining operations.",
+    "Context_id": "1장_v3.1_image::rId37",
+    "Is_image": true,
+    "Image_ids": [
+      "rId37"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image25.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId53",
+    "Is_image": true,
+    "Image_ids": [
+      "rId53"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image33.png"
+  },
+  {
+    "Context": "[Image:rId43] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId58",
+    "Is_image": true,
+    "Image_ids": [
+      "rId58"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject15.bin"
+  },
+  {
+    "Context": "[Image:rId38]",
+    "Context_id": "1장_v3.1_image::rId48",
+    "Is_image": true,
+    "Image_ids": [
+      "rId48"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject10.bin"
+  },
+  {
+    "Context": "[Image:rId59] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId46",
+    "Is_image": true,
+    "Image_ids": [
+      "rId46"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject9.bin"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId41",
+    "Is_image": true,
+    "Image_ids": [
+      "rId41"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image27.png"
+  },
+  {
+    "Context": "[Image:rId36]",
+    "Context_id": "1장_v3.1_image::rId54",
+    "Is_image": true,
+    "Image_ids": [
+      "rId54"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject13.bin"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like algorithm selection, data source, and output format. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId49",
+    "Is_image": true,
+    "Image_ids": [
+      "rId49"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image31.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId57",
+    "Is_image": true,
+    "Image_ids": [
+      "rId57"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image35.png"
+  },
+  {
+    "Context": "[Image:rId52]",
+    "Context_id": "1장_v3.1_image::rId44",
+    "Is_image": true,
+    "Image_ids": [
+      "rId44"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject8.bin"
+  },
+  {
+    "Context": "[Image:rId39] The image shows an interface from ECMiner, a data mining tool, with options to export data in various formats like CSV, Excel, and PDF. The main purpose is to facilitate the exportation of mined data for further analysis or sharing.",
+    "Context_id": "1장_v3.1_image::rId60",
+    "Is_image": true,
+    "Image_ids": [
+      "rId60"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject16.bin"
+  },
+  {
+    "Context": "[Image:rId55] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId50",
+    "Is_image": true,
+    "Image_ids": [
+      "rId50"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject11.bin"
+  },
+  {
+    "Context": "[Image:rId45] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring mining tasks, including selecting datasets, defining mining parameters, and viewing results. The main purpose is to facilitate the extraction of valuable insights and patterns from large datasets through advanced data mining techniques.",
+    "Context_id": "1장_v3.1_image::rId40",
+    "Is_image": true,
+    "Image_ids": [
+      "rId40"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject6.bin"
+  },
+  {
+    "Context": "The image shows an interface from ECMiner, a data mining tool, with options to select datasets, parameters for analysis, and results visualization. It's used for mining and analyzing large datasets to extract meaningful patterns and insights.",
+    "Context_id": "1장_v3.1_image::rId35",
+    "Is_image": true,
+    "Image_ids": [
+      "rId35"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image24.png"
+  },
+  {
+    "Context": "[Image:rId51] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId56",
+    "Is_image": true,
+    "Image_ids": [
+      "rId56"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject14.bin"
+  },
+  {
+    "Context": "The image shows the Node tab in ECMiner, a data mining software, with various nodes for different types of analysis such as 3D charts, bar charts, derived files, and more. The main purpose is to facilitate data preprocessing, modeling, and evaluation for machine learning tasks.\n\n[Table:t80]",
+    "Context_id": "1장_v3.1_image::rId61",
+    "Is_image": true,
+    "Image_ids": [
+      "rId61"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.2 Node"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image37.png"
+  },
+  {
+    "Context": "The image shows an ECMiner data mining workflow with steps like File Reader, Column Filter, Type Change, Split, and models like QDA, LOGISTIC, and LDA. It processes data through various transformations before applying machine learning models for analysis.",
+    "Context_id": "1장_v3.1_image::rId62",
+    "Is_image": true,
+    "Image_ids": [
+      "rId62"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image38.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface with three open projects labeled Project1, Project2, and Project3. The dropdown menu at the bottom indicates that more projects can be opened or managed. This setup suggests that the user is working on multiple data mining tasks simultaneously, likely analyzing different datasets or exploring various aspects of",
+    "Context_id": "1장_v3.1_image::rId63",
+    "Is_image": true,
+    "Image_ids": [
+      "rId63"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Select Project"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image39.png"
+  },
+  {
+    "Context": "The image shows the main interface of ECMiner, a data mining software, with three projects labeled Project1, Project2, and Project3. The main purpose is to manage and analyze data mining projects efficiently.",
+    "Context_id": "1장_v3.1_image::rId64",
+    "Is_image": true,
+    "Image_ids": [
+      "rId64"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Select Project"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image40.png"
+  },
+  {
+    "Context": "The image shows the ECMiner data mining software interface with three project tabs open: Project1, Project2, and Project3. The main purpose is to manage and analyze data mining projects, allowing users to switch between different projects for data exploration and analysis tasks.",
+    "Context_id": "1장_v3.1_image::rId65",
+    "Is_image": true,
+    "Image_ids": [
+      "rId65"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Close Project"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image41.png"
+  },
+  {
+    "Context": "The image shows an ECMiner data mining software interface with a histogram displaying frequency distribution of data points, indicating analysis results for machine learning tasks.",
+    "Context_id": "1장_v3.1_image::rId68",
+    "Is_image": true,
+    "Image_ids": [
+      "rId68"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image43.png"
+  },
+  {
+    "Context": "The image shows the ECMiner data mining software interface, which is used for analyzing large datasets to find patterns and insights. The screen displays options for selecting data sources, setting parameters for analysis, and viewing results in graphical formats. It's designed to help users efficiently mine valuable information from complex data sets.",
+    "Context_id": "1장_v3.1_image::rId74",
+    "Is_image": true,
+    "Image_ids": [
+      "rId74"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image46.png"
+  },
+  {
+    "Context": "[Image:rId67]",
+    "Context_id": "1장_v3.1_image::rId69",
+    "Is_image": true,
+    "Image_ids": [
+      "rId69"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject18.bin"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The goal is to extract valuable insights from large datasets by identifying patterns and correlations.",
+    "Context_id": "1장_v3.1_image::rId70",
+    "Is_image": true,
+    "Image_ids": [
+      "rId70"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image44.png"
+  },
+  {
+    "Context": "[Image:rId73]",
+    "Context_id": "1장_v3.1_image::rId75",
+    "Is_image": true,
+    "Image_ids": [
+      "rId75"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject21.bin"
+  },
+  {
+    "Context": "The image shows an ECMiner data mining software interface displaying a bar chart with three bars representing different categories, each with varying heights. The chart is used to visualize and analyze data trends, likely for monitoring or comparing performance metrics across different datasets or time periods.",
+    "Context_id": "1장_v3.1_image::rId76",
+    "Is_image": true,
+    "Image_ids": [
+      "rId76"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image47.png"
+  },
+  {
+    "Context": "[Image:rId66] The image shows the \"Load\" button in ECMiner, a data mining software tool, indicating that it allows users to import data files for analysis. The button is designed to facilitate the process of loading datasets into the software for further processing and exploration.",
+    "Context_id": "1장_v3.1_image::rId71",
+    "Is_image": true,
+    "Image_ids": [
+      "rId71"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject19.bin"
+  },
+  {
+    "Context": "[Image:rId72] The image shows an ECMiner data mining software interface displaying a bar chart with three bars representing different categories, each with varying heights. The chart likely represents data analysis results, possibly showing the frequency or importance of different categories in a dataset.",
+    "Context_id": "1장_v3.1_image::rId77",
+    "Is_image": true,
+    "Image_ids": [
+      "rId77"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject22.bin"
+  },
+  {
+    "Context": "The image shows the context menu in ECMiner, a data mining software, with options for managing nodes, executing parts, and interacting with the data browser. It provides quick access to actions like adding, connecting, cutting, copying, pasting, deleting, saving models, and inserting memos. The menu is designed",
+    "Context_id": "1장_v3.1_image::rId78",
+    "Is_image": true,
+    "Image_ids": [
+      "rId78"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Context Menu"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image48.png"
+  },
+  {
+    "Context": "The image shows the \"Node Properties\" window in ECMiner, a data mining software. It displays fields for Project Creator and Project Description, with the creator's name being \"ECMiner_KGM.\" The window is used to input details about a specific project within the software.",
+    "Context_id": "1장_v3.1_image::rId79",
+    "Is_image": true,
+    "Image_ids": [
+      "rId79"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.4 Node Properties",
+      "Project Properties"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image49.png"
+  },
+  {
+    "Context": "The image shows the Node Properties window in ECMiner, displaying a list of variables with their corresponding names and filters. The main purpose is to manage and filter variables for data mining tasks.",
+    "Context_id": "1장_v3.1_image::rId80",
+    "Is_image": true,
+    "Image_ids": [
+      "rId80"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.4 Node Properties",
+      "Node Property about data"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image50.png"
+  },
+  {
+    "Context": "The image shows the Resource Window in ECMiner, a data mining software, with a Resource Menu on the left displaying folders like Local, Education, Model, and Output. The Resource List below displays files with columns for File Name, Size, and Modified Date. This interface allows users to manage and organize their resources efficiently",
+    "Context_id": "1장_v3.1_image::rId81",
+    "Is_image": true,
+    "Image_ids": [
+      "rId81"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.5 Resource Window"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image51.png"
+  },
+  {
+    "Context": "The image shows a list of files in an ECMiner data mining software, including model.ec and test.ec, with details like file name, size, and modified date. The main purpose is to manage and organize data files for analysis and mining tasks.\n\nFrom the resource lists, you can filter the files using the toolbar buttons at the top.\n\nWhen selecting the Model menu\n\n[image:rId83]",
+    "Context_id": "1장_v3.1_image::rId82",
+    "Is_image": true,
+    "Image_ids": [
+      "rId82"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.5 Resource Window",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image52.png"
+  },
+  {
+    "Context": "The image shows a screenshot of the ECMiner data mining software, displaying three options: MLR (Multiple Linear Regression), PCR (Partial Least Squares Regression), and PLS (Partial Least Squares). These tools are used for statistical analysis and predictive modeling in data mining.\n\nAfter running modeling, the output models are listed. You may take out a model in the list which is not necessary.\n\nWhen selecting the Output menu\n\n[image:rId84]",
+    "Context_id": "1장_v3.1_image::rId83",
+    "Is_image": true,
+    "Image_ids": [
+      "rId83"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.5 Resource Window",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image53.png"
+  },
+  {
+    "Context": "The image shows a screenshot of the ECMiner data mining software, displaying three datasets: 1.mlr.ecm, 2.pcr.ecm, and 3.pls.ecm. Each dataset has a \"Display\" option and a \"Trend Chart\" option, indicating that users can visualize and analyze\n\nAfter running modeling, the output results are listed in the project with sub-tree. Select the results you want to view. It shows the results for comparison. Additionally, it offers the ability to save results or view previously saved results.",
+    "Context_id": "1장_v3.1_image::rId84",
+    "Is_image": true,
+    "Image_ids": [
+      "rId84"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.5 Resource Window",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image54.png"
+  },
+  {
+    "Context": "The image shows the local directory structure in ECMiner, with \"Desktop\" and \"Model\" folders visible under \"Local.\" The \"Output\" folder is also present but not expanded. This setup indicates that the user has organized their data into distinct folders for different purposes within the software.",
+    "Context_id": "1장_v3.1_image::rId85",
+    "Is_image": true,
+    "Image_ids": [
+      "rId85"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Task Folder"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image55.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining tasks. It displays various options like \"Data,\" \"Mining,\" and \"Settings,\" indicating that users can perform data analysis, mining operations, and configure settings for their mining projects. The presence of a folder icon suggests that the user might be\n\n[image:rId87]",
+    "Context_id": "1장_v3.1_image::rId86",
+    "Is_image": true,
+    "Image_ids": [
+      "rId86"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name."
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image56.png"
+  },
+  {
+    "Context": "The image is a screenshot of the Task Folder dialog in ECMiner, a data mining software. It allows users to specify the path and name for a task folder, ensuring no special characters are used in the folder name. The primary purpose is to organize tasks within the software by creating dedicated folders for different projects or analyses\n\nModify Task Folder\n\nTo change the contents (folder path, folder name), click the [image:rId88] button in the toolbar.",
+    "Context_id": "1장_v3.1_image::rId87",
+    "Is_image": true,
+    "Image_ids": [
+      "rId87"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name."
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image57.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like time, frequency, and algorithm selection. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.\n\nDelete Task Folder\n\nTo delete a task folder, click the [image:rId89] button in the toolbar. A message box will pop up asking, \"Are you sure you want to delete?\" Pressing the ‘Yes’ button will delete the folder.",
+    "Context_id": "1장_v3.1_image::rId88",
+    "Is_image": true,
+    "Image_ids": [
+      "rId88"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name."
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image58.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.\n\nReload\n\nTo reload the file list of the task folder, click the [image:rId90] button in the toolbar.",
+    "Context_id": "1장_v3.1_image::rId89",
+    "Is_image": true,
+    "Image_ids": [
+      "rId89"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name."
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image59.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.\n\nCreate New Folder\n\nRight-clicking on the task folder in the Resource menu.\n\n[image:rId91]",
+    "Context_id": "1장_v3.1_image::rId90",
+    "Is_image": true,
+    "Image_ids": [
+      "rId90"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name."
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image60.png"
+  },
+  {
+    "Context": "The image is a screenshot of the \"Add Folder\" dialog in ECMiner, a data mining software. It prompts users to enter a folder name, with specific character restrictions. The main purpose is to allow users to organize their data by adding folders for better management and analysis.\n\nGive the name of folder, it will add the task folder.",
+    "Context_id": "1장_v3.1_image::rId91",
+    "Is_image": true,
+    "Image_ids": [
+      "rId91"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name."
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image61.png"
+  },
+  {
+    "Context": "The image shows a screenshot of the ECMiner software's file explorer window, displaying two files: \"1.LDA, QDA.ecm\" and \"2.Logistic.ecm\". The main purpose is to manage and view data files used for data mining tasks, with details such as file name, size, and\n\n[Table:t160]",
+    "Context_id": "1장_v3.1_image::rId92",
+    "Is_image": true,
+    "Image_ids": [
+      "rId92"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image62.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId95",
+    "Is_image": true,
+    "Image_ids": [
+      "rId95"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image64.png"
+  },
+  {
+    "Context": "[Image:rId94]",
+    "Context_id": "1장_v3.1_image::rId96",
+    "Is_image": true,
+    "Image_ids": [
+      "rId96"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject24.bin"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId99",
+    "Is_image": true,
+    "Image_ids": [
+      "rId99"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image66.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like time, frequency, and algorithm selection. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId97",
+    "Is_image": true,
+    "Image_ids": [
+      "rId97"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image65.png"
+  },
+  {
+    "Context": "[Image:rId93] The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId100",
+    "Is_image": true,
+    "Image_ids": [
+      "rId100"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject26.bin"
+  },
+  {
+    "Context": "",
+    "Context_id": "1장_v3.1_image::rId98",
+    "Is_image": true,
+    "Image_ids": [
+      "rId98"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject25.bin"
+  },
+  {
+    "Context": "The image shows an ECMiner data mining software interface with a file named \"basic_chart_data\" being loaded into the project. The main purpose is to load and analyze data for further mining tasks.",
+    "Context_id": "1장_v3.1_image::rId101",
+    "Is_image": true,
+    "Image_ids": [
+      "rId101"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Utilizing the Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image67.png"
+  },
+  {
+    "Context": "The image shows the interface of ECMiner, a data mining software, with three main tabs: PCA, LDA, and Logistic. PCA is used for dimensionality reduction, LDA for linear discriminant analysis, and Logistic for logistic regression. The numbers in parentheses indicate the number of models available under each tab.",
+    "Context_id": "1장_v3.1_image::rId102",
+    "Is_image": true,
+    "Image_ids": [
+      "rId102"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image68.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters for selecting data sources, defining mining algorithms, and specifying output formats. The main purpose is to facilitate the extraction of valuable insights and patterns from large datasets by",
+    "Context_id": "1장_v3.1_image::rId103",
+    "Is_image": true,
+    "Image_ids": [
+      "rId103"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model",
+      "Delete Model"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image69.png"
+  },
+  {
+    "Context": "The image shows the interface of ECMiner, a data mining software, with options for local files like Sample and Desktop, as well as model and output directories. It also displays various machine learning algorithms such as LDA, QDA, Logistic, KMeans, and PCA, indicating the software's capability to perform different",
+    "Context_id": "1장_v3.1_image::rId104",
+    "Is_image": true,
+    "Image_ids": [
+      "rId104"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model",
+      "Save Model"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image70.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters for selecting data sources, defining mining algorithms, and specifying output formats. The main purpose is to facilitate the extraction of valuable insights and patterns from large datasets by",
+    "Context_id": "1장_v3.1_image::rId105",
+    "Is_image": true,
+    "Image_ids": [
+      "rId105"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model",
+      "Save Model"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image71.png"
+  },
+  {
+    "Context": "The image is a screenshot of an interface in ECMiner, a data mining software tool. It shows a window for creating a generalized model with fields to input a model name, brief description, and save directory. The purpose is to facilitate the creation and management of machine learning models within the software.",
+    "Context_id": "1장_v3.1_image::rId106",
+    "Is_image": true,
+    "Image_ids": [
+      "rId106"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model",
+      "Save Model"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image72.png"
+  },
+  {
+    "Context": "The image shows the interface of ECMiner, a data mining software, with a focus on local directories like \"Sample,\" \"Desktop,\" and \"Model.\" It displays various machine learning models such as Logistic Regression, LDA, QDA, KMeans, and PCA, indicating the software's capability to analyze and visualize",
+    "Context_id": "1장_v3.1_image::rId107",
+    "Is_image": true,
+    "Image_ids": [
+      "rId107"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model",
+      "Save Model"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image73.png"
+  },
+  {
+    "Context": "The image is a screenshot of an interface in ECMiner, a data mining software tool. It shows a window for creating a generalized model with fields to input a model name, brief description, and save directory. The current save directory is set to the user's desktop. This setup allows users to define and save their",
+    "Context_id": "1장_v3.1_image::rId108",
+    "Is_image": true,
+    "Image_ids": [
+      "rId108"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model",
+      "Save Model"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image74.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface with a function toolbar on the left, displaying three ECM files: 1.mlr.ecm, 2.pcr.ecm, and 3.pls.ecm. Each file has options to display results and generate trend charts. The right side lists these ECM files,",
+    "Context_id": "1장_v3.1_image::rId109",
+    "Is_image": true,
+    "Image_ids": [
+      "rId109"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image75.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId110",
+    "Is_image": true,
+    "Image_ids": [
+      "rId110"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output Review"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image76.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining tasks. It displays various options like \"Data,\" \"Model,\" \"Analysis,\" and \"Settings.\" The main purpose is to analyze and mine data efficiently, with features for managing datasets, creating models, and conducting analyses.\n\nDelete all selected outputs from the list\n\n[image:rId112] Close All Outputs",
+    "Context_id": "1장_v3.1_image::rId111",
+    "Is_image": true,
+    "Image_ids": [
+      "rId111"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image77.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like time, frequency, and algorithm selection. The goal is to extract meaningful patterns and insights from large datasets efficiently.\n\nClose all open output windows.\n\n[image:rId113] Output Window Grid Alignment",
+    "Context_id": "1장_v3.1_image::rId112",
+    "Is_image": true,
+    "Image_ids": [
+      "rId112"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image78.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.\n\nIf two or more output windows are currently open, arrange them into a grid format.\n\n[image:rId114]",
+    "Context_id": "1장_v3.1_image::rId113",
+    "Is_image": true,
+    "Image_ids": [
+      "rId113"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image79.png"
+  },
+  {
+    "Context": "The image shows an ECMiner data mining software interface with multiple scatter plots and a table, likely used for visualizing and analyzing data relationships and patterns.\n\n[image:rId115] Display Grid Alignment",
+    "Context_id": "1장_v3.1_image::rId114",
+    "Is_image": true,
+    "Image_ids": [
+      "rId114"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image80.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.\n\nSimilar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a grid format.\n\n[image:rId116] Output Window Cascade Alignment",
+    "Context_id": "1장_v3.1_image::rId115",
+    "Is_image": true,
+    "Image_ids": [
+      "rId115"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image81.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.\n\nArranges the currently open output windows in a cascading format.\n\n[image:rId117] Display Cascade Alignment",
+    "Context_id": "1장_v3.1_image::rId116",
+    "Is_image": true,
+    "Image_ids": [
+      "rId116"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image82.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like time, frequency, and algorithm selection. The goal is to extract meaningful patterns and insights from large datasets efficiently.\n\nSimilar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a cascading format.\n\n[image:rId118] Save output",
+    "Context_id": "1장_v3.1_image::rId117",
+    "Is_image": true,
+    "Image_ids": [
+      "rId117"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image83.png"
+  },
+  {
+    "Context": "The image shows the \"Save\" button in ECMiner, a data mining software tool. It allows users to save their analysis results, such as mined patterns or models, for future reference or sharing. The button is essential for preserving the work done within the software.\n\nSave the output to the desired path in the *. ept file format\n\n[image:rId119] Load saved output",
+    "Context_id": "1장_v3.1_image::rId118",
+    "Is_image": true,
+    "Image_ids": [
+      "rId118"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image84.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, specifically the \"Data\" tab where users can manage their datasets. It includes options to import, export, and view data files, with a focus on organizing and analyzing large datasets efficiently.\n\nOpen the saved output file(*. ept). The results will be added to the list under the \"Other” category\n\n[image:rId120]",
+    "Context_id": "1장_v3.1_image::rId119",
+    "Is_image": true,
+    "Image_ids": [
+      "rId119"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image85.png"
+  },
+  {
+    "Context": "The image shows the main interface of ECMiner, a data mining software, with a project named \"Project1\" containing two sections: \"Display\" and \"Matrix Chart,\" both currently empty, and an \"Other\" section with a sample pie chart. The purpose is to organize and analyze data using various visualization tools\n\n[Table:t209]",
+    "Context_id": "1장_v3.1_image::rId120",
+    "Is_image": true,
+    "Image_ids": [
+      "rId120"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image86.png"
+  },
+  {
+    "Context": "The image shows an Excel-like interface with a table displaying numerical data across multiple columns labeled A1 to A8. The main purpose is to analyze and manipulate data, likely for statistical or mining purposes, as indicated by the \"Analyze\" tab. The data appears to be part of a dataset used in data mining or",
+    "Context_id": "1장_v3.1_image::rId121",
+    "Is_image": true,
+    "Image_ids": [
+      "rId121"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image87.png"
+  },
+  {
+    "Context": "The image shows the execution progress of an ECMiner project, with nodes like File Reader, Column Filter, and Type Change being checked for consistency. The message indicates that all properties are correct and there are no errors in the consistency checks.",
+    "Context_id": "1장_v3.1_image::rId122",
+    "Is_image": true,
+    "Image_ids": [
+      "rId122"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.9 Message Window"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image88.png"
+  },
+  {
+    "Context": "The image shows the Node Properties window in ECMiner, where users can configure a File Reader node by entering its name and specifying the file path for data processing.\n\n[image:rId124] Toggle Help",
+    "Context_id": "1장_v3.1_image::rId123",
+    "Is_image": true,
+    "Image_ids": [
+      "rId123"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.10 Dynamic Help"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image89.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.\n\nNavigate to the help for the selected node\n\nNote: Pressing the button again will return to the dynamic help\n\n[image:rId125] Index Search",
+    "Context_id": "1장_v3.1_image::rId124",
+    "Is_image": true,
+    "Image_ids": [
+      "rId124"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.10 Dynamic Help"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image90.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options like \"Data,\" \"Mining,\" and \"Results,\" indicating that users can input data, perform mining operations, and view the results of their analyses. The presence of icons suggests interactive features for managing datasets and\n\nOpen the help window and search for the desired topic",
+    "Context_id": "1장_v3.1_image::rId125",
+    "Is_image": true,
+    "Image_ids": [
+      "rId125"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.10 Dynamic Help"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image91.png"
+  },
+  {
+    "Context": "The image shows the main interface of ECMiner, a data mining software, with a project named \"Project1\" open. The interface includes options for loading data, preprocessing, modeling, and evaluating models, as well as a resource window for managing files and a help section for documentation. The primary purpose is to facilitate\n\nWhile dragging, move the mouse pointer over the icon of the location where you want to place the control window.\n\nCentral four-direction icon\n\nThese icons indicate the top, bottom, left, and right sides within the control window that the mouse moves during the dragging process\n\nSurrounding four-direction icon\n\nThese icons indicate the top, bottom, left, and right sides of the entire program window.\n\n[image:rId127]",
+    "Context_id": "1장_v3.1_image::rId126",
+    "Is_image": true,
+    "Image_ids": [
+      "rId126"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Reposition"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image92.png"
+  },
+  {
+    "Context": "The image shows the ECMiner x64 software interface, specifically in the \"Project1\" tab. It is used for data mining projects, allowing users to load data, preprocess it, model it, and evaluate models. The main purpose is to facilitate data analysis and mining tasks efficiently.\n\nA blue rectangle will indicate where the control window will be located. Once you confirm the position, release the mouse button to change the location of the control window.\n\n[image:rId128]",
+    "Context_id": "1장_v3.1_image::rId127",
+    "Is_image": true,
+    "Image_ids": [
+      "rId127"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Reposition"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image93.png"
+  },
+  {
+    "Context": "The image shows the main interface of ECMiner, a data mining software, with a focus on project management and node properties. The user is in the \"Project1\" tab, where they can manage files, preprocess data, create charts, model, and evaluate models. The interface includes tabs for different functionalities like Input\n\n[Table:t245]",
+    "Context_id": "1장_v3.1_image::rId128",
+    "Is_image": true,
+    "Image_ids": [
+      "rId128"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Reposition"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image94.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like time, frequency, and algorithm selection. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId129",
+    "Is_image": true,
+    "Image_ids": [
+      "rId129"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Resize"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image95.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId130",
+    "Is_image": true,
+    "Image_ids": [
+      "rId130"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Resize"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image96.png"
+  },
+  {
+    "Context": "The image shows the main interface of ECMiner, an advanced data mining tool, with the Preprocessing tab active. It displays various preprocessing nodes for data manipulation, such as sorting, binning, and missing value handling, ready to be used in a project named \"Project1.\"",
+    "Context_id": "1장_v3.1_image::rId132",
+    "Is_image": true,
+    "Image_ids": [
+      "rId132"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Auto-Hide control window"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image98.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like algorithm selection, data source, and output format. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId131",
+    "Is_image": true,
+    "Image_ids": [
+      "rId131"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Auto-Hide control window"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image97.png"
+  },
+  {
+    "Context": "The image shows the \"Options\" window in ECMiner, a data mining software, where users can customize settings such as date/time format, file extensions, program look style, floating-point display format, and temporary folder directory.\n\n[Table:t283]",
+    "Context_id": "1장_v3.1_image::rId133",
+    "Is_image": true,
+    "Image_ids": [
+      "rId133"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image99.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId138",
+    "Is_image": true,
+    "Image_ids": [
+      "rId138"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image102.png"
+  },
+  {
+    "Context": "The image shows the settings page of ECMiner, a data mining software tool. It allows users to configure parameters such as algorithm selection, input file paths, and output directory for processing large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId134",
+    "Is_image": true,
+    "Image_ids": [
+      "rId134"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image100.png"
+  },
+  {
+    "Context": "[Image:rId137]",
+    "Context_id": "1장_v3.1_image::rId139",
+    "Is_image": true,
+    "Image_ids": [
+      "rId139"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject29.bin"
+  },
+  {
+    "Context": "[Image:rId136] The image shows the settings menu in ECMiner, a data mining software, where users can adjust various parameters such as algorithm selection, data import options, and output preferences to customize their mining process.",
+    "Context_id": "1장_v3.1_image::rId135",
+    "Is_image": true,
+    "Image_ids": [
+      "rId135"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject27.bin"
+  },
+  {
+    "Context": "The image shows the settings menu of ECMiner, a data mining software, where users can customize various options such as date/time format, numeric data recognition, file extensions, program style, floating-point display format, and temporary folder directory.\n\n[Table:t289]",
+    "Context_id": "1장_v3.1_image::rId140",
+    "Is_image": true,
+    "Image_ids": [
+      "rId140"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.1 Program Settings"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image103.png"
+  },
+  {
+    "Context": "The image shows the \"Options\" window in ECMiner, a data mining software, where users can configure database connections using OLE DB, ODBC, and Oracle drivers. The user interface allows setting up connection information such as IP, server name, username, and password for different database types.\n\n[Table:t295]",
+    "Context_id": "1장_v3.1_image::rId141",
+    "Is_image": true,
+    "Image_ids": [
+      "rId141"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.2 Default Database Setting"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image104.png"
+  },
+  {
+    "Context": "The image shows the Options window in ECMiner, a data mining software, displaying various nodes for data processing and analysis, including reading data from an MDB file, combining input data sources, merging ECL files, sorting variables, using AutoEncoders, binning data, creating 3D charts, performing association analysis\n\n[Table:t301]",
+    "Context_id": "1장_v3.1_image::rId142",
+    "Is_image": true,
+    "Image_ids": [
+      "rId142"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.3 Edit Frequently Used Nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image105.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like the number of threads, data sources, and output formats. The main purpose is to automate the extraction of patterns and insights from large datasets efficiently.",
+    "Context_id": "1장_v3.1_image::rId144",
+    "Is_image": true,
+    "Image_ids": [
+      "rId144"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.3 Edit Frequently Used Nodes",
+      "Function button"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image107.png"
+  },
+  {
+    "Context": "The image shows the ECMiner software interface, which is used for data mining and analysis. It displays various options and settings for configuring the mining process, including parameters like time, frequency, and algorithm selection. The green checkmark indicates that the setup is complete and ready to proceed with mining operations.",
+    "Context_id": "1장_v3.1_image::rId143",
+    "Is_image": true,
+    "Image_ids": [
+      "rId143"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.3 Edit Frequently Used Nodes",
+      "Function button"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json",
+    "image_path": "output/processed/1장_v3.1/v0/_sanitized/_assets/image106.png"
+  }
+]

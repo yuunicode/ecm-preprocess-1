@@ -1,0 +1,1275 @@
+[
+  {
+    "Context": "This content is about the section AI.\n\nAI Wizard\n\nDNN\n\nCNN\n\nRNN\n\nLanguage Model",
+    "Context_id": "5장_v3_sanitized::chunk_0001",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI"
+    ],
+    "Section_length": 1,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to AI Wizard.\n\nDNN\n\nCNN\n\nRNN\n\nLanguage Model",
+    "Context_id": "5장_v3_sanitized::chunk_0002",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to AI Wizard, focusing on User interface.\n\nECMiner™ AI wizard provides a step-by-step interface for defining neural network models and configuring model options. The stream configuration is divided into four steps as follows.\n[image:rId7]\n\n[Image:rId7] The image shows the workflow for using ECMiner, starting with model definition, followed by data input, option settings, and finally results.\n\nStep 1. Model Definition\n\nSelect the neural network model to train. T here are four available models.\n\n[Table:t25]\n\nStep 2. Data Input\n\nS pecify the data type, variable type, and whether each column should be used.\n[image:rId8]\n\n[Image:rId8] The image shows the \"Data Input\" page in the AI Wizard of ECMiner, where user-defined variables are being loaded for customer churn analysis. The table lists independent variables with their types (integer, string) and usage values, indicating how these variables will be utilized in the model.\n\n[Table:t31]\n\nStep 3. Option Settings\n\nDefine the structure of the neural network. Options vary according to the chosen model. The following options are general settings for all models.\n\n[Table:t36]\n\nStep 4. Definition Results\n\nReview of the options set by the user is available, along with the neural network python code and a diagram of the neural network structure.\n\n[Table:t41]\n\n[Image:rId10] The image shows a neural network architecture in ECMiner, with an input tensor of size (1, 53) passing through linear layers, a sigmoid layer, another linear layer, and finally a ReLU layer, resulting in an output tensor of size (1, 10). This setup is used for\n\n[Image:rId9] The image shows a Python script for implementing an ECMiner model using PyTorch, which includes defining a neural network architecture with two hidden layers and early stopping criteria. The script is used for data mining tasks, likely involving machine learning algorithms to analyze and predict patterns in datasets.",
+    "Context_id": "5장_v3_sanitized::chunk_0003",
+    "Is_image": true,
+    "Image_ids": [
+      "rId7",
+      "rId8",
+      "rId10",
+      "rId9"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t25",
+      "t31",
+      "t36",
+      "t41"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard",
+      "5.1.1 User interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN.\n\nAn artificial neural network with a multi-layer structure, capable of learning nonlinear patterns through multiple hidden layers. It uses deep layers to model complex relationships and is applied in various fields.",
+    "Context_id": "5장_v3_sanitized::chunk_0004",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, focusing on DNN.",
+    "Context_id": "5장_v3_sanitized::chunk_0005",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.1 DNN"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection DNN, with a detailed reference to Overview.\n\nDNN (Deep Neural Networks) is an extension of traditional neural networks, such as Multi-Layer Perceptron (MLP), incorporating multiple hidden layers to learn complex patterns. This neural network can learn complex patterns from different types of data by using advanced methods. DNNs are used for tasks such as classification, prediction, and pattern recognition.",
+    "Context_id": "5장_v3_sanitized::chunk_0006",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.1 DNN",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection DNN, with a detailed reference to Components.\n\nInput Layer\n\nThis layer is responsible for receiving the input data into the neural network.\n\nHidden Layers\n\nThese layers process the data, extracting complex features and patterns through multiple stages.\n\nOutput Layer\n\nThe final layer produces the prediction or classification results based on the learned features.",
+    "Context_id": "5장_v3_sanitized::chunk_0007",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.1 DNN",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection DNN, with a detailed reference to Working Principle.\n\nThe network learns by adjusting the weights and activation functions of connections between nodes based on the data it is trained on, making it highly effective at handling complex and high-dimensional data.",
+    "Context_id": "5장_v3_sanitized::chunk_0008",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.1 DNN",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection DNN, with a detailed reference to Options.\n\n[Table:t62]",
+    "Context_id": "5장_v3_sanitized::chunk_0009",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t62"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.1 DNN",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, focusing on AutoEncoder.",
+    "Context_id": "5장_v3_sanitized::chunk_0010",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.2 AutoEncoder"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection AutoEncoder, with a detailed reference to Overview.\n\nAn Autoencoder is a type of neural network consisting of an encoder that compresses the input data and a decoder that reconstructs the original data from the compressed representation. This model is mainly used to learn the key features of the data and for dimensionality reduction.",
+    "Context_id": "5장_v3_sanitized::chunk_0011",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.2 AutoEncoder",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection AutoEncoder, with a detailed reference to Components.\n\nEncoder\n\nConverts input data into a lower-dimensional representation.\n\nDecoder\n\nExpands the lower-dimensional representation back to the original dimensions to reconstruct the data.\n\nLoss Functio n\n\nMeasures the difference between the original data and the reconstructed data, guiding the learning process.",
+    "Context_id": "5장_v3_sanitized::chunk_0012",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.2 AutoEncoder",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection AutoEncoder, with a detailed reference to Working Principle.\n\nThe Autoencoder learns by extracting important features from the data using the encoder, then reconstructing the original data using the decoder. This process, which falls under unsupervised learning, is useful for tasks such as noise removal and dimensionality reduction. By focusing on the most relevant features, Autoencoders can efficiently compress and reconstruct data.",
+    "Context_id": "5장_v3_sanitized::chunk_0013",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.2 AutoEncoder",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection AutoEncoder, with a detailed reference to Options.\n\n[Table:t80]",
+    "Context_id": "5장_v3_sanitized::chunk_0014",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t80"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.2 AutoEncoder",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN.\n\nNeural network specialized in processing high-dimensional data such as images. By utilizing convolution and pooling operations to extract features, it effectively recognizes patterns while preserving spatial information. It is widely used in image classification, object detection, and other applications.",
+    "Context_id": "5장_v3_sanitized::chunk_0015",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, focusing on Data Input Format.\n\nThe folder names will be designated as training labels, and the training image data corresponding to each label must be stored within the respective folders.\nThe folder structure for training data should be as follows:\n\n[Table:t88]\n\n[Image:rId12] The image shows a data input screen in ECMiner, an AI data mining software, where users can upload images for classification training. The screen displays a list of image files categorized as 'fall' and 'normal', indicating the dataset being used for machine learning tasks to distinguish between these two categories.\n\n[Image:rId11] The image shows the setup screen for training a dataset in ECMiner, where users must specify the folder path containing labeled images of animals (Cat, Dog, Pig, Cow, Sheep) for training purposes.",
+    "Context_id": "5장_v3_sanitized::chunk_0016",
+    "Is_image": true,
+    "Image_ids": [
+      "rId12",
+      "rId11"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t88"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "Data Input Format"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, focusing on LeNet.",
+    "Context_id": "5장_v3_sanitized::chunk_0017",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.1 LeNet"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection LeNet, with a detailed reference to Overview.\n\nLeNet is one of the early convolutional neural networks, and was originally designed for handwritten digit recognition, specifically for the MNIST dataset. Though its structure is simple, it introduced the fundamental ideas and structural characteristics of modern CNNs.",
+    "Context_id": "5장_v3_sanitized::chunk_0018",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.1 LeNet",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection LeNet, with a detailed reference to Components.\n\nConvolutional Layers\n\nThese layers extract low-level features from the input image.\n\nAverage Pooling Layers\n\nThese layers reduce the size of feature maps and improve robustness by downsampling the data.\n\nFully Connected Layers\n\nBased on the extracted features, these layers make the final classification decision.",
+    "Context_id": "5장_v3_sanitized::chunk_0019",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.1 LeNet",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection LeNet, with a detailed reference to Working Principle.\n\nLeNet extracts features through convolution and pooling layers, and then uses the fully connected layers to predict the final class.",
+    "Context_id": "5장_v3_sanitized::chunk_0020",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.1 LeNet",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection LeNet, with a detailed reference to Options.\n\nThe architecture of the LeNet model is provided in a fixed form.\n\n[Table:t107]",
+    "Context_id": "5장_v3_sanitized::chunk_0021",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t107"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.1 LeNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, focusing on AlexNet.",
+    "Context_id": "5장_v3_sanitized::chunk_0022",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.2 AlexNet"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection AlexNet, with a detailed reference to Overview.\n\nAlexNet is an expanded and deeper version of LeNet, which gained worldwide recognition when it won the 2012 ImageNet competition. This model was one of the first to apply modern deep learning techniques and demonstrated the power of deep learning with GPUs and large datasets for image classification tasks.",
+    "Context_id": "5장_v3_sanitized::chunk_0023",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.2 AlexNet",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection AlexNet, with a detailed reference to Components.\n\nConvolutional Layers\n\nThese layers extract high-level features from the images.\n\nReLU Activation Function\n\nIt helps solve non-linear problems and accelerates training by enabling faster convergence.\n\nMax Pooling Layers\n\nThese layers reduce the size of the data while preserving important features.\n\nDropout\n\nThis technique helps prevent overfitting during training by randomly disabling a portion of the neurons.",
+    "Context_id": "5장_v3_sanitized::chunk_0024",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.2 AlexNet",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection AlexNet, with a detailed reference to Working Principle.\n\nAlexNet extracts complex image features through deep convolutional layers and reduces data size using max pooling layers. The ReLU activation function accelerates training by enabling faster convergence. Dropout is also used to prevent overfitting during training. Afterward, fully connected layers process the high-level features for classification.",
+    "Context_id": "5장_v3_sanitized::chunk_0025",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.2 AlexNet",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection AlexNet, with a detailed reference to Options.\n\nThe architecture of the AlexNet model is provided in a fixed form.\n\n[Table:t128]",
+    "Context_id": "5장_v3_sanitized::chunk_0026",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t128"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.2 AlexNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, focusing on VGGNet.",
+    "Context_id": "5장_v3_sanitized::chunk_0027",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.3 VGGNet"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection VGGNet, with a detailed reference to Overview.\n\nVGGNet is known for its simple architecture, where convolutional and pooling layers are stacked uniformly. This model demonstrated that increasing the depth of the network with smaller convolutional filters (3x3) can improve performance. It is especially popular for transfer learning tasks.",
+    "Context_id": "5장_v3_sanitized::chunk_0028",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.3 VGGNet",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection VGGNet, with a detailed reference to Components.\n\nConvolutional Layers\n\nThese layers use kernels of the same size to extract features from the input data.\n\nMax Pooling Layers\n\nThese layers simplify the feature maps and enhance computational efficiency.",
+    "Context_id": "5장_v3_sanitized::chunk_0029",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.3 VGGNet",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection VGGNet, with a detailed reference to Working Principle.\n\nVGGNet is built by stacking several layers of 3x3 convolutions and 2x2 max pooling. The idea behind using small filters is that multiple small filters (3x3) can capture more complex features while reducing computational complexity.",
+    "Context_id": "5장_v3_sanitized::chunk_0030",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.3 VGGNet",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection VGGNet, with a detailed reference to Options.\n\nThe architecture of the VGGNet model is provided in a fixed form.\n\n[Table:t144]",
+    "Context_id": "5장_v3_sanitized::chunk_0031",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t144"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.3 VGGNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, focusing on ResNet.",
+    "Context_id": "5장_v3_sanitized::chunk_0032",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.4 ResNet"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection ResNet, with a detailed reference to Overview.\n\nResNet features residual connections that were introduced to solve the vanishing gradient problem in deep neural networks. This architecture allows the network to improve performance as the layers get deeper, enabling it to learn more complex patterns without losing effectiveness.",
+    "Context_id": "5장_v3_sanitized::chunk_0033",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.4 ResNet",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection ResNet, with a detailed reference to Components.\n\nResidual Blocks\n\nEach block contains a set of convolutional layers, but with the addition of skip connections that allow the input to bypass certain layers and be added directly to the output. This helps address the problem of vanishing gradients in very deep networks.",
+    "Context_id": "5장_v3_sanitized::chunk_0034",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.4 ResNet",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection ResNet, with a detailed reference to Working Principle.\n\nResNet uses the skip connection technique which passes the input through multiple residual blocks and adds the original input back to the output. This allows the model to learn residual functions (the difference between the desired output and the input), rather than the entire output directly. This approach enables the training of deep networks without suffering from the vanishing gradient problem.",
+    "Context_id": "5장_v3_sanitized::chunk_0035",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.4 ResNet",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection ResNet, with a detailed reference to Options.\n\nThe architecture of the ResNet model is provided in a fixed form.\n\n[Table:t158]",
+    "Context_id": "5장_v3_sanitized::chunk_0036",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t158"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.4 ResNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, focusing on EfficientNet.",
+    "Context_id": "5장_v3_sanitized::chunk_0037",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.5 EfficientNet"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection EfficientNet, with a detailed reference to Overview.\n\nEfficientNet introduces a method for balancing the scaling of the network's depth, width, and resolution to achieve higher performance with fewer parameters compared to traditional models.",
+    "Context_id": "5장_v3_sanitized::chunk_0038",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.5 EfficientNet",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection EfficientNet, with a detailed reference to Components.\n\nCompound Scaling\n\nUniformly scales depth, width, and resolution using a fixed set of scaling coefficients, optimizing the model’s efficiency.",
+    "Context_id": "5장_v3_sanitized::chunk_0039",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.5 EfficientNet",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection EfficientNet, with a detailed reference to Working Principle.\n\nEfficientNet works by applying the compound scaling method to find the optimal balance between depth, width, and resolution. Instead of manually tuning each of these hyperparameters separately, EfficientNet scales them in a way that maximizes performance while minimizing computational costs.",
+    "Context_id": "5장_v3_sanitized::chunk_0040",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.5 EfficientNet",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection EfficientNet, with a detailed reference to Options.\n\nThe architecture of the EfficientNet model is provided in a fixed form.\n\n[Table:t172]",
+    "Context_id": "5장_v3_sanitized::chunk_0041",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t172"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.5 EfficientNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN.\n\nNeural network constructed with a recurrent structure that can remember previous information in sequential data. By repeatedly processing previous computation results along with the current input, it can model the flow of data over time.",
+    "Context_id": "5장_v3_sanitized::chunk_0042",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, focusing on SimpleRNN.",
+    "Context_id": "5장_v3_sanitized::chunk_0043",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.1 SimpleRNN"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection SimpleRNN, with a detailed reference to Overview.\n\nRNN (Recurrent Neural Network) is a type of neural network specialized for processing sequence data. This structure maintains the hidden states that captures information about previous inputs, allowing it to model the flow of data over time. It is widely used in fields such as natural language processing and time series analysis.",
+    "Context_id": "5장_v3_sanitized::chunk_0044",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.1 SimpleRNN",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection SimpleRNN, with a detailed reference to Components.\n\nRecurrent Nod e\n\nAt each sequence step, it takes the input and the previous step's state, and outputs the current state.\n\nState Vector\n\nThis stores and transfers the current and past information of the sequence.\n\nOutput Layer\n\nThe final result is generated from the output of the recurrent node.",
+    "Context_id": "5장_v3_sanitized::chunk_0045",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.1 SimpleRNN",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection SimpleRNN, with a detailed reference to Working Principle.\n\nAt each time step, the input and the previous state combine to pass information through the network, modeling the temporal dependencies of the sequence. This allows the network to capture the dynamics of time-series data or sequential information.",
+    "Context_id": "5장_v3_sanitized::chunk_0046",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.1 SimpleRNN",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection SimpleRNN, with a detailed reference to Options.\n\n[Table:t193]",
+    "Context_id": "5장_v3_sanitized::chunk_0047",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t193"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.1 SimpleRNN",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, focusing on LSTM.",
+    "Context_id": "5장_v3_sanitized::chunk_0048",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.2 LSTM"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection LSTM, with a detailed reference to Overview.\n\nLSTM (Long Short-Term Memory) is a type of RNN designed to solve the long-term dependency problem. Compared to basic RNNs, LSTM has a more complex structure and excels at retaining information over long periods.",
+    "Context_id": "5장_v3_sanitized::chunk_0049",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.2 LSTM",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection LSTM, with a detailed reference to Components.\n\nInput Gate\n\nControls the amount of new information that is added to the cell state from the current input.\n\nForget Gate\n\nDetermines how much of the previous state information should be forgotten.\n\nOutput Gate\n\nControls how much of the current state should be output to the next layer.\n\nCell State\n\nThe central component that stores past information and updates it over time.",
+    "Context_id": "5장_v3_sanitized::chunk_0050",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.2 LSTM",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection LSTM, with a detailed reference to Working Principle.\n\nLSTM selectively removes unnecessary information and retains the important information through the operation of each gate. This allows to capture long-term dependencies and retrain information over long sequences, overcoming the vanishing gradient problem.",
+    "Context_id": "5장_v3_sanitized::chunk_0051",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.2 LSTM",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection LSTM, with a detailed reference to Options.\n\n[Table:t213]",
+    "Context_id": "5장_v3_sanitized::chunk_0052",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t213"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.2 LSTM",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, focusing on GRU.",
+    "Context_id": "5장_v3_sanitized::chunk_0053",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.4.1.3 GRU"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection GRU, with a detailed reference to Overview.\n\nGRU (Gated Recurrent Unit) is a type of recurrent neural network with a simplified structure, making it computationally efficient. It can maintain information over long periods while processing complex sequence data, making it widely used in tasks like natural language processing and time series analysis.",
+    "Context_id": "5장_v3_sanitized::chunk_0054",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.4.1.3 GRU",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection GRU, with a detailed reference to Components.\n\nUpdate Gate\n\nDetermines how much of the previous state’s information should be retained.\n\nReset Gate\n\nDecides how much of the previous information should be forgotten.\n\nRecurrent Node\n\nCombines the input with the previous step's state and outputs the current state.",
+    "Context_id": "5장_v3_sanitized::chunk_0055",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.4.1.3 GRU",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection GRU, with a detailed reference to Working Principle.\n\nBy selectively retaining only the necessary information through the update and reset gates, GRU effectively models the temporal dependencies in sequences.",
+    "Context_id": "5장_v3_sanitized::chunk_0056",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.4.1.3 GRU",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection GRU, with a detailed reference to Options.\n\n[Table:t230]",
+    "Context_id": "5장_v3_sanitized::chunk_0057",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t230"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.4.1.3 GRU",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model.\n\nModel that learns from text data to predict the probability distribution of words or sentences. It is used to generate the next word or understand a sentence in a given context, and is applied in various natural language processing tasks such as translation, chatbots, and more.",
+    "Context_id": "5장_v3_sanitized::chunk_0058",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, focusing on Data Input Format.\n\nThe training data should be in the form of input-output pairs.\n[image:rId13]\n\n[Image:rId13] The image shows a screenshot of an email conversation in Korean between two individuals discussing market reactions to a new product, sales performance, and upcoming meetings. They also mention ordering additional items and planning to meet later.",
+    "Context_id": "5장_v3_sanitized::chunk_0059",
+    "Is_image": true,
+    "Image_ids": [
+      "rId13"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "Data Input Format"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, focusing on Seq2Se q.",
+    "Context_id": "5장_v3_sanitized::chunk_0060",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.1 Seq2Se q"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Se q, with a detailed reference to Overview.\n\nThe Seq2Seq model is designed to convert an input sequence into an output sequence using an encoder-decoder architecture. This model is widely used in tasks such as machine translation and automatic summarization, effectively handling complex sequence data.",
+    "Context_id": "5장_v3_sanitized::chunk_0061",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.1 Seq2Se q",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Se q, with a detailed reference to Components.\n\nEncoder\n\nEncodes the input sequence into a fixed-size state vector.\n\nDecoder\n\nUses the state vector received from the encoder to generate the output sequence.\n\nContext Vector\n\nThe vector created by the encoder that compresses all the information from the input sequence.",
+    "Context_id": "5장_v3_sanitized::chunk_0062",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.1 Seq2Se q",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Se q, with a detailed reference to Working Principle.\n\nThe encoder transforms the information from the input sequence into a context vector. Whereas the decoder then helps to generate the output sequence from the context vector. This process establishes the semantic connection between the input and output, enabling the model to perform complex sequence transformation tasks.",
+    "Context_id": "5장_v3_sanitized::chunk_0063",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.1 Seq2Se q",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Se q, with a detailed reference to Options.\n\n[Table:t256]",
+    "Context_id": "5장_v3_sanitized::chunk_0064",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t256"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.1 Seq2Se q",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, focusing on Seq2Seq with attention.",
+    "Context_id": "5장_v3_sanitized::chunk_0065",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.2 Seq2Seq with attention"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Seq with attention, with a detailed reference to Overview.\n\nAttention is a mechanism that evaluates the importance of different parts of the input sequence, allowing the model to focus more on certain parts when transforming the input sequence into an output sequence. It is applied to models like Seq2Seq in tasks such as machine translation and automatic summarization.",
+    "Context_id": "5장_v3_sanitized::chunk_0066",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.2 Seq2Seq with attention",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Seq with attention, with a detailed reference to Components.\n\nQuery\n\nInformation derived from the current output word being generated, based on the input sequence.\n\nKey\n\nEach element of the input sequence, used to evaluate its similarity with the query.\n\nValue\n\nThe actual information of the input sequence, which contributes to the output according to the attention weights.",
+    "Context_id": "5장_v3_sanitized::chunk_0067",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.2 Seq2Seq with attention",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Seq with attention, with a detailed reference to Working Principle.\n\nThe query is compared with the keys to measure their similarity, and attention weights are calculated. These weights are then multiplied by the values and used to generate the final output. This process allows each output word to focus on the most relevant part of the input sequence, helping to prevent information loss, which is a limitation of traditional RNNs.",
+    "Context_id": "5장_v3_sanitized::chunk_0068",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.2 Seq2Seq with attention",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Seq with attention, with a detailed reference to Options.\n\n[Table:t274]",
+    "Context_id": "5장_v3_sanitized::chunk_0069",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t274"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.2 Seq2Seq with attention",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, focusing on Transformer.",
+    "Context_id": "5장_v3_sanitized::chunk_0070",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.3 Transformer"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Transformer, with a detailed reference to Overview.\n\nThe core of the Transformer model lies in the self-attention mechanism. This mechanism allows it to process all parts of the input sequence simultaneously and capture long-range dependencies efficiently.",
+    "Context_id": "5장_v3_sanitized::chunk_0071",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.3 Transformer",
+      "Overview"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Transformer, with a detailed reference to Components.\n\nMulti-head Attention\n\nProcesses information from different positions in parallel, integrating diverse perspectives and capturing various aspects of the input.\n\nFeed-forward Neural Networks\n\nApplied identically at each position to further process information within the sequence.\n\nPositional Encoding\n\nProvides the model with information about the position of each element in the sequence, helping preserve the sequence order.",
+    "Context_id": "5장_v3_sanitized::chunk_0072",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.3 Transformer",
+      "Components"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Transformer, with a detailed reference to Working Principle.\n\nThe Transformer can process sequences without relying on traditional RNNs or CNNs, significantly improving computational efficiency and learning speed. By evaluating all sequence elements globally, it excels at understanding context and capturing long-range dependencies.",
+    "Context_id": "5장_v3_sanitized::chunk_0073",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.3 Transformer",
+      "Working Principle"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Transformer, with a detailed reference to Options.\n\n[Table:t292]\n\n[Table:t294]",
+    "Context_id": "5장_v3_sanitized::chunk_0074",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t292",
+      "t294"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.3 Transformer",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json"
+  }
+]

@@ -1,0 +1,1031 @@
+[
+  {
+    "Context": "This table is about the section 5.1 AI Wizard > 5.1.1 User interface. \nTitle: Select the neural network model to train. T here are four available models. \nRows: row 1, column 1 = Category; row 1, column 2 = Description; row 1, column 3 = Supported Models; row 1, column 4 = Applications; row 2, column 1 = DNN; row 2, column 2 = DNN is an artificial neural network with a multi-layer structure, capable of learning nonlinear patterns through multiple hidden layers. It uses deep layers to model complex relationships and is applied in various fields.; row 2, column 3 = DNN, AutoEncoder; row 2, column 4 = Regression analysis, Classification analysis, Feature extraction; row 3, column 1 = CNN; row 3, column 2 = CNN uses convolutional layers to detect spatial patterns, making it highly effective for image processing. It reduces the number of parameters by using local connections and shared weights. It is widely used in image classification, object detection, and other applications.; row 3, column 3 = Lenet, AlexNet, VGGNet, ResNet, EfficientNet; row 3, column 4 = Image analysis; row 4, column 1 = RNN; row 4, column 2 = RNN is a neural network designed for recurrent structure that remember previous information in sequential data. By repeatedly processing previous computation results along with the current input, it can model the flow of data over time.; row 4, column 3 = SimpleRNN, LSTM, GRU; row 4, column 4 = Sequential data prediction analysis; row 5, column 1 = Language Model; row 5, column 2 = Language Model (LM) is used for tasks like text generation, translation, and speech recognition. Model that learns from text data to predict the probability distribution of words or sentences. It is used to generate the next word or understand a sentence in a given context, and is applied in various natural language processing tasks such as translation, chatbots, and more.; row 5, column 3 = Seq2Seq, Seq2Seq w/attention, Transformer; row 5, column 4 = Translation, Text generation",
+    "Context_id": "5장_v3_table::t25::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t25"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard",
+      "5.1.1 User interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Category</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Supported Models</th>\n    <th style=\"background-color: #f2f2f2;\">Applications</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">DNN</th>\n    <td>DNN is an artificial neural network with a multi-layer structure, capable of learning nonlinear patterns through multiple hidden layers. It uses deep layers to model complex relationships and is applied in various fields.</td>\n    <td>DNN, AutoEncoder</td>\n    <td>Regression analysis, Classification analysis, Feature extraction</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">CNN</th>\n    <td>CNN uses convolutional layers to detect spatial patterns, making it highly effective for image processing. It reduces the number of parameters by using local connections and shared weights. It is widely used in image classification, object detection, and other applications.</td>\n    <td>Lenet, AlexNet, VGGNet, ResNet, EfficientNet</td>\n    <td>Image analysis</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">RNN</th>\n    <td>RNN is a neural network designed for recurrent structure that remember previous information in sequential data. By repeatedly processing previous computation results along with the current input, it can model the flow of data over time.</td>\n    <td>SimpleRNN, LSTM, GRU</td>\n    <td>Sequential data prediction analysis</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Language Model</th>\n    <td>Language Model (LM) is used for tasks like text generation, translation, and speech recognition. Model that learns from text data to predict the probability distribution of words or sentences. It is used to generate the next word or understand a sentence in a given context, and is applied in various natural language processing tasks such as translation, chatbots, and more.</td>\n    <td>Seq2Seq, Seq2Seq w/attention, Transformer</td>\n    <td>Translation, Text generation</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t25"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1 AI Wizard > 5.1.1 User interface. \nRows: row 1, column 1 = NOTE: 1) Keep in mind of the data formats according to the chosen neural network models. 2) Preview is available for up to 50 items.",
+    "Context_id": "5장_v3_table::t31::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t31"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard",
+      "5.1.1 User interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">NOTE: 1) Keep in mind of the data formats according to the chosen neural network models. 2) Preview is available for up to 50 items.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t31"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1 AI Wizard > 5.1.1 User interface. \nTitle: Define the structure of the neural network. Options vary according to the chosen model. The following options are general settings for all models. \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of Hidden Layers; row 2, column 3 = Set the number of hidden layers in a neural network. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.; row 2, column 4 = 1~10; row 3, column 1 = ; row 3, column 2 = Layer #1~n Number of Nodes; row 3, column 3 = Set the number of nodes in each hidden layer.; row 3, column 4 = integer; row 4, column 1 = ; row 4, column 2 = Activation Function; row 4, column 3 = Set the activation function. Activation function is a mathematical transformation applied to its input.; row 4, column 4 = Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU; row 5, column 1 = Train Option; row 5, column 2 = Epochs; row 5, column 3 = Set the number of iterations.; row 5, column 4 = integer",
+    "Context_id": "5장_v3_table::t36::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t36"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard",
+      "5.1.1 User interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Set the number of hidden layers in a neural network. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Layer #1~n Number of Nodes</td>\n    <td>Set the number of nodes in each hidden layer.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t36"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1 AI Wizard > 5.1.1 User interface. \nTitle: Define the structure of the neural network. Options vary according to the chosen model. The following options are general settings for all models. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Batch Size; row 6, column 3 = Set the number of data samples to be used in a single training step.; row 6, column 4 = integer; row 7, column 1 = ; row 7, column 2 = Learning Rate; row 7, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 7, column 4 = 0<real number≤1; row 8, column 1 = ; row 8, column 2 = Target Loss; row 8, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 8, column 4 = 0<real number≤1; row 9, column 1 = ; row 9, column 2 = Optimization Method; row 9, column 3 = Set up an algorithm to update the weight of the model.; row 9, column 4 = SGD, RMSprop, Adagrad, Adam; row 10, column 1 = ; row 10, column 2 = Scaling Method; row 10, column 3 = Set how to standardize your input data. Improve learning stability and performance.; row 10, column 4 = Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None",
+    "Context_id": "5장_v3_table::t36::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t36"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard",
+      "5.1.1 User interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Set the number of hidden layers in a neural network. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Layer #1~n Number of Nodes</td>\n    <td>Set the number of nodes in each hidden layer.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t36"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1 AI Wizard > 5.1.1 User interface. \nTitle: Review of the options set by the user is available, along with the neural network python code and a diagram of the neural network structure. \nRows: row 1, column 1 = Neural network python code; row 1, column 2 = Neural network structure; row 2, column 1 = [image:rId9]; row 2, column 2 = [image:rId10]",
+    "Context_id": "5장_v3_table::t41::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t41"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1 AI Wizard",
+      "5.1.1 User interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Neural network python code</td>\n    <td style=\"background-color: #f2f2f2;\">Neural network structure</td>\n  </tr>\n  <tr>\n    <td>[image:rId9]</td>\n    <td>[image:rId10]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t41"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.2 DNN > 5.1.2.1 DNN > Options. \nTitle: Options \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of Hidden Layers; row 2, column 3 = Set the number of hidden layers. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.; row 2, column 4 = 1~10; row 3, column 1 = ; row 3, column 2 = Layer #1~n Number of Nodes; row 3, column 3 = Set the number of nodes in each hidden layer.; row 3, column 4 = integer; row 4, column 1 = ; row 4, column 2 = Activation Function; row 4, column 3 = Set the activation function. Activation function is a mathematical transformation applied to its input.; row 4, column 4 = Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU; row 5, column 1 = Train Option; row 5, column 2 = Epochs; row 5, column 3 = Set the number of iterations.; row 5, column 4 = integer",
+    "Context_id": "5장_v3_table::t62::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t62"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.1 DNN",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Set the number of hidden layers. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Layer #1~n Number of Nodes</td>\n    <td>Set the number of nodes in each hidden layer.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t62"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.2 DNN > 5.1.2.1 DNN > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Batch Size; row 6, column 3 = Set the number of data samples to be used in a single training step.; row 6, column 4 = ingeter; row 7, column 1 = ; row 7, column 2 = Learning Rate; row 7, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 7, column 4 = 0<real number≤1; row 8, column 1 = ; row 8, column 2 = Target Loss; row 8, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 8, column 4 = 0<real number≤1; row 9, column 1 = ; row 9, column 2 = Optimization Method; row 9, column 3 = Set up an algorithm to update the weight of the model.; row 9, column 4 = SGD, RMSprop, Adagrad, Adam; row 10, column 1 = ; row 10, column 2 = Scaling Method; row 10, column 3 = Set how to standardize your input data. Improve learning stability and performance.; row 10, column 4 = Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None",
+    "Context_id": "5장_v3_table::t62::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t62"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.1 DNN",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Set the number of hidden layers. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Layer #1~n Number of Nodes</td>\n    <td>Set the number of nodes in each hidden layer.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t62"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.2 DNN > 5.1.2.2 AutoEncoder > Options. \nTitle: Options \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of Hidden Layers; row 2, column 3 = Set the number of hidden layers. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.; row 2, column 4 = 1~10; row 3, column 1 = ; row 3, column 2 = Feature Hidden Layer #1~n: Number of Nodes; row 3, column 3 = Sets the number of nodes in Feature hidden layer. more nodes can produce more sophisticated models, but also higher computational costs.; row 3, column 4 = integer; row 4, column 1 = ; row 4, column 2 = Feature Hidden LayerActivation Function; row 4, column 3 = Sets the activation function of Feature hidden layer. The activation function adds nonlinearity to the model, allowing it to learn more complex patterns.; row 4, column 4 = Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU; row 5, column 1 = ; row 5, column 2 = Symmetric Hidden Layer #1~n: Number of Nodes; row 5, column 3 = Sets the number of nodes in the symmetric hidden layers. The number of nodes should gradually decrease from the first hidden layer to the feature hidden layer.; row 5, column 4 = integer",
+    "Context_id": "5장_v3_table::t80::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t80"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.2 AutoEncoder",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Set the number of hidden layers. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Feature Hidden Layer #1~n: Number of Nodes</td>\n    <td>Sets the number of nodes in Feature hidden layer. more nodes can produce more sophisticated models, but also higher computational costs.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Feature Hidden LayerActivation Function</td>\n    <td>Sets the activation function of Feature hidden layer. The activation function adds nonlinearity to the model, allowing it to learn more complex patterns.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Symmetric Hidden Layer #1~n: Number of Nodes</td>\n    <td>Sets the number of nodes in the symmetric hidden layers. The number of nodes should gradually decrease from the first hidden layer to the feature hidden layer.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Symmetric Hidden Layer #1~n: Activation Function</td>\n    <td>Sets the activation function for the symmetric hidden layers. The activation function adds nonlinearity to the model, allowing it to learn more complex patterns.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t80"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.2 DNN > 5.1.2.2 AutoEncoder > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Symmetric Hidden Layer #1~n: Activation Function; row 6, column 3 = Sets the activation function for the symmetric hidden layers. The activation function adds nonlinearity to the model, allowing it to learn more complex patterns.; row 6, column 4 = Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU; row 7, column 1 = Train Option; row 7, column 2 = Epochs; row 7, column 3 = Set the number of iterations.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Batch Size; row 8, column 3 = Set the number of data samples to be used in a single training step.; row 8, column 4 = ingeter; row 9, column 1 = ; row 9, column 2 = Learning Rate; row 9, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Target Loss; row 10, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 10, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t80::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t80"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.2 AutoEncoder",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Set the number of hidden layers. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Feature Hidden Layer #1~n: Number of Nodes</td>\n    <td>Sets the number of nodes in Feature hidden layer. more nodes can produce more sophisticated models, but also higher computational costs.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Feature Hidden LayerActivation Function</td>\n    <td>Sets the activation function of Feature hidden layer. The activation function adds nonlinearity to the model, allowing it to learn more complex patterns.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Symmetric Hidden Layer #1~n: Number of Nodes</td>\n    <td>Sets the number of nodes in the symmetric hidden layers. The number of nodes should gradually decrease from the first hidden layer to the feature hidden layer.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Symmetric Hidden Layer #1~n: Activation Function</td>\n    <td>Sets the activation function for the symmetric hidden layers. The activation function adds nonlinearity to the model, allowing it to learn more complex patterns.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t80"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.2 DNN > 5.1.2.2 AutoEncoder > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Optimization Method; row 11, column 3 = Set up an algorithm to update the weight of the model.; row 11, column 4 = SGD, RMSprop, Adagrad, Adam; row 12, column 1 = ; row 12, column 2 = Scaling Method; row 12, column 3 = Set how to standardize your input data. Improve learning stability and performance.; row 12, column 4 = Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None",
+    "Context_id": "5장_v3_table::t80::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t80"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.2 DNN",
+      "5.1.2.2 AutoEncoder",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Set the number of hidden layers. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Feature Hidden Layer #1~n: Number of Nodes</td>\n    <td>Sets the number of nodes in Feature hidden layer. more nodes can produce more sophisticated models, but also higher computational costs.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Feature Hidden LayerActivation Function</td>\n    <td>Sets the activation function of Feature hidden layer. The activation function adds nonlinearity to the model, allowing it to learn more complex patterns.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Symmetric Hidden Layer #1~n: Number of Nodes</td>\n    <td>Sets the number of nodes in the symmetric hidden layers. The number of nodes should gradually decrease from the first hidden layer to the feature hidden layer.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Symmetric Hidden Layer #1~n: Activation Function</td>\n    <td>Sets the activation function for the symmetric hidden layers. The activation function adds nonlinearity to the model, allowing it to learn more complex patterns.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t80"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > Data Input Format. \nRows: row 1, column 1 = [image:rId11]; row 1, column 2 = ; row 1, column 3 = [image:rId12]",
+    "Context_id": "5장_v3_table::t88::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t88"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "Data Input Format"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId11]</td>\n    <td></td>\n    <td>[image:rId12]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t88"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.1 LeNet > Options. \nTitle: The architecture of the LeNet model is provided in a fixed form. \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of input channels; row 2, column 3 = The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.; row 2, column 4 = 1; row 3, column 1 = ; row 3, column 2 = Width; row 3, column 3 = The width of the input data (image) in pixels.; row 3, column 4 = 32; row 4, column 1 = ; row 4, column 2 = Height; row 4, column 3 = The height of the input data (image) in pixels.; row 4, column 4 = 32; row 5, column 1 = ; row 5, column 2 = Convolutional Layers; row 5, column 3 = A layer that extracts features from the input data. The first layer receives input with a single channel and generates 6 feature maps, while the second layer takes these as input and produces 16 feature maps.; row 5, column 4 = 2",
+    "Context_id": "5장_v3_table::t107::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t107"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.1 LeNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>32</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>32</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data. The first layer receives input with a single channel and generates 6 feature maps, while the second layer takes these as input and produces 16 feature maps.</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t107"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.1 LeNet > Options. \nTitle: The architecture of the LeNet model is provided in a fixed form. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Fully Connected layers; row 6, column 3 = A fully connected layer in the neural network, which performs the final prediction based on the given features.; row 6, column 4 = 3; row 7, column 1 = Train Option; row 7, column 2 = Epochs; row 7, column 3 = Set the number of iterations.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Batch Size; row 8, column 3 = Set the number of data samples to be used in a single training step.; row 8, column 4 = ingeter; row 9, column 1 = ; row 9, column 2 = Learning Rate; row 9, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Target Loss; row 10, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 10, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t107::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t107"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.1 LeNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>32</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>32</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data. The first layer receives input with a single channel and generates 6 feature maps, while the second layer takes these as input and produces 16 feature maps.</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t107"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.1 LeNet > Options. \nTitle: The architecture of the LeNet model is provided in a fixed form. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Optimization Method; row 11, column 3 = Set up an algorithm to update the weight of the model.; row 11, column 4 = SGD, RMSprop, Adagrad, Adam; row 12, column 1 = ; row 12, column 2 = Scaling Method; row 12, column 3 = Scaling Method is set to Min-Max Scaler (0,1).; row 12, column 4 = Min-Max Scaler (0,1)",
+    "Context_id": "5장_v3_table::t107::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t107"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.1 LeNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>32</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>32</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data. The first layer receives input with a single channel and generates 6 feature maps, while the second layer takes these as input and produces 16 feature maps.</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t107"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.2 AlexNet > Options. \nTitle: The architecture of the AlexNet model is provided in a fixed form. \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of input channels; row 2, column 3 = The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.; row 2, column 4 = 3; row 3, column 1 = ; row 3, column 2 = Width; row 3, column 3 = The width of the input data (image) in pixels.; row 3, column 4 = 227; row 4, column 1 = ; row 4, column 2 = Height; row 4, column 3 = The height of the input data (image) in pixels.; row 4, column 4 = 227; row 5, column 1 = ; row 5, column 2 = Convolutional Layers; row 5, column 3 = A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 5 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.; row 5, column 4 = 5",
+    "Context_id": "5장_v3_table::t128::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t128"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.2 AlexNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>227</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>227</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 5 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>5</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t128"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.2 AlexNet > Options. \nTitle: The architecture of the AlexNet model is provided in a fixed form. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Fully Connected layers; row 6, column 3 = A fully connected layer in the neural network, which performs the final prediction based on the given features.; row 6, column 4 = 3; row 7, column 1 = Train Option; row 7, column 2 = Epochs; row 7, column 3 = Set the number of iterations.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Batch Size; row 8, column 3 = Set the number of data samples to be used in a single training step.; row 8, column 4 = ingeter; row 9, column 1 = ; row 9, column 2 = Learning Rate; row 9, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Target Loss; row 10, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 10, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t128::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t128"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.2 AlexNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>227</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>227</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 5 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>5</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t128"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.2 AlexNet > Options. \nTitle: The architecture of the AlexNet model is provided in a fixed form. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Optimization Method; row 11, column 3 = Set up an algorithm to update the weight of the model.; row 11, column 4 = SGD, RMSprop, Adagrad, Adam; row 12, column 1 = ; row 12, column 2 = Scaling Method; row 12, column 3 = Scaling Method is set to Min-Max Scaler (0,1).; row 12, column 4 = Min-Max Scaler (0,1)",
+    "Context_id": "5장_v3_table::t128::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t128"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.2 AlexNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>227</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>227</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 5 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>5</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>ingeter</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t128"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.3 VGGNet > Options. \nTitle: The architecture of the VGGNet model is provided in a fixed form. \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of input channels; row 2, column 3 = The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.; row 2, column 4 = 3; row 3, column 1 = ; row 3, column 2 = Width; row 3, column 3 = The width of the input data (image) in pixels.; row 3, column 4 = 224; row 4, column 1 = ; row 4, column 2 = Height; row 4, column 3 = The height of the input data (image) in pixels.; row 4, column 4 = 224; row 5, column 1 = ; row 5, column 2 = Convolutional Layers; row 5, column 3 = A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 13 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.; row 5, column 4 = 13",
+    "Context_id": "5장_v3_table::t144::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t144"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.3 VGGNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 13 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>13</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t144"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.3 VGGNet > Options. \nTitle: The architecture of the VGGNet model is provided in a fixed form. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Fully Connected layers; row 6, column 3 = A fully connected layer in the neural network, which performs the final prediction based on the given features.; row 6, column 4 = 3; row 7, column 1 = Train Option; row 7, column 2 = Epochs; row 7, column 3 = Set the number of iterations.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Batch Size; row 8, column 3 = Set the number of data samples to be used in a single training step.; row 8, column 4 = integer; row 9, column 1 = ; row 9, column 2 = Learning Rate; row 9, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Target Loss; row 10, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 10, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t144::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t144"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.3 VGGNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 13 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>13</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t144"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.3 VGGNet > Options. \nTitle: The architecture of the VGGNet model is provided in a fixed form. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Optimization Method; row 11, column 3 = Set up an algorithm to update the weight of the model.; row 11, column 4 = SGD, RMSprop, Adagrad, Adam; row 12, column 1 = ; row 12, column 2 = Scaling Method; row 12, column 3 = Scaling Method is set to Min-Max Scaler (0,1).; row 12, column 4 = Min-Max Scaler (0,1)",
+    "Context_id": "5장_v3_table::t144::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t144"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.3 VGGNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 13 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>13</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t144"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.4 ResNet > Options. \nTitle: The architecture of the ResNet model is provided in a fixed form. \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of input channels; row 2, column 3 = The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.; row 2, column 4 = 3; row 3, column 1 = ; row 3, column 2 = Width; row 3, column 3 = The width of the input data (image) in pixels.; row 3, column 4 = 224; row 4, column 1 = ; row 4, column 2 = Height; row 4, column 3 = The height of the input data (image) in pixels.; row 4, column 4 = 224; row 5, column 1 = ; row 5, column 2 = Convolutional Layers; row 5, column 3 = A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 20 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.; row 5, column 4 = 20",
+    "Context_id": "5장_v3_table::t158::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t158"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.4 ResNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 20 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>20</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t158"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.4 ResNet > Options. \nTitle: The architecture of the ResNet model is provided in a fixed form. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Fully Connected layers; row 6, column 3 = A fully connected layer in the neural network, which performs the final prediction based on the given features.; row 6, column 4 = 1; row 7, column 1 = Train Option; row 7, column 2 = Epochs; row 7, column 3 = Set the number of iterations.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Batch Size; row 8, column 3 = Set the number of data samples to be used in a single training step.; row 8, column 4 = integer; row 9, column 1 = ; row 9, column 2 = Learning Rate; row 9, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Target Loss; row 10, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 10, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t158::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t158"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.4 ResNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 20 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>20</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t158"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.4 ResNet > Options. \nTitle: The architecture of the ResNet model is provided in a fixed form. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Optimization Method; row 11, column 3 = Set up an algorithm to update the weight of the model.; row 11, column 4 = SGD, RMSprop, Adagrad, Adam; row 12, column 1 = ; row 12, column 2 = Scaling Method; row 12, column 3 = Scaling Method is set to Min-Max Scaler (0,1).; row 12, column 4 = Min-Max Scaler (0,1)",
+    "Context_id": "5장_v3_table::t158::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t158"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.4 ResNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>224</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 20 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>20</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t158"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.5 EfficientNet > Options. \nTitle: The architecture of the EfficientNet model is provided in a fixed form. \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of input channels; row 2, column 3 = The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.; row 2, column 4 = 3; row 3, column 1 = ; row 3, column 2 = Width; row 3, column 3 = The width of the input data (image) in pixels.; row 3, column 4 = 240; row 4, column 1 = ; row 4, column 2 = Height; row 4, column 3 = The height of the input data (image) in pixels.; row 4, column 4 = 240; row 5, column 1 = ; row 5, column 2 = Convolutional Layers; row 5, column 3 = A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 50 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.; row 5, column 4 = 50",
+    "Context_id": "5장_v3_table::t172::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t172"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.5 EfficientNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>240</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>240</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 50 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>50</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t172"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.5 EfficientNet > Options. \nTitle: The architecture of the EfficientNet model is provided in a fixed form. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Fully Connected layers; row 6, column 3 = A fully connected layer in the neural network, which performs the final prediction based on the given features.; row 6, column 4 = 1; row 7, column 1 = Train Option; row 7, column 2 = Epochs; row 7, column 3 = Set the number of iterations.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Batch Size; row 8, column 3 = Set the number of data samples to be used in a single training step.; row 8, column 4 = integer; row 9, column 1 = ; row 9, column 2 = Learning Rate; row 9, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Target Loss; row 10, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 10, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t172::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t172"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.5 EfficientNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>240</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>240</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 50 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>50</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t172"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.3 CNN > 5.1.3.5 EfficientNet > Options. \nTitle: The architecture of the EfficientNet model is provided in a fixed form. \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Optimization Method; row 11, column 3 = Set up an algorithm to update the weight of the model.; row 11, column 4 = SGD, RMSprop, Adagrad, Adam; row 12, column 1 = ; row 12, column 2 = Scaling Method; row 12, column 3 = Scaling Method is set to Min-Max Scaler (0,1).; row 12, column 4 = Min-Max Scaler (0,1)",
+    "Context_id": "5장_v3_table::t172::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t172"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.3 CNN",
+      "5.1.3.5 EfficientNet",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of input channels</td>\n    <td>The number of color channels in an image; a grayscale image has 1 channel, while an RGB image has 3 channels.</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Width</td>\n    <td>The width of the input data (image) in pixels.</td>\n    <td>240</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Height</td>\n    <td>The height of the input data (image) in pixels.</td>\n    <td>240</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Convolutional Layers</td>\n    <td>A layer that extracts features from the input data, generating feature maps based on the output of the previous layer. The 50 layers sequentially produce feature maps with 64, 128, 256, and 512 channels.</td>\n    <td>50</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Fully Connected layers</td>\n    <td>A fully connected layer in the neural network, which performs the final prediction based on the given features.</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t172"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.4 RNN > 5.1.4.1 SimpleRNN > Options. \nTitle: Options \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of Hidden Layers; row 2, column 3 = Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.; row 2, column 4 = 1~10; row 3, column 1 = ; row 3, column 2 = Number of Nodes; row 3, column 3 = Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.; row 3, column 4 = integer; row 4, column 1 = ; row 4, column 2 = Activation Function; row 4, column 3 = Set the activation function. Activation function is a mathematical transformation applied to its input.; row 4, column 4 = Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU; row 5, column 1 = ; row 5, column 2 = Drop-Out; row 5, column 3 = Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.; row 5, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t193::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t193"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.1 SimpleRNN",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t193"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.4 RNN > 5.1.4.1 SimpleRNN > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = Train Option; row 6, column 2 = Epochs; row 6, column 3 = Set the number of iterations.; row 6, column 4 = integer; row 7, column 1 = ; row 7, column 2 = Batch Size; row 7, column 3 = Set the number of data samples to be used in a single training step.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Learning Rate; row 8, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 8, column 4 = 0<real number≤1; row 9, column 1 = ; row 9, column 2 = Target Loss; row 9, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Optimization Method; row 10, column 3 = Set up an algorithm to update the weight of the model.; row 10, column 4 = SGD, RMSprop, Adagrad, Adam",
+    "Context_id": "5장_v3_table::t193::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t193"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.1 SimpleRNN",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t193"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.4 RNN > 5.1.4.1 SimpleRNN > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Scaling Method; row 11, column 3 = Set how to standardize your input data. Improve learning stability and performance.; row 11, column 4 = Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None",
+    "Context_id": "5장_v3_table::t193::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t193"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.1 SimpleRNN",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t193"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.4 RNN > 5.1.4.2 LSTM > Options. \nTitle: Options \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of Hidden Layers; row 2, column 3 = Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.; row 2, column 4 = 1~10; row 3, column 1 = ; row 3, column 2 = Number of Nodes; row 3, column 3 = Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.; row 3, column 4 = integer; row 4, column 1 = ; row 4, column 2 = Activation Function; row 4, column 3 = Set the activation function. Activation function is a mathematical transformation applied to its input.; row 4, column 4 = Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU; row 5, column 1 = ; row 5, column 2 = Drop-Out; row 5, column 3 = Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.; row 5, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t213::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t213"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.2 LSTM",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t213"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.4 RNN > 5.1.4.2 LSTM > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = Train Option; row 6, column 2 = Epochs; row 6, column 3 = Set the number of iterations.; row 6, column 4 = integer; row 7, column 1 = ; row 7, column 2 = Batch Size; row 7, column 3 = Set the number of data samples to be used in a single training step.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Learning Rate; row 8, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 8, column 4 = 0<real number≤1; row 9, column 1 = ; row 9, column 2 = Target Loss; row 9, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Optimization Method; row 10, column 3 = Set up an algorithm to update the weight of the model.; row 10, column 4 = SGD, RMSprop, Adagrad, Adam",
+    "Context_id": "5장_v3_table::t213::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t213"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.2 LSTM",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t213"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.4 RNN > 5.1.4.2 LSTM > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Scaling Method; row 11, column 3 = Set how to standardize your input data. Improve learning stability and performance.; row 11, column 4 = Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None",
+    "Context_id": "5장_v3_table::t213::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t213"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.1.4.2 LSTM",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t213"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.4 RNN > 5.4.1.3 GRU > Options. \nTitle: Options \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Number of Hidden Layers; row 2, column 3 = Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.; row 2, column 4 = 1~10; row 3, column 1 = ; row 3, column 2 = Number of Nodes; row 3, column 3 = Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.; row 3, column 4 = integer; row 4, column 1 = ; row 4, column 2 = Activation Function; row 4, column 3 = Set the activation function. Activation function is a mathematical transformation applied to its input.; row 4, column 4 = Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU; row 5, column 1 = ; row 5, column 2 = Drop-Out; row 5, column 3 = Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.; row 5, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t230::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t230"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.4.1.3 GRU",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Network Option</td>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Train Option</td>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t230"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.4 RNN > 5.4.1.3 GRU > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = Train Option; row 6, column 2 = Epochs; row 6, column 3 = Set the number of iterations.; row 6, column 4 = integer; row 7, column 1 = ; row 7, column 2 = Batch Size; row 7, column 3 = Set the number of data samples to be used in a single training step.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Learning Rate; row 8, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 8, column 4 = 0<real number≤1; row 9, column 1 = ; row 9, column 2 = Target Loss; row 9, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Optimization Method; row 10, column 3 = Set up an algorithm to update the weight of the model.; row 10, column 4 = SGD, RMSprop, Adagrad, Adam",
+    "Context_id": "5장_v3_table::t230::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t230"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.4.1.3 GRU",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Network Option</td>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Train Option</td>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t230"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.4 RNN > 5.4.1.3 GRU > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Scaling Method; row 11, column 3 = Set how to standardize your input data. Improve learning stability and performance.; row 11, column 4 = Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None",
+    "Context_id": "5장_v3_table::t230::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t230"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.4 RNN",
+      "5.4.1.3 GRU",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Network Option</td>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers inside the RNN cell. The deeper the neural network, the more sophisticated the model can be produced, but the higher the risk of overfitting.</td>\n    <td>1~10</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the RNN cell. The larger the number of nodes, the more sophisticated the model can be created, but the computational cost also increases.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>Activation Function</td>\n    <td>Set the activation function. Activation function is a mathematical transformation applied to its input.</td>\n    <td>Linear, Sigmoid, Tanh, ReLU, LeakyReLU, ELU</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">Train Option</td>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\"></td>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>Scaling Method</td>\n    <td>Set how to standardize your input data. Improve learning stability and performance.</td>\n    <td>Min-Max Scaler (0,1), Min-Max Scaler (-1,1), Standard Scaler, None</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t230"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.5 Language Model > 5.1.5.1 Seq2Se q > Options. \nTitle: Options \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Input Size; row 2, column 3 = Sets the size of the dimensions to be used as input to the model.; row 2, column 4 = 128, 256, 512, 1024; row 3, column 1 = ; row 3, column 2 = Number of Hidden Layers; row 3, column 3 = Sets the number of hidden layers in a neural network.; row 3, column 4 = ; row 4, column 1 = ; row 4, column 2 = Number of Nodes; row 4, column 3 = Sets the number of nodes in the hidden state within the LSTM cell of Encoder/Decoder.; row 4, column 4 = 128, 256, 512, 1024; row 5, column 1 = ; row 5, column 2 = Sequence Maximum Length; row 5, column 3 = Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.; row 5, column 4 = ",
+    "Context_id": "5장_v3_table::t256::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t256"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.1 Seq2Se q",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Input Size</td>\n    <td>Sets the size of the dimensions to be used as input to the model.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers in a neural network.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the LSTM cell of Encoder/Decoder.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Sequence Maximum Length</td>\n    <td>Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t256"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.5 Language Model > 5.1.5.1 Seq2Se q > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Drop-Out; row 6, column 3 = Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.; row 6, column 4 = 0<real number≤1; row 7, column 1 = Train Option; row 7, column 2 = Epochs; row 7, column 3 = Set the number of iterations.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Batch Size; row 8, column 3 = Set the number of data samples to be used in a single training step.; row 8, column 4 = integer; row 9, column 1 = ; row 9, column 2 = Learning Rate; row 9, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Target Loss; row 10, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 10, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t256::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t256"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.1 Seq2Se q",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Input Size</td>\n    <td>Sets the size of the dimensions to be used as input to the model.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers in a neural network.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the LSTM cell of Encoder/Decoder.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Sequence Maximum Length</td>\n    <td>Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t256"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.5 Language Model > 5.1.5.1 Seq2Se q > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Optimization Method; row 11, column 3 = Set up an algorithm to update the weight of the model.; row 11, column 4 = SGD, RMSprop, Adagrad, Adam; row 12, column 1 = ; row 12, column 2 = Scaling Method; row 12, column 3 = Scaling Method is set to Min-Max Scaler (0,1).; row 12, column 4 = Min-Max Scaler (0,1)",
+    "Context_id": "5장_v3_table::t256::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t256"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.1 Seq2Se q",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Input Size</td>\n    <td>Sets the size of the dimensions to be used as input to the model.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers in a neural network.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the LSTM cell of Encoder/Decoder.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Sequence Maximum Length</td>\n    <td>Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t256"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.5 Language Model > 5.1.5.2 Seq2Seq with attention > Options. \nTitle: Options \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Input Size; row 2, column 3 = Sets the size of the dimensions to be used as input to the model.; row 2, column 4 = 128, 256, 512, 1024; row 3, column 1 = ; row 3, column 2 = Number of Hidden Layers; row 3, column 3 = Sets the number of hidden layers.; row 3, column 4 = ; row 4, column 1 = ; row 4, column 2 = Number of Nodes; row 4, column 3 = Sets the number of nodes in the hidden state within the LSTM cell of Encoder/Decoder.; row 4, column 4 = 128, 256, 512, 1024; row 5, column 1 = ; row 5, column 2 = Number of Heads; row 5, column 3 = Sets the number of heads used by the attention mechanism.; row 5, column 4 = 4,8,16",
+    "Context_id": "5장_v3_table::t274::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t274"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.2 Seq2Seq with attention",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Input Size</td>\n    <td>Sets the size of the dimensions to be used as input to the model.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the LSTM cell of Encoder/Decoder.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Heads</td>\n    <td>Sets the number of heads used by the attention mechanism.</td>\n    <td>4,8,16</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Sequence Maximum Length</td>\n    <td>Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t274"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.5 Language Model > 5.1.5.2 Seq2Seq with attention > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Sequence Maximum Length; row 6, column 3 = Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.; row 6, column 4 = ; row 7, column 1 = ; row 7, column 2 = Drop-Out; row 7, column 3 = Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.; row 7, column 4 = 0<real number≤1; row 8, column 1 = Train Option; row 8, column 2 = Epochs; row 8, column 3 = Set the number of iterations.; row 8, column 4 = integer; row 9, column 1 = ; row 9, column 2 = Batch Size; row 9, column 3 = Set the number of data samples to be used in a single training step.; row 9, column 4 = integer; row 10, column 1 = ; row 10, column 2 = Learning Rate; row 10, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 10, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t274::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t274"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.2 Seq2Seq with attention",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Input Size</td>\n    <td>Sets the size of the dimensions to be used as input to the model.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the LSTM cell of Encoder/Decoder.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Heads</td>\n    <td>Sets the number of heads used by the attention mechanism.</td>\n    <td>4,8,16</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Sequence Maximum Length</td>\n    <td>Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t274"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.5 Language Model > 5.1.5.2 Seq2Seq with attention > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Target Loss; row 11, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 11, column 4 = 0<real number≤1; row 12, column 1 = ; row 12, column 2 = Optimization Method; row 12, column 3 = Set up an algorithm to update the weight of the model.; row 12, column 4 = SGD, RMSprop, Adagrad, Adam; row 13, column 1 = ; row 13, column 2 = Scaling Method; row 13, column 3 = Scaling Method is set to Min-Max Scaler (0,1).; row 13, column 4 = Min-Max Scaler (0,1)",
+    "Context_id": "5장_v3_table::t274::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t274"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.2 Seq2Seq with attention",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Input Size</td>\n    <td>Sets the size of the dimensions to be used as input to the model.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of hidden layers.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Nodes</td>\n    <td>Sets the number of nodes in the hidden state within the LSTM cell of Encoder/Decoder.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Heads</td>\n    <td>Sets the number of heads used by the attention mechanism.</td>\n    <td>4,8,16</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Sequence Maximum Length</td>\n    <td>Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t274"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.5 Language Model > 5.1.5.3 Transformer > Options. \nTitle: Options \nRows: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note; row 2, column 1 = Network Option; row 2, column 2 = Input Size; row 2, column 3 = Sets the size of the dimensions to be used as input to the model.; row 2, column 4 = 128, 256, 512, 1024; row 3, column 1 = ; row 3, column 2 = Number of Hidden Layers; row 3, column 3 = Sets the number of layers of Encoder/Decoder.; row 3, column 4 = ; row 4, column 1 = ; row 4, column 2 = Number of Heads; row 4, column 3 = Sets the number of heads used by the attention mechanism.; row 4, column 4 = 4,8,16; row 5, column 1 = ; row 5, column 2 = Sequence Maximum Length; row 5, column 3 = Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.; row 5, column 4 = ",
+    "Context_id": "5장_v3_table::t292::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t292"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.3 Transformer",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Input Size</td>\n    <td>Sets the size of the dimensions to be used as input to the model.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of layers of Encoder/Decoder.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Heads</td>\n    <td>Sets the number of heads used by the attention mechanism.</td>\n    <td>4,8,16</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Sequence Maximum Length</td>\n    <td>Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t292"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.5 Language Model > 5.1.5.3 Transformer > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 6, column 1 = ; row 6, column 2 = Drop-Out; row 6, column 3 = Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.; row 6, column 4 = 0<real number≤1; row 7, column 1 = Train Option; row 7, column 2 = Epochs; row 7, column 3 = Set the number of iterations.; row 7, column 4 = integer; row 8, column 1 = ; row 8, column 2 = Batch Size; row 8, column 3 = Set the number of data samples to be used in a single training step.; row 8, column 4 = integer; row 9, column 1 = ; row 9, column 2 = Learning Rate; row 9, column 3 = Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.; row 9, column 4 = 0<real number≤1; row 10, column 1 = ; row 10, column 2 = Target Loss; row 10, column 3 = Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.; row 10, column 4 = 0<real number≤1",
+    "Context_id": "5장_v3_table::t292::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t292"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.3 Transformer",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Input Size</td>\n    <td>Sets the size of the dimensions to be used as input to the model.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of layers of Encoder/Decoder.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Heads</td>\n    <td>Sets the number of heads used by the attention mechanism.</td>\n    <td>4,8,16</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Sequence Maximum Length</td>\n    <td>Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t292"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.5 Language Model > 5.1.5.3 Transformer > Options. \nTitle: Options \nHeader candidates: row 1, column 1 = Options group; row 1, column 2 = Options Name; row 1, column 3 = Description; row 1, column 4 = Note \nRows: row 11, column 1 = ; row 11, column 2 = Optimization Method; row 11, column 3 = Set up an algorithm to update the weight of the model.; row 11, column 4 = SGD, RMSprop, Adagrad, Adam; row 12, column 1 = ; row 12, column 2 = Scaling Method; row 12, column 3 = Scaling Method is set to Min-Max Scaler (0,1).; row 12, column 4 = Min-Max Scaler (0,1)",
+    "Context_id": "5장_v3_table::t292::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t292"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.3 Transformer",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Options group</th>\n    <th style=\"background-color: #f2f2f2;\">Options Name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n    <th style=\"background-color: #f2f2f2;\">Note</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Network Option</th>\n    <td>Input Size</td>\n    <td>Sets the size of the dimensions to be used as input to the model.</td>\n    <td>128, 256, 512, 1024</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Hidden Layers</td>\n    <td>Sets the number of layers of Encoder/Decoder.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Number of Heads</td>\n    <td>Sets the number of heads used by the attention mechanism.</td>\n    <td>4,8,16</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Sequence Maximum Length</td>\n    <td>Sets the size of the level to reduce words. The greater the relationship between words, but the calculation cost increases.</td>\n    <td></td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Drop-Out</td>\n    <td>Sets a random percentage of the nodes to be deactivated at each learning stage. When used properly, the model can learn more generalized features and prevent overfitting.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Train Option</th>\n    <td>Epochs</td>\n    <td>Set the number of iterations.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Batch Size</td>\n    <td>Set the number of data samples to be used in a single training step.</td>\n    <td>integer</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Learning Rate</td>\n    <td>Set the percentage to update the weights at each learning stage. Excessively large values can disrupt learning, while excessively small values can slow it down.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Target Loss</td>\n    <td>Specify the target loss; stops learning when the value of the loss function in the model reaches the target loss.</td>\n    <td>0&lt;real number≤1</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Optimization Method</td>\n    <td>Set up an algorithm to update the weight of the model.</td>\n    <td>SGD, RMSprop, Adagrad, Adam</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <td>Scaling Method</td>\n    <td>Scaling Method is set to Min-Max Scaler (0,1).</td>\n    <td>Min-Max Scaler (0,1)</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t292"
+    }
+  },
+  {
+    "Context": "This table is about the section 5.1.5 Language Model > 5.1.5.3 Transformer > Options. \nRows: row 1, column 1 = NOTE: In the Multi-Head Self-Attention (MHSA) layer, the input vector must be evenly distributed across each head, so the input size (dimension) should be divisible by the number of heads.",
+    "Context_id": "5장_v3_table::t294::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t294"
+    ],
+    "Section_path": [
+      "Chapter 5 AI",
+      "5.1.5 Language Model",
+      "5.1.5.3 Transformer",
+      "Options"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "5장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td style=\"background-color: #f2f2f2;\">NOTE: In the Multi-Head Self-Attention (MHSA) layer, the input vector must be evenly distributed across each head, so the input size (dimension) should be divisible by the number of heads.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t294"
+    }
+  }
+]

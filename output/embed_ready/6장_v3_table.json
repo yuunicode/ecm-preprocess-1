@@ -1,0 +1,621 @@
+[
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.1 Factorial Design. \nTitle: 2-level fractional design (default generators) are used for full factorial and fractional factorial design.\nSelect 2-Level Factorial Design (Default Generators) as follows.\n[image:rId15] \nRows: row 1, column 1 = Introduction to the experiment This experiment is conducted to improve the yield of a specific reaction process. factor A is the reaction time, factor B is the reaction temperature, and factor C is the amount of ingredient. The specific experimental conditions are as follows. Reaction Time(A):    A0 =4, A1 =5(hour)A0 =4, A1 =5(시간) Reaction Temperature(B):    B0 =250, B1 =300(℃)B0 =250, B1 =300(℃) Amount of Ingredient(C):    C0 =3.0, C1 =3.5(g)C0 =3.0, C1 =3.5 (g) At this time, we cannot complete the experiment in one day, so we would like to experiment by confounding the interaction ABC with the day.",
+    "Context_id": "6장_v3_table::t63::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t63"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.1 Factorial Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>Introduction to the experiment This experiment is conducted to improve the yield of a specific reaction process. factor A is the reaction time, factor B is the reaction temperature, and factor C is the amount of ingredient. The specific experimental conditions are as follows. Reaction Time(A):    A0 =4, A1 =5(hour)A0 =4, A1 =5(시간) Reaction Temperature(B):    B0 =250, B1 =300(℃)B0 =250, B1 =300(℃) Amount of Ingredient(C):    C0 =3.0, C1 =3.5(g)C0 =3.0, C1 =3.5 (g) At this time, we cannot complete the experiment in one day, so we would like to experiment by confounding the interaction ABC with the day.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t63"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.1 Factorial Design. \nTitle: Residual Plots: Display Residual Histogram Plot, Normal Probability Plot, Residual vs. Fitted Values, Residual vs. Order. \nRows: row 1, column 1 = [image:rId23]; row 1, column 2 = [image:rId24]; row 2, column 1 = [image:rId25]; row 2, column 2 = [image:rId26]",
+    "Context_id": "6장_v3_table::t101::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t101"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.1 Factorial Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId23]</td>\n    <td>[image:rId24]</td>\n  </tr>\n  <tr>\n    <td>[image:rId25]</td>\n    <td>[image:rId26]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t101"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.1 Factorial Design. \nRows: row 1, column 1 = [image:rId30]; row 1, column 2 = [image:rId31]; row 2, column 1 = [image:rId32]; row 2, column 2 = [image:rId33]",
+    "Context_id": "6장_v3_table::t124::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t124"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.1 Factorial Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId30]</td>\n    <td>[image:rId31]</td>\n  </tr>\n  <tr>\n    <td>[image:rId32]</td>\n    <td>[image:rId33]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t124"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.1 Factorial Design. \nTitle: General Full Factorial Design overcomes the limitation that the previous three designs (2-Level Factorial Design (Default Generators), 2-Level Factorial Design (Specified Generators), and Plackett-Burman Design) can only conduct 2-level experiments. DOE is capable of. The level of each factor can have any value. For example, when the number of factors is 3, the number of levels can be 2, 3, and 4, respectively. In General, Full Factorial Design, all possible combinations are tested, so if the number of levels is 2, 3, or 4, you will get the following design table.\nThe following is a Full Factorial Design \nRows: row 1, column 1 = A; row 1, column 2 = B; row 1, column 3 = C; row 2, column 1 = 1; row 2, column 2 = 1; row 2, column 3 = 1; row 3, column 1 = 2; row 3, column 2 = 1; row 3, column 3 = 1; row 4, column 1 = 1; row 4, column 2 = 2; row 4, column 3 = 1; row 5, column 1 = 2; row 5, column 2 = 2; row 5, column 3 = 1",
+    "Context_id": "6장_v3_table::t172::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t172"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.1 Factorial Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>A</td>\n    <td>B</td>\n    <td>C</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>4</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t172"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.1 Factorial Design. \nTitle: General Full Factorial Design overcomes the limitation that the previous three designs (2-Level Factorial Design (Default Generators), 2-Level Factorial Design (Specified Generators), and Plackett-Burman Design) can only conduct 2-level experiments. DOE is capable of. The level of each factor can have any value. For example, when the number of factors is 3, the number of levels can be 2, 3, and 4, respectively. In General, Full Factorial Design, all possible combinations are tested, so if the number of levels is 2, 3, or 4, you will get the following design table.\nThe following is a Full Factorial Design \nHeader candidates: row 1, column 1 = A; row 1, column 2 = B; row 1, column 3 = C \nRows: row 6, column 1 = 1; row 6, column 2 = 3; row 6, column 3 = 1; row 7, column 1 = 2; row 7, column 2 = 3; row 7, column 3 = 1; row 8, column 1 = 1; row 8, column 2 = 1; row 8, column 3 = 2; row 9, column 1 = 2; row 9, column 2 = 1; row 9, column 3 = 2; row 10, column 1 = 1; row 10, column 2 = 2; row 10, column 3 = 2",
+    "Context_id": "6장_v3_table::t172::chunk_2",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t172"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.1 Factorial Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>A</td>\n    <td>B</td>\n    <td>C</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>4</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t172"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.1 Factorial Design. \nTitle: General Full Factorial Design overcomes the limitation that the previous three designs (2-Level Factorial Design (Default Generators), 2-Level Factorial Design (Specified Generators), and Plackett-Burman Design) can only conduct 2-level experiments. DOE is capable of. The level of each factor can have any value. For example, when the number of factors is 3, the number of levels can be 2, 3, and 4, respectively. In General, Full Factorial Design, all possible combinations are tested, so if the number of levels is 2, 3, or 4, you will get the following design table.\nThe following is a Full Factorial Design \nHeader candidates: row 1, column 1 = A; row 1, column 2 = B; row 1, column 3 = C \nRows: row 11, column 1 = 2; row 11, column 2 = 2; row 11, column 3 = 2; row 12, column 1 = 1; row 12, column 2 = 3; row 12, column 3 = 2; row 13, column 1 = 2; row 13, column 2 = 3; row 13, column 3 = 2; row 14, column 1 = 1; row 14, column 2 = 1; row 14, column 3 = 3; row 15, column 1 = 2; row 15, column 2 = 1; row 15, column 3 = 3",
+    "Context_id": "6장_v3_table::t172::chunk_3",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t172"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.1 Factorial Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>A</td>\n    <td>B</td>\n    <td>C</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>4</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t172"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.1 Factorial Design. \nTitle: General Full Factorial Design overcomes the limitation that the previous three designs (2-Level Factorial Design (Default Generators), 2-Level Factorial Design (Specified Generators), and Plackett-Burman Design) can only conduct 2-level experiments. DOE is capable of. The level of each factor can have any value. For example, when the number of factors is 3, the number of levels can be 2, 3, and 4, respectively. In General, Full Factorial Design, all possible combinations are tested, so if the number of levels is 2, 3, or 4, you will get the following design table.\nThe following is a Full Factorial Design \nHeader candidates: row 1, column 1 = A; row 1, column 2 = B; row 1, column 3 = C \nRows: row 16, column 1 = 1; row 16, column 2 = 2; row 16, column 3 = 3; row 17, column 1 = 2; row 17, column 2 = 2; row 17, column 3 = 3; row 18, column 1 = 1; row 18, column 2 = 3; row 18, column 3 = 3; row 19, column 1 = 2; row 19, column 2 = 3; row 19, column 3 = 3; row 20, column 1 = 1; row 20, column 2 = 1; row 20, column 3 = 4",
+    "Context_id": "6장_v3_table::t172::chunk_4",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t172"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.1 Factorial Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>A</td>\n    <td>B</td>\n    <td>C</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>4</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t172"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.1 Factorial Design. \nTitle: General Full Factorial Design overcomes the limitation that the previous three designs (2-Level Factorial Design (Default Generators), 2-Level Factorial Design (Specified Generators), and Plackett-Burman Design) can only conduct 2-level experiments. DOE is capable of. The level of each factor can have any value. For example, when the number of factors is 3, the number of levels can be 2, 3, and 4, respectively. In General, Full Factorial Design, all possible combinations are tested, so if the number of levels is 2, 3, or 4, you will get the following design table.\nThe following is a Full Factorial Design \nHeader candidates: row 1, column 1 = A; row 1, column 2 = B; row 1, column 3 = C \nRows: row 21, column 1 = 2; row 21, column 2 = 1; row 21, column 3 = 4; row 22, column 1 = 1; row 22, column 2 = 2; row 22, column 3 = 4; row 23, column 1 = 2; row 23, column 2 = 2; row 23, column 3 = 4; row 24, column 1 = 1; row 24, column 2 = 3; row 24, column 3 = 4; row 25, column 1 = 2; row 25, column 2 = 3; row 25, column 3 = 4",
+    "Context_id": "6장_v3_table::t172::chunk_5",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t172"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.1 Factorial Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>A</td>\n    <td>B</td>\n    <td>C</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>1</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>1</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>2</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>3</td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>4</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t172"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.2.1 Central Composite Design. \nRows: row 1, column 1 = Introduction to Experiments This experiment is an example of the application of the response surface experimental design method conducted by a tire company in 1979 to improve the driving performance of Monopoly radial tires. This is an experiment in which the amount of G300 and amount of V130 affect the response values of adhesion, modulus, and elongation.",
+    "Context_id": "6장_v3_table::t226::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t226"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.2.1 Central Composite Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>Introduction to Experiments This experiment is an example of the application of the response surface experimental design method conducted by a tire company in 1979 to improve the driving performance of Monopoly radial tires. This is an experiment in which the amount of G300 and amount of V130 affect the response values of adhesion, modulus, and elongation.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t226"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.2.1 Central Composite Design. \nTitle: Residual-related plot for response value “Adhesion” \nRows: row 1, column 1 = [image:rId59]; row 1, column 2 = [image:rId60]; row 2, column 1 = [image:rId61]; row 2, column 2 = [image:rId62]",
+    "Context_id": "6장_v3_table::t279::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t279"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.2.1 Central Composite Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId59]</td>\n    <td>[image:rId60]</td>\n  </tr>\n  <tr>\n    <td>[image:rId61]</td>\n    <td>[image:rId62]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t279"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.2.1 Central Composite Design. \nTitle: Residual-related plot for response value “Modulus” \nRows: row 1, column 1 = [image:rId63]; row 1, column 2 = [image:rId64]; row 2, column 1 = [image:rId65]; row 2, column 2 = [image:rId66]",
+    "Context_id": "6장_v3_table::t282::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t282"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.2.1 Central Composite Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId63]</td>\n    <td>[image:rId64]</td>\n  </tr>\n  <tr>\n    <td>[image:rId65]</td>\n    <td>[image:rId66]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t282"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.2.1 Central Composite Design. \nTitle: Residual-related plot for response value “Elongation” \nRows: row 1, column 1 = [image:rId67]; row 1, column 2 = [image:rId68]; row 2, column 1 = [image:rId69]; row 2, column 2 = [image:rId70]",
+    "Context_id": "6장_v3_table::t285::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t285"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.2.1 Central Composite Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId67]</td>\n    <td>[image:rId68]</td>\n  </tr>\n  <tr>\n    <td>[image:rId69]</td>\n    <td>[image:rId70]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t285"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.2.1 Central Composite Design. \nRows: row 1, column 1 = [image:rId72]; row 1, column 2 = [image:rId73]",
+    "Context_id": "6장_v3_table::t297::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t297"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.2.1 Central Composite Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId72]</td>\n    <td>[image:rId73]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t297"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.2.1 Central Composite Design. \nTitle: Surface plot, contour plot for response value “Modulus” \nRows: row 1, column 1 = [image:rId74]; row 1, column 2 = [image:rId75]",
+    "Context_id": "6장_v3_table::t300::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t300"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.2.1 Central Composite Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId74]</td>\n    <td>[image:rId75]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t300"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.2.1 Central Composite Design. \nTitle: Surface plot, contour plot for response value \"Elongation” \nRows: row 1, column 1 = [image:rId76]; row 1, column 2 = [image:rId77]",
+    "Context_id": "6장_v3_table::t303::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t303"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.2.1 Central Composite Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId76]</td>\n    <td>[image:rId77]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t303"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.3 Mixture Design. \nRows: row 1, column 1 = Introduction to experiments In this experiment, we investigate the extent to which three components affect the firmness of the response product. The components have default values (0,1) without any special upper or lower limit conditions, and the experimenter tries to find out how each component affects the response value.",
+    "Context_id": "6장_v3_table::t382::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t382"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.3 Mixture Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>Introduction to experiments In this experiment, we investigate the extent to which three components affect the firmness of the response product. The components have default values (0,1) without any special upper or lower limit conditions, and the experimenter tries to find out how each component affects the response value.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t382"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.3 Mixture Design. \nTitle: Residual-related plots: View residual histograms, residual normal probability plots, residuals versus ordinal, and residuals versus fitted values. \nRows: row 1, column 1 = [image:rId89]; row 1, column 2 = [image:rId90]; row 2, column 1 = [image:rId91]; row 2, column 2 = [image:rId92]",
+    "Context_id": "6장_v3_table::t423::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t423"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.3 Mixture Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId89]</td>\n    <td>[image:rId90]</td>\n  </tr>\n  <tr>\n    <td>[image:rId91]</td>\n    <td>[image:rId92]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t423"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.3 Mixture Design. \nTitle: Through Step 5 of Mixture Design, you can view surface plots and contour plots, and perform response optimizer tailored to the user's purpose. Below are the surface plot and contour plot for the Regression Model created in Step 4. \nRows: row 1, column 1 = [image:rId94]; row 1, column 2 = [image:rId95]",
+    "Context_id": "6장_v3_table::t432::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t432"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.3 Mixture Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId94]</td>\n    <td>[image:rId95]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t432"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.3 Mixture Design. \nTitle: If the goal is to conduct an experiment in a simplex region and create a regression model based on the experiment results, it would be desirable for the experiment points to be evenly distributed throughout the simplex region. The design that meets this purpose is Simplex Lattice Design. Simplex Lattice Design is a useful design for fitting m-order polynomials when there are n components.\nThrough Simplex Lattice Design, we will explain mixture volume design. First, select Simplex Lattice Design.\n[image:rId98] \nRows: row 1, column 1 = Introduction to experiments It is said that the strength of a metal is affected not only by the ratio but also by the amount of its components. Then, simply looking at the proportions of the components does not reveal the relationship between the components and the strength of the metal. Therefore, a mixture volume design can be used that can be used in these situations.",
+    "Context_id": "6장_v3_table::t445::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t445"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.3 Mixture Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>Introduction to experiments It is said that the strength of a metal is affected not only by the ratio but also by the amount of its components. Then, simply looking at the proportions of the components does not reveal the relationship between the components and the strength of the metal. Therefore, a mixture volume design can be used that can be used in these situations.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t445"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.3 Mixture Design. \nTitle: In this step, the regression model created in Step 4 is expressed as a surface plot and contour plot, and a response optimizer function is provided to meet the experimenter's purpose. When the amount of mixture is 2, the plot looks like this. \nRows: row 1, column 1 = [image:rId103]; row 1, column 2 = [image:rId104]",
+    "Context_id": "6장_v3_table::t475::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t475"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.3 Mixture Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId103]</td>\n    <td>[image:rId104]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t475"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.3 Mixture Design. \nRows: row 1, column 1 = Introduction to experiments This experiment aims to find out the relationship between three ingredients and how process variables (working temperature) affect the quality of the product. At this time, the limiting conditions for the three ingredients are as follows. 0.1≤ x1 ≤0.8,  0.0≤ x2 ≤0.6,  0.0≤ x3 ≤0.5",
+    "Context_id": "6장_v3_table::t486::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t486"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.3 Mixture Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>Introduction to experiments This experiment aims to find out the relationship between three ingredients and how process variables (working temperature) affect the quality of the product. At this time, the limiting conditions for the three ingredients are as follows. 0.1≤ x1 ≤0.8,  0.0≤ x2 ≤0.6,  0.0≤ x3 ≤0.5</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t486"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.3 Mixture Design. \nTitle: Residual related (residual histogram, residual normal probability plot, residual vs. ordered, residual vs. fitted Value) \nRows: row 1, column 1 = [image:rId114]; row 1, column 2 = [image:rId115]; row 2, column 1 = [image:rId116]; row 2, column 2 = [image:rId117]",
+    "Context_id": "6장_v3_table::t528::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t528"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.3 Mixture Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId114]</td>\n    <td>[image:rId115]</td>\n  </tr>\n  <tr>\n    <td>[image:rId116]</td>\n    <td>[image:rId117]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t528"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.3 Mixture Design. \nTitle: In the Step 5, it shows what the Regression Model created in Step 4 looks like through surface plots and contour plots. \nRows: row 1, column 1 = [image:rId119]; row 1, column 2 = [image:rId120]",
+    "Context_id": "6장_v3_table::t537::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t537"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.3 Mixture Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId119]</td>\n    <td>[image:rId120]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t537"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.4 Taguchi Design. \nTitle: 2-Level Design is a design used when there are two levels per factor. It is said that there is an experiment as follows.\nSelect Taguchi 2-Level Design.\n[image:rId124] \nRows: row 1, column 1 = Introduction to experiments In order to reduce the amount of CO in the exhaust gas, the related factors A-H are arranged in an orthogonal array table, and the noise factors are used to generate the minimum CO when driven in a certain way on three types of roads (R1, R2, and R3). Find the conditions.",
+    "Context_id": "6장_v3_table::t604::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t604"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.4 Taguchi Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>Introduction to experiments In order to reduce the amount of CO in the exhaust gas, the related factors A-H are arranged in an orthogonal array table, and the noise factors are used to generate the minimum CO when driven in a certain way on three types of roads (R1, R2, and R3). Find the conditions.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t604"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1 DOE > 6.1.3 DOE Method s > 6.1.3.4 Taguchi Design. \nTitle: 3-Level Design is a design used when there are three levels per factor. Suppose we have the following experiment.\nSelect Taguchi Design 3-Level Design.\n[image:rId130] \nRows: row 1, column 1 = Introduction to experiments A chemical company that produces a certain resin wants to conduct an experiment to reduce the content of impurities contained in this resin. The upper limit of the specification is 4.0%, and if this specification is not met, a loss of 50,000 won per 10 kg occurs. Four control factors expected to affect impurities were taken as follows. A : Bond mixing ratio level 3 A0, A1, A2 B : Bonding method level 3 (B0, B1, B2) C : Surface treatment method level 3 C0, C1, C2 D : Heat treatment method level 3 D0, D1, D2 As a non-controlling factor U : 2nd level of worker(unskilled worker, skilled worker) V : Resin production line level 2 was selected and the produced resin was analyzed in the laboratory to obtain the content of impurities.",
+    "Context_id": "6장_v3_table::t635::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t635"
+    ],
+    "Section_path": [
+      "Chapter 6 Extension",
+      "6.1 DOE",
+      "6.1.3 DOE Method s",
+      "6.1.3.4 Taguchi Design"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>Introduction to experiments A chemical company that produces a certain resin wants to conduct an experiment to reduce the content of impurities contained in this resin. The upper limit of the specification is 4.0%, and if this specification is not met, a loss of 50,000 won per 10 kg occurs. Four control factors expected to affect impurities were taken as follows. A : Bond mixing ratio level 3 A0, A1, A2 B : Bonding method level 3 (B0, B1, B2) C : Surface treatment method level 3 C0, C1, C2 D : Heat treatment method level 3 D0, D1, D2 As a non-controlling factor U : 2nd level of worker(unskilled worker, skilled worker) V : Resin production line level 2 was selected and the produced resin was analyzed in the laboratory to obtain the content of impurities.</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t635"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1.4 Settings and Analysis > Results of Mixture Design. \nTitle: And as graphs related to residual, we provide Residual Histogram, Normal Probability Plot, Residual vs. Order, and Residual vs. Fitted Value Graph. \nRows: row 1, column 1 = [image:rId23]; row 1, column 2 = [image:rId24]; row 2, column 1 = [image:rId25]; row 2, column 2 = [image:rId26]",
+    "Context_id": "6장_v3_table::t806::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t806"
+    ],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "Results of Mixture Design"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>[image:rId23]</td>\n    <td>[image:rId24]</td>\n  </tr>\n  <tr>\n    <td>[image:rId25]</td>\n    <td>[image:rId26]</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t806"
+    }
+  },
+  {
+    "Context": "This table is about the section 6.1.4 Settings and Analysis > It is expressed as. \nRows: row 1, column 1 = Types of characteristic values; row 1, column 2 = Loss function of one data y; row 1, column 3 = Average loss function when n pieces of data are obtained; row 1, column 4 = SN ratio; row 2, column 1 = nominal the best characteristics; row 2, column 2 = A Δ2 y-m2; row 2, column 3 = A Δ21 n i=1 n y i -m2; row 2, column 4 = 10 log1 n S m -V V =20 log y s; row 3, column 1 = the smaller the better characteristics; row 3, column 2 = A Δ2 y2; row 3, column 3 = A Δ21 n i=1 n y i2; row 3, column 4 = -10 log1 n i=1 n y i2; row 4, column 1 = large the better characteristics; row 4, column 2 = A Δ21 y2; row 4, column 3 = A Δ21 n i=1 n1 y i2; row 4, column 4 = -10 log1 n i=1 n1 y i2",
+    "Context_id": "6장_v3_table::t882::chunk_1",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t882"
+    ],
+    "Section_path": [
+      "4 - Level Design",
+      "6.1.4 Settings and Analysis",
+      "It is expressed as"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "6장_v3_sanitized.json",
+    "table_html": "<table>\n  <tr>\n    <td>Types of characteristic values</td>\n    <td>Loss function of one data y</td>\n    <td>Average loss function when n pieces of data are obtained</td>\n    <td>SN ratio</td>\n  </tr>\n  <tr>\n    <td>nominal the best characteristics</td>\n    <td>A Δ2 y-m2</td>\n    <td>A Δ21 n i=1 n y i -m2</td>\n    <td>10 log1 n S m -V V =20 log y s</td>\n  </tr>\n  <tr>\n    <td>the smaller the better characteristics</td>\n    <td>A Δ2 y2</td>\n    <td>A Δ21 n i=1 n y i2</td>\n    <td>-10 log1 n i=1 n y i2</td>\n  </tr>\n  <tr>\n    <td>large the better characteristics</td>\n    <td>A Δ21 y2</td>\n    <td>A Δ21 n i=1 n1 y i2</td>\n    <td>-10 log1 n i=1 n1 y i2</td>\n  </tr>\n</table>",
+    "metadata": {
+      "source_id": "t882"
+    }
+  }
+]

@@ -1,0 +1,364 @@
+[
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.1 Overview.\n\nThe Expression Editor is used across various nodes such as Derived Variable, Filter, Select, and Fill. It is utilized to create new calculated values or to edit expressions for conditions. Users can edit expressions entirely through mouse operations, or, once they become familiar with the interface, they can type directly into the expression input window for faster editing.",
+    "Context_id": "Appendix_v2_sanitized::chunk_0001",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.1 Overview, focusing on User Interface.\n\n[image:rId8]\n\n[Image:rId8] The image shows the Expression Editor in ECMiner, a data mining tool, where users can create and edit expressions using functions, variables, and operators to analyze data.\n\n[Table:t11]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0002",
+    "Is_image": true,
+    "Image_ids": [
+      "rId8"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t11"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "User Interface"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.1 Overview, focusing on Toolbar.\n\nThe toolbar provides a variety of useful features for expression editing. The icons and their corresponding functions are as follows: [image:rId9]\n\n[Image:rId9]\n\n[Table:t16]\n\n[Image:rId13]\n\n[Image:rId18]\n\n[Image:rId26]\n\n[Image:rId21]\n\n[Image:rId12]\n\n[Image:rId17]\n\n[Image:rId25]\n\n[Image:rId16]\n\n[Image:rId20] The image shows an expression editor in ECMiner, where a user is writing an IF-THEN-ELSE statement to conditionally replace text based on a value in cell A1. The goal is to replace values greater than 100 with 'A' and less than or equal to 100 with\n\n[Image:rId11]\n\n[Image:rId24] The image shows a conditional statement in ECMiner, specifically an IF-THEN-ELSE block where A1 is compared to 100. If true, it assigns 'A', otherwise 'B'. The dialog box suggests moving lines, likely for editing purposes within the software.\n\n[Image:rId15]\n\n[Image:rId23]\n\n[Image:rId10]\n\n[Image:rId19]\n\n[Image:rId14]\n\n[Image:rId22]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0003",
+    "Is_image": true,
+    "Image_ids": [
+      "rId9",
+      "rId13",
+      "rId18",
+      "rId26",
+      "rId21",
+      "rId12",
+      "rId17",
+      "rId25",
+      "rId16",
+      "rId20",
+      "rId11",
+      "rId24",
+      "rId15",
+      "rId23",
+      "rId10",
+      "rId19",
+      "rId14",
+      "rId22"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t16"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Toolbar"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.1 Overview, focusing on Useful Features.\n\nAdditional tools that enhance the efficiency of expression editing.\nAuto-Completion\nWhen entering expressions, the Expression Editor automatically completes text such as functions, keywords, macros, and data field names after typing their initial characters (or prefixes). This eliminates the need to type long words in full and helps prevent potential typing errors.\n\nFunctions When you type the first letter or part of a function or keyword used in expression editing, a list of matching functions or keywords beginning with that text is displayed.\n\n[image:rId27]\n\n[Image:rId27]\n\nMacros When you type the first character “@”, a list of available macros used in expression editing appears. [image:rId28]\n\n[Image:rId28]\n\nData Field When you type the first character “{”, a list of available data fields is displayed. [image:rId29]\n\n[Image:rId29]\n\nColumn Editing\nYou can switch to column mode by holding Alt and dragging the mouse, or by pressing Alt + Shift + Arrow keys.\n[image:rId30]\nLine Comments Add the line comment symbol (//) at the beginning of a line to comment out that line.\n[image:rId31]\nColor Coding\nString \"123\" or ‘123’ - Dark Red\nDate Type #2004-01-01# -Dark Red\nNumeric Type 123 – Black\nFunctions / IF Statements ABS() – Blue\nVariables {DATE} – Green\nOperators +, -, *, /– Dark Green\nMacros @ROWNUM – Dark Green\nComments // Extra Comments – Green\nIf there is an error in an expression or function, the part containing the error is highlighted in red in the Expression Editor window.\n\n[Image:rId30]\n\n[Image:rId31] The image shows a script in ECMiner's code editor, specifically checking for null values in column A4. If the value is null, it assigns 1; otherwise, it assigns 0. This script is used to handle missing data by assigning default values during data processing.",
+    "Context_id": "Appendix_v2_sanitized::chunk_0004",
+    "Is_image": true,
+    "Image_ids": [
+      "rId27",
+      "rId28",
+      "rId29",
+      "rId30",
+      "rId31"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.1 Overview",
+      "Useful Features"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.2 Function Category.\n\nECMiner™ offers a variety of built-in functions that can be used within the Expression Editor.",
+    "Context_id": "Appendix_v2_sanitized::chunk_0005",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.2 Function Category"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.2 Function Category, focusing on Function Category.\n\n[Table:t46]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0006",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t46"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.2 Function Category",
+      "Function Category"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.2 Function Category, focusing on Input Formats.\n\nIn ECMiner™, values must be netered according to the following rules corresponding to each date type.\nString Data To enter a string directly, enclose it in quotation marks. Example: \"desired text\" or 'desired text'\nDate/Time Data To enter a date or date/time value, enclose it in hash symbols (#). Example: #2004-01-01 13:10:30# is recognized as January 1, 2004, 1:10:30 PM. If the time is not needed, simply enter #2004-01-01# to represent only the date.\nNumeric Data Enter numbers without any symbols. Examples: 1234.5, 1234, 1.234e3\nVariable Values Variable values are entered in curly braces as {variable_name}. The use of braces {} prevents conflicts with reserved words in ECMiner™ and ensures compatibility with all variable name formats.",
+    "Context_id": "Appendix_v2_sanitized::chunk_0007",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.2 Function Category",
+      "Input Formats"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.2 Function Category, focusing on Output Formats.\n\nThe result formats shown in the examples below represent how output data types are displayed:\nWhen the result is of string type, it is displayed as \"Result Value\".\nWhen the result is of date type, it is displayed as #Result Value#.",
+    "Context_id": "Appendix_v2_sanitized::chunk_0008",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.2 Function Category",
+      "Output Formats"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.2 Function Category, focusing on (In the actual interface, quotation marks \" and hash symbols # are not displayed — only the numeric or text values are shown.).",
+    "Context_id": "Appendix_v2_sanitized::chunk_0009",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.2 Function Category",
+      "(In the actual interface, quotation marks \" and hash symbols # are not displayed — only the numeric or text values are shown.)"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.3 Transformation.\n\n[Table:t62]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0010",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t62"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.3 Transformation"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.4 Math/Trig.\n\nAll of the Math/Trig functions return Real type values.\n\n[Table:t67]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0011",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t67"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.4 Math/Trig"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.5 Text.\n\n[Table:t71]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0012",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t71"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.5 Text"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.6 Date/Time.\n\n[Table:t75]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0013",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t75"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.6 Date/Time"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.7 Variable Statistics.",
+    "Context_id": "Appendix_v2_sanitized::chunk_0014",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.7 Variable Statistics"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.7 Variable Statistics, focusing on Continuous Variables.\n\n[Table:t80]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0015",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t80"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.7 Variable Statistics",
+      "Continuous Variables"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.7 Variable Statistics, focusing on Discrete Variables.\n\n[Table:t82]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0016",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t82"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.7 Variable Statistics",
+      "Discrete Variables"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.8 Information.\n\n[Table:t86]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0017",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t86"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.8 Information"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.9 Record Function.\n\n[Table:t90]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0018",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t90"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.9 Record Function"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.10 Macro.\n\nYou can use macros to reference predefined values. To use a macro, type @ followed by the name of the desired value.\n\n[Table:t95]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0019",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t95"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.10 Macro"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.11 Other Fu n ctions.\n\n[Table:t99]",
+    "Context_id": "Appendix_v2_sanitized::chunk_0020",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t99"
+    ],
+    "Section_path": [
+      "Appendix 1 Expression Editor",
+      "A1.11 Other Fu n ctions"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "Appendix_v2_sanitized.json"
+  }
+]
